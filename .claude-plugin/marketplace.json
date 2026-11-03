@@ -1,0 +1,11 @@
+{
+  "name": "game-master-agent",
+  "owner": { "name": "GMA" },
+  "plugins": [
+    {
+      "name": "gma",
+      "source": "./plugin",
+      "description": "Workflows for GMA campaigns: set up, add ideas, record sessions, check consistency, build the websites"
+    }
+  ]
+}
