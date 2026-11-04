@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Baut die spoilerfreie Spielerseite aus der Kampagne.
 Aufruf (im Hauptordner der Kampagne): python3 werkzeuge/kampagne-html-spieler.py [ausgabe-ordner] [markdown-export-ordner]
-Ohne Angabe entsteht _site/spieler/index.html, Bilder und Medien werden daneben kopiert.
+Ohne Angabe entsteht _site/spieler/spieler.html (dazu index.html als Weiterleitung), Bilder und Medien werden daneben kopiert.
 Mit zweitem Argument zusätzlich Markdown-Export: alle Seiten mit Bildern als Ordner plus spielerseite.md in Lesereihenfolge.
 
 Was hinein kommt, steuert der Spielstand, nicht ein fester Pfad:
@@ -274,10 +274,10 @@ tpl = template(TITEL, SP.get('untertitel') or ' · '.join(frei_namen))
 tpl = tpl.replace("const NAMEN = { 'README.md': 'Übersicht',", "const NAMEN = { 'README.md': 'Übersicht'" + namen + ",", 1)
 top = [t for t in ['README.md', 'abenteuer', 'welt'] if any(d == t or d.startswith(t + '/') for d in docs)]
 ausgabe = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, '_site', 'spieler')
-schreibe_seite(ausgabe, tpl, {'docs': docs, 'imgs': imgs, 'top': top, 'medien': medien, 'rueck': rueck}, list(imgs) + medien)
+datei = schreibe_seite(ausgabe, tpl, {'docs': docs, 'imgs': imgs, 'top': top, 'medien': medien, 'rueck': rueck}, list(imgs) + medien, 'spieler')
 print('Freigegeben:', ', '.join(f"{a['nr']} {a['name']}" + (' (läuft)' if a['laeuft'] else '') for a in abenteuer) or '–',
       '| ausgelassen:', ', '.join(f"{a['nr']} {a['name']}" for a in gesperrt) or '–')
-print(f'Spielerseite: {len(docs)} Dokumente, {len(imgs)} Bilder, {len(medien)} Medien -> {os.path.join(ausgabe, "index.html")}')
+print(f'Spielerseite: {len(docs)} Dokumente, {len(imgs)} Bilder, {len(medien)} Medien -> {datei}')
 
 # --- optional: Markdown-Export
 if len(sys.argv) > 2:

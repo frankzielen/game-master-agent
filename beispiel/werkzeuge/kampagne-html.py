@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Baut die SL-Website: alle Markdown-Dateien der Kampagne zum Durchklicken, mit Ordnerbaum, Suche, Bildern und „Erwähnt in“.
 Aufruf (im Hauptordner der Kampagne): python3 werkzeuge/kampagne-html.py [ausgabe-ordner]
-Ohne Angabe entsteht _site/sl/index.html. Bilder und Medien (PDF, MP3, TXT) werden als Dateien daneben kopiert.
+Ohne Angabe entsteht _site/sl/spielleiter.html (dazu index.html als Weiterleitung). Bilder und Medien (PDF, MP3, TXT) werden als Dateien daneben kopiert.
 Die SL-Website enthält auch alle Geheimnisse: nicht öffentlich ins Netz stellen."""
 import os, sys, re, posixpath, urllib.parse
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -50,6 +50,7 @@ rueck = {k: sorted(v) for k, v in rueck.items()}
 
 e = einstellungen()
 ausgabe = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, '_site', 'sl')
-schreibe_seite(ausgabe, template(e['titel'], e.get('untertitel', '')),
-               {'docs': docs, 'imgs': imgs, 'top': TOP, 'medien': medien, 'rueck': rueck}, list(imgs) + medien)
-print(f'SL-Website: {len(docs)} Dokumente, {len(imgs)} Bilder, {len(medien)} Medien -> {os.path.join(ausgabe, "index.html")}')
+datei = schreibe_seite(ausgabe, template(e['titel'], e.get('untertitel', '')),
+                       {'docs': docs, 'imgs': imgs, 'top': TOP, 'medien': medien, 'rueck': rueck}, list(imgs) + medien,
+                       'spielleiter')
+print(f'SL-Website: {len(docs)} Dokumente, {len(imgs)} Bilder, {len(medien)} Medien -> {datei}')
