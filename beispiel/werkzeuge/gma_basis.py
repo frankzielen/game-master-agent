@@ -23,11 +23,17 @@ def esc(t):
     return t.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
 
-def schreibe_seite(ausgabe, tpl, data, dateien):
-    """Schreibt index.html nach <ausgabe>/ und kopiert Bilder und Medien (Pfade relativ zur Kampagne) daneben."""
+def schreibe_seite(ausgabe, tpl, data, dateien, name):
+    """Schreibt <name>.html nach <ausgabe>/ und kopiert Bilder und Medien (Pfade relativ zur Kampagne) daneben.
+    Dazu eine kleine index.html, die auf <name>.html weiterleitet (für Hoster wie GitHub Pages)."""
     os.makedirs(ausgabe, exist_ok=True)
     blob = json.dumps(data, ensure_ascii=False).replace('</', '<\\/')
-    open(os.path.join(ausgabe, 'index.html'), 'w', encoding='utf-8').write(tpl.replace('/*__DATA__*/null', blob))
+    datei = name + '.html'
+    open(os.path.join(ausgabe, datei), 'w', encoding='utf-8').write(tpl.replace('/*__DATA__*/null', blob))
+    open(os.path.join(ausgabe, 'index.html'), 'w', encoding='utf-8').write(
+        f'<!DOCTYPE html>\n<meta charset="utf-8">\n<meta http-equiv="refresh" content="0; url={datei}">\n'
+        f'<title>Weiterleitung</title>\n<a href="{datei}">{datei} öffnen</a>\n')
+    return os.path.join(ausgabe, datei)
     for rel in dateien:
         ziel = os.path.join(ausgabe, rel)
         os.makedirs(os.path.dirname(ziel), exist_ok=True)
