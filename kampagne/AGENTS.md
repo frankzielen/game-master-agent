@@ -4,6 +4,10 @@ Dieser Ordner ist die strukturierte Ablage einer Pen-&-Paper-Kampagne, unabhäng
 
 **Sprache:** Antworte auf Deutsch, kurz und mit dem Ergebnis zuerst. Schreibe Dateien auf Deutsch.
 
+**Einfach halten:** Die Nutzerin oder der Nutzer soll die Ordnerstruktur nie anfassen müssen. Sie geben dir Material, du erledigst Ablage, Dateinamen, Links und Prüfungen selbst. Nenne in Antworten keine Dateipfade, außer man fragt danach; sag lieber, was wo inhaltlich steht.
+- **Neu bauen nur auf Klick:** Baue die Websites nicht automatisch. Hat sich seit dem letzten Bau etwas an den Inhalten geändert, biete am Ende deiner Antwort eine Schaltfläche „Websites neu bauen“ an (oder, wo deine Umgebung keine Schaltflächen kann, die kurze Frage „Websites neu bauen?“).
+- **Nach dem Bau:** Baue beide Websites (siehe Abschnitt 7) und biete sie als zwei Schaltflächen „Spielleiter-Website öffnen“ und „Heldenversion öffnen“ an, oder als Vorschau in der App. Wo das nicht geht, gib anklickbare Links auf die jeweilige `index.html` oder öffne sie im Browser.
+
 ## 1. Grundidee
 
 - Alle Abenteuer der Gruppe spielen in **einer gemeinsamen Welt**. Die Spielleitung kann von Abenteuer zu Abenteuer wechseln.
@@ -130,7 +134,7 @@ Weitere Regeln:
 ## 7. Prüfen nach jeder Änderung
 
 - Links prüfen: `python3 werkzeuge/links-pruefen.py` (unter Windows ggf. `python` statt `python3`) (meldet tote relative Links). Tote Links sofort reparieren. Platzhalter-Links in `_vorlagen/` sind gewollt.
-- Website bauen (nur auf Wunsch):
+- Websites bauen (auf Klick bzw. Wunsch, siehe „Einfach halten“):
   - `python3 werkzeuge/kampagne-html.py` baut die **SL-Website** mit allem nach `_site/sl/`.
   - `python3 werkzeuge/kampagne-html-spieler.py` baut die spoilerfreie **Spielerseite** nach `_site/spieler/`. Hinein kommen nur Abenteuer, die gespielt sind oder mindestens eine Sitzung haben, Plot-Dateien mit `status: gespielt`, Welt-Einträge mit passendem `auftritte:`. Abschnitte wie „Geheim (nur SL)“, Planung, Stat-Blöcke, `_quelle/` und Ideen-Eingänge fallen weg. Was sonst nicht auf die Spielerseite gehört, wird in den Daten gekennzeichnet (siehe Kennzeichnung für die Spielerseite), nie im Code.
   - Jede Seite ist ein Ordner mit `index.html` plus Bildern und Klangdateien. Er läuft ohne Server und ohne Internet (Doppelklick auf `index.html`), lässt sich als ZIP weitergeben oder bei einem Hoster für statische Seiten hochladen (z. B. GitHub Pages). Ob eine Fassung öffentlich oder mit Zugriffsschutz (z. B. Passwort) ins Netz kommt, entscheidet die Nutzerin oder der Nutzer, für beide Fassungen gleich. Weise nur darauf hin, dass GitHub Pages für jeden mit Link lesbar ist und Text aus gekauften Abenteuern nicht öffentlich ins Netz gehört.
