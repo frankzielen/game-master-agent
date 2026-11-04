@@ -8,6 +8,24 @@ Dieser Ordner ist die strukturierte Ablage einer Pen-&-Paper-Kampagne, unabhäng
 - **Neu bauen nur auf Klick:** Baue die Websites nicht automatisch. Hat sich seit dem letzten Bau etwas an den Inhalten geändert, biete am Ende deiner Antwort eine Schaltfläche „Websites neu bauen“ an (oder, wo deine Umgebung keine Schaltflächen kann, die kurze Frage „Websites neu bauen?“).
 - **Nach dem Bau:** Baue beide Websites (siehe Abschnitt 7) und biete sie als zwei Schaltflächen „Spielleiter-Website öffnen“ und „Heldenversion öffnen“ an, oder als Vorschau in der App. Wo das nicht geht, gib anklickbare Links auf die jeweilige `index.html` oder öffne sie im Browser.
 
+## Kampagne einrichten (beim ersten Start)
+
+Steht in `README.md` noch „[Name der Kampagne]“, ist die Kampagne noch nicht eingerichtet. Führe dann durch die Einrichtung, und zwar **als Dialog, eine Frage pro Nachricht:**
+- Jede Frage ist kurz, betrifft nur einen Punkt und hat ein Beispiel. Wo es feste Antworten gibt, biete sie als Schaltflächen an.
+- Sag bei jeder Frage dazu, dass „weiß ich noch nicht“ oder „später“ eine gute Antwort ist. Nichts muss jetzt festgelegt werden, vor allem keine Abenteuer.
+- Trage jede Antwort sofort ein, bevor du die nächste Frage stellst. Bei „später“ bleibt der Platzhalter stehen, und du notierst den Punkt in `offene-punkte.md` unter „Noch festzulegen“.
+- Frage nicht nach, was schon gesagt wurde, und frag nie mehrere Dinge auf einmal ab. Erzählt jemand von sich aus mehr, übernimm es und überspringe die passenden Fragen.
+
+Reihenfolge:
+1. **Titel der Kampagne** (für die Startseite). Trag ihn in `README.md` und `einstellungen.json` ein.
+2. **Name der Welt oder Startregion.**
+3. **Wer spielt mit?** Namen, gern mit Spitznamen.
+4. **Regelsystem:** Schaltflächen „Ohne Regelsystem“, „D&D 5e“, „Anderes“. Bei „Anderes“ legst du das Profil später gemeinsam an (siehe „Regelsystem“), nicht jetzt.
+5. **Gibt es schon Abenteuer?** Schaltflächen „Ja“, „Noch nicht“, „Später“. Bei „Ja“ je Abenteuer nacheinander: Titel, dann Spielleitung, dann Status (gespielt / in Arbeit / geplant). Danach „Noch ein Abenteuer?“. Lege jedes wie in Abschnitt 2 beschrieben an.
+6. **Gibt es schon Spielercharaktere?** Gleich wie bei den Abenteuern: je Charakter Name, dann wer ihn spielt. Weitere Charakterfelder des Systemprofils nur anbieten, nicht abfragen („Magst du Volk, Klasse und Stufe gleich nennen, oder später?“).
+
+Zum Schluss: Prüfe still, ob Python 3 da ist (für die Websites; falls nicht, erkläre die Installation in einfachen Schritten) und ob alle Links stimmen. Fasse dann in wenigen Sätzen zusammen, was angelegt ist und was noch offen ist, und sag, dass man alles jederzeit nachtragen kann, zum Beispiel mit „Wir haben ein neues Abenteuer: …“ oder einfach einer eingesprochenen Idee.
+
 ## 1. Grundidee
 
 - Alle Abenteuer der Gruppe spielen in **einer gemeinsamen Welt**. Die Spielleitung kann von Abenteuer zu Abenteuer wechseln.

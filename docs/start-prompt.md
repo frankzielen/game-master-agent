@@ -22,25 +22,12 @@ Schritt 3 – Regeln übernehmen
 - Lies AGENTS.md vollständig (CLAUDE.md verweist nur darauf). Das ist ab jetzt deine verbindliche Arbeitsanweisung für diesen Ordner, in dieser und allen künftigen Sitzungen.
 
 Schritt 4 – Kampagne einrichten
-Stelle mir diese Fragen in EINER Nachricht und warte auf die Antwort:
-  1. Wie heißt die Kampagne (Titel für die Startseite)?
-  2. Wie heißt die Welt bzw. die Startregion?
-  3. Wer spielt mit (Namen, gern mit Spitznamen)?
-  4. Gibt es schon Abenteuer? Wenn ja: Titel, Spielleitung, Status (gespielt / in Arbeit / geplant), in Spielreihenfolge.
-  5. Welches Regelsystem spielt ihr? Mitgeliefert sind „Ohne Regelsystem“ und „D&D 5e“ (Ordner systeme/). Für jedes andere System legen wir zusammen ein Profil an.
-  6. Gibt es schon Spielercharaktere? Wenn ja: Name, Spieler und was das Regelsystem dazu braucht (bei D&D z. B. Volk, Klasse, Stufe).
-Wenn ich etwas nicht weiß, lass den Platzhalter stehen.
+Führe mich im Dialog durch die Einrichtung, wie in AGENTS.md unter „Kampagne einrichten (beim ersten Start)“ beschrieben: immer nur eine Frage pro Nachricht, und ich darf jederzeit „weiß ich noch nicht“ oder „später“ sagen. Trage jede Antwort sofort ein.
 
-Schritt 5 – Befüllen
-- Trage die Antworten in README.md ein (Titel, Welt, Spieler).
-- Trage das gewählte Regelsystem in einstellungen.json unter "system" ein (Ordnername aus systeme/). Für ein System, das noch nicht dabei ist, lege mit mir systeme/<name>/profil.md und statblock.md an, wie in systeme/README.md beschrieben (nur Feldnamen und Begriffe, keine Regeltexte).
-- Lege für jedes genannte Abenteuer den Ordner abenteuer/NN-titel/ an, genau wie in AGENTS.md beschrieben: README.md (aus _vorlagen/abenteuer-readme.md), ideen-eingang.md (aus _vorlagen/ideen-eingang.md), plot/hauptplot.md (aus _vorlagen/hauptplot.md, Spielleitung eintragen), plot/quests/ und sitzungen/. Trage alle Abenteuer in abenteuer/README.md ein.
-- Lege für jeden genannten Spielercharakter welt/spielercharaktere/<name>/<name>.md aus der Vorlage an und trage ihn in welt/spielercharaktere/README.md ein.
-
-Schritt 6 – Prüfen und melden
+Schritt 5 – Prüfen und melden
 - Prüfe, ob Python 3 verfügbar ist („python3 --version“, unter Windows „python --version“). Falls nicht, erkläre mir in einfachen Schritten, wie ich es installiere (python.org oder unter Windows der Microsoft Store), und mach danach weiter.
 - Führe „python3 werkzeuge/links-pruefen.py“ aus (unter Windows ggf. „python“) und repariere tote Links.
-- Zeige mir zum Schluss die angelegte Ordnerstruktur als Baum und erkläre in drei Sätzen, wie ich ab jetzt mit dir arbeite (Ideen einsprechen, Widersprüche klären, Spielberichte einpflegen).
+- Fasse zum Schluss in wenigen Sätzen zusammen, was angelegt ist und was noch offen ist, und erkläre, wie ich ab jetzt mit dir arbeite (Ideen einsprechen, Widersprüche klären, Spielberichte einpflegen).
 
 Falls du KEINEN Zugriff auf mein lokales Dateisystem hast (z. B. normaler Chat im Browser ohne Ordnerzugriff): Führe alle Schritte in deiner eigenen Arbeitsumgebung aus, packe das Ergebnis als „kampagne.zip“ und gib mir den Download-Link. Sag mir dann, dass ich das ZIP einmal in einen Ordner meiner Wahl entpacken muss, und liefere mir künftig neue oder geänderte Dateien jeweils mit ihrem Pfad zum Herunterladen.
 ```
