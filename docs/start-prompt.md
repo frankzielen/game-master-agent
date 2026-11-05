@@ -1,20 +1,20 @@
 # Start-Prompt
 
-Diesen Text komplett kopieren und als erste Nachricht an den KI-Assistenten schicken. Er funktioniert mit **ChatGPT** (am besten im Codex-Modus) und mit **Claude** (in einem Claude-Projekt mit Projektordner oder mit Claude Code). Das ZIP `rollenspiel-starterkit.zip` an dieselbe Nachricht anhängen. Falls der Chat keine ZIP-Anhänge annimmt, das ZIP einfach im Download-Ordner lassen.
+Diesen Text komplett kopieren und als erste Nachricht an den KI-Assistenten schicken. Er funktioniert mit **ChatGPT** (am besten im Codex-Modus) und mit **Claude** (in einem Claude-Projekt mit Projektordner oder mit Claude Code). Das GMA-ZIP an dieselbe Nachricht anhängen (aus den Releases oder auf GitHub unter „Code“ → „Download ZIP“, Name z. B. `game-master-agent-main.zip`). Falls der Chat keine ZIP-Anhänge annimmt, das ZIP einfach im Download-Ordner lassen.
 
 ---
 
 ```
-Du richtest für mich eine strukturierte Ablage für meine Pen-&-Paper-Kampagne ein. Alles Nötige steckt im ZIP „rollenspiel-starterkit.zip“: Ordnerstruktur, Vorlagen, Regeln und Werkzeuge. Der Prompt ist für verschiedene KI-Assistenten geschrieben (ChatGPT/Codex, Claude); wende ihn sinngemäß auf deine Werkzeuge an. Bitte erledige die Einrichtung vollständig selbst, ich möchte keine Ordner oder Dateien von Hand anlegen.
+Du richtest für mich eine strukturierte Ablage für meine Pen-&-Paper-Kampagne ein. Alles Nötige steckt im angehängten GMA-ZIP (Name beginnt mit „game-master-agent“): Ordnerstruktur, Vorlagen, Regeln und Werkzeuge. Der Prompt ist für verschiedene KI-Assistenten geschrieben (ChatGPT/Codex, Claude); wende ihn sinngemäß auf deine Werkzeuge an. Bitte erledige die Einrichtung vollständig selbst, ich möchte keine Ordner oder Dateien von Hand anlegen.
 
 Schritt 1 – ZIP finden und entpacken
-- Nimm die an diese Nachricht angehängte Datei „rollenspiel-starterkit.zip“. Ist nichts angehängt, suche sie im aktuellen Arbeitsordner und in meinem Download-Ordner. Findest du sie nicht, frag mich nach dem Pfad.
+- Nimm das an diese Nachricht angehängte ZIP. Ist nichts angehängt, suche im aktuellen Arbeitsordner und in meinem Download-Ordner nach einer Datei „game-master-agent*.zip“. Findest du sie nicht, frag mich nach dem Pfad.
 - Entpacke es in einen temporären Unterordner.
 
 Schritt 2 – Struktur anlegen
 - Arbeitsordner ist dein dauerhafter Ordner: der Projektordner (z. B. in einem Claude-Projekt in der Cloud) oder der Ordner auf meinem Rechner, in dem du arbeiten darfst.
 - Lege im Arbeitsordner selbst einen neuen Ordner „rollenspiel-kampagne“ an. Das ist ab jetzt der Kampagnenordner. Ist der Arbeitsordner leer, kannst du stattdessen direkt ihn verwenden.
-- Kopiere den GESAMTEN Inhalt des Ordners „kampagne/“ aus dem ZIP (inklusive AGENTS.md, CLAUDE.md, README.md, offene-punkte.md, _vorlagen/, abenteuer/, welt/, werkzeuge/) in den Kampagnenordner, sodass AGENTS.md und README.md dort auf oberster Ebene liegen. Vorhandene Dateien nicht überschreiben, sondern mich fragen.
+- Kopiere den GESAMTEN Inhalt des Ordners „kampagne/“ aus dem ZIP (er liegt dort ggf. unter einem Oberordner wie „game-master-agent-main/“; inklusive AGENTS.md, CLAUDE.md, README.md, einstellungen.json, offene-punkte.md, _vorlagen/, abenteuer/, welt/, systeme/, werkzeuge/) in den Kampagnenordner, sodass AGENTS.md und README.md dort auf oberster Ebene liegen. Vorhandene Dateien nicht überschreiben, sondern mich fragen.
 - Lösche danach den temporären Entpack-Ordner.
 - Sag mir den vollständigen Pfad des Kampagnenordners und dass ich künftig genau diesen Ordner öffnen soll (in Codex bzw. Claude), damit die Regeln automatisch gelesen werden: Codex liest AGENTS.md, Claude Code liest CLAUDE.md, die auf AGENTS.md verweist. In einem Claude-Projekt erinnere mich daran, in die Projektanweisungen zu schreiben, dass du vor jeder Aufgabe AGENTS.md liest, und nenne mir dafür den genauen Pfad.
 
