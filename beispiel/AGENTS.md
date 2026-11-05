@@ -19,7 +19,7 @@ Steht in `README.md` noch „[Name der Kampagne]“, ist die Kampagne noch nicht
 - Frage nicht nach, was schon gesagt wurde, und frag nie mehrere Dinge auf einmal ab. Erzählt jemand von sich aus mehr, übernimm es und überspringe die passenden Fragen.
 
 Reihenfolge:
-1. **Wie soll das Ganze heißen?** Das ist der Name auf der Startseite beider Websites. Erkläre kurz: Er steht über allem, was hier gesammelt wird, also über allen Abenteuern. Passend ist zum Beispiel der Name eurer Kampagne, eurer Welt oder eurer Gruppe („Die Chroniken von Neren“, „Die Salzmarsch“). Er lässt sich jederzeit ändern. Trag ihn in `README.md` und `einstellungen.json` ein.
+1. **Wie soll euer Almanach heißen?** Erkläre kurz: Der Almanach sammelt eure Welt und alle Abenteuer, sein Name steht auf der Startseite beider Websites. Passend ist zum Beispiel der Name eurer Kampagne, eurer Welt oder eurer Gruppe („Die Chroniken von Neren“, „Die Salzmarsch“). Er lässt sich jederzeit ändern. Trag ihn in `README.md` und `einstellungen.json` ein.
 2. **Name der Welt oder Startregion.**
 3. **Wer spielt mit?** Namen, gern mit Spitznamen.
 4. **Regelsystem:** Schaltflächen „Ohne Regelsystem“, „D&D 5e“, „Anderes“. Bei „Anderes“ legst du das Profil später gemeinsam an (siehe „Regelsystem“), nicht jetzt.
