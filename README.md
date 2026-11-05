@@ -35,8 +35,10 @@ GMA works with any rules system. Everything rule-specific lives in a system prof
 
 ### Getting started
 
-- **With Git:** click "Use this template", clone your copy, open the `kampagne/` folder with your agent and follow [docs/start-prompt.md](docs/start-prompt.md).
-- **Without Git:** download the ZIP from Releases, unpack it and paste the start prompt into your agent.
+- **Without Git:** download the ZIP, attach it to your agent and write: "Set up GMA and follow START.md in the attached ZIP."
+- **With Git:** click "Use this template", open your copy with your agent and write: "Set up GMA and follow START.md."
+
+The agent does the rest and guides you through the setup step by step. Details: [docs/start-prompt.md](docs/start-prompt.md).
 
 The rules for the agent are in [kampagne/AGENTS.md](kampagne/AGENTS.md) (currently in German; an English version will follow).
 
@@ -91,8 +93,10 @@ GMA ist an kein Regelsystem gebunden. Alles Regelspezifische steht in einem Syst
 
 ### Loslegen
 
-- **Mit Git:** „Use this template“ klicken, die eigene Kopie klonen, den Ordner `kampagne/` mit dem Agenten öffnen und [docs/start-prompt.md](docs/start-prompt.md) folgen.
-- **Ohne Git:** das ZIP unter Releases herunterladen, entpacken und den Start-Prompt in den Agenten kopieren. Eine Einführung steht in [docs/einfuehrung.md](docs/einfuehrung.md).
+- **Ohne Git:** das ZIP herunterladen, an den Agenten anhängen und schreiben: „Richte GMA ein und folge START.md im angehängten ZIP.“
+- **Mit Git:** „Use this template“ klicken, die eigene Kopie mit dem Agenten öffnen und schreiben: „Richte GMA ein und folge START.md.“
+
+Den Rest erledigt der Agent, durch die Einrichtung führt er Schritt für Schritt. Details: [docs/start-prompt.md](docs/start-prompt.md). Eine Einführung steht in [docs/einfuehrung.md](docs/einfuehrung.md).
 
 Die Regeln für den Agenten stehen in [kampagne/AGENTS.md](kampagne/AGENTS.md).
 
