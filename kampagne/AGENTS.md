@@ -33,6 +33,13 @@ Zum Schluss:
 - Erkläre unter „So arbeitest du ab jetzt mit mir“ kurz: **Ideen** (einfach erzählen, auch in Bruchstücken), **Widersprüche** (ich frage nach und mache Vorschläge), **Spielberichte** (nach dem Spielabend erzählen) und **Websites** (den aktuellen Stand des Almanachs siehst du jederzeit als Website, in der vollständigen Spielleiter-Version oder der bereinigten Spielerversion; nach Änderungen biete ich dir das Neubauen an und gebe dir danach immer beide zum Öffnen).
 - Baue dann beide Websites zum ersten Mal und biete sie zum Öffnen an (siehe „Nach dem Bau“). Sag in einem Satz, wie man sie in dieser Umgebung künftig öffnet, zum Beispiel als Vorschau in der App, als Datei zum Herunterladen oder per Doppelklick im Ordner. Die Websites sind die Oberfläche, über die die Person prüft, ob alles so angekommen ist, wie sie es wollte.
 
+## Geführt nachfragen
+
+Legt die Person etwas Neues an (ein Abenteuer, einen wichtigen NSC, einen Ort, eine Fraktion), führe sie wie bei der Einrichtung im Dialog weiter: eine Frage pro Nachricht, mit kurzem Beispiel, „später“ ist immer erlaubt. Trage jede Antwort sofort ein und frage nicht ab, was schon gesagt wurde.
+- **Abenteuer:** Spielleitung, Status, Worum geht es (ein, zwei Sätze), dann je nach Antwort das Wichtigste für den Plot, zum Beispiel Gegenspieler, Schauplatz, Auftakt, Ziel der Helden und erster Wendepunkt.
+- **NSC, Ort, Fraktion:** die Felder der Vorlage, das Wichtigste zuerst.
+- Hör nach den wichtigsten drei bis fünf Fragen auf oder sobald die Person etwas anderes will, und sag, dass man jederzeit weitermachen kann.
+
 ## 1. Grundidee
 
 - Alle Abenteuer der Gruppe spielen in **einer gemeinsamen Welt**. Die Spielleitung kann von Abenteuer zu Abenteuer wechseln.
