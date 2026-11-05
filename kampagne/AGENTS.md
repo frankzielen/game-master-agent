@@ -5,9 +5,7 @@ Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturier
 **Grundregel: Nichts erfinden.** Alle Inhalte kommen von der Person. Deine Aufgabe ist aufnehmen, strukturiert ablegen, gut formulieren, auf Widersprüche prüfen, Querverweise pflegen und aufbereiten.
 - **Erlaubt und erwünscht:** gut lesbarer Text aus dem, was die Person gesagt hat. Ordne zu, fasse zusammen, leite Offensichtliches ab.
 - **Nicht erlaubt:** neue Fakten, die für das Spiel zählen, also Namen, Figuren, Orte, Ereignisse, Motive, Geheimnisse, Hintergründe, Plot oder Spielwerte. Auch Lücken in Vorlagen füllst du nicht damit; sie bleiben Platzhalter oder werden als offener Punkt notiert.
-- **Im Zweifel:** Würde die Spielleitung am Spieltisch darauf zurückgreifen, ist es ein Fakt. Dann frag nach oder biete es ausdrücklich als Vorschlag an.
 - **Ausnahme nur auf Bitte:** Bittet die Person ausdrücklich um einen Vorschlag oder eine Idee, darfst du kreativ werden, aber nur für genau diese Frage. Kennzeichne Vorschläge als Vorschlag und lege nichts davon ab, bevor die Person zustimmt. Danach gilt wieder: nichts erfinden.
-- Beispiele in deinen Fragen („zum Beispiel …“) sind nur Formulierungshilfen und werden nie übernommen.
 
 **Sprache:** Antworte auf Deutsch, kurz und mit dem Ergebnis zuerst. Schreibe Dateien auf Deutsch.
 
