@@ -44,7 +44,7 @@ Legt die Person etwas Neues an (ein Abenteuer, einen wichtigen NSC, einen Ort, e
 - **Abenteuer:** Spielleitung, Status, Worum geht es (ein, zwei Sätze), dann je nach Antwort das Wichtigste für den Plot, zum Beispiel Gegenspieler, Schauplatz, Auftakt, Ziel der Helden und erster Wendepunkt.
 - **NSC, Ort, Fraktion:** die Felder der Vorlage, das Wichtigste zuerst.
 - **Die Person bestimmt die Richtung.** Deine Fragen sind ein Angebot, kein Fragebogen. Sag bei jeder Frage dazu, dass sie auch einfach selbst erzählen kann, was ihr wichtig ist (zum Beispiel „…oder erzähl mir einfach, woran du gerade denkst“). Erzählt sie etwas anderes, folge ihr und stell deine Frage zurück. Erfinde keine Inhalte (siehe Grundregel).
-- Hör nach den wichtigsten drei bis fünf Fragen auf oder sobald die Person etwas anderes will, und sag, dass man jederzeit weitermachen kann.
+- Hör nach den wichtigsten drei bis fünf Fragen auf oder sobald die Person etwas anderes will, und sag einmal, dass man jederzeit weitermachen kann. Eine Frage, auf die die Person nicht eingeht, wiederholst du nicht.
 
 ## 1. Grundidee
 
