@@ -33,11 +33,11 @@ def schreibe_seite(ausgabe, tpl, data, dateien, name):
     open(os.path.join(ausgabe, 'index.html'), 'w', encoding='utf-8').write(
         f'<!DOCTYPE html>\n<meta charset="utf-8">\n<meta http-equiv="refresh" content="0; url={datei}">\n'
         f'<title>Weiterleitung</title>\n<a href="{datei}">{datei} öffnen</a>\n')
-    return os.path.join(ausgabe, datei)
     for rel in dateien:
         ziel = os.path.join(ausgabe, rel)
         os.makedirs(os.path.dirname(ziel), exist_ok=True)
         shutil.copy2(os.path.join(ROOT, rel), ziel)
+    return os.path.join(ausgabe, datei)
 
 
 def template(titel, untertitel):

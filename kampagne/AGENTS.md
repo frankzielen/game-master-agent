@@ -6,6 +6,7 @@ Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturier
 
 **Einfach halten:** Die Nutzerin oder der Nutzer soll die Ordnerstruktur nie anfassen müssen. Sie geben dir Material, du erledigst Ablage, Dateinamen, Links und Prüfungen selbst. Nenne in Antworten keine Dateipfade, außer man fragt danach; sag lieber, was wo inhaltlich steht.
 - **Dauerhaft speichern:** Liegt der Ordner in einem Git-Repository, sichere jede Änderung sofort selbst, ohne Rückfrage und ohne Git-Begriffe in der Antwort: committen und in den Hauptzweig (`main`) bringen. Arbeitest du auf einem eigenen Zweig (z. B. in einer Cloud-Sitzung), übernimm ihn danach in `main` (erst `main` hereinholen, dann `git push origin HEAD:main`). Lässt `main` keinen direkten Push zu, öffne einen Pull Request und führe ihn selbst zusammen. Klappt beides nicht, sag in einem Satz, was fehlt; behaupte nie „gespeichert“, solange die Änderung nicht in `main` ist.
+- **Keine Technik-Probleme weitergeben:** Stößt du auf einen Fehler in den Werkzeugen oder Regeln von GMA, behebe ihn still, wenn du kannst. Erwähne ihn nur, wenn die Person etwas tun muss.
 - **Schaltflächen:** Bietet deine Umgebung ein Werkzeug für Rückfragen mit Antwortmöglichkeiten, nutze es für jede Auswahl. Sonst nenne die Möglichkeiten kurz zum Antippen oder Abschreiben.
 - **Neu bauen nur auf Klick:** Baue die Websites nicht automatisch. Hat sich seit dem letzten Bau etwas an den Inhalten geändert, biete am Ende deiner Antwort eine Schaltfläche „Websites neu bauen“ an (oder, wo deine Umgebung keine Schaltflächen kann, die kurze Frage „Websites neu bauen?“).
 - **Nach dem Bau:** Baue beide Websites (siehe Abschnitt 7) und biete sie als zwei Schaltflächen „Spielleiter-Website öffnen“ und „Heldenversion öffnen“ an, oder als Vorschau in der App. Wo das nicht geht, gib anklickbare Links auf `spielleiter.html` bzw. `spieler.html` oder öffne sie im Browser. Liefere nie eine Datei namens `index.html` aus, sie ist nur die Weiterleitung für Hoster.
@@ -26,7 +27,11 @@ Reihenfolge:
 5. **Gibt es schon Abenteuer?** Schaltflächen „Ja“, „Noch nicht“, „Später“. Bei „Ja“ je Abenteuer nacheinander: Titel, dann Spielleitung, dann Status mit den Schaltflächen „Geplant“, „Läuft gerade“, „Gespielt“ (eingetragen als `idee`, `läuft`, `gespielt`). Danach „Noch ein Abenteuer?“. Lege jedes wie in Abschnitt 2 beschrieben an.
 6. **Gibt es schon Spielercharaktere?** Gleich wie bei den Abenteuern: je Charakter Name, dann wer ihn spielt. Weitere Charakterfelder des Systemprofils nur anbieten, nicht abfragen („Magst du Volk, Klasse und Stufe gleich nennen, oder später?“).
 
-Zum Schluss: Prüfe still, ob Python 3 da ist (für die Websites; falls nicht, erkläre die Installation in einfachen Schritten) und ob alle Links stimmen. Fasse dann in wenigen Sätzen zusammen, was angelegt ist und was noch offen ist, und sag, dass man alles jederzeit nachtragen kann, zum Beispiel mit „Wir haben ein neues Abenteuer: …“ oder einfach einer eingesprochenen Idee.
+Zum Schluss:
+- Prüfe still, ob Python 3 da ist (für die Websites; falls nicht, erkläre die Installation in einfachen Schritten) und ob alle Links stimmen.
+- Fasse in wenigen Sätzen zusammen, was angelegt ist und was noch offen ist.
+- Erkläre unter „So arbeitest du ab jetzt mit mir“ kurz: **Ideen** (einfach erzählen, auch in Bruchstücken), **Widersprüche** (ich frage nach und mache Vorschläge), **Spielberichte** (nach dem Spielabend erzählen) und **Websites** (den aktuellen Stand des Almanachs siehst du jederzeit als Website, in der vollständigen Spielleiter-Version oder der bereinigten Spielerversion; nach Änderungen biete ich dir das Neubauen an und gebe dir danach immer beide zum Öffnen).
+- Baue dann beide Websites zum ersten Mal und biete sie zum Öffnen an (siehe „Nach dem Bau“). Sag in einem Satz, wie man sie in dieser Umgebung künftig öffnet, zum Beispiel als Vorschau in der App, als Datei zum Herunterladen oder per Doppelklick im Ordner. Die Websites sind die Oberfläche, über die die Person prüft, ob alles so angekommen ist, wie sie es wollte.
 
 ## 1. Grundidee
 
