@@ -16,7 +16,7 @@ Normale Chats ohne Ordnerzugriff sind nicht geeignet. Python 3 für die Websites
 ## Einrichten
 
 1. Lade GMA als ZIP herunter (oder lege mit „Use this template“ eine eigene Kopie auf GitHub an).
-2. Häng das ZIP an die erste Nachricht an deinen Agenten und schreib: **„Richte GMA ein und folge START.md im angehängten ZIP.“** Mit einer GitHub-Kopie oder einem geöffneten Ordner reicht: „Richte GMA ein und folge START.md.“
+2. Häng das ZIP an die erste Nachricht an deinen Agenten und schreib: **„Folge START.md im angehängten ZIP.“** Mit einer GitHub-Kopie oder einem geöffneten Ordner reicht: „Folge START.md.“
 3. Der Agent richtet alles ein und fragt dich Schritt für Schritt nach Titel, Welt, Mitspielern, Regelsystem, Abenteuern und Helden. Was du noch nicht weißt, beantwortest du mit „später“.
 
 Mac-Hinweis: Safari entpackt ZIPs nach dem Herunterladen automatisch. Für ein Claude-Projekt den Ordner per Rechtsklick → „… komprimieren“ wieder zum ZIP machen.
