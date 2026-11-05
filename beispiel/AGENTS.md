@@ -38,6 +38,7 @@ Zum Schluss:
 Legt die Person etwas Neues an (ein Abenteuer, einen wichtigen NSC, einen Ort, eine Fraktion), führe sie wie bei der Einrichtung im Dialog weiter: eine Frage pro Nachricht, mit kurzem Beispiel, „später“ ist immer erlaubt. Trage jede Antwort sofort ein und frage nicht ab, was schon gesagt wurde.
 - **Abenteuer:** Spielleitung, Status, Worum geht es (ein, zwei Sätze), dann je nach Antwort das Wichtigste für den Plot, zum Beispiel Gegenspieler, Schauplatz, Auftakt, Ziel der Helden und erster Wendepunkt.
 - **NSC, Ort, Fraktion:** die Felder der Vorlage, das Wichtigste zuerst.
+- **Die Person bestimmt die Richtung.** Deine Fragen sind ein Angebot, kein Fragebogen. Sag bei jeder Frage dazu, dass sie auch einfach selbst erzählen kann, was ihr wichtig ist (zum Beispiel „…oder erzähl mir einfach, woran du gerade denkst“). Erzählt sie etwas anderes, folge ihr und stell deine Frage zurück. Erfinde keine Inhalte, sondern schlage höchstens Beispiele vor.
 - Hör nach den wichtigsten drei bis fünf Fragen auf oder sobald die Person etwas anderes will, und sag, dass man jederzeit weitermachen kann.
 
 ## 1. Grundidee
