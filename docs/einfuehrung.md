@@ -1,71 +1,38 @@
-# Rollenspiel-Starterkit – Einführung
+# GMA – Einführung
 
-Mit diesem Paket baut dir ein KI-Assistent (**ChatGPT** oder **Claude**) eine strukturierte Ablage für deine Kampagne auf: Plot, Kapitel und Szenen, NSCs, Orte, Fraktionen, Gegenstände und Spielercharaktere, alles als verlinkte Markdown-Dateien. Danach pflegt die KI die Ablage für dich. Du erzählst deine Ideen, und sie sortiert sie ein, prüft sie auf Widersprüche und hält die Querverweise aktuell.
+Mit GMA baut dir ein KI-Agent eine Ablage für deine Rollenspiel-Welt und deine Abenteuer auf und pflegt sie: Plot, Szenen, Figuren, Orte, Fraktionen, Gegenstände, Helden und Spielabende. Du erzählst, der Agent sortiert ein, prüft auf Widersprüche und baut dir auf Wunsch zwei Websites, eine für die Spielleitung und eine Heldenversion für die Spieler. Mit Ordnern und Dateien musst du dich nicht beschäftigen.
 
 ## Was du brauchst
 
-Wichtig ist, dass die KI in einem **dauerhaften Ordner** arbeiten darf. Nur dann bleibt die Ablage erhalten. Ein normaler Chat ohne Ordner vergisst seine Arbeitsdateien nach einiger Zeit. Der dauerhafte Ordner liegt je nach Werkzeug auf deinem Rechner oder in der Cloud:
+Einen KI-Agenten, der **dauerhaft in einem Ordner** arbeiten darf. Nur dann bleibt alles erhalten.
 
-| | ChatGPT mit Codex | Claude-Projekt (Cloud) | Claude Code |
+| | Claude-Projekt | Claude Code | ChatGPT mit Codex |
 |---|---|---|---|
-| Wo liegt die Ablage? | Ordner auf deinem Rechner | im Projektordner in der Cloud, kein Ordner auf dem Rechner nötig | Ordner auf deinem Rechner |
-| Womit arbeitest du? | ChatGPT-Desktop-App im Codex-Modus, Codex-Erweiterung für VS Code oder Codex CLI | Claude-App oder claude.ai, auch am Handy | Claude-Desktop-App (Bereich „Code“), Claude-Erweiterung für VS Code oder Terminal |
-| Wie kennt die KI die Regeln? | liest `AGENTS.md` automatisch | über die Projektanweisung (siehe unten) | liest `CLAUDE.md` automatisch, die auf `AGENTS.md` verweist |
+| Wo liegt alles? | im Projektordner bei Claude (Cloud) | lokaler Ordner oder GitHub-Repository in der Cloud | lokaler Ordner oder GitHub-Repository in der Cloud |
+| Womit arbeitest du? | Claude-App oder claude.ai, auch am Handy | Claude-App (Bereich „Code“), VS Code oder Terminal | ChatGPT-App im Codex-Modus, VS Code oder Terminal |
 
-Die Regeln stehen in allen Fällen nur einmal in `AGENTS.md`. Mit Codex und Claude Code kannst du sogar auf demselben Ordner zwischen ChatGPT und Claude wechseln.
+Normale Chats ohne Ordnerzugriff sind nicht geeignet. Python 3 für die Websites prüft der Agent selbst und hilft bei Bedarf bei der Installation.
 
-**Am bequemsten ist ein Claude-Projekt:** Die Ablage liegt in der Cloud, du brauchst keinen Ordner auf dem Rechner und kannst von jedem Gerät aus weiterarbeiten. Ob Projekte mit eigenem Projektordner bei dir verfügbar sind, siehst du in der Claude-App. Wenn ja, ist das die einfachste Variante.
+## Einrichten
 
-Außerdem:
-- Optional Python 3 für die Link-Prüfung und die Website (auf Mac und Linux meist vorhanden, unter Windows bei Bedarf installieren).
-- Zum Lesen der Dateien VS Code (Vorschau mit Strg/Cmd+Shift+V) oder Obsidian.
+1. Lade GMA als ZIP herunter (oder lege mit „Use this template“ eine eigene Kopie auf GitHub an).
+2. Häng das ZIP an die erste Nachricht an deinen Agenten und schreib: **„Richte GMA ein und folge START.md im angehängten ZIP.“** Mit einer GitHub-Kopie oder einem geöffneten Ordner reicht: „Richte GMA ein und folge START.md.“
+3. Der Agent richtet alles ein und fragt dich Schritt für Schritt nach Titel, Welt, Mitspielern, Regelsystem, Abenteuern und Helden. Was du noch nicht weißt, beantwortest du mit „später“.
 
-## Einrichtung im Claude-Projekt (Cloud)
+Mac-Hinweis: Safari entpackt ZIPs nach dem Herunterladen automatisch. Für ein Claude-Projekt den Ordner per Rechtsklick → „… komprimieren“ wieder zum ZIP machen.
 
-1. Lege in der Claude-App ein neues Projekt an, z. B. „Meine Kampagne“.
-2. Häng im Projekt-Chat `rollenspiel-starterkit.zip` an, füge den Text aus `START-PROMPT.md` ein und schicke beides ab. Beantworte die Rückfragen.
-3. Claude entpackt das ZIP in den Projektordner, baut dort die Struktur auf und nennt dir zum Schluss den genauen Pfad von `AGENTS.md`. Trage dann in die Projektanweisungen ein: „Lies vor jeder Aufgabe AGENTS.md (Pfad: …) und halte dich an diese Regeln.“ So gelten die Regeln in jedem neuen Chat des Projekts.
+## So arbeitest du mit dem Agenten
 
-Du findest alle Dateien in der Bibliothek bzw. der Dateiansicht des Projekts.
+- **Ideen:** einfach erzählen oder einsprechen, gern in Bruchstücken. Bei Widersprüchen fragt der Agent nach und schlägt Lösungen vor.
+- **Nach einem Spielabend:** erzählen, was passiert ist. Der Agent schreibt das Protokoll und bringt Helden und Welt auf den neuesten Stand.
+- **Material:** Bilder, Karten, Handouts, Statblöcke, Musik einfach schicken und sagen, wozu sie gehören.
+- **Websites:** Nach Änderungen bietet der Agent „Websites neu bauen“ an und danach die beiden Seiten zum Öffnen. Sie laufen offline und lassen sich weitergeben.
 
-## Einrichtung mit Codex oder Claude Code (Ordner auf dem Rechner)
+## Die Grundideen
 
-1. Öffne **Codex** bzw. **Claude Code**. Das Werkzeug fragt, in welchem Ordner es arbeiten darf. Wähle einfach einen Ort, z. B. „Dokumente“. Einen Ordner anlegen musst du nicht.
-2. Häng `rollenspiel-starterkit.zip` an den Chat an, füge den Text aus `START-PROMPT.md` ein und schicke beides ab. Falls der Chat keine ZIP-Datei annimmt, lass sie im Download-Ordner, die KI findet sie dort.
-3. Beantworte die Rückfragen (Kampagnenname, Welt, Spieler, vorhandene Abenteuer und Charaktere). Wenn die KI um Erlaubnis bittet, Ordner anzulegen oder Befehle auszuführen, stimme zu.
+- **Eine Welt, viele Abenteuer:** Figuren, Orte und Gegenstände gibt es nur einmal, jedes Abenteuer hat nur seinen Plot und seine Sitzungen. Die Spielleitung darf wechseln.
+- **Entwicklung über die Abenteuer:** Jeder Welt-Eintrag zeigt das Zeitlose, den aktuellen Stand und was im jeweiligen Abenteuer geschah.
+- **Geheimnisse:** Was nur die Spielleitung wissen darf, ist in den Daten gekennzeichnet und fehlt in der Heldenversion automatisch.
+- **Jedes Regelsystem:** Mitgeliefert sind „Ohne Regelsystem“ und „D&D 5e“, für andere Systeme legt der Agent mit dir ein Profil an.
 
-Die KI legt den Kampagnenordner selbst an, entpackt das ZIP, baut die komplette Struktur auf, übernimmt die Regeln und befüllt die ersten Dateien. Zum Schluss nennt sie dir den Pfad des Ordners. Diesen Ordner öffnest du künftig in Codex bzw. Claude Code. Dann werden die Regeln bei jeder Sitzung automatisch gelesen. Die Dateien liegen auf deinem Rechner, du kannst sie jederzeit selbst ansehen oder sichern.
-
-**Ohne dauerhaften Ordner** (normaler Chat ohne Projektordner, bei ChatGPT oder Claude): Lade das ZIP im Chat hoch und schicke denselben Start-Prompt. Die KI baut die Struktur dann in ihrer eigenen Umgebung und gibt dir ein fertiges `kampagne.zip` zurück, das du einmal entpackst. Spätere Änderungen musst du dann als Dateien herunterladen und selbst ablegen. Mit einem Claude-Projekt, Codex oder Claude Code entfällt das.
-
-## Die Struktur
-
-```
-README.md                    Einstieg mit Überblick und Spielern
-offene-punkte.md             Widersprüche, offene Fragen, Entscheidungen
-AGENTS.md                    Regeln für die KI
-CLAUDE.md                    Verweis auf AGENTS.md für Claude
-welt/                        gemeinsam für alle Abenteuer
-  nscs/  orte/  fraktionen/  gegenstaende/  spielercharaktere/
-abenteuer/                   01-titel/, 02-titel/ …: je Plot, Quests, Sitzungen
-_vorlagen/                   Kopiervorlagen für jeden Dateityp
-werkzeuge/                   Link-Prüfung und Website-Generator
-```
-
-Die wichtigsten Ideen dahinter:
-
-- **Eine Welt, viele Abenteuer:** NSCs, Orte und Gegenstände gibt es nur einmal. Jedes Abenteuer hat nur seinen Plot und seine Sitzungen. Die Spielleitung darf wechseln.
-- **Entwicklung über die Abenteuer:** Jeder Welt-Eintrag zeigt oben das Zeitlose und darunter den aktuellen Stand sowie einen Abschnitt pro Abenteuer. So siehst du auf einen Blick, wie sich eine Figur entwickelt hat.
-- **Orte verschachtelt:** Region → Stadt → Gebäude, jeweils mit eigenem Ordner für Karten und Bilder.
-- **Plot:** Hauptplot mit Zeitplan, darunter Kapitel mit Szenen. Alternative Szenen bekommen einen Buchstaben (03a, 03b), Quests liegen unter `plot/quests/`.
-- **Spoiler:** Was die Spieler nicht wissen dürfen, steht unter „Geheim (nur SL)“.
-
-## So arbeitest du mit der KI
-
-- **Ideen einsprechen:** Einfach drauflos erzählen, gern in Bruchstücken. Die KI puffert jede Idee im `ideen-eingang.md` des Abenteuers, prüft sie gegen alles Bestehende und fragt bei Widersprüchen nach, mit Lösungsvorschlägen und einer Empfehlung. Erst danach wird eingepflegt.
-- **Nach einem Spielabend:** Erzähl, was passiert ist. Die KI legt die Sitzung an, setzt gespielte Szenen auf „gespielt“ und aktualisiert NSCs, Orte und Charaktere.
-- **Nach einem Abenteuer:** Bitte die KI, den „Aktuellen Stand“ in der Welt nachzuziehen. Dazu gehören die Charakter-Übersicht mit Fortschritt (z. B. Stufe) und Verbleib sowie die Gegenstände.
-- **Bilder:** Bild schicken und sagen, wozu es gehört. Die KI legt es im passenden `bilder/`-Ordner ab und bindet es ein.
-- **Website:** „Bau die Website neu“ erzeugt `kampagnen-archiv.html`, eine einzelne Datei mit Ordnerbaum, Suche und Bildern zum Durchklicken im Browser.
-
-Die Regeln kannst du jederzeit ändern. Sag der KI einfach, was anders laufen soll, dann passt sie `AGENTS.md` an.
+Die Regeln für den Agenten stehen in `kampagne/AGENTS.md`. Soll etwas anders laufen, sag es dem Agenten, er passt die Regeln an.
