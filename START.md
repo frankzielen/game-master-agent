@@ -16,8 +16,8 @@ Erzähl der Person nichts über Dateinamen, Pfade oder Zwischenschritte. Ein Sat
 ## Schritt 2b – Regeln dauerhaft machen
 
 Die Regeln in `AGENTS.md` müssen in jeder künftigen Unterhaltung gelten.
-- Liest deine Umgebung `AGENTS.md` oder `CLAUDE.md` im geöffneten Ordner von selbst (z. B. Claude Code, Codex), ist nichts zu tun.
-- Hat deine Umgebung dauerhafte Anweisungen, die zu Beginn jeder Unterhaltung gelten (z. B. Projektanweisungen, benutzerdefinierte Anweisungen), trag dort ein: „Lies vor jeder Aufgabe AGENTS.md im Kampagnenordner (Pfad: …) und halte dich daran.“ Kannst du sie nicht selbst ändern, gib der Person genau diesen Satz zum Kopieren und sag in einem Satz, wo sie ihn einträgt.
+- Manche Umgebungen lesen `AGENTS.md` oder `CLAUDE.md` im geöffneten Ordner automatisch (z. B. Claude Code, Codex). Dann ist nichts zu tun.
+- Wenn deine Umgebung dauerhafte Anweisungen hat, die zu Beginn jeder Unterhaltung gelten (z. B. Projektanweisungen, benutzerdefinierte Anweisungen), trag dort ein: „Lies vor jeder Aufgabe AGENTS.md im Kampagnenordner (Pfad: …) und halte dich daran.“ Wenn du sie nicht selbst ändern kannst, gib der Person genau diesen Satz zum Kopieren und sag in einem Satz, wo sie ihn einträgt.
 
 ## Schritt 3 – Regeln lesen
 
