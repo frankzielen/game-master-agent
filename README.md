@@ -8,7 +8,7 @@
 
 ## English
 
-GMA turns an AI coding agent (Claude Code, Codex and similar) into a game master's assistant. You talk to it like a colleague: dictate ideas, session reports or notes, hand it maps and stat blocks. The agent files everything into a fixed folder structure, checks it for contradictions, keeps cross-references up to date and can publish it as a website.
+GMA turns an AI coding agent (Claude Code, Codex and similar) into a game master's assistant. You talk to it like a colleague: dictate ideas, session reports or notes, hand it maps and stat blocks. The agent files everything into your **role-playing almanac**, a fixed folder structure for your world and all its adventures, checks it for contradictions, keeps cross-references up to date and can publish it as a website.
 
 GMA is not a program with its own AI. It is a set of rules, templates and small tools that an existing agent reads and follows.
 
@@ -35,8 +35,10 @@ GMA works with any rules system. Everything rule-specific lives in a system prof
 
 ### Getting started
 
-- **With Git:** click "Use this template", clone your copy, open the `kampagne/` folder with your agent and follow [docs/start-prompt.md](docs/start-prompt.md).
-- **Without Git:** download the ZIP from Releases, unpack it and paste the start prompt into your agent.
+- **Without Git:** download the ZIP, attach it to your agent and write: "Follow START.md."
+- **With Git:** click "Use this template", open your copy with your agent and write: "Follow START.md."
+
+The agent does the rest and guides you through the setup step by step. Details: [docs/start-prompt.md](docs/start-prompt.md).
 
 The rules for the agent are in [kampagne/AGENTS.md](kampagne/AGENTS.md) (currently in German; an English version will follow).
 
@@ -64,7 +66,7 @@ Install the Claude Code plugin with `/plugin marketplace add <owner>/game-master
 
 ## Deutsch
 
-GMA macht aus einem KI-Agenten (Claude Code, Codex und ähnliche) einen Assistenten für die Spielleitung. Man spricht mit ihm wie mit einem Kollegen: Ideen, Spielberichte oder Notizen einsprechen, Karten und Statblöcke übergeben. Der Agent legt alles in einer festen Ordnerstruktur ab, prüft auf Widersprüche, hält Querverweise aktuell und macht den Bestand als Website verfügbar.
+GMA macht aus einem KI-Agenten (Claude Code, Codex und ähnliche) einen Assistenten für die Spielleitung. Man spricht mit ihm wie mit einem Kollegen: Ideen, Spielberichte oder Notizen einsprechen, Karten und Statblöcke übergeben. Der Agent legt alles in deinem **Rollenspiel-Almanach** ab, einer festen Ordnerstruktur für deine Welt und all ihre Abenteuer, prüft auf Widersprüche, hält Querverweise aktuell und macht den Bestand als Website verfügbar.
 
 GMA ist kein eigenes Programm mit eigener KI. Es besteht aus Regeln, Vorlagen und kleinen Werkzeugen, die ein vorhandener Agent liest und befolgt.
 
@@ -91,8 +93,10 @@ GMA ist an kein Regelsystem gebunden. Alles Regelspezifische steht in einem Syst
 
 ### Loslegen
 
-- **Mit Git:** „Use this template“ klicken, die eigene Kopie klonen, den Ordner `kampagne/` mit dem Agenten öffnen und [docs/start-prompt.md](docs/start-prompt.md) folgen.
-- **Ohne Git:** das ZIP unter Releases herunterladen, entpacken und den Start-Prompt in den Agenten kopieren. Eine Einführung steht in [docs/einfuehrung.md](docs/einfuehrung.md).
+- **Ohne Git:** das ZIP herunterladen, an den Agenten anhängen und schreiben: „Folge START.md.“
+- **Mit Git:** „Use this template“ klicken, die eigene Kopie mit dem Agenten öffnen und schreiben: „Folge START.md.“
+
+Den Rest erledigt der Agent, durch die Einrichtung führt er Schritt für Schritt. Details: [docs/start-prompt.md](docs/start-prompt.md). Eine Einführung steht in [docs/einfuehrung.md](docs/einfuehrung.md).
 
 Die Regeln für den Agenten stehen in [kampagne/AGENTS.md](kampagne/AGENTS.md).
 
