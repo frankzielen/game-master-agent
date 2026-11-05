@@ -35,7 +35,7 @@ GMA works with any rules system. Everything rule-specific lives in a system prof
 
 ### Getting started
 
-- **Without Git:** download the ZIP, attach it to your agent and write: "Follow START.md in the attached ZIP."
+- **Without Git:** download the ZIP, attach it to your agent and write: "Follow START.md."
 - **With Git:** click "Use this template", open your copy with your agent and write: "Follow START.md."
 
 The agent does the rest and guides you through the setup step by step. Details: [docs/start-prompt.md](docs/start-prompt.md).
@@ -93,7 +93,7 @@ GMA ist an kein Regelsystem gebunden. Alles Regelspezifische steht in einem Syst
 
 ### Loslegen
 
-- **Ohne Git:** das ZIP herunterladen, an den Agenten anhängen und schreiben: „Folge START.md im angehängten ZIP.“
+- **Ohne Git:** das ZIP herunterladen, an den Agenten anhängen und schreiben: „Folge START.md.“
 - **Mit Git:** „Use this template“ klicken, die eigene Kopie mit dem Agenten öffnen und schreiben: „Folge START.md.“
 
 Den Rest erledigt der Agent, durch die Einrichtung führt er Schritt für Schritt. Details: [docs/start-prompt.md](docs/start-prompt.md). Eine Einführung steht in [docs/einfuehrung.md](docs/einfuehrung.md).

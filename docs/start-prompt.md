@@ -1,17 +1,11 @@
 # Start-Prompt
 
-Die ganze Anleitung für den Agenten steckt im Paket, in [START.md](../START.md). Man muss nur einen Satz schreiben.
-
-**Mit ZIP** (Claude-Projekt, ChatGPT/Codex): das GMA-ZIP an die erste Nachricht anhängen und schreiben:
-
-```
-Folge START.md im angehängten ZIP.
-```
-
-**Mit Ordner oder GitHub-Repository** (Claude Code, Codex, VS Code): den GMA-Ordner bzw. das Repository öffnen und schreiben:
+Die ganze Anleitung für den Agenten steckt im Paket, in [START.md](../START.md). Man schreibt nur:
 
 ```
 Folge START.md.
 ```
+
+Vorher das GMA-ZIP an die Nachricht anhängen (Claude-Projekt, ChatGPT) oder den GMA-Ordner bzw. die GitHub-Kopie im Agenten öffnen (Claude Code, Codex, VS Code).
 
 Auf dem Mac entpackt Safari heruntergeladene ZIPs automatisch. Für ein Claude-Projekt den Ordner dann per Rechtsklick → „… komprimieren“ wieder zu einem ZIP machen.
