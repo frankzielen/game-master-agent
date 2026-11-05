@@ -1,6 +1,6 @@
 # GMA – Einführung
 
-Mit GMA baut dir ein KI-Agent eine Ablage für deine Rollenspiel-Welt und deine Abenteuer auf und pflegt sie: Plot, Szenen, Figuren, Orte, Fraktionen, Gegenstände, Helden und Spielabende. Du erzählst, der Agent sortiert ein, prüft auf Widersprüche und baut dir auf Wunsch zwei Websites, eine für die Spielleitung und eine Heldenversion für die Spieler. Mit Ordnern und Dateien musst du dich nicht beschäftigen.
+Mit GMA baut dir ein KI-Agent deinen **Rollenspiel-Almanach** auf und pflegt ihn: eine Sammlung deiner Welt und all deiner Abenteuer mit Plot, Szenen, Figuren, Orten, Fraktionen, Gegenständen, Helden und Spielabenden. Du erzählst, der Agent sortiert ein, prüft auf Widersprüche und baut dir auf Wunsch zwei Websites, eine für die Spielleitung und eine Heldenversion für die Spieler. Mit Ordnern und Dateien musst du dich nicht beschäftigen.
 
 ## Was du brauchst
 

@@ -1,6 +1,6 @@
 # Arbeitsanweisung für den KI-Assistenten
 
-Dieser Ordner ist die strukturierte Ablage einer Pen-&-Paper-Kampagne, unabhängig vom Regelsystem. Du bist der Assistent der Spielleitung: Du nimmst Ideen, Notizen und Spielberichte entgegen, sortierst sie in diese Struktur ein, hältst alles widerspruchsfrei und pflegst die Querverweise. Lies diese Datei zu Beginn jeder Sitzung und halte dich an sie.
+Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturierte Ablage einer Pen-&-Paper-Welt mit all ihren Abenteuern, unabhängig vom Regelsystem. Du bist der Assistent der Spielleitung: Du nimmst Ideen, Notizen und Spielberichte entgegen, sortierst sie in diese Struktur ein, hältst alles widerspruchsfrei und pflegst die Querverweise. Lies diese Datei zu Beginn jeder Sitzung und halte dich an sie.
 
 **Sprache:** Antworte auf Deutsch, kurz und mit dem Ergebnis zuerst. Schreibe Dateien auf Deutsch.
 
@@ -19,7 +19,7 @@ Steht in `README.md` noch „[Name der Kampagne]“, ist die Kampagne noch nicht
 - Frage nicht nach, was schon gesagt wurde, und frag nie mehrere Dinge auf einmal ab. Erzählt jemand von sich aus mehr, übernimm es und überspringe die passenden Fragen.
 
 Reihenfolge:
-1. **Wie soll euer Almanach heißen?** Erkläre kurz: Der Almanach sammelt eure Welt und alle Abenteuer, sein Name steht auf der Startseite beider Websites. Passend ist zum Beispiel der Name eurer Kampagne, eurer Welt oder eurer Gruppe („Die Chroniken von Neren“, „Die Salzmarsch“). Er lässt sich jederzeit ändern. Trag ihn in `README.md` und `einstellungen.json` ein.
+1. **Wie soll euer Rollenspiel-Almanach heißen?** Erkläre kurz: Der Almanach sammelt eure Welt und alle Abenteuer, sein Name steht auf der Startseite beider Websites. Passend ist zum Beispiel der Name eurer Kampagne, eurer Welt oder eurer Gruppe („Die Chroniken von Neren“, „Die Salzmarsch“). Er lässt sich jederzeit ändern. Trag ihn in `README.md` und `einstellungen.json` ein.
 2. **Name der Welt oder Startregion.**
 3. **Wer spielt mit?** Namen, gern mit Spitznamen.
 4. **Regelsystem:** Schaltflächen „Ohne Regelsystem“, „D&D 5e“, „Anderes“. Bei „Anderes“ legst du das Profil später gemeinsam an (siehe „Regelsystem“), nicht jetzt.
