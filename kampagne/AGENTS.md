@@ -20,7 +20,7 @@ Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturier
 
 Steht in `README.md` noch „[Name der Kampagne]“, ist die Kampagne noch nicht eingerichtet. Führe dann durch die Einrichtung, und zwar **als Dialog, eine Frage pro Nachricht:**
 - Jede Frage ist kurz, betrifft nur einen Punkt und hat ein Beispiel. Wo es feste Antworten gibt, biete sie als Schaltflächen an.
-- Sag bei jeder Frage dazu, dass „weiß ich noch nicht“ oder „später“ eine gute Antwort ist. Nichts muss jetzt festgelegt werden, vor allem keine Abenteuer.
+- Sag bei jeder Frage dazu, dass „weiß ich noch nicht“ oder „später“ auch eine mögliche Antwort ist. Nichts muss jetzt festgelegt werden, vor allem keine Abenteuer.
 - Trage jede Antwort sofort ein, bevor du die nächste Frage stellst. Bei „später“ bleibt der Platzhalter stehen, und du notierst den Punkt in `offene-punkte.md` unter „Noch festzulegen“.
 - Frage nicht nach, was schon gesagt wurde, und frag nie mehrere Dinge auf einmal ab. Erzählt jemand von sich aus mehr, übernimm es und überspringe die passenden Fragen.
 
