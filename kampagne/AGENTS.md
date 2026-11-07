@@ -136,7 +136,7 @@ Jede Welt-Datei ist gleich aufgebaut:
 - **Gespielte Abenteuer:** Im Abschnitt „Entwicklung über die Abenteuer“ führt jedes Objekt je Abenteuer nur eine Zeile „Was geschah: Kap. … · Kap. …“ mit Links, oben den aktuellen Stand. Einzelheiten, die im Kapitelablauf fehlen, stehen im Kapitel unter „Einzelheiten zu Figuren und Dingen“. Gegenstände behalten ihre Fundort-Zeile.
 - **Ausnahme:** Vorlesetexte und Spielwerte, die die Spielleitung am Tisch griffbereit braucht, dürfen Eigenschaften wiederholen. Bei Änderungen am Objekt prüfst du sie gezielt mit.
 
-**Retcon:** Ab `status: gespielt` wird eine Szene oder Sitzung nicht mehr umgeschrieben. Soll sich nachträglich etwas ändern, bekommt sie eine kurze Notiz „Retcon: …“, und der gültige Stand steht beim Objekt. Entwürfe werden direkt korrigiert.
+**Retcon:** Ab `status: gespielt` wird eine Szene oder Sitzung nicht mehr umgeschrieben. Soll sich nachträglich etwas ändern, bekommt sie eine kurze Notiz „Retcon: …“, und der gültige Stand steht beim Objekt. Entwürfe werden direkt korrigiert. Ein Retcon ist nur eine bewusste Änderung der Geschichte. Fehler bei der Erfassung (falsch verstandene Namen, Tippfehler, Hörfehler) korrigierst du überall direkt und ohne Vermerk; eine typische Fehlkennung trägst du als `alias:` ein.
 
 **Kennzeichnung für die Spielerseite:** Was nicht für die Spieler ist, erkennt der Generator nur an der Kennzeichnung in den Daten. Es gibt keine Ausnahmelisten im Code.
 - **Ganze Abschnitte:** `## Geheim (nur SL)`, Überschriften mit „nur SL“, „Planung“ oder „Parallelhandlung“ sowie die SL-Abschnitte der Vorlagen (z. B. „Ziele und Motivation“, „Abzweigungen“, „Proben, Kampf, Hindernisse“, „Offene Fäden …“, „Musik und Geräusche“).
