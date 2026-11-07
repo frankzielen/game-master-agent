@@ -8,7 +8,7 @@ description: Eine neue Idee, ein Fragment oder eine Änderung zu Abenteuer oder 
 Grundlage ist `AGENTS.md`, Abschnitte 3 bis 5. Ablauf:
 
 1. **Puffern:** Fragment mit Datum in `abenteuer/NN-titel/ideen-eingang.md` eintragen (bei reinen Weltideen im Abenteuer, um das es gerade geht, oder nachfragen).
-2. **Schreibweisen:** Namen und Begriffe auf die schon vorhandene Schreibweise abbilden (auch über `alias:`), eingesprochene Abweichungen nicht übernehmen.
+2. **Schreibweisen:** Namen und Begriffe auf die schon vorhandene Schreibweise abbilden, eingesprochene Abweichungen nicht übernehmen und nicht als `alias:` eintragen.
 3. **Prüfen (Stufe 1):** nur gegen die Dateien der genannten Objekte und die Stellen, die auf sie verlinken. Widersprüche, Lücken, Doppelungen suchen.
 4. **Konflikte zeigen:** je Konflikt eine kurze Frage mit zwei bis drei Lösungsvorschlägen und einer Empfehlung; zusätzlich in `offene-punkte.md` unter „Offen“.
 5. **Einpflegen:** Widerspruchsfreies sofort, Geklärtes nach der Antwort. Pflegeort beachten: Eigenschaften beim Objekt, Ereignisse in Szene, Kapitel oder Quest, sonst nur verlinken. Neue Dateien aus `_vorlagen/`, Felder laut Systemprofil. SL-Wissen kennzeichnen (`## Geheim (nur SL)`, Planung, Zeilenende „(nur SL)“). Keine Änderungsvermerke im Text.
