@@ -104,7 +104,7 @@ Jede Übersicht (`welt/*/README.md`, `abenteuer/README.md`) enthält eine Tabell
 - **Nummerierung:** Kapitel, Szenen und Quests zweistellig (`kapitel-01-…`, `szene-03-…`, `quest-02-…`), damit die Reihenfolge alphabetisch stimmt. Alternative Szenen bekommen einen Buchstaben (`szene-03a-…`, `szene-03b-…`). Prolog und Epilog werden ebenfalls nummeriert (z. B. `kapitel-00-prolog`, `kapitel-NN-epilog` mit der letzten Nummer), damit sie an der richtigen Stelle stehen.
 - **Links:** immer relative Markdown-Links, z. B. aus einer Szene: `[Stadtname](../../../../welt/orte/region/stadt/stadt.md)`. Wenn du eine Datei verschiebst oder umbenennst, passt du alle Links darauf an.
 - **Verknüpfungen:** Wird ein NSC, Ort, Gegenstand usw. erwähnt, der eine eigene Datei hat, verlinke ihn. Jede Datei hat unten einen Abschnitt `## Verknüpfungen` mit ihren Links nach außen. Die Gegenrichtung („Erwähnt in …“) erzeugt die Website automatisch aus den Links, sie wird nicht von Hand gepflegt.
-- **Alternativnamen:** Welt-Dateien können im Kopf `alias: [...]` führen: andere Namen, Kurzformen und typische Fehlkennungen der Spracherkennung. Maßgeblich bleibt die Schreibweise des Titels.
+- **Alternativnamen:** Welt-Dateien können im Kopf `alias: [...]` führen: andere Namen und Kurzformen, keine Fehlkennungen der Spracherkennung. Maßgeblich bleibt die Schreibweise des Titels.
 - **Kopfzeile (Frontmatter):**
   - Plot-Dateien (Hauptplot, Kapitel, Szene, Quest) haben `status:` mit `idee`, `entwurf`, `fertig` oder `gespielt`.
   - Welt-Dateien haben stattdessen `auftritte: [01, 03]`, also die Nummern der Abenteuer, in denen der Eintrag vorkommt.
@@ -136,7 +136,7 @@ Jede Welt-Datei ist gleich aufgebaut:
 - **Gespielte Abenteuer:** Im Abschnitt „Entwicklung über die Abenteuer“ führt jedes Objekt je Abenteuer nur eine Zeile „Was geschah: Kap. … · Kap. …“ mit Links, oben den aktuellen Stand. Einzelheiten, die im Kapitelablauf fehlen, stehen im Kapitel unter „Einzelheiten zu Figuren und Dingen“. Gegenstände behalten ihre Fundort-Zeile.
 - **Ausnahme:** Vorlesetexte und Spielwerte, die die Spielleitung am Tisch griffbereit braucht, dürfen Eigenschaften wiederholen. Bei Änderungen am Objekt prüfst du sie gezielt mit.
 
-**Retcon:** Ab `status: gespielt` wird eine Szene oder Sitzung nicht mehr umgeschrieben. Soll sich nachträglich etwas ändern, bekommt sie eine kurze Notiz „Retcon: …“, und der gültige Stand steht beim Objekt. Entwürfe werden direkt korrigiert. Ein Retcon ist nur eine bewusste Änderung der Geschichte. Fehler bei der Erfassung (falsch verstandene Namen, Tippfehler, Hörfehler) korrigierst du überall direkt und ohne Vermerk; eine typische Fehlkennung trägst du als `alias:` ein.
+**Retcon:** Ab `status: gespielt` wird eine Szene oder Sitzung nicht mehr umgeschrieben. Soll sich nachträglich etwas ändern, bekommt sie eine kurze Notiz „Retcon: …“, und der gültige Stand steht beim Objekt. Entwürfe werden direkt korrigiert. Ein Retcon ist nur eine bewusste Änderung der Geschichte. Fehler bei der Erfassung (falsch verstandene Namen, Tippfehler, Hörfehler) korrigierst du überall direkt und ohne Vermerk.
 
 **Kennzeichnung für die Spielerseite:** Was nicht für die Spieler ist, erkennt der Generator nur an der Kennzeichnung in den Daten. Es gibt keine Ausnahmelisten im Code.
 - **Ganze Abschnitte:** `## Geheim (nur SL)`, Überschriften mit „nur SL“, „Planung“ oder „Parallelhandlung“ sowie die SL-Abschnitte der Vorlagen (z. B. „Ziele und Motivation“, „Abzweigungen“, „Proben, Kampf, Hindernisse“, „Offene Fäden …“, „Musik und Geräusche“).
@@ -158,7 +158,7 @@ Die Spielleitung brainstormt oft in Bruchstücken. Gehe jedes Mal so vor:
 6. **Melden:** kurz sagen, was wo gelandet ist und was offen ist.
 
 Weitere Regeln:
-- **Schreibweisen:** Die Spielleitung spricht oft per Spracherkennung ein, Namen und Begriffe können falsch erkannt sein. Verwende immer die Schreibweise, die schon in den Dateien steht, und übernimm eingesprochene Abweichungen nicht. Nur bei echtem Zweifel fragen. Neue Begriffe, die die Spielleitung tippt, gelten so. Typische Fehlkennungen kannst du als `alias:` eintragen.
+- **Schreibweisen:** Die Spielleitung spricht oft per Spracherkennung ein, Namen und Begriffe können falsch erkannt sein. Verwende immer die Schreibweise, die schon in den Dateien steht, und übernimm eingesprochene Abweichungen nicht. Nur bei echtem Zweifel fragen. Neue Begriffe, die die Spielleitung tippt, gelten so.
 - **Vor dem Anlegen suchen:** Gibt es den NSC, Ort oder Gegenstand schon (auch unter anderem Namen)? Dann erweitern statt neu anlegen.
 - **Nie stillschweigend überschreiben,** was festgelegt ist, auch nichts aus früheren Abenteuern. Im Zweifel fragen.
 - **Keine Änderungsvermerke** wie „(geändert am …)“ oder „laut Notiz von …“ in Beschreibungen. Die Texte sollen sich wie fertige Spielleiter-Unterlagen lesen. Herkunft und Datum von Entscheidungen stehen nur in `ideen-eingang.md` und `offene-punkte.md`.
