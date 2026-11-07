@@ -19,6 +19,7 @@ systeme/                     Systemprofile (Regelsystem): Charakterfelder, Begri
 _vorlagen/                   Kopiervorlagen für alle Dateitypen (regelneutral)
 werkzeuge/                   Links prüfen, Spielleiter-Website und Heldenversion erzeugen
 einstellungen.json           gewähltes Regelsystem, Titel, Startseite der Heldenversion
+eingang/                     Ablage für hochgeladene Dateien, die der Agent einsortiert
 offene-punkte.md             Widersprüche, offene Fragen, getroffene Entscheidungen
 AGENTS.md                    Arbeitsanweisung für den KI-Assistenten
 CLAUDE.md                    Verweis auf AGENTS.md (wird von Claude automatisch gelesen)
