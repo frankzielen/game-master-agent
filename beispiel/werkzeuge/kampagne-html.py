@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Baut die SL-Website: alle Markdown-Dateien der Kampagne zum Durchklicken, mit Ordnerbaum, Suche, Bildern und „Erwähnt in“.
 Aufruf (im Hauptordner der Kampagne): python3 werkzeuge/kampagne-html.py [ausgabe-ordner]
-Ohne Angabe entsteht _site/sl/spielleiter.html (dazu index.html als Weiterleitung). Bilder und Medien (PDF, MP3, TXT) werden als Dateien daneben kopiert.
+Ohne Angabe entsteht _site/sl/spielleiter.html (dazu index.html als Weiterleitung). Bilder und Medien (PDF, MP3, TXT) werden als Dateien daneben kopiert. Quellen (_quelle/) sind enthalten, zählen aber nicht für „Erwähnt in“.
 Die SL-Website enthält auch alle Geheimnisse: nicht öffentlich ins Netz stellen."""
 import os, sys, re, posixpath, urllib.parse
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -15,7 +15,6 @@ for t in TOP:
     if not os.path.exists(p): continue
     walk = [(ROOT, [], [t])] if os.path.isfile(p) else os.walk(p)
     for dp, dn, fn in walk:
-        dn[:] = [d for d in dn if d != '_quelle']
         for f in fn:
             full = os.path.join(dp, f); rel = os.path.relpath(full, ROOT).replace(os.sep, '/')
             if f.endswith('.md'):
@@ -33,7 +32,7 @@ for rel, txt in docs.items():
         if os.path.isfile(os.path.join(ROOT, z)): medien.add(z)
 medien = sorted(medien)
 
-# „Erwähnt in“ aus den Links (Ideen-Eingänge und Vorlagen zählen nicht)
+# „Erwähnt in“ aus den Links (Ideen-Eingänge, Quellen und Vorlagen zählen nicht)
 def ziel(p):
     if p in docs: return p
     p = p.rstrip('/')
@@ -41,7 +40,7 @@ def ziel(p):
         if c in docs: return c
 rueck = {}
 for rel, txt in docs.items():
-    if rel.endswith('ideen-eingang.md') or rel.startswith(('_vorlagen/', 'systeme/')): continue
+    if rel.endswith('ideen-eingang.md') or rel.startswith(('_vorlagen/', 'systeme/')) or '/_quelle/' in rel: continue
     for href in re.findall(r'\]\(([^)\s]+)', txt):
         if href.startswith(('http', '#', 'mailto:')): continue
         z = ziel(posixpath.normpath(posixpath.join(posixpath.dirname(rel), urllib.parse.unquote(href.split('#')[0]))))
