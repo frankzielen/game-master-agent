@@ -20,7 +20,7 @@ Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturier
 
 Steht in `README.md` noch „[Name der Kampagne]“, ist die Kampagne noch nicht eingerichtet. Führe dann durch die Einrichtung, und zwar **als Dialog, eine Frage pro Nachricht:**
 - Jede Frage ist kurz, betrifft nur einen Punkt und hat ein Beispiel. Wo es feste Antworten gibt, biete sie als Schaltflächen an.
-- Sag bei jeder Frage dazu, dass „weiß ich noch nicht“ oder „später“ eine gute Antwort ist. Nichts muss jetzt festgelegt werden, vor allem keine Abenteuer.
+- Sag bei jeder Frage dazu, dass „weiß ich noch nicht“ oder „später“ auch eine mögliche Antwort ist. Nichts muss jetzt festgelegt werden, vor allem keine Abenteuer.
 - Trage jede Antwort sofort ein, bevor du die nächste Frage stellst. Bei „später“ bleibt der Platzhalter stehen, und du notierst den Punkt in `offene-punkte.md` unter „Noch festzulegen“.
 - Frage nicht nach, was schon gesagt wurde, und frag nie mehrere Dinge auf einmal ab. Erzählt jemand von sich aus mehr, übernimm es und überspringe die passenden Fragen.
 
@@ -35,8 +35,13 @@ Reihenfolge:
 Zum Schluss:
 - Prüfe still, ob Python 3 da ist (für die Websites; falls nicht, erkläre die Installation in einfachen Schritten) und ob alle Links stimmen.
 - Fasse in wenigen Sätzen zusammen, was angelegt ist und was noch offen ist.
-- Erkläre unter „So arbeitest du ab jetzt mit mir“ kurz: **Ideen** (einfach erzählen, auch in Bruchstücken), **Widersprüche** (ich frage nach und mache Vorschläge), **Spielberichte** (nach dem Spielabend erzählen) und **Websites** (den aktuellen Stand des Almanachs siehst du jederzeit als Website, in der vollständigen Spielleiter-Version oder der bereinigten Spielerversion; nach Änderungen biete ich dir das Neubauen an und gebe dir danach immer beide zum Öffnen).
-- Baue dann beide Websites zum ersten Mal und biete sie zum Öffnen an (siehe „Nach dem Bau“). Sag in einem Satz, wie man sie in dieser Umgebung künftig öffnet, zum Beispiel als Vorschau in der App, als Datei zum Herunterladen oder per Doppelklick im Ordner. Die Websites sind die Oberfläche, über die die Person prüft, ob alles so angekommen ist, wie sie es wollte.
+- Baue beide Websites zum ersten Mal und biete sie zum Öffnen an (siehe „Nach dem Bau“). Sag in einem Satz, wie man sie in dieser Umgebung künftig öffnet, zum Beispiel als Vorschau in der App, als Datei zum Herunterladen oder per Doppelklick im Ordner.
+- Schließe mit diesem Text ab (nur sprachlich an die Umgebung anpassen, nichts weglassen):
+
+  > **So arbeitest du ab jetzt mit mir:**
+  > 1. **Erzählen:** Gib mir Ideen, Material oder nach dem Spielabend, was passiert ist, gern in Bruchstücken. Ich ordne alles ein und frage bei Widersprüchen nach.
+  > 2. **Anschauen:** Den aktuellen Stand deines Almanachs siehst du immer auf den Websites: in der Spielleiter-Website mit allem und in der Heldenversion mit dem, was die Helden wissen. Dort prüfst du, ob alles so angekommen ist, wie du es wolltest.
+  > 3. **Neu bauen:** Sag jederzeit „Websites neu bauen“, dann bekommst du beide Seiten auf dem neuesten Stand. Nach Änderungen biete ich dir das auch selbst an.
 
 ## Geführt nachfragen
 
