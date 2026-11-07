@@ -69,7 +69,6 @@ Welches Regelsystem die Gruppe spielt, steht in `einstellungen.json` unter `"sys
 
 ```
 README.md                    Einstieg: Überblick, Spieler, Liste der Abenteuer
-eingang/                     Ablage für hochgeladene Dateien, die der Agent einsortiert
 offene-punkte.md             Widersprüche, offene Fragen, getroffene Entscheidungen
 welt/                        gemeinsam für alle Abenteuer
   nscs/<name>/<name>.md      ein Ordner pro NSC, dazu statblock.md und bilder/
@@ -174,7 +173,6 @@ Weitere Regeln:
 - Anderes Originalmaterial (PDF, Mitschriften) ebenfalls unverändert in `_quelle/` ablegen und daraus die Struktur befüllen.
 - **Geschichte:** Jedes Abenteuer kann `geschichte/geschichte.md` haben (Vorlage `_vorlagen/geschichte.md`): das gespielte Abenteuer als zusammenhängender Erzähltext, Hörbuch (MP3 im selben Ordner) oder in anderer Form.
 - Bilder: passend benennen (`portrait.jpg`, `karte.jpg` …), in den `bilder/`-Ordner des Eintrags legen und in der Datei einbinden. Bei Unsicherheit, wen oder was ein Bild zeigt, nachfragen.
-- **Wenn du angehängte Dateien nicht speichern kannst** (manche Cloud-Umgebungen zeigen Bilder nur im Chat an): Sag das gleich beim ersten Mal und biete den Ausweg an: die Dateien in den Ordner `eingang/` im Almanach hochladen, bei GitHub zum Beispiel über „Add file“ → „Upload files“. Von dort sortierst du sie ein und leerst den Ordner wieder. Bitte nie mehrmals darum, dieselben Dateien neu anzuhängen.
 
 ## 7. Prüfen nach jeder Änderung
 
