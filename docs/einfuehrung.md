@@ -6,10 +6,10 @@ Mit GMA baut dir ein KI-Agent deinen **Rollenspiel-Almanach** auf und pflegt ihn
 
 Einen KI-Agenten, der **dauerhaft in einem Ordner** arbeiten darf. Nur dann bleibt alles erhalten.
 
-| | Claude-Projekt | Claude Code | ChatGPT mit Codex |
+| | Claude-Projekt | Claude Code | ChatGPT-Projekt |
 |---|---|---|---|
-| Wo liegt alles? | im Projektordner bei Claude (Cloud) | lokaler Ordner oder GitHub-Repository in der Cloud | lokaler Ordner oder GitHub-Repository in der Cloud |
-| Womit arbeitest du? | Claude-App oder claude.ai, auch am Handy | Claude-App (Bereich „Code“), VS Code oder Terminal | ChatGPT-App im Codex-Modus, VS Code oder Terminal |
+| Wo liegt alles? | im Projektordner bei Claude (Cloud) | lokaler Ordner oder GitHub-Repository in der Cloud | lokaler Ordner oder mit GitHub-Repository verbunden |
+| Womit arbeitest du? | Claude-App oder claude.ai, auch am Handy | Claude-App (Bereich „Code“), VS Code oder Terminal | ChatGPT-App, mit Codex auch VS Code oder Terminal |
 
 Normale Chats ohne Ordnerzugriff sind nicht geeignet. Python 3 für die Websites prüft der Agent selbst und hilft bei Bedarf bei der Installation.
 
