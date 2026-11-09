@@ -11,7 +11,7 @@ description: Gründliche Prüfrunde einer GMA-Kampagne auf Widersprüche, Lücke
    - Widersprüche zwischen Plot, Szenen und Welt-Einträgen (Namen, Orte, Zeiten, wer weiß was)
    - Doppelungen gegen die Pflegeort-Regel (Eigenschaften nur beim Objekt, Ereignisse nur in Szene/Kapitel)
    - fehlende Verknüpfungen, `auftritte:`, README-Einträge
-   - abweichende Schreibweisen (ggf. `alias:` ergänzen)
+   - abweichende Schreibweisen (direkt auf die gültige Schreibweise korrigieren)
    - SL-Wissen ohne Kennzeichnung in Einträgen, die die Spieler schon kennen
    - Begriffe, die nicht zum Systemprofil passen
 4. `python3 werkzeuge/links-pruefen.py` ausführen.

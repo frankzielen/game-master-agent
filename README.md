@@ -8,7 +8,7 @@
 
 ## English
 
-GMA turns an AI coding agent (Claude Code, Codex and similar) into a game master's assistant. You talk to it like a colleague: dictate ideas, session reports or notes, hand it maps and stat blocks. The agent files everything into your **role-playing almanac**, a fixed folder structure for your world and all its adventures, checks it for contradictions, keeps cross-references up to date and can publish it as a website.
+GMA turns an AI coding agent (Claude, ChatGPT and similar) into a game master's assistant. You talk to it like a colleague: dictate ideas, session reports or notes, hand it maps and stat blocks. The agent files everything into your **role-playing almanac**, a fixed folder structure for your world and all its adventures, checks it for contradictions, keeps cross-references up to date and can publish it as a website.
 
 GMA is not a program with its own AI. It is a set of rules, templates and small tools that an existing agent reads and follows.
 
@@ -30,7 +30,7 @@ GMA works with any rules system. Everything rule-specific lives in a system prof
 
 ### Requirements
 
-- An AI agent that may read and write a folder permanently: Claude Code, a Claude project with a project folder, or ChatGPT with Codex. Plain chats without folder access are not suitable. This usually requires a paid plan; check the current plans of Anthropic and OpenAI.
+- An AI agent that may read and write a folder permanently: Claude Code, a Claude project with a project folder, or a ChatGPT project with a local folder or a connected GitHub repository. Plain chats without folder access are not suitable. This usually requires a paid plan; check the current plans of Anthropic and OpenAI.
 - Python 3 for the website tools (no extra packages). The agent helps you install it if needed.
 
 ### Getting started
@@ -66,7 +66,7 @@ Install the Claude Code plugin with `/plugin marketplace add <owner>/game-master
 
 ## Deutsch
 
-GMA macht aus einem KI-Agenten (Claude Code, Codex und ähnliche) einen Assistenten für die Spielleitung. Man spricht mit ihm wie mit einem Kollegen: Ideen, Spielberichte oder Notizen einsprechen, Karten und Statblöcke übergeben. Der Agent legt alles in deinem **Rollenspiel-Almanach** ab, einer festen Ordnerstruktur für deine Welt und all ihre Abenteuer, prüft auf Widersprüche, hält Querverweise aktuell und macht den Bestand als Website verfügbar.
+GMA macht aus einem KI-Agenten (Claude, ChatGPT und ähnliche) einen Assistenten für die Spielleitung. Man spricht mit ihm wie mit einem Kollegen: Ideen, Spielberichte oder Notizen einsprechen, Karten und Statblöcke übergeben. Der Agent legt alles in deinem **Rollenspiel-Almanach** ab, einer festen Ordnerstruktur für deine Welt und all ihre Abenteuer, prüft auf Widersprüche, hält Querverweise aktuell und macht den Bestand als Website verfügbar.
 
 GMA ist kein eigenes Programm mit eigener KI. Es besteht aus Regeln, Vorlagen und kleinen Werkzeugen, die ein vorhandener Agent liest und befolgt.
 
@@ -88,7 +88,7 @@ GMA ist an kein Regelsystem gebunden. Alles Regelspezifische steht in einem Syst
 
 ### Voraussetzungen
 
-- Ein KI-Agent, der dauerhaft in einem Ordner lesen und schreiben darf: Claude Code, ein Claude-Projekt mit Projektordner oder ChatGPT mit Codex. Normale Chats ohne Ordnerzugriff sind nicht geeignet. Dafür ist in der Regel ein Bezahltarif nötig; die aktuellen Tarife von Anthropic und OpenAI bitte selbst prüfen.
+- Ein KI-Agent, der dauerhaft in einem Ordner lesen und schreiben darf: Claude Code, ein Claude-Projekt mit Projektordner oder ein ChatGPT-Projekt mit lokalem Ordner oder verbundenem GitHub-Repository. Normale Chats ohne Ordnerzugriff sind nicht geeignet. Dafür ist in der Regel ein Bezahltarif nötig; die aktuellen Tarife von Anthropic und OpenAI bitte selbst prüfen.
 - Python 3 für die Website-Werkzeuge (ohne Zusatzpakete). Der Agent hilft bei Bedarf bei der Installation.
 
 ### Loslegen
