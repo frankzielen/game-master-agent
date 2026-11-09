@@ -8,8 +8,8 @@ Das GMA-Paket ist das, was dir mit dieser Datei gegeben wurde: ein angehängtes 
 
 ## Schritt 2 – Kampagnenordner festlegen
 
-- **GitHub-Repository oder geöffneter Ordner:** `kampagne/` bleibt, wo er ist, und ist der Kampagnenordner. Kopiere nichts.
-- **Sonst** (z. B. Claude-Projekt oder ChatGPT): Kopiere den gesamten Inhalt von `kampagne/` in deinen dauerhaften Arbeitsordner. Ist er leer, nimm ihn direkt, sonst lege darin `rollenspiel-kampagne/` an. Vorhandene Dateien nie überschreiben, sondern fragen. Lösche danach den temporären Ordner.
+- **GitHub-Repository, geöffneter Ordner oder ein Ordner auf dem Rechner der Person, auf den du schreiben darfst:** `kampagne/` bleibt, wo er ist, und ist der Kampagnenordner. Arbeite direkt darin und kopiere nichts, auch nicht in eine Projektablage.
+- **Sonst** (nur ein angehängtes ZIP): Kopiere den gesamten Inhalt von `kampagne/` in deinen dauerhaften Arbeitsordner. Ist er leer, nimm ihn direkt, sonst lege darin `rollenspiel-kampagne/` an. Vorhandene Dateien nie überschreiben, sondern fragen. Lösche danach den temporären Ordner.
 
 Erzähl der Person nichts über Dateinamen, Pfade oder Zwischenschritte. Ein Satz genügt, etwa „GMA ist eingerichtet.“
 
