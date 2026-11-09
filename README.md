@@ -30,7 +30,7 @@ GMA works with any rules system. Everything rule-specific lives in a system prof
 
 ### Requirements
 
-- An AI agent that may read and write a folder permanently: Claude Code, a Claude project with a project folder, or a ChatGPT project with a local folder or a connected GitHub repository (also Codex). Plain chats without folder access are not suitable. This usually requires a paid plan; check the current plans of Anthropic and OpenAI.
+- An AI agent that may read and write a folder permanently: Claude Code, a Claude project with a project folder, or a ChatGPT project with a local folder or a connected GitHub repository. Plain chats without folder access are not suitable. This usually requires a paid plan; check the current plans of Anthropic and OpenAI.
 - Python 3 for the website tools (no extra packages). The agent helps you install it if needed.
 
 ### Getting started
@@ -88,7 +88,7 @@ GMA ist an kein Regelsystem gebunden. Alles Regelspezifische steht in einem Syst
 
 ### Voraussetzungen
 
-- Ein KI-Agent, der dauerhaft in einem Ordner lesen und schreiben darf: Claude Code, ein Claude-Projekt mit Projektordner oder ein ChatGPT-Projekt mit lokalem Ordner oder verbundenem GitHub-Repository (auch Codex). Normale Chats ohne Ordnerzugriff sind nicht geeignet. Dafür ist in der Regel ein Bezahltarif nötig; die aktuellen Tarife von Anthropic und OpenAI bitte selbst prüfen.
+- Ein KI-Agent, der dauerhaft in einem Ordner lesen und schreiben darf: Claude Code, ein Claude-Projekt mit Projektordner oder ein ChatGPT-Projekt mit lokalem Ordner oder verbundenem GitHub-Repository. Normale Chats ohne Ordnerzugriff sind nicht geeignet. Dafür ist in der Regel ein Bezahltarif nötig; die aktuellen Tarife von Anthropic und OpenAI bitte selbst prüfen.
 - Python 3 für die Website-Werkzeuge (ohne Zusatzpakete). Der Agent hilft bei Bedarf bei der Installation.
 
 ### Loslegen
