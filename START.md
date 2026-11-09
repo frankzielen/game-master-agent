@@ -29,4 +29,4 @@ Führe die Person durch die Einrichtung, genau wie in `AGENTS.md` unter „Kampa
 
 ## Kein dauerhafter Ordner?
 
-Hast du keinen dauerhaften Ordner (normaler Chat ohne Dateizugriff), sag das gleich zu Beginn ehrlich: GMA braucht einen Agenten, der dauerhaft in einem Ordner arbeiten darf, zum Beispiel ein Claude-Projekt, Claude Code oder ChatGPT mit Codex. Richte dann nichts halb ein.
+Hast du keinen dauerhaften Ordner (normaler Chat ohne Dateizugriff), sag das gleich zu Beginn ehrlich: GMA braucht einen Agenten, der dauerhaft in einem Ordner arbeiten darf, zum Beispiel ein Claude-Projekt, Claude Code oder ein ChatGPT-Projekt mit Ordner oder GitHub-Repository. Richte dann nichts halb ein.
