@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Prüft alle relativen Markdown-Links der Kampagne und meldet tote Links.
-Aufruf (im Hauptordner der Kampagne): python3 werkzeuge/links-pruefen.py"""
+"""Prüft alle relativen Markdown-Links des Almanachs und meldet tote Links.
+Aufruf (im Hauptordner des Almanachs): python3 werkzeuge/links-pruefen.py"""
 import os, re, sys
 from urllib.parse import unquote
 

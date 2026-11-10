@@ -1,6 +1,6 @@
 ---
 name: sitzung-erfassen
-description: Einen Spielabend in einer GMA-Kampagne erfassen, aus Diktat, Notizen oder Mitschrift. Verwenden nach einer gespielten Sitzung.
+description: Einen Spielabend in einem GMA-Almanach erfassen, aus Diktat, Notizen oder Mitschrift. Verwenden nach einer gespielten Sitzung.
 ---
 
 # Sitzung erfassen

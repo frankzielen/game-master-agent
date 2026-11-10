@@ -15,6 +15,7 @@ Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturier
 - **Schaltflächen:** Bietet deine Umgebung ein Werkzeug für Rückfragen mit Antwortmöglichkeiten, nutze es für jede Auswahl. Sonst nenne die Möglichkeiten kurz zum Antippen oder Abschreiben.
 - **Neu bauen nur auf Klick:** Baue die Websites nicht automatisch. Hat sich seit dem letzten Bau etwas an den Inhalten geändert, biete am Ende deiner Antwort eine Schaltfläche „Websites neu bauen“ an (oder, wo deine Umgebung keine Schaltflächen kann, die kurze Frage „Websites neu bauen?“). Gibt es veröffentlichte Websites (siehe „Bereitstellung“), biete stattdessen drei Schaltflächen an: „Nur für mich neu bauen“, „Neu bauen und online aktualisieren (dauert einige Minuten)“ und „Später“.
 - **Nach dem Bau:** Hänge beide Websites im Chat an, jede als eine einzige Datei mit allen Bildern (`--eine-datei`, siehe Abschnitt 7), nie als ZIP. Kann deine Umgebung sie als Vorschau oder per Schaltfläche öffnen, biete „Spielleiter-Website öffnen“ und „Spieler-Website öffnen“ an. Arbeitest du in einem Ordner auf dem Rechner der Person, liegen sie außerdem unter `_site/` zum Öffnen per Doppelklick. Liefere nie eine Datei namens `index.html` aus, sie ist nur die Weiterleitung für Hoster. Sind Websites veröffentlicht, aktualisiere sie nur, wenn die Person das gewählt hat (siehe „Neu bauen nur auf Klick“).
+- **Beispiel zeigen:** Bittet die Person, das Beispiel zu sehen, und liegt neben diesem Ordner der Ordner `beispiel/` aus dem GMA-Paket, baue dort beide Websites mit `--eine-datei` (Aufruf aus `beispiel/` heraus) und hänge sie wie nach dem Bau an. Sag dazu in einem Satz, dass die Spieler-Website nur zeigt, was die Helden wissen. Am Beispiel änderst du nichts, und es wird nie veröffentlicht.
 
 **Bereitstellung:** Wie die Spieler an ihre Website kommen, fragst du am Ende der Einrichtung und immer dann, wenn die Person danach fragt.
 - **A · Veröffentlichen:** Nur wenn deine Umgebung Websites veröffentlichen kann. Veröffentliche Spieler- und Spielleiter-Website immer getrennt, jede mit eigenem Link, nie mit gemeinsamem Einstieg. Die Spielleiter-Website nur auf Wunsch. Freigeben (z. B. „Alle mit dem Link“) erklärt du in einem Satz, falls die Person es selbst tun muss. Notiere die Links in `einstellungen.json` unter `"veroeffentlicht"` und aktualisiere bei jedem Neubau mit Online-Aktualisierung dieselben Veröffentlichungen, damit die Links gleich bleiben.
@@ -22,9 +23,9 @@ Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturier
 - **Hinweise:** Ob eine Fassung öffentlich oder geschützt ist, entscheidet die Person. Sag nur dazu, dass GitHub Pages für jeden mit Link lesbar ist und Text aus gekauften Abenteuern nicht öffentlich ins Netz gehört.
 - **C · Offline:** Packe `_site/spieler/` als ZIP und sag dazu: erst entpacken, dann `spieler.html` öffnen.
 
-## Kampagne einrichten (beim ersten Start)
+## Almanach einrichten (beim ersten Start)
 
-Steht in `README.md` noch „[Name der Kampagne]“, ist die Kampagne noch nicht eingerichtet. Führe dann durch die Einrichtung, und zwar **als Dialog, eine Frage pro Nachricht:**
+Steht in `README.md` noch „[Name des Almanachs]“, ist der Almanach noch nicht eingerichtet. Führe dann durch die Einrichtung, und zwar **als Dialog, eine Frage pro Nachricht:**
 - Jede Frage ist kurz, betrifft nur einen Punkt und hat ein Beispiel. Wo es feste Antworten gibt, biete sie als Schaltflächen an.
 - Sag bei jeder Frage dazu, dass „weiß ich noch nicht“ oder „später“ auch eine mögliche Antwort ist. Nichts muss jetzt festgelegt werden, vor allem keine Abenteuer.
 - Trage jede Antwort sofort ein, bevor du die nächste Frage stellst. Bei „später“ bleibt der Platzhalter stehen, und du notierst den Punkt in `offene-punkte.md` unter „Noch festzulegen“.
@@ -46,7 +47,7 @@ Zum Schluss:
 
   > Alles, was wir sammeln, bereite ich als zwei Websites auf. Die **Spielleiter-Website** zeigt alles, auch Geheimnisse und Planung. Die **Spieler-Website** zeigt nur Gespieltes und das, was eure Helden wissen dürfen. Ich pflege die Inhalte laufend, und auf „Websites neu bauen“ bringe ich beide Websites auf den neuesten Stand.
   >
-  > **So kommst du selbst an die Websites:** Nach jedem Neubau hänge ich dir beide hier im Chat an, zum Öffnen oder Herunterladen. (Außerdem liegen sie in deinem Ordner [Ordnername] unter `kampagne/_site/`; Doppelklick auf `spielleiter.html` bzw. `spieler.html` genügt, sie laufen auch offline.) Das gilt nur für dich, deine Spieler kommen so nicht an die Websites.
+  > **So kommst du selbst an die Websites:** Nach jedem Neubau hänge ich dir beide hier im Chat an, zum Öffnen oder Herunterladen. (Außerdem liegen sie in deinem Ordner [Ordnername] unter `almanach/_site/`; Doppelklick auf `spielleiter.html` bzw. `spieler.html` genügt, sie laufen auch offline.) Das gilt nur für dich, deine Spieler kommen so nicht an die Websites.
   >
   > **So kommen deine Spieler an ihre Website:**
   > **A · Über [Umgebung] veröffentlichen** (am einfachsten): Ich stelle die Spieler-Website ins Netz, und du gibst den Link weiter. Wenn du die Spielleiter-Website auch online haben willst, bekommt sie einen eigenen Link. Lass sie am besten privat, weil sie alle Geheimnisse zeigt; du kannst sie aber auch freigeben, zum Beispiel für andere Spielleiter deiner Gruppe.
@@ -199,8 +200,8 @@ Weitere Regeln:
 
 - Links prüfen: `python3 werkzeuge/links-pruefen.py` (unter Windows ggf. `python` statt `python3`) (meldet tote relative Links). Tote Links sofort reparieren. Platzhalter-Links in `_vorlagen/` sind gewollt.
 - Websites bauen (auf Klick bzw. Wunsch, siehe „Einfach halten“):
-  - `python3 werkzeuge/kampagne-html.py` baut die **SL-Website** mit allem nach `_site/sl/`.
-  - `python3 werkzeuge/kampagne-html-spieler.py` baut die spoilerfreie **Spieler-Website** nach `_site/spieler/`. Hinein kommen nur Abenteuer, die gespielt sind oder mindestens eine Sitzung haben, Plot-Dateien mit `status: gespielt`, Welt-Einträge mit passendem `auftritte:`. Abschnitte wie „Geheim (nur SL)“, Planung, Stat-Blöcke, `_quelle/` und Ideen-Eingänge fallen weg. Was sonst nicht auf die Spieler-Website gehört, wird in den Daten gekennzeichnet (siehe Kennzeichnung für die Spieler-Website), nie im Code.
+  - `python3 werkzeuge/almanach-html.py` baut die **SL-Website** mit allem nach `_site/sl/`.
+  - `python3 werkzeuge/almanach-html-spieler.py` baut die spoilerfreie **Spieler-Website** nach `_site/spieler/`. Hinein kommen nur Abenteuer, die gespielt sind oder mindestens eine Sitzung haben, Plot-Dateien mit `status: gespielt`, Welt-Einträge mit passendem `auftritte:`. Abschnitte wie „Geheim (nur SL)“, Planung, Stat-Blöcke, `_quelle/` und Ideen-Eingänge fallen weg. Was sonst nicht auf die Spieler-Website gehört, wird in den Daten gekennzeichnet (siehe Kennzeichnung für die Spieler-Website), nie im Code.
   - Jede Website ist ein Ordner mit `spielleiter.html` bzw. `spieler.html`, Bildern und Klangdateien und einer `index.html`, die für Hoster weiterleitet. Sie läuft ohne Server und ohne Internet. Wie sie weitergegeben wird, steht unter „Bereitstellung“.
-  - Für den Chat zusätzlich mit `--eine-datei` in einen eigenen Ordner bauen (z. B. `python3 werkzeuge/kampagne-html.py _site/chat-sl --eine-datei`, ebenso `kampagne-html-spieler.py _site/chat-spieler --eine-datei`). Dann stecken die Bilder in der HTML-Datei.
+  - Für den Chat zusätzlich mit `--eine-datei` in einen eigenen Ordner bauen (z. B. `python3 werkzeuge/almanach-html.py _site/chat-sl --eine-datei`, ebenso `almanach-html-spieler.py _site/chat-spieler --eine-datei`). Dann stecken die Bilder in der HTML-Datei.
   - Prüfe nach dem Bau der Spieler-Website stichprobenartig, ob Begriffe aus ungespielten Abenteuern darin auftauchen.

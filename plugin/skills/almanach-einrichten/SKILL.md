@@ -1,14 +1,14 @@
 ---
-name: kampagne-einrichten
-description: Neue GMA-Kampagne im Dialog einrichten, Frage für Frage (Titel, Welt, Mitspieler, Regelsystem, optional Abenteuer und Spielercharaktere), in einem leeren GMA-Kampagnenordner. Verwenden, wenn jemand mit GMA neu anfängt.
+name: almanach-einrichten
+description: Neuen GMA-Almanach im Dialog einrichten, Frage für Frage (Titel, Welt, Mitspieler, Regelsystem, optional Abenteuer und Spielercharaktere), in einem leeren GMA-Almanach-Ordner. Verwenden, wenn jemand mit GMA neu anfängt.
 ---
 
-# Kampagne einrichten
+# Almanach einrichten
 
-Arbeite im Kampagnenordner (dort liegen `AGENTS.md`, `einstellungen.json`, `welt/`, `abenteuer/`).
+Arbeite im Almanach-Ordner (dort liegen `AGENTS.md`, `einstellungen.json`, `welt/`, `abenteuer/`).
 
 1. Lies `AGENTS.md` vollständig. Sie gilt ab jetzt für jede Arbeit in diesem Ordner.
-2. Führe die Einrichtung als Dialog, genau wie in `AGENTS.md` unter „Kampagne einrichten (beim ersten Start)“ beschrieben: eine Frage pro Nachricht, mit Beispiel, feste Antworten als Schaltflächen, „weiß ich noch nicht“ oder „später“ ausdrücklich erlaubt. Trage jede Antwort sofort ein. Reihenfolge: Titel, Welt, Mitspieler, Regelsystem, Abenteuer (optional, je Abenteuer Titel, Spielleitung, Status nacheinander), Spielercharaktere (optional, Name und Spieler; weitere Felder nur anbieten).
+2. Führe die Einrichtung als Dialog, genau wie in `AGENTS.md` unter „Almanach einrichten (beim ersten Start)“ beschrieben: eine Frage pro Nachricht, mit Beispiel, feste Antworten als Schaltflächen, „weiß ich noch nicht“ oder „später“ ausdrücklich erlaubt. Trage jede Antwort sofort ein. Reihenfolge: Titel, Welt, Mitspieler, Regelsystem, Abenteuer (optional, je Abenteuer Titel, Spielleitung, Status nacheinander), Spielercharaktere (optional, Name und Spieler; weitere Felder nur anbieten).
 3. Abenteuer legst du wie in `AGENTS.md` beschrieben an (README, ideen-eingang, plot/hauptplot, plot/quests/, sitzungen/) und trägst sie in `abenteuer/README.md` ein; Spielercharaktere als `welt/spielercharaktere/<name>/<name>.md` aus der Vorlage, eingetragen in die Übersicht. Offen Gelassenes kommt nach `offene-punkte.md` unter „Noch festzulegen“.
 4. Wählt jemand ein anderes Regelsystem, trage es erst ein, wenn das Profil steht (siehe `systeme/README.md`); bis dahin bleibt „ohne-regelsystem“.
 5. Zum Schluss genau wie in `AGENTS.md` unter „Zum Schluss“: still Python 3 und Links prüfen, kurz zusammenfassen (ohne Dateipfade), beide Websites zum ersten Mal bauen und anhängen, die Bereitstellung mit dem festen Text und den Möglichkeiten A bis D erklären und mit dem festen Abschlusstext enden.

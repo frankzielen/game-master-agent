@@ -1,6 +1,6 @@
 ---
 name: idee-einpflegen
-description: Eine neue Idee, ein Fragment oder eine Änderung zu Abenteuer oder Welt in einer GMA-Kampagne puffern, prüfen und einpflegen. Verwenden bei eingesprochenen oder getippten Ideen.
+description: Eine neue Idee, ein Fragment oder eine Änderung zu Abenteuer oder Welt in einem GMA-Almanach puffern, prüfen und einpflegen. Verwenden bei eingesprochenen oder getippten Ideen.
 ---
 
 # Idee einpflegen

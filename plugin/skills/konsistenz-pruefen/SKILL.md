@@ -1,6 +1,6 @@
 ---
 name: konsistenz-pruefen
-description: Gründliche Prüfrunde einer GMA-Kampagne auf Widersprüche, Lücken, Doppelungen und Spoiler, für ein Kapitel, ein Abenteuer oder die Welt. Nur auf ausdrücklichen Wunsch, z. B. vor einem Spielabend.
+description: Gründliche Prüfrunde eines GMA-Almanachs auf Widersprüche, Lücken, Doppelungen und Spoiler, für ein Kapitel, ein Abenteuer oder die Welt. Nur auf ausdrücklichen Wunsch, z. B. vor einem Spielabend.
 ---
 
 # Konsistenz prüfen (Stufe 2)

@@ -8,9 +8,9 @@ on:
   workflow_dispatch:
     inputs:
       ordner:
-        description: "Kampagnenordner (kampagne oder beispiel)"
+        description: "Almanach-Ordner (almanach oder beispiel)"
         required: true
-        default: kampagne
+        default: almanach
 
 permissions:
   contents: read
@@ -36,7 +36,7 @@ jobs:
       - name: Spieler-Website bauen
         env:
           ORDNER: ${{ inputs.ordner }}
-        run: python3 "$ORDNER/werkzeuge/kampagne-html-spieler.py" _site
+        run: python3 "$ORDNER/werkzeuge/almanach-html-spieler.py" _site
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Baut die SL-Website: alle Markdown-Dateien der Kampagne zum Durchklicken, mit Ordnerbaum, Suche, Bildern und „Erwähnt in“.
-Aufruf (im Hauptordner der Kampagne): python3 werkzeuge/kampagne-html.py [ausgabe-ordner]
+"""Baut die SL-Website: alle Markdown-Dateien des Almanachs zum Durchklicken, mit Ordnerbaum, Suche, Bildern und „Erwähnt in“.
+Aufruf (im Hauptordner des Almanachs): python3 werkzeuge/almanach-html.py [ausgabe-ordner]
 Ohne Angabe entsteht _site/sl/spielleiter.html (dazu index.html als Weiterleitung). Bilder und Medien (PDF, MP3, TXT) werden als Dateien daneben kopiert. Quellen (_quelle/) sind enthalten, zählen aber nicht für „Erwähnt in“.
 Die SL-Website enthält auch alle Geheimnisse: nicht öffentlich ins Netz stellen."""
 import os, sys, re, posixpath, urllib.parse

@@ -1,4 +1,4 @@
-# [Name der Kampagne]
+# [Name des Almanachs]
 
 Einstiegspunkt für alle Abenteuer unserer Gruppe. Alle Abenteuer spielen in derselben Welt ([Name der Welt]), die Spielleitung kann wechseln.
 Die **Welt** (NSCs, Orte, Fraktionen, Gegenstände, Spielercharaktere) gibt es nur einmal und wird von allen Abenteuern genutzt. Jedes **Abenteuer** hat nur seinen eigenen Plot und seine Sitzungen.

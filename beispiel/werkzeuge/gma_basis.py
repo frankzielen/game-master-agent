@@ -18,9 +18,9 @@ def einstellungen():
     if not e.get('titel'):
         try:
             m = re.search(r'^#\s+(.+)$', open(os.path.join(ROOT, 'README.md'), encoding='utf-8').read(), re.M)
-            e['titel'] = m.group(1).strip() if m else 'Kampagne'
+            e['titel'] = m.group(1).strip() if m else 'Almanach'
         except OSError:
-            e['titel'] = 'Kampagne'
+            e['titel'] = 'Almanach'
     return e
 
 
@@ -29,7 +29,7 @@ def esc(t):
 
 
 def schreibe_seite(ausgabe, tpl, data, dateien, name):
-    """Schreibt <name>.html nach <ausgabe>/ und kopiert Bilder und Medien (Pfade relativ zur Kampagne) daneben.
+    """Schreibt <name>.html nach <ausgabe>/ und kopiert Bilder und Medien (Pfade relativ zum Almanach) daneben.
     Dazu eine kleine index.html, die auf <name>.html weiterleitet (für Hoster wie GitHub Pages).
     Mit --eine-datei stecken die Bilder in der HTML-Datei selbst (zum Anhängen im Chat)."""
     os.makedirs(ausgabe, exist_ok=True)
@@ -53,7 +53,7 @@ def schreibe_seite(ausgabe, tpl, data, dateien, name):
 
 
 def template(titel, untertitel):
-    tpl = open(os.path.join(HERE, 'kampagne-html.template.html'), encoding='utf-8').read()
+    tpl = open(os.path.join(HERE, 'almanach-html.template.html'), encoding='utf-8').read()
     tpl = re.sub(r'<title>[^<]*</title>', f'<title>{esc(titel)}</title>', tpl, count=1)
     tpl = re.sub(r'<div class="brand"><h1>[^<]*</h1><p>[^<]*</p>',
                  lambda m: f'<div class="brand"><h1>{esc(titel)}</h1><p>{esc(untertitel)}</p>', tpl, count=1)

@@ -5,7 +5,7 @@
     {
       "name": "gma",
       "source": "./plugin",
-      "description": "Workflows for GMA campaigns: set up, add ideas, record sessions, check consistency, build the websites"
+      "description": "Workflows for GMA almanacs: set up, add ideas, record sessions, check consistency, build the websites"
     }
   ]
 }
