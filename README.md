@@ -24,19 +24,21 @@ Not only for game masters: players can document sessions too, taking turns or to
 
 1. **Input:** notes, dictated ideas and session reports, handouts, images, stat blocks, sound and music, in any form.
 2. **Storage:** linked Markdown files in a fixed structure. The world exists once, each adventure only holds its own plot and sessions. Secrets are marked in the data.
-3. **Output:** a website to browse, in two versions: the complete **game master version** and a cleaned **heroes' version** that only shows what the characters know. It runs offline from a folder, can be shared as a ZIP or hosted on any static host (e.g. GitHub Pages). Public or password-protected is your choice.
+3. **Output:** a website to browse, in two versions: the complete **game master website** and a cleaned **player website** that only shows what the characters know. It runs offline, and the agent can publish it for your players via Claude or ChatGPT, on your own web space (e.g. GitHub Pages) or as a ZIP. Public or private is your choice.
 
 GMA works with any rules system. Everything rule-specific lives in a system profile (`kampagne/systeme/`). Included: **No rules system** (free-form values, default) and **D&D 5e** (field names based on the SRD 5.2). The agent helps you create profiles for other systems.
 
 ### Requirements
 
-- An AI agent that may read and write a folder permanently: Claude Code, a Claude project with a project folder, or a ChatGPT project with a local folder or a connected GitHub repository. Plain chats without folder access are not suitable. This usually requires a paid plan; check the current plans of Anthropic and OpenAI.
+- A project in the Claude or ChatGPT app, connected either to a folder on your computer or to a GitHub repository (Claude Code, Codex and similar agents work too). Plain chats without folder access are not suitable. This usually requires a paid plan; check the current plans of Anthropic and OpenAI.
 - Python 3 for the website tools (no extra packages). The agent helps you install it if needed.
 
 ### Getting started
 
-- **Without Git:** download the ZIP, attach it to your agent and write: "Follow START.md."
-- **With Git:** click "Use this template", open your copy with your agent and write: "Follow START.md."
+1. **Local folder:** download the ZIP and unpack it. Create a project in the Claude or ChatGPT app and connect the unpacked folder.
+2. **GitHub repository:** click "Use this template" to get your own copy. Create a project in the Claude or ChatGPT app and connect your copy.
+
+Then write: "Follow START.md."
 
 The agent does the rest and guides you through the setup step by step. Details: [docs/start-prompt.md](docs/start-prompt.md).
 
@@ -82,19 +84,21 @@ Nicht nur für Spielleitungen: Auch Spielerinnen und Spieler können dokumentier
 
 1. **Eingabe:** Notizen, eingesprochene Ideen und Spielberichte, Handouts, Bilder, Statblöcke, Musik und Geräusche, in beliebiger Form.
 2. **Ablage:** verlinkte Markdown-Dateien in fester Struktur. Die Welt gibt es nur einmal, jedes Abenteuer hat nur seinen Plot und seine Sitzungen. Geheimnisse sind in den Daten gekennzeichnet.
-3. **Ausgabe:** eine Website zum Durchklicken in zwei Fassungen: die vollständige **Spielleiter-Version** und eine bereinigte **Heldenversion**, die nur zeigt, was die Helden wissen. Sie läuft offline aus einem Ordner, lässt sich als ZIP weitergeben oder bei einem Hoster für statische Seiten veröffentlichen (z. B. GitHub Pages). Öffentlich oder mit Passwortschutz entscheidest du.
+3. **Ausgabe:** eine Website zum Durchklicken in zwei Fassungen: die vollständige **Spielleiter-Website** und eine bereinigte **Spieler-Website**, die nur zeigt, was die Helden wissen. Sie läuft offline, und der Agent stellt sie deinen Spielern auf Wunsch bereit: über Claude oder ChatGPT, auf eigenem Webspace (z. B. GitHub Pages) oder als ZIP. Öffentlich oder privat entscheidest du.
 
 GMA ist an kein Regelsystem gebunden. Alles Regelspezifische steht in einem Systemprofil (`kampagne/systeme/`). Mitgeliefert: **Ohne Regelsystem** (freie Werte, Standard) und **D&D 5e** (Feldnamen nach dem SRD 5.2). Für andere Systeme legt der Agent mit dir ein Profil an.
 
 ### Voraussetzungen
 
-- Ein KI-Agent, der dauerhaft in einem Ordner lesen und schreiben darf: Claude Code, ein Claude-Projekt mit Projektordner oder ein ChatGPT-Projekt mit lokalem Ordner oder verbundenem GitHub-Repository. Normale Chats ohne Ordnerzugriff sind nicht geeignet. Dafür ist in der Regel ein Bezahltarif nötig; die aktuellen Tarife von Anthropic und OpenAI bitte selbst prüfen.
+- Ein Projekt in der Claude- oder ChatGPT-App, verbunden mit einem Ordner auf deinem Rechner oder mit einem GitHub-Repository (Claude Code, Codex und ähnliche Agenten gehen auch). Normale Chats ohne Ordnerzugriff sind nicht geeignet. Dafür ist in der Regel ein Bezahltarif nötig; die aktuellen Tarife von Anthropic und OpenAI bitte selbst prüfen.
 - Python 3 für die Website-Werkzeuge (ohne Zusatzpakete). Der Agent hilft bei Bedarf bei der Installation.
 
 ### Loslegen
 
-- **Ohne Git:** das ZIP herunterladen, an den Agenten anhängen und schreiben: „Folge START.md.“
-- **Mit Git:** „Use this template“ klicken, die eigene Kopie mit dem Agenten öffnen und schreiben: „Folge START.md.“
+1. **Lokaler Ordner:** das ZIP herunterladen und entpacken. In der Claude- oder ChatGPT-App ein Projekt anlegen und den entpackten Ordner verbinden.
+2. **GitHub-Repository:** „Use this template“ klicken, das legt deine eigene Kopie an. In der Claude- oder ChatGPT-App ein Projekt anlegen und die Kopie verbinden.
+
+Dann schreiben: „Folge START.md.“
 
 Den Rest erledigt der Agent, durch die Einrichtung führt er Schritt für Schritt. Details: [docs/start-prompt.md](docs/start-prompt.md). Eine Einführung steht in [docs/einfuehrung.md](docs/einfuehrung.md).
 
@@ -108,7 +112,7 @@ Die Regeln für den Agenten stehen in [kampagne/AGENTS.md](kampagne/AGENTS.md).
 | `beispiel/` | eine kleine erfundene Beispielkampagne; beide Websites bauen und vergleichen |
 | `plugin/` | Abläufe als Skills für Claude Code: Kampagne einrichten, Idee einpflegen, Sitzung erfassen, Konsistenz prüfen, Website bauen |
 | `docs/` | Start-Prompt und Einführung |
-| `.github/workflows/` | veröffentlicht die Heldenversion auf GitHub Pages, nur wenn man es von Hand startet |
+| `.github/workflows/` | veröffentlicht die Spieler-Website auf GitHub Pages, nur wenn man es von Hand startet |
 
 Das Claude-Code-Plugin installiert man mit `/plugin marketplace add <owner>/game-master-agent` und `/plugin install gma@game-master-agent`. Andere Agenten folgen denselben Abläufen aus `AGENTS.md`.
 

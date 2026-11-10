@@ -1,9 +1,14 @@
-"""Gemeinsame Hilfen für die Website-Generatoren (SL-Website und Spielerseite)."""
-import os, json, re, shutil
+"""Gemeinsame Hilfen für die Website-Generatoren (SL-Website und Spieler-Website)."""
+import os, sys, json, re, shutil, base64, mimetypes
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HERE = os.path.dirname(os.path.abspath(__file__))
 IMG = ('.jpg', '.jpeg', '.png', '.webp', '.gif', '.svg')
+
+# --eine-datei: Bilder in die HTML-Datei einbetten (zum Anhängen im Chat, wo Dateien daneben fehlen)
+EINE_DATEI = '--eine-datei' in sys.argv
+if EINE_DATEI:
+    sys.argv.remove('--eine-datei')
 
 
 def einstellungen():
@@ -25,8 +30,15 @@ def esc(t):
 
 def schreibe_seite(ausgabe, tpl, data, dateien, name):
     """Schreibt <name>.html nach <ausgabe>/ und kopiert Bilder und Medien (Pfade relativ zur Kampagne) daneben.
-    Dazu eine kleine index.html, die auf <name>.html weiterleitet (für Hoster wie GitHub Pages)."""
+    Dazu eine kleine index.html, die auf <name>.html weiterleitet (für Hoster wie GitHub Pages).
+    Mit --eine-datei stecken die Bilder in der HTML-Datei selbst (zum Anhängen im Chat)."""
     os.makedirs(ausgabe, exist_ok=True)
+    if EINE_DATEI:
+        for rel in list(data.get('imgs', {})):
+            typ = mimetypes.guess_type(rel)[0] or 'application/octet-stream'
+            roh = open(os.path.join(ROOT, rel), 'rb').read()
+            data['imgs'][rel] = f'data:{typ};base64,' + base64.b64encode(roh).decode()
+        dateien = [d for d in dateien if d not in data.get('imgs', {})]
     blob = json.dumps(data, ensure_ascii=False).replace('</', '<\\/')
     datei = name + '.html'
     open(os.path.join(ausgabe, datei), 'w', encoding='utf-8').write(tpl.replace('/*__DATA__*/null', blob))

@@ -25,7 +25,7 @@ _Wohin kann sich das Kapitel je nach Entscheidung entwickeln?_
 _Wann ist das Kapitel vorbei? Welche Konsequenzen trägt es ins nächste Kapitel?_
 
 ## Musik und Geräusche
-_Was bei diesem Kapitel gespielt wird: Hintergrundmusik, Atmosphäre oder Soundeffekte. Eigene Dateien liegen in `audio/` neben dieser Datei, sonst ein Link zu Spotify, Apple Music, YouTube oder einem anderen Anbieter. Nur für die SL, erscheint nicht in der Heldenversion._
+_Was bei diesem Kapitel gespielt wird: Hintergrundmusik, Atmosphäre oder Soundeffekte. Eigene Dateien liegen in `audio/` neben dieser Datei, sonst ein Link zu Spotify, Apple Music, YouTube oder einem anderen Anbieter. Nur für die SL, erscheint nicht in der Spieler-Website._
 
 | Wann | Art | Quelle |
 |---|---|---|

@@ -13,8 +13,14 @@ Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturier
 - **Dauerhaft speichern:** Liegt der Ordner in einem Git-Repository, sichere jede Änderung sofort selbst, ohne Rückfrage und ohne Git-Begriffe in der Antwort: committen und in den Hauptzweig (`main`) bringen. Arbeitest du auf einem eigenen Zweig (z. B. in einer Cloud-Sitzung), übernimm ihn danach in `main` (erst `main` hereinholen, dann `git push origin HEAD:main`). Lässt `main` keinen direkten Push zu, öffne einen Pull Request und führe ihn selbst zusammen. Klappt beides nicht, sag in einem Satz, was fehlt; behaupte nie „gespeichert“, solange die Änderung nicht in `main` ist.
 - **Keine Technik-Probleme weitergeben:** Stößt du auf einen Fehler in den Werkzeugen oder Regeln von GMA, behebe ihn still, wenn du kannst. Erwähne ihn nur, wenn die Person etwas tun muss.
 - **Schaltflächen:** Bietet deine Umgebung ein Werkzeug für Rückfragen mit Antwortmöglichkeiten, nutze es für jede Auswahl. Sonst nenne die Möglichkeiten kurz zum Antippen oder Abschreiben.
-- **Neu bauen nur auf Klick:** Baue die Websites nicht automatisch. Hat sich seit dem letzten Bau etwas an den Inhalten geändert, biete am Ende deiner Antwort eine Schaltfläche „Websites neu bauen“ an (oder, wo deine Umgebung keine Schaltflächen kann, die kurze Frage „Websites neu bauen?“).
-- **Nach dem Bau:** Baue beide Websites (siehe Abschnitt 7) und biete sie als zwei Schaltflächen „Spielleiter-Website öffnen“ und „Heldenversion öffnen“ an, oder als Vorschau in der App. Wo das nicht geht, gib anklickbare Links auf `spielleiter.html` bzw. `spieler.html` oder öffne sie im Browser. Liefere nie eine Datei namens `index.html` aus, sie ist nur die Weiterleitung für Hoster.
+- **Neu bauen nur auf Klick:** Baue die Websites nicht automatisch. Hat sich seit dem letzten Bau etwas an den Inhalten geändert, biete am Ende deiner Antwort eine Schaltfläche „Websites neu bauen“ an (oder, wo deine Umgebung keine Schaltflächen kann, die kurze Frage „Websites neu bauen?“). Gibt es veröffentlichte Websites (siehe „Bereitstellung“), biete stattdessen drei Schaltflächen an: „Nur für mich neu bauen“, „Neu bauen und online aktualisieren (dauert einige Minuten)“ und „Später“.
+- **Nach dem Bau:** Hänge beide Websites im Chat an, jede als eine einzige Datei mit allen Bildern (`--eine-datei`, siehe Abschnitt 7), nie als ZIP. Kann deine Umgebung sie als Vorschau oder per Schaltfläche öffnen, biete „Spielleiter-Website öffnen“ und „Spieler-Website öffnen“ an. Arbeitest du in einem Ordner auf dem Rechner der Person, liegen sie außerdem unter `_site/` zum Öffnen per Doppelklick. Liefere nie eine Datei namens `index.html` aus, sie ist nur die Weiterleitung für Hoster. Sind Websites veröffentlicht, aktualisiere sie nur, wenn die Person das gewählt hat (siehe „Neu bauen nur auf Klick“).
+
+**Bereitstellung:** Wie die Spieler an ihre Website kommen, fragst du am Ende der Einrichtung und immer dann, wenn die Person danach fragt.
+- **A · Veröffentlichen:** Nur wenn deine Umgebung Websites veröffentlichen kann. Veröffentliche Spieler- und Spielleiter-Website immer getrennt, jede mit eigenem Link, nie mit gemeinsamem Einstieg. Die Spielleiter-Website nur auf Wunsch. Freigeben (z. B. „Alle mit dem Link“) erklärt du in einem Satz, falls die Person es selbst tun muss. Notiere die Links in `einstellungen.json` unter `"veroeffentlicht"` und aktualisiere bei jedem Neubau mit Online-Aktualisierung dieselben Veröffentlichungen, damit die Links gleich bleiben.
+- **B · Eigener Webspace:** Hochgeladen wird der gesamte Inhalt von `_site/spieler/` (bzw. `_site/sl/`) zu einem Hoster für statische Seiten, nach jedem Neubau erneut. Liegt der Almanach in einem GitHub-Repository, geht das auch über GitHub Pages mit dem mitgelieferten Ablauf „Spieler-Website veröffentlichen“ (von Hand starten).
+- **Hinweise:** Ob eine Fassung öffentlich oder geschützt ist, entscheidet die Person. Sag nur dazu, dass GitHub Pages für jeden mit Link lesbar ist und Text aus gekauften Abenteuern nicht öffentlich ins Netz gehört.
+- **C · Offline:** Packe `_site/spieler/` als ZIP und sag dazu: erst entpacken, dann `spieler.html` öffnen.
 
 ## Kampagne einrichten (beim ersten Start)
 
@@ -25,7 +31,7 @@ Steht in `README.md` noch „[Name der Kampagne]“, ist die Kampagne noch nicht
 - Frage nicht nach, was schon gesagt wurde, und frag nie mehrere Dinge auf einmal ab. Erzählt jemand von sich aus mehr, übernimm es und überspringe die passenden Fragen.
 
 Reihenfolge:
-1. **Wie soll euer Rollenspiel-Almanach heißen?** Erkläre kurz: Der Almanach sammelt eure Welt und alle Abenteuer, sein Name steht auf der Startseite beider Websites. Passend ist zum Beispiel der Name eurer Kampagne, eurer Welt oder eurer Gruppe („Die Chroniken von Neren“, „Die Salzmarsch“). Er lässt sich jederzeit ändern. Trag ihn in `README.md` und `einstellungen.json` ein.
+1. **Wie soll euer Rollenspiel-Almanach heißen?** Erkläre kurz: Der Almanach sammelt eure Welt und alle Abenteuer, sein Name steht als Überschrift über allem, was du daraus aufbereitest. Passend ist zum Beispiel der Name eurer Kampagne, eurer Welt oder eurer Gruppe („Die Chroniken von Neren“, „Die Salzmarsch“). Er lässt sich jederzeit ändern. Trag ihn in `README.md` und `einstellungen.json` ein.
 2. **Name der Welt oder Startregion.**
 3. **Wer spielt mit?** Namen, gern mit Spitznamen.
 4. **Regelsystem:** Schaltflächen „Ohne Regelsystem“, „D&D 5e“, „Anderes“. Bei „Anderes“ legst du das Profil später gemeinsam an (siehe „Regelsystem“), nicht jetzt.
@@ -35,12 +41,25 @@ Reihenfolge:
 Zum Schluss:
 - Prüfe still, ob Python 3 da ist (für die Websites; falls nicht, erkläre die Installation in einfachen Schritten) und ob alle Links stimmen.
 - Fasse in wenigen Sätzen zusammen, was angelegt ist und was noch offen ist.
-- Baue beide Websites zum ersten Mal und biete sie zum Öffnen an (siehe „Nach dem Bau“). Sag in einem Satz, wie man sie in dieser Umgebung künftig öffnet, zum Beispiel als Vorschau in der App, als Datei zum Herunterladen oder per Doppelklick im Ordner.
+- Baue beide Websites zum ersten Mal und biete sie zum Öffnen an (siehe „Nach dem Bau“).
+- Erkläre dann die Bereitstellung mit diesem Text (nur sprachlich an die Umgebung anpassen; den Satz in Klammern nur, wenn du in einem Ordner auf dem Rechner der Person arbeitest, mit dem echten Ordnernamen; Möglichkeit A nur, wenn deine Umgebung Websites veröffentlichen kann, z. B. als Artefakt oder Site):
+
+  > Alles, was wir sammeln, bereite ich als zwei Websites auf. Die **Spielleiter-Website** zeigt alles, auch Geheimnisse und Planung. Die **Spieler-Website** zeigt nur Gespieltes und das, was eure Helden wissen dürfen. Ich pflege die Inhalte laufend, und auf „Websites neu bauen“ bringe ich beide Websites auf den neuesten Stand.
+  >
+  > **So kommst du selbst an die Websites:** Nach jedem Neubau hänge ich dir beide hier im Chat an, zum Öffnen oder Herunterladen. (Außerdem liegen sie in deinem Ordner [Ordnername] unter `kampagne/_site/`; Doppelklick auf `spielleiter.html` bzw. `spieler.html` genügt, sie laufen auch offline.) Das gilt nur für dich, deine Spieler kommen so nicht an die Websites.
+  >
+  > **So kommen deine Spieler an ihre Website:**
+  > **A · Über [Umgebung] veröffentlichen** (am einfachsten): Ich stelle die Spieler-Website ins Netz, und du gibst den Link weiter. Wenn du die Spielleiter-Website auch online haben willst, bekommt sie einen eigenen Link. Lass sie am besten privat, weil sie alle Geheimnisse zeigt; du kannst sie aber auch freigeben, zum Beispiel für andere Spielleiter deiner Gruppe.
+  > **B · Auf eigenem Webspace:** Ich sage dir, welchen Ordner du hochlädst.
+  > **C · Offline:** Ich packe die Spieler-Website als ZIP für Mail oder Download.
+  > **D · Später entscheiden**
+
+  Biete A bis D als Schaltflächen an und setze die Wahl um, wie unter „Bereitstellung“ beschrieben.
 - Schließe mit diesem Text ab (nur sprachlich an die Umgebung anpassen, nichts weglassen):
 
   > **So arbeitest du ab jetzt mit mir:**
   > 1. **Erzählen:** Gib mir Ideen, Material oder nach dem Spielabend, was passiert ist, gern in Bruchstücken. Ich ordne alles ein und frage bei Widersprüchen nach.
-  > 2. **Anschauen:** Den aktuellen Stand deines Almanachs siehst du immer auf den Websites: in der Spielleiter-Website mit allem und in der Heldenversion mit dem, was die Helden wissen. Dort prüfst du, ob alles so angekommen ist, wie du es wolltest.
+  > 2. **Anschauen:** Den aktuellen Stand deines Almanachs siehst du immer auf den Websites: in der Spielleiter-Website mit allem und in der Spieler-Website mit dem, was die Helden wissen. Dort prüfst du, ob alles so angekommen ist, wie du es wolltest.
   > 3. **Neu bauen:** Sag jederzeit „Websites neu bauen“, dann bekommst du beide Seiten auf dem neuesten Stand. Nach Änderungen biete ich dir das auch selbst an.
 
 ## Geführt nachfragen
@@ -89,8 +108,10 @@ abenteuer/
     sitzungen/sitzung-NN-JJJJ-MM-TT.md
     _quelle/                 Originalmaterial (PDF, Notizen), wird nicht verändert
 _vorlagen/                   Kopiervorlagen für alle Dateitypen
+einstellungen.json           Titel, Regelsystem, Startseite der Spieler-Website, veröffentlichte Links
 systeme/                     Systemprofile: Statblock, Charakterfelder, Begriffe je Regelsystem
 werkzeuge/                   Hilfsskripte (Link-Prüfung, Website)
+_site/                       gebaute Websites (sl/, spieler/), wird bei jedem Bau neu erzeugt
 ```
 
 Jede Übersicht (`welt/*/README.md`, `abenteuer/README.md`) enthält eine Tabelle aller Einträge. Neue Einträge trägst du dort sofort ein.
@@ -109,7 +130,7 @@ Jede Übersicht (`welt/*/README.md`, `abenteuer/README.md`) enthält eine Tabell
   - Plot-Dateien (Hauptplot, Kapitel, Szene, Quest) haben `status:` mit `idee`, `entwurf`, `fertig` oder `gespielt`.
   - Welt-Dateien haben stattdessen `auftritte: [01, 03]`, also die Nummern der Abenteuer, in denen der Eintrag vorkommt.
   - Der Hauptplot hat zusätzlich `spielleitung:`.
-- **Musik und Geräusche:** Jedes Objekt (NSC, Ort, Fraktion, Gegenstand, SC) und jeder Abenteuerinhalt (Hauptplot, Kapitel, Szene, Quest) kann einen Abschnitt `## Musik und Geräusche` haben: Hintergrundmusik, Atmosphäre oder Soundeffekte, mit „Wann“ (z. B. beim Betreten, im Kampf, beim Auftritt). Eigene Dateien (MP3, OGG, WAV, M4A, FLAC) liegen in `audio/` neben der Datei, sonst ein Link zu Spotify, Apple Music, YouTube oder einem anderen Anbieter. Die Website spielt Dateien direkt ab und bettet Spotify-, Apple-Music- und YouTube-Links als Player ein. In der Spalte „Art“ steht „Musik“, „Atmosphäre“ oder „Effekt“. Musik und Atmosphäre aus eigenen Dateien laufen in der Musikleiste unten rechts in Dauerschleife und spielen beim Weiterklicken weiter; gestartet wird nur von Hand, weitere Stücke der Seite sind auswählbar. Effekte haben einen eigenen Abspieler. Der Abschnitt ist nur für die SL und erscheint nicht in der Heldenversion.
+- **Musik und Geräusche:** Jedes Objekt (NSC, Ort, Fraktion, Gegenstand, SC) und jeder Abenteuerinhalt (Hauptplot, Kapitel, Szene, Quest) kann einen Abschnitt `## Musik und Geräusche` haben: Hintergrundmusik, Atmosphäre oder Soundeffekte, mit „Wann“ (z. B. beim Betreten, im Kampf, beim Auftritt). Eigene Dateien (MP3, OGG, WAV, M4A, FLAC) liegen in `audio/` neben der Datei, sonst ein Link zu Spotify, Apple Music, YouTube oder einem anderen Anbieter. Die Website spielt Dateien direkt ab und bettet Spotify-, Apple-Music- und YouTube-Links als Player ein. In der Spalte „Art“ steht „Musik“, „Atmosphäre“ oder „Effekt“. Musik und Atmosphäre aus eigenen Dateien laufen in der Musikleiste unten rechts in Dauerschleife und spielen beim Weiterklicken weiter; gestartet wird nur von Hand, weitere Stücke der Seite sind auswählbar. Effekte haben einen eigenen Abspieler. Der Abschnitt ist nur für die SL und erscheint nicht in der Spieler-Website.
 - **Spoiler:** Was die Spieler nicht wissen dürfen, steht unter `## Geheim (nur SL)`.
 - **Hauptplot:** nennt oben die Spielleitung und verlinkt das vorige und das nächste Abenteuer. Zeitliche Abläufe stehen unter „Zeitplan des Abenteuers“.
 
@@ -138,7 +159,7 @@ Jede Welt-Datei ist gleich aufgebaut:
 
 **Retcon:** Ab `status: gespielt` wird eine Szene oder Sitzung nicht mehr umgeschrieben. Soll sich nachträglich etwas ändern, bekommt sie eine kurze Notiz „Retcon: …“, und der gültige Stand steht beim Objekt. Entwürfe werden direkt korrigiert. Ein Retcon ist nur eine bewusste Änderung der Geschichte. Fehler bei der Erfassung (falsch verstandene Namen, Tippfehler, Hörfehler) korrigierst du überall direkt und ohne Vermerk.
 
-**Kennzeichnung für die Spielerseite:** Was nicht für die Spieler ist, erkennt der Generator nur an der Kennzeichnung in den Daten. Es gibt keine Ausnahmelisten im Code.
+**Kennzeichnung für die Spieler-Website:** Was nicht für die Spieler ist, erkennt der Generator nur an der Kennzeichnung in den Daten. Es gibt keine Ausnahmelisten im Code.
 - **Ganze Abschnitte:** `## Geheim (nur SL)`, Überschriften mit „nur SL“, „Planung“ oder „Parallelhandlung“ sowie die SL-Abschnitte der Vorlagen (z. B. „Ziele und Motivation“, „Abzweigungen“, „Proben, Kampf, Hindernisse“, „Offene Fäden …“, „Musik und Geräusche“).
 - **Einzelne Zeilen:** am Zeilenende „(nur SL)“, z. B. `- Der Hort des Drachen ist ungeklärt. (nur SL)`. SL-Wissen steht nie mitten in einer Zeile, die die Spieler sehen dürfen.
 - **Ganze Dateien:** über `status:` (Plot) bzw. `auftritte:` (Welt), außerdem Stat-Blöcke, `ideen-eingang.md`, `_quelle/`, `_vorlagen/`.
@@ -163,7 +184,7 @@ Weitere Regeln:
 - **Nie stillschweigend überschreiben,** was festgelegt ist, auch nichts aus früheren Abenteuern. Im Zweifel fragen.
 - **Keine Änderungsvermerke** wie „(geändert am …)“ oder „laut Notiz von …“ in Beschreibungen. Die Texte sollen sich wie fertige Spielleiter-Unterlagen lesen. Herkunft und Datum von Entscheidungen stehen nur in `ideen-eingang.md` und `offene-punkte.md`.
 - **Entscheidungen festhalten:** Geklärte Punkte wandern in `offene-punkte.md` von „Offen“ nach „Entschieden“ (mit Datum).
-- **Fehlende Angaben:** Wenn etwas für eine Datei fehlt, eine sinnvolle Annahme treffen, sie nennen und weitermachen, statt alles zu blockieren.
+- **Fehlende Angaben:** Fehlt für eine Datei etwas, blockiere nicht. Bei Ablage und Form (Dateiname, Ordner, Reihenfolge) triff eine sinnvolle Annahme und nenne sie. Fehlende Inhalte bleiben Platzhalter oder offene Punkte (siehe Grundregel).
 - **Struktur anpassen:** Reicht die Struktur nicht mehr, Vorschlag machen und nach Zustimmung umbauen. Danach README und diese Datei anpassen.
 
 ## 6. Sitzungen und Material
@@ -179,7 +200,7 @@ Weitere Regeln:
 - Links prüfen: `python3 werkzeuge/links-pruefen.py` (unter Windows ggf. `python` statt `python3`) (meldet tote relative Links). Tote Links sofort reparieren. Platzhalter-Links in `_vorlagen/` sind gewollt.
 - Websites bauen (auf Klick bzw. Wunsch, siehe „Einfach halten“):
   - `python3 werkzeuge/kampagne-html.py` baut die **SL-Website** mit allem nach `_site/sl/`.
-  - `python3 werkzeuge/kampagne-html-spieler.py` baut die spoilerfreie **Spielerseite** nach `_site/spieler/`. Hinein kommen nur Abenteuer, die gespielt sind oder mindestens eine Sitzung haben, Plot-Dateien mit `status: gespielt`, Welt-Einträge mit passendem `auftritte:`. Abschnitte wie „Geheim (nur SL)“, Planung, Stat-Blöcke, `_quelle/` und Ideen-Eingänge fallen weg. Was sonst nicht auf die Spielerseite gehört, wird in den Daten gekennzeichnet (siehe Kennzeichnung für die Spielerseite), nie im Code.
-  - Jede Seite ist ein Ordner mit `spielleiter.html` bzw. `spieler.html` plus Bildern und Klangdateien (und einer `index.html`, die für Hoster dorthin weiterleitet). Er läuft ohne Server und ohne Internet (Doppelklick auf die Datei), lässt sich als ZIP weitergeben oder bei einem Hoster für statische Seiten hochladen (z. B. GitHub Pages). Ob eine Fassung öffentlich oder mit Zugriffsschutz (z. B. Passwort) ins Netz kommt, entscheidet die Nutzerin oder der Nutzer, für beide Fassungen gleich. Weise nur darauf hin, dass GitHub Pages für jeden mit Link lesbar ist und Text aus gekauften Abenteuern nicht öffentlich ins Netz gehört.
-  - Öffnen: `spielleiter.html` bzw. `spieler.html` im jeweiligen Ordner im Browser. Bilder und Medien liegen als Dateien daneben. Die Seite braucht kein Internet.
-  - Prüfe nach dem Bau der Spielerseite stichprobenartig, ob Begriffe aus ungespielten Abenteuern darin auftauchen.
+  - `python3 werkzeuge/kampagne-html-spieler.py` baut die spoilerfreie **Spieler-Website** nach `_site/spieler/`. Hinein kommen nur Abenteuer, die gespielt sind oder mindestens eine Sitzung haben, Plot-Dateien mit `status: gespielt`, Welt-Einträge mit passendem `auftritte:`. Abschnitte wie „Geheim (nur SL)“, Planung, Stat-Blöcke, `_quelle/` und Ideen-Eingänge fallen weg. Was sonst nicht auf die Spieler-Website gehört, wird in den Daten gekennzeichnet (siehe Kennzeichnung für die Spieler-Website), nie im Code.
+  - Jede Website ist ein Ordner mit `spielleiter.html` bzw. `spieler.html`, Bildern und Klangdateien und einer `index.html`, die für Hoster weiterleitet. Sie läuft ohne Server und ohne Internet. Wie sie weitergegeben wird, steht unter „Bereitstellung“.
+  - Für den Chat zusätzlich mit `--eine-datei` in einen eigenen Ordner bauen (z. B. `python3 werkzeuge/kampagne-html.py _site/chat-sl --eine-datei`, ebenso `kampagne-html-spieler.py _site/chat-spieler --eine-datei`). Dann stecken die Bilder in der HTML-Datei.
+  - Prüfe nach dem Bau der Spieler-Website stichprobenartig, ob Begriffe aus ungespielten Abenteuern darin auftauchen.

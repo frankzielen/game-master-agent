@@ -17,7 +17,7 @@ Seit drei Nächten brennt das Leuchtfeuer von [Graufurt](../../../welt/orte/salz
 | 1 | [Kapitel 1 – Ankunft in Graufurt](kapitel-01-ankunft-in-graufurt/kapitel-01-ankunft-in-graufurt.md) | Leuchtturm, Wärterin, Höhle | gespielt |
 
 ## Musik und Geräusche
-_Nur für die SL, erscheint nicht in der Heldenversion._
+_Nur für die SL, erscheint nicht in der Spieler-Website._
 
 | Wann | Art | Quelle |
 |---|---|---|
