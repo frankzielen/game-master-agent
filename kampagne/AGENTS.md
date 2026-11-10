@@ -13,8 +13,13 @@ Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturier
 - **Dauerhaft speichern:** Liegt der Ordner in einem Git-Repository, sichere jede Änderung sofort selbst, ohne Rückfrage und ohne Git-Begriffe in der Antwort: committen und in den Hauptzweig (`main`) bringen. Arbeitest du auf einem eigenen Zweig (z. B. in einer Cloud-Sitzung), übernimm ihn danach in `main` (erst `main` hereinholen, dann `git push origin HEAD:main`). Lässt `main` keinen direkten Push zu, öffne einen Pull Request und führe ihn selbst zusammen. Klappt beides nicht, sag in einem Satz, was fehlt; behaupte nie „gespeichert“, solange die Änderung nicht in `main` ist.
 - **Keine Technik-Probleme weitergeben:** Stößt du auf einen Fehler in den Werkzeugen oder Regeln von GMA, behebe ihn still, wenn du kannst. Erwähne ihn nur, wenn die Person etwas tun muss.
 - **Schaltflächen:** Bietet deine Umgebung ein Werkzeug für Rückfragen mit Antwortmöglichkeiten, nutze es für jede Auswahl. Sonst nenne die Möglichkeiten kurz zum Antippen oder Abschreiben.
-- **Neu bauen nur auf Klick:** Baue die Websites nicht automatisch. Hat sich seit dem letzten Bau etwas an den Inhalten geändert, biete am Ende deiner Antwort eine Schaltfläche „Websites neu bauen“ an (oder, wo deine Umgebung keine Schaltflächen kann, die kurze Frage „Websites neu bauen?“).
+- **Neu bauen nur auf Klick:** Baue die Websites nicht automatisch. Hat sich seit dem letzten Bau etwas an den Inhalten geändert, biete am Ende deiner Antwort eine Schaltfläche „Websites neu bauen“ an (oder, wo deine Umgebung keine Schaltflächen kann, die kurze Frage „Websites neu bauen?“). Gibt es veröffentlichte Websites (siehe „Bereitstellung“), biete stattdessen drei Schaltflächen an: „Nur für mich neu bauen“, „Neu bauen und online aktualisieren (dauert einige Minuten)“ und „Später“.
 - **Nach dem Bau:** Baue beide Websites (siehe Abschnitt 7) und biete sie als zwei Schaltflächen „Spielleiter-Website öffnen“ und „Heldenversion öffnen“ an, oder als Vorschau in der App. Wo das nicht geht, gib anklickbare Links auf `spielleiter.html` bzw. `spieler.html` oder öffne sie im Browser. Liefere nie eine Datei namens `index.html` aus, sie ist nur die Weiterleitung für Hoster.
+
+**Bereitstellung:** Wie die Spieler an ihre Website kommen, fragst du am Ende der Einrichtung und immer dann, wenn die Person danach fragt.
+- **A · Veröffentlichen:** Nur wenn deine Umgebung Websites veröffentlichen kann. Veröffentliche Spieler- und Spielleiter-Website immer getrennt, jede mit eigenem Link, nie mit gemeinsamem Einstieg. Die Spielleiter-Website nur auf Wunsch. Freigeben (z. B. „Alle mit dem Link“) erklärt du in einem Satz, falls die Person es selbst tun muss. Notiere die Links in `einstellungen.json` unter `"veroeffentlicht"` und aktualisiere bei jedem Neubau mit Online-Aktualisierung dieselben Veröffentlichungen, damit die Links gleich bleiben.
+- **B · Eigener Webspace:** Hochgeladen wird der gesamte Inhalt von `_site/spieler/` (bzw. `_site/sl/`), nach jedem Neubau erneut.
+- **C · Offline:** Packe `_site/spieler/` als ZIP und sag dazu: erst entpacken, dann `spieler.html` öffnen.
 
 ## Kampagne einrichten (beim ersten Start)
 
@@ -35,7 +40,20 @@ Reihenfolge:
 Zum Schluss:
 - Prüfe still, ob Python 3 da ist (für die Websites; falls nicht, erkläre die Installation in einfachen Schritten) und ob alle Links stimmen.
 - Fasse in wenigen Sätzen zusammen, was angelegt ist und was noch offen ist.
-- Baue beide Websites zum ersten Mal und biete sie zum Öffnen an (siehe „Nach dem Bau“). Sag in einem Satz, wie man sie in dieser Umgebung künftig öffnet, zum Beispiel als Vorschau in der App, als Datei zum Herunterladen oder per Doppelklick im Ordner.
+- Baue beide Websites zum ersten Mal und biete sie zum Öffnen an (siehe „Nach dem Bau“).
+- Erkläre dann die Bereitstellung mit diesem Text (nur sprachlich an die Umgebung anpassen; den Satz in Klammern nur, wenn du in einem Ordner auf dem Rechner der Person arbeitest, mit dem echten Ordnernamen; Möglichkeit A nur, wenn deine Umgebung Websites veröffentlichen kann, z. B. als Artefakt oder Site):
+
+  > Alles, was wir sammeln, bereite ich als zwei Websites auf. Die **Spielleiter-Website** zeigt alles, auch Geheimnisse und Planung. Die **Spieler-Website** zeigt nur Gespieltes und das, was eure Helden wissen dürfen. Ich pflege die Inhalte laufend, und auf „Websites neu bauen“ bringe ich beide Websites auf den neuesten Stand.
+  >
+  > **So kommst du selbst an die Websites:** Nach jedem Neubau hänge ich dir beide hier im Chat an, zum Öffnen oder Herunterladen. (Außerdem liegen sie in deinem Ordner [Ordnername] unter `kampagne/_site/`; Doppelklick auf `spielleiter.html` bzw. `spieler.html` genügt, sie laufen auch offline.) Das gilt nur für dich, deine Spieler kommen so nicht an die Websites.
+  >
+  > **So kommen deine Spieler an ihre Website:**
+  > **A · Über [Umgebung] veröffentlichen** (am einfachsten): Ich stelle die Spieler-Website ins Netz, und du gibst den Link weiter. Wenn du die Spielleiter-Website auch online haben willst, bekommt sie einen eigenen Link. Lass sie am besten privat, weil sie alle Geheimnisse zeigt; du kannst sie aber auch freigeben, zum Beispiel für andere Spielleiter deiner Gruppe.
+  > **B · Auf eigenem Webspace:** Ich sage dir, welchen Ordner du hochlädst.
+  > **C · Offline:** Ich packe die Spieler-Website als ZIP für Mail oder Download.
+  > **D · Später entscheiden**
+
+  Biete A bis D als Schaltflächen an und setze die Wahl um, wie unter „Bereitstellung“ beschrieben.
 - Schließe mit diesem Text ab (nur sprachlich an die Umgebung anpassen, nichts weglassen):
 
   > **So arbeitest du ab jetzt mit mir:**
