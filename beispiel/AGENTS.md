@@ -19,7 +19,7 @@ Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturier
 
 **Bereitstellung:** Wie die Spieler an ihre Website kommen, fragst du am Ende der Einrichtung und immer dann, wenn die Person danach fragt.
 - **A · Veröffentlichen:** Nur wenn deine Umgebung Websites veröffentlichen kann. Veröffentliche Spieler- und Spielleiter-Website immer getrennt, jede mit eigenem Link, nie mit gemeinsamem Einstieg. Die Spielleiter-Website nur auf Wunsch. Freigeben (z. B. „Alle mit dem Link“) erklärt du in einem Satz, falls die Person es selbst tun muss. Notiere die Links in `einstellungen.json` unter `"veroeffentlicht"` und aktualisiere bei jedem Neubau mit Online-Aktualisierung dieselben Veröffentlichungen, damit die Links gleich bleiben.
-- **B · Eigener Webspace:** Hochgeladen wird der gesamte Inhalt von `_site/spieler/` (bzw. `_site/sl/`) zu einem Hoster für statische Seiten, nach jedem Neubau erneut. Liegt der Almanach in einem GitHub-Repository, geht das auch über GitHub Pages mit dem mitgelieferten Ablauf „Spieler-Website veröffentlichen“ (von Hand starten).
+- **B · Eigener Webspace:** Hochgeladen wird der gesamte Inhalt von `_site/spieler/` (bzw. `_site/sl/`) zu einem Hoster für statische Seiten, nach jedem Neubau erneut. Liegt der Almanach in einem GitHub-Repository, geht das auch über GitHub Pages; das richtest du auf Wunsch mit der Person ein.
 - **Hinweise:** Ob eine Fassung öffentlich oder geschützt ist, entscheidet die Person. Sag nur dazu, dass GitHub Pages für jeden mit Link lesbar ist und Text aus gekauften Abenteuern nicht öffentlich ins Netz gehört.
 - **C · Offline:** Packe `_site/spieler/` als ZIP und sag dazu: erst entpacken, dann `spieler.html` öffnen.
 

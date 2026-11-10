@@ -52,15 +52,11 @@ The rules for the agent are in [almanach/AGENTS.md](almanach/AGENTS.md) (current
 |---|---|
 | `almanach/` | the empty almanac: rules for the agent (`AGENTS.md`), templates, system profiles, tools |
 | `beispiel/` | a small fictional example almanac. Ask the agent "Show me the example" and you get both websites to compare |
-| `plugin/` | workflows as skills for Claude Code: set up an almanac, add an idea, record a session, check consistency, build the websites |
 | `docs/` | start prompt and introduction |
-| `.github/workflows/` | publishes the player website to GitHub Pages, only when started by hand |
-
-Install the Claude Code plugin with `/plugin marketplace add <owner>/game-master-agent` and `/plugin install gma@game-master-agent`. Other agents follow the same workflows from `AGENTS.md`.
 
 ### Licence
 
-- Code (`almanach/werkzeuge/`, plugin): [PolyForm Shield 1.0.0](LICENSE). Any use is allowed, including commercial use: you may show GMA in monetised videos, streams and posts. You may not sell GMA itself or offer a competing product or service based on it.
+- Code (`almanach/werkzeuge/`): [PolyForm Shield 1.0.0](LICENSE). Any use is allowed, including commercial use: you may show GMA in monetised videos, streams and posts. You may not sell GMA itself or offer a competing product or service based on it.
 - Rules, templates and the example almanac: [CC BY 4.0](LICENSE-CONTENT).
 - Your own almanac is yours: whatever you create with GMA (adventures, worlds, texts, images) you may publish and sell.
 - D&D profile: includes material from the SRD 5.2 by Wizards of the Coast LLC, licensed under CC BY 4.0 (see the profile). "Dungeons & Dragons" and "D&D" are trademarks of Wizards of the Coast; GMA is not affiliated with or endorsed by Wizards of the Coast.
@@ -114,15 +110,11 @@ Die Regeln für den Agenten stehen in [almanach/AGENTS.md](almanach/AGENTS.md).
 |---|---|
 | `almanach/` | der leere Almanach: Regeln für den Agenten (`AGENTS.md`), Vorlagen, Systemprofile, Werkzeuge |
 | `beispiel/` | ein kleiner erfundener Beispiel-Almanach. Sag dem Agenten „Zeig mir das Beispiel“, dann bekommst du beide Websites zum Vergleichen |
-| `plugin/` | Abläufe als Skills für Claude Code: Almanach einrichten, Idee einpflegen, Sitzung erfassen, Konsistenz prüfen, Website bauen |
 | `docs/` | Start-Prompt und Einführung |
-| `.github/workflows/` | veröffentlicht die Spieler-Website auf GitHub Pages, nur wenn man es von Hand startet |
-
-Das Claude-Code-Plugin installiert man mit `/plugin marketplace add <owner>/game-master-agent` und `/plugin install gma@game-master-agent`. Andere Agenten folgen denselben Abläufen aus `AGENTS.md`.
 
 ### Lizenz
 
-- Code (`almanach/werkzeuge/`, Plugin): [PolyForm Shield 1.0.0](LICENSE). Jede Nutzung ist erlaubt, auch kommerziell: GMA darf in monetarisierten Videos, Streams und Posts gezeigt werden. Nicht erlaubt ist, GMA selbst zu verkaufen oder darauf ein Konkurrenzprodukt oder einen Dienst aufzubauen.
+- Code (`almanach/werkzeuge/`): [PolyForm Shield 1.0.0](LICENSE). Jede Nutzung ist erlaubt, auch kommerziell: GMA darf in monetarisierten Videos, Streams und Posts gezeigt werden. Nicht erlaubt ist, GMA selbst zu verkaufen oder darauf ein Konkurrenzprodukt oder einen Dienst aufzubauen.
 - Regelwerk, Vorlagen und Beispiel-Almanach: [CC BY 4.0](LICENSE-CONTENT).
 - Dein eigener Almanach gehört dir: Was du mit GMA erstellst (Abenteuer, Welten, Texte, Bilder), darfst du veröffentlichen und verkaufen.
 - D&D-Profil: enthält Material aus dem SRD 5.2 von Wizards of the Coast LLC unter CC BY 4.0 (siehe Profil). „Dungeons & Dragons“ und „D&D“ sind Marken von Wizards of the Coast; GMA steht in keiner Verbindung zu Wizards of the Coast.
