@@ -30,7 +30,7 @@ GMA works with any rules system. Everything rule-specific lives in a system prof
 
 ### Requirements
 
-- A project in the Claude or ChatGPT app, connected either to a folder on your computer or to a GitHub repository Plain chats without folder access are not suitable. This usually requires a paid plan; check the current plans of Anthropic and OpenAI.
+- A project in the Claude or ChatGPT app, connected either to a folder on your computer or to a GitHub repository. Plain chats without folder access are not suitable. This usually requires a paid plan; check the current plans of Anthropic and OpenAI.
 - Python 3 for the website tools (no extra packages). The agent helps you install it if needed.
 
 ### Getting started
@@ -88,7 +88,7 @@ GMA ist an kein Regelsystem gebunden. Alles Regelspezifische steht in einem Syst
 
 ### Voraussetzungen
 
-- Ein Projekt in der Claude- oder ChatGPT-App, verbunden mit einem Ordner auf deinem Rechner oder mit einem GitHub-Repository Normale Chats ohne Ordnerzugriff sind nicht geeignet. Dafür ist in der Regel ein Bezahltarif nötig; die aktuellen Tarife von Anthropic und OpenAI bitte selbst prüfen.
+- Ein Projekt in der Claude- oder ChatGPT-App, verbunden mit einem Ordner auf deinem Rechner oder mit einem GitHub-Repository. Normale Chats ohne Ordnerzugriff sind nicht geeignet. Dafür ist in der Regel ein Bezahltarif nötig; die aktuellen Tarife von Anthropic und OpenAI bitte selbst prüfen.
 - Python 3 für die Website-Werkzeuge (ohne Zusatzpakete). Der Agent hilft bei Bedarf bei der Installation.
 
 ### Loslegen
