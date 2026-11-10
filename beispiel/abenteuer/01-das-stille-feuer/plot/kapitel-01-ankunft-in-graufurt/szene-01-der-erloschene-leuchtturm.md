@@ -26,7 +26,7 @@ Ort: [Graufurt](../../../../welt/orte/salzmarsch/graufurt/graufurt.md)
 | Mara durchschauen | Menschenkenntnis, mittel | Sie verbirgt etwas und hat Angst | Sie wirkt nur müde |
 
 ## Musik und Geräusche
-_Nur für die SL, erscheint nicht in der Heldenversion._
+_Nur für die SL, erscheint nicht in der Spieler-Website._
 
 | Wann | Art | Quelle |
 |---|---|---|

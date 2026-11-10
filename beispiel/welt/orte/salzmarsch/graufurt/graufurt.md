@@ -24,7 +24,7 @@ Liegt in: [Salzmarsch](../salzmarsch.md)
 - Was geschah: [Szene 01](../../../../abenteuer/01-das-stille-feuer/plot/kapitel-01-ankunft-in-graufurt/szene-01-der-erloschene-leuchtturm.md)
 
 ## Musik und Geräusche
-_Nur für die SL, erscheint nicht in der Heldenversion._
+_Nur für die SL, erscheint nicht in der Spieler-Website._
 
 | Wann | Art | Quelle |
 |---|---|---|

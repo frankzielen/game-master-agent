@@ -5,7 +5,7 @@ Die **Welt** (NSCs, Orte, Fraktionen, Gegenstände, Spielercharaktere) gibt es n
 
 **Spieler:** Alex, Sam
 
-> Diese Beispielkampagne ist frei erfunden. Sie zeigt jede Konvention einmal: ein gespieltes Abenteuer mit Sitzung und Quelle, ein geplantes Abenteuer, Geheimnisse und eine „(nur SL)“-Zeile. Baue beide Websites und vergleiche: Die Heldenversion zeigt nur, was die Helden wissen.
+> Diese Beispielkampagne ist frei erfunden. Sie zeigt jede Konvention einmal: ein gespieltes Abenteuer mit Sitzung und Quelle, ein geplantes Abenteuer, Geheimnisse und eine „(nur SL)“-Zeile. Baue beide Websites und vergleiche: Die Spieler-Website zeigt nur, was die Helden wissen.
 
 ```
 welt/                        gemeinsam für alle Abenteuer
@@ -17,8 +17,8 @@ welt/                        gemeinsam für alle Abenteuer
 abenteuer/                   chronologisch nummeriert, jeweils plot/ (mit quests/) und sitzungen/
 systeme/                     Systemprofile (Regelsystem): Charakterfelder, Begriffe, Statblock-Vorlage
 _vorlagen/                   Kopiervorlagen für alle Dateitypen (regelneutral)
-werkzeuge/                   Links prüfen, Spielleiter-Website und Heldenversion erzeugen
-einstellungen.json           gewähltes Regelsystem, Titel, Startseite der Heldenversion
+werkzeuge/                   Links prüfen, Spielleiter-Website und Spieler-Website erzeugen
+einstellungen.json           gewähltes Regelsystem, Titel, Startseite der Spieler-Website
 offene-punkte.md             Widersprüche, offene Fragen, getroffene Entscheidungen
 AGENTS.md                    Arbeitsanweisung für den KI-Assistenten
 CLAUDE.md                    Verweis auf AGENTS.md (wird von Claude automatisch gelesen)

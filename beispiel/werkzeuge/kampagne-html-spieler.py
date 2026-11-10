@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Baut die spoilerfreie Spielerseite aus der Kampagne.
+"""Baut die spoilerfreie Spieler-Website aus der Kampagne.
 Aufruf (im Hauptordner der Kampagne): python3 werkzeuge/kampagne-html-spieler.py [ausgabe-ordner] [markdown-export-ordner]
 Ohne Angabe entsteht _site/spieler/spieler.html (dazu index.html als Weiterleitung), Bilder und Medien werden daneben kopiert.
 Mit zweitem Argument zusätzlich Markdown-Export: alle Seiten mit Bildern als Ordner plus spielerseite.md in Lesereihenfolge.
@@ -14,7 +14,7 @@ Was hinein kommt, steuert der Spielstand, nicht ein fester Pfad:
   zu nicht freigegebenen Abenteuern. Stat-Blöcke, Ideen-Eingänge, _quelle/ und _vorlagen/ sind nie dabei.
 - Links auf Ausgelassenes werden zu Text; Links in nicht freigegebene Abenteuer und auf ausgelassene
   Welt-Einträge verschwinden samt Text.
-- „Erwähnt in“ wird nur aus den Seiten der Spielerseite berechnet.
+- „Erwähnt in“ wird nur aus den Seiten der Spieler-Website berechnet.
 - Einzelne Zeilen mit „(nur SL)“ fallen weg. Es gibt bewusst keine Ausnahmelisten im Code oder in Einstellungen:
   Was nicht für die Spieler ist, wird in den Daten gekennzeichnet.
 - einstellungen.json liefert nur Titel, Untertitel, Titelbild und Einleitung der Startseite."""
@@ -25,7 +25,7 @@ MEDIEN = ('.mp3',)
 E = einstellungen()
 SP = E['spielerseite']
 
-# Ganze Abschnitte (## Überschrift), die nie auf die Spielerseite gehören
+# Ganze Abschnitte (## Überschrift), die nie auf die Spieler-Website gehören
 DROP_SECTIONS = {
     'Geheim (nur SL)', 'Aufhänger und Gerüchte', 'Ziele und Motivation', 'Konventionen', 'Hinweise zur Quelle',
     'Mögliche Enden', 'Handlungsstränge und Abzweigungen', 'Abzweigungen', 'Offene Ideen', 'Treibende Kräfte',
@@ -145,7 +145,7 @@ def kopf_bereinigen(text):
         elif z.startswith('status:') and z.split(':', 1)[1].strip() != 'gespielt':
             continue
         elif z.startswith('alias:'):
-            # nur Namen behalten, die auf der Spielerseite ohnehin im Text stehen (sonst verrät der Suchbegriff mehr)
+            # nur Namen behalten, die auf der Spieler-Website ohnehin im Text stehen (sonst verrät der Suchbegriff mehr)
             rumpf = text[len(k):]
             namen = [n.strip() for n in z[6:].strip().strip('[]').split(',') if n.strip() and n.strip() in rumpf]
             if not namen: continue
@@ -161,7 +161,7 @@ zeilen = '\n'.join(f"| {a['nr']} | [{a['name']}]({einstieg(a)}) | {'läuft' if a
 cover = SP.get('cover', '')
 if cover and os.path.isfile(os.path.join(ROOT, cover)):
     imgs[cover] = urllib.parse.quote(cover)
-    cover_md = f"![{SP.get('titel', 'Spielerseite')}]({cover})\n\n"
+    cover_md = f"![{SP.get('titel', 'Spieler-Website')}]({cover})\n\n"
 else:
     cover_md = ''
 stand = datetime.date.today().strftime('%d.%m.%Y')
@@ -214,7 +214,7 @@ def links(rel, text):
     for line in text.split('\n'):
         ls = list(LINK.finditer(line))
         if line.startswith('|') and ls and weg(ls[0]):
-            continue   # Tabellenzeile, deren Eintrag (erster Link) nicht auf der Spielerseite ist
+            continue   # Tabellenzeile, deren Eintrag (erster Link) nicht auf der Spieler-Website ist
         if ls and any(not m.group(1) and not extern(m.group(3)) and geheim_ziel(basis, m.group(3)) for m in ls):
             line = LINK.sub(lambda m: '' if (not m.group(1) and not extern(m.group(3)) and geheim_ziel(basis, m.group(3))) else m.group(0), line)
             line = re.sub(r'\s*·\s*(Danach|Davor):\s*(?=·|$)', '', line)
@@ -256,7 +256,7 @@ for rel, t in docs.items():
 imgs = {k: v for k, v in imgs.items() if k in benutzt}
 medien = sorted(p for p in benutzt if p.lower().endswith(MEDIEN) and os.path.isfile(os.path.join(ROOT, p)))
 
-# „Erwähnt in“ nur aus Seiten der Spielerseite
+# „Erwähnt in“ nur aus Seiten der Spieler-Website
 def ziel_doc(p):
     if p in docs: return p
     for c in (p + '/README.md', p + '/' + p.split('/')[-1] + '.md'):
@@ -277,7 +277,7 @@ ausgabe = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, '_site', 'spi
 datei = schreibe_seite(ausgabe, tpl, {'docs': docs, 'imgs': imgs, 'top': top, 'medien': medien, 'rueck': rueck}, list(imgs) + medien, 'spieler')
 print('Freigegeben:', ', '.join(f"{a['nr']} {a['name']}" + (' (läuft)' if a['laeuft'] else '') for a in abenteuer) or '–',
       '| ausgelassen:', ', '.join(f"{a['nr']} {a['name']}" for a in gesperrt) or '–')
-print(f'Spielerseite: {len(docs)} Dokumente, {len(imgs)} Bilder, {len(medien)} Medien -> {datei}')
+print(f'Spieler-Website: {len(docs)} Dokumente, {len(imgs)} Bilder, {len(medien)} Medien -> {datei}')
 
 # --- optional: Markdown-Export
 if len(sys.argv) > 2:

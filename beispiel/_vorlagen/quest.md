@@ -26,7 +26,7 @@ _Was läuft anders als erwartet?_
 - **Ignoriert:** _Was passiert, wenn die Gruppe nichts tut?_
 
 ## Musik und Geräusche
-_Was bei dieser Quest gespielt wird: Hintergrundmusik, Atmosphäre oder Soundeffekte. Eigene Dateien liegen in `audio/` neben dieser Datei, sonst ein Link zu Spotify, Apple Music, YouTube oder einem anderen Anbieter. Nur für die SL, erscheint nicht in der Heldenversion._
+_Was bei dieser Quest gespielt wird: Hintergrundmusik, Atmosphäre oder Soundeffekte. Eigene Dateien liegen in `audio/` neben dieser Datei, sonst ein Link zu Spotify, Apple Music, YouTube oder einem anderen Anbieter. Nur für die SL, erscheint nicht in der Spieler-Website._
 
 | Wann | Art | Quelle |
 |---|---|---|

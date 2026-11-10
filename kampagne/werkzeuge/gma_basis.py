@@ -1,4 +1,4 @@
-"""Gemeinsame Hilfen für die Website-Generatoren (SL-Website und Spielerseite)."""
+"""Gemeinsame Hilfen für die Website-Generatoren (SL-Website und Spieler-Website)."""
 import os, sys, json, re, shutil, base64, mimetypes
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
