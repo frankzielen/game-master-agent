@@ -1,13 +1,13 @@
-The rules, templates, system profiles, documentation and example campaign of GMA
-(everything except kampagne/werkzeuge/ and plugin/) are licensed under the
+The rules, templates, system profiles, documentation and example almanac of GMA
+(everything except almanach/werkzeuge/) are licensed under the
 Creative Commons Attribution 4.0 International License (CC BY 4.0).
 Copyright 2026 frankzielen (https://github.com/frankzielen)
 
-The D&D 5e system profile (kampagne/systeme/dnd-5e/) includes material from the
+The D&D 5e system profile (almanach/systeme/dnd-5e/) includes material from the
 System Reference Document 5.2 ("SRD 5.2") by Wizards of the Coast LLC, available at
 https://www.dndbeyond.com/srd. The SRD 5.2 is licensed under CC BY 4.0.
 
-The marked library (kampagne/werkzeuge/marked.min.js) is © Christopher Jeffrey,
+The marked library (almanach/werkzeuge/marked.min.js) is © Christopher Jeffrey,
 MIT licensed (see the header of that file).
 
 ------------------------------------------------------------------------------

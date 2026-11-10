@@ -25,6 +25,7 @@ Beim lokalen Ordner liegt alles bei dir auf dem Rechner. Beim GitHub-Repository 
 
 - **Ideen:** einfach erzählen oder einsprechen, gern in Bruchstücken. Bei Widersprüchen fragt der Agent nach und schlägt Lösungen vor.
 - **Nach einem Spielabend:** erzählen, was passiert ist. Der Agent schreibt das Protokoll und bringt Helden und Welt auf den neuesten Stand.
+- **Beispiel ansehen:** Sag „Zeig mir das Beispiel“, dann baut der Agent die beiden Websites des mitgelieferten Beispiel-Almanachs und du siehst, wie alles aussieht.
 - **Material:** Bilder, Karten, Handouts, Statblöcke, Musik einfach schicken und sagen, wozu sie gehören.
 - **Websites:** Nach Änderungen bietet der Agent an, die Websites neu zu bauen, nur für dich oder auch online. Danach kannst du beide direkt öffnen.
 
@@ -35,4 +36,4 @@ Beim lokalen Ordner liegt alles bei dir auf dem Rechner. Beim GitHub-Repository 
 - **Geheimnisse:** Was nur die Spielleitung wissen darf, ist in den Daten gekennzeichnet und fehlt in der Spieler-Website automatisch.
 - **Jedes Regelsystem:** Mitgeliefert sind „Ohne Regelsystem“ und „D&D 5e“, für andere Systeme legt der Agent mit dir ein Profil an.
 
-Die Regeln für den Agenten stehen in `kampagne/AGENTS.md`. Soll etwas anders laufen, sag es dem Agenten, er passt die Regeln an.
+Die Regeln für den Agenten stehen in `almanach/AGENTS.md`. Soll etwas anders laufen, sag es dem Agenten, er passt die Regeln an.

@@ -5,7 +5,7 @@ Die **Welt** (NSCs, Orte, Fraktionen, Gegenstände, Spielercharaktere) gibt es n
 
 **Spieler:** Alex, Sam
 
-> Diese Beispielkampagne ist frei erfunden. Sie zeigt jede Konvention einmal: ein gespieltes Abenteuer mit Sitzung und Quelle, ein geplantes Abenteuer, Geheimnisse und eine „(nur SL)“-Zeile. Baue beide Websites und vergleiche: Die Spieler-Website zeigt nur, was die Helden wissen.
+> Dieser Beispiel-Almanach ist frei erfunden. Er zeigt jede Konvention einmal: ein gespieltes Abenteuer mit Sitzung und Quelle, ein geplantes Abenteuer, Geheimnisse und eine „(nur SL)“-Zeile. Baue beide Websites und vergleiche: Die Spieler-Website zeigt nur, was die Helden wissen.
 
 ```
 welt/                        gemeinsam für alle Abenteuer

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Baut die spoilerfreie Spieler-Website aus der Kampagne.
-Aufruf (im Hauptordner der Kampagne): python3 werkzeuge/kampagne-html-spieler.py [ausgabe-ordner] [markdown-export-ordner]
+"""Baut die spoilerfreie Spieler-Website aus dem Almanach.
+Aufruf (im Hauptordner des Almanachs): python3 werkzeuge/almanach-html-spieler.py [ausgabe-ordner] [markdown-export-ordner]
 Ohne Angabe entsteht _site/spieler/spieler.html (dazu index.html als Weiterleitung), Bilder und Medien werden daneben kopiert.
 Mit zweitem Argument zusätzlich Markdown-Export: alle Seiten mit Bildern als Ordner plus spielerseite.md in Lesereihenfolge.
 
