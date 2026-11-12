@@ -5,6 +5,9 @@ tags: [sc]
 
 # Ilka
 
+![Ilka](bilder/portrait.jpg)
+_Quelle: KI-generiert mit ChatGPT_
+
 **Spieler:** Sam · **Charakterfelder:** Herkunft: Hafenstadt · Rolle: Kundschafterin · Fortschritt: Anfängerin
 
 ## Hintergrund (Kurzfassung)
