@@ -16,3 +16,4 @@ orte/
 |---|---|---|---|
 | [Salzmarsch](salzmarsch/salzmarsch.md) | Region | – | Küstenland |
 | [Graufurt](salzmarsch/graufurt/graufurt.md) | Dorf | Salzmarsch | Fischerdorf mit Leuchtturm |
+| [Altes Salzwerk](salzmarsch/altes-salzwerk/altes-salzwerk.md) | Gebäude | Salzmarsch | verfallenes Salzwerk |

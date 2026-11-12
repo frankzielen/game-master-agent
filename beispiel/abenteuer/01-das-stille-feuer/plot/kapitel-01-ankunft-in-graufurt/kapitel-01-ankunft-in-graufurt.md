@@ -17,11 +17,12 @@ Die Gruppe erreicht Graufurt, untersucht den erloschenen Leuchtturm und findet d
 | 02 | [Die Schmugglerhöhle](szene-02-die-schmugglerhoehle.md) | Küste | 01 |
 
 ## Abschluss
-Das Feuer brennt wieder. Wer hinter den Schmugglern steht, bleibt offen.
+Das Feuer brennt wieder. Wer hinter den Schmugglern steht, bleibt offen. Weiter mit [Kapitel 2](../kapitel-02-die-spur-ins-schilf/kapitel-02-die-spur-ins-schilf.md).
 
 ## Geheim (nur SL)
 Die Schmuggler arbeiten für einen Auftraggeber, der in Abenteuer 02 auftaucht.
 
 ## Verknüpfungen
 - **Orte:** [Graufurt](../../../../welt/orte/salzmarsch/graufurt/graufurt.md)
-- **NSCs:** [Mara Quell](../../../../welt/nscs/mara-quell/mara-quell.md)
+- **NSCs:** [Mara Quell](../../../../welt/nscs/mara-quell/mara-quell.md), [Jorin Quell](../../../../welt/nscs/jorin-quell/jorin-quell.md)
+- **Quests:** [Quest 01 – Der verschwundene Bruder](../quests/quest-01-der-verschwundene-bruder.md)

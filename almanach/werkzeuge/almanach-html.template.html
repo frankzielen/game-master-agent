@@ -59,6 +59,7 @@ article p, article li { line-height: 1.6; }
 article a { color: var(--link); text-underline-offset: 2px; }
 article a.kaputt { color: var(--muted); text-decoration: line-through; }
 article img { border-radius: 6px; display: block; margin: 12px 0; max-height: 480px; width: auto; }
+article .bildquelle { display: block; margin: -6px 0 14px; font-family: var(--ui); font-size: .8rem; font-style: normal; color: var(--muted); }
 article blockquote { margin: 1em 0; padding: .4em 1em; border-left: 3px solid var(--accent); background: var(--panel); font-style: italic; }
 article code { font-family: ui-monospace, Menlo, monospace; font-size: .85em; background: var(--code); padding: 1px 4px; border-radius: 4px; }
 article pre { background: var(--code); padding: 12px; border-radius: 6px; overflow-x: auto; }
@@ -306,6 +307,9 @@ function verdrahte(art, p) {
     if (!src || /^(data:|https?:)/.test(src)) return;
     const z = norm(basis, src);
     if (imgs[z]) img.src = imgs[z]; else img.remove();
+  });
+  art.querySelectorAll('img + em, img + br + em').forEach(em => {
+    if (/^\s*(Quelle|Bild)\s*:/.test(em.textContent)) em.className = 'bildquelle';
   });
   art.querySelectorAll('a').forEach(a => {
     const href = a.getAttribute('href') || '';

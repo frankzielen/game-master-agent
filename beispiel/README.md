@@ -3,9 +3,9 @@
 Einstiegspunkt für alle Abenteuer unserer Gruppe. Alle Abenteuer spielen in derselben Welt (die Salzmarsch), die Spielleitung kann wechseln.
 Die **Welt** (NSCs, Orte, Fraktionen, Gegenstände, Spielercharaktere) gibt es nur einmal und wird von allen Abenteuern genutzt. Jedes **Abenteuer** hat nur seinen eigenen Plot und seine Sitzungen.
 
-**Spieler:** Alex, Sam
+**Spieler:** Alex, Sam, Robin
 
-> Dieser Beispiel-Almanach ist frei erfunden. Er zeigt jede Konvention einmal: ein gespieltes Abenteuer mit Sitzung und Quelle, ein geplantes Abenteuer, Geheimnisse und eine „(nur SL)“-Zeile. Baue beide Websites und vergleiche: Die Spieler-Website zeigt nur, was die Helden wissen.
+> Dieser Beispiel-Almanach ist frei erfunden. Er zeigt, was ein Almanach kann: zwei gespielte Abenteuer mit wechselnder Spielleitung, Sitzungen mit Diktat als Quelle, eine nacherzählte Geschichte, Quests, eine Fraktion, Figuren und Orte, die sich über mehrere Abenteuer entwickeln, ein geplantes drittes Abenteuer, Geheimnisse und „(nur SL)“-Zeilen. Baue beide Websites und vergleiche: Die Spieler-Website zeigt nur, was die Helden wissen.
 
 ```
 welt/                        gemeinsam für alle Abenteuer

@@ -195,6 +195,7 @@ Weitere Regeln:
 - Anderes Originalmaterial (PDF, Mitschriften) ebenfalls unverändert in `_quelle/` ablegen und daraus die Struktur befüllen.
 - **Geschichte:** Jedes Abenteuer kann `geschichte/geschichte.md` haben (Vorlage `_vorlagen/geschichte.md`): das gespielte Abenteuer als zusammenhängender Erzähltext, Hörbuch (MP3 im selben Ordner) oder in anderer Form.
 - Bilder: passend benennen (`portrait.jpg`, `karte.jpg` …), in den `bilder/`-Ordner des Eintrags legen und in der Datei einbinden. Bei Unsicherheit, wen oder was ein Bild zeigt, nachfragen.
+- **Bildquelle:** Direkt unter dem Bild, ohne Leerzeile, steht die Quelle in einer eigenen Zeile: `_Quelle: …_` (z. B. „KI-generiert mit ChatGPT“, „eigene Zeichnung“, Künstlername mit Link oder Lizenz). Die Websites zeigen sie klein unter dem Bild. Nennt die Person keine Quelle, frag einmal nach; ohne Antwort bleibt die Zeile weg. Bilder aus gekauften Abenteuern oder fremden Werken nur für den eigenen Gebrauch, nicht für eine öffentliche Website.
 
 ## 7. Prüfen nach jeder Änderung
 

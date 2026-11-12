@@ -4,3 +4,4 @@ Eine Datei pro Fraktion. Vorlage: [_vorlagen/fraktion.md](../../_vorlagen/frakti
 
 | Fraktion | Kurz | Sitz | Haltung zur Gruppe |
 |---|---|---|---|
+| [Bund der Salzkrone](bund-der-salzkrone.md) | Schmugglerbund | [Altes Salzwerk](../orte/salzmarsch/altes-salzwerk/altes-salzwerk.md) | feindlich |
