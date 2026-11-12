@@ -5,6 +5,9 @@ tags: [nsc]
 
 # Jorin Quell
 
+![Jorin Quell](bilder/portrait.jpg)
+_Quelle: KI-generiert mit ChatGPT_
+
 **Kurz:** Fischer aus Graufurt, Maras jüngerer Bruder, gutmütig und etwas leichtsinnig.
 **Charakterfelder:** Rolle: Fischer · Haltung: freundlich
 **Aufenthaltsort:** [Graufurt](../../orte/salzmarsch/graufurt/graufurt.md)
