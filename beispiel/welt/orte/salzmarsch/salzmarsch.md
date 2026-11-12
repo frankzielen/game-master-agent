@@ -6,6 +6,9 @@ typ: region
 
 # Salzmarsch
 
+![Karte der Salzmarsch](karten/karte.jpg)
+_Quelle: KI-generiert mit ChatGPT_
+
 **Kurz:** Flaches Küstenland aus Prielen, Schilf und Sandbänken.
 
 ## Erster Eindruck
