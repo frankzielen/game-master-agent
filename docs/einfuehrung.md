@@ -18,7 +18,7 @@ Beim lokalen Ordner liegt alles bei dir auf dem Rechner. Beim GitHub-Repository 
 1. **Lokaler Ordner:** GMA als ZIP herunterladen und entpacken. In der App ein Projekt anlegen und den entpackten Ordner damit verbinden.
    **GitHub-Repository:** Auf GitHub mit „Use this template“ eine eigene Kopie anlegen. In der App ein Projekt anlegen und es mit dieser Kopie verbinden.
 2. Im Projekt einen neuen Chat beginnen und schreiben: **„Folge START.md.“**
-3. Der Agent richtet alles ein und fragt dich Schritt für Schritt nach Titel, Welt, Mitspielern, Regelsystem, Abenteuern und Helden. Was du noch nicht weißt, beantwortest du mit „später“.
+3. Der Agent fragt zuerst, ob du dir das Beispiel ansehen oder gleich einrichten möchtest. Das Beispiel zeigt dir, wie ein Almanach aufgebaut ist und wie Welten und Abenteuer darin aussehen. Danach richtet er alles ein und fragt dich Schritt für Schritt nach Titel, Welt, Mitspielern, Regelsystem, Abenteuern und Helden. Was du noch nicht weißt, beantwortest du mit „später“.
 4. Zum Schluss baut der Agent die beiden Websites und klärt mit dir, wie du und deine Spieler sie bekommt: über Claude bzw. ChatGPT veröffentlichen, auf eigenem Webspace (zum Beispiel GitHub Pages) oder offline als Datei.
 
 ## So arbeitest du mit dem Agenten
