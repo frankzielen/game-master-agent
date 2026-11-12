@@ -70,6 +70,7 @@ Zum Schluss:
   > 1. **Erzählen:** Gib mir Ideen, Material oder nach dem Spielabend, was passiert ist, gern in Bruchstücken. Ich ordne alles ein und frage bei Widersprüchen nach.
   > 2. **Anschauen:** Den aktuellen Stand deines Almanachs siehst du immer auf den Websites: in der Spielleiter-Website mit allem und in der Spieler-Website mit dem, was die Helden wissen. Dort prüfst du, ob alles so angekommen ist, wie du es wolltest.
   > 3. **Neu bauen:** Sag jederzeit „Websites neu bauen“, dann bekommst du beide Seiten auf dem neuesten Stand. Nach Änderungen biete ich dir das auch selbst an.
+- Hat die Person das Beispiel zu Beginn nicht angesehen, frage zum Abschluss: „Die Einrichtung ist fertig. Möchtest du dir jetzt noch das Beispiel ansehen, um ein Gefühl dafür zu bekommen, wie Welten und Abenteuer im Almanach abgebildet werden, oder gleich dein erstes Abenteuer anlegen?“ Biete die Schaltflächen „Beispiel ansehen“ und „Erstes Abenteuer anlegen“ an. Beim Beispiel gehst du vor wie unter „Beispiel zeigen“, beim Abenteuer wie unter „Geführt nachfragen“.
 
 ## Geführt nachfragen
 
