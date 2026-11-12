@@ -5,7 +5,8 @@
   "spielerseite": {
     "titel": "Heldentagebuch – Salzmarsch",
     "untertitel": "",
-    "cover": "",
+    "cover": "bilder/cover.jpg",
+    "cover_quelle": "KI-generiert mit ChatGPT",
     "einleitung": "Was die Gruppe in der Salzmarsch erlebt hat: die gespielten Abenteuer, die Helden und die Figuren, Orte und Dinge, denen sie begegnet sind."
   }
 }

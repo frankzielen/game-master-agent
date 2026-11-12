@@ -161,7 +161,8 @@ zeilen = '\n'.join(f"| {a['nr']} | [{a['name']}]({einstieg(a)}) | {'läuft' if a
 cover = SP.get('cover', '')
 if cover and os.path.isfile(os.path.join(ROOT, cover)):
     imgs[cover] = urllib.parse.quote(cover)
-    cover_md = f"![{SP.get('titel', 'Spieler-Website')}]({cover})\n\n"
+    quelle = SP.get('cover_quelle', '')
+    cover_md = f"![{SP.get('titel', 'Spieler-Website')}]({cover})\n" + (f"_Quelle: {quelle}_\n" if quelle else '') + "\n"
 else:
     cover_md = ''
 stand = datetime.date.today().strftime('%d.%m.%Y')

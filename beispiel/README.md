@@ -1,5 +1,8 @@
 # Beispiel: Die Salzmarsch
 
+![Ilka, Bren und Hedda über der Salzmarsch](bilder/cover.jpg)
+_Quelle: KI-generiert mit ChatGPT_
+
 Einstiegspunkt für alle Abenteuer unserer Gruppe. Alle Abenteuer spielen in derselben Welt (die Salzmarsch), die Spielleitung kann wechseln.
 Die **Welt** (NSCs, Orte, Fraktionen, Gegenstände, Spielercharaktere) gibt es nur einmal und wird von allen Abenteuern genutzt. Jedes **Abenteuer** hat nur seinen eigenen Plot und seine Sitzungen.
 
