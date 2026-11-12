@@ -122,7 +122,14 @@ const NAMEN = { 'README.md': 'Übersicht', 'offene-punkte.md': 'Offene Punkte', 
   'spielercharaktere': 'Spielercharaktere', 'plot': 'Plot', 'geschichte': 'Geschichte', 'sitzungen': 'Sitzungen', 'quests': 'Quests' };
 const docs = DATA.docs, imgs = DATA.imgs, medien = DATA.medien || [];
 
+// Vorlagen tragen Platzhalter als Überschrift, im Menü und in der Suche zeigen wir deshalb, wofür sie sind
+const VORLAGEN = { 'abenteuer-readme.md': 'Abenteuer-Übersicht', 'fraktion.md': 'Fraktion', 'gegenstand.md': 'Gegenstand',
+  'geschichte.md': 'Geschichte', 'hauptplot.md': 'Hauptplot', 'ideen-eingang.md': 'Ideen-Eingang', 'kapitel.md': 'Kapitel',
+  'nsc.md': 'NSC', 'ort.md': 'Ort', 'quest.md': 'Quest', 'sitzung.md': 'Sitzung', 'spielercharakter.md': 'Spielercharakter',
+  'szene.md': 'Szene', 'statblock.md': 'Vorlage Stat-Block (NSC)', 'statblock-sc.md': 'Vorlage Charakterbogen (SC)' };
 function titelVon(p) {
+  const datei = p.split('/').pop();
+  if ((p.startsWith('_vorlagen/') || p.startsWith('systeme/')) && VORLAGEN[datei]) return VORLAGEN[datei];
   const m = (docs[p] || '').match(/^#\s+(.+)$/m);
   return m ? m[1].trim() : p.split('/').pop();
 }
