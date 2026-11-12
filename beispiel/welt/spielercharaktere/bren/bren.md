@@ -5,6 +5,9 @@ tags: [sc]
 
 # Bren
 
+![Bren](bilder/portrait.jpg)
+_Quelle: KI-generiert mit ChatGPT_
+
 **Spieler:** Robin · **Charakterfelder:** Herkunft: Graufurt · Rolle: Schmied · Fortschritt: erfahren
 
 ## Hintergrund (Kurzfassung)
