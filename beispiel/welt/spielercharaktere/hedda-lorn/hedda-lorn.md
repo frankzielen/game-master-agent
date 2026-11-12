@@ -5,6 +5,9 @@ tags: [sc]
 
 # Hedda Lorn
 
+![Hedda Lorn](bilder/portrait.jpg)
+_Quelle: KI-generiert mit ChatGPT_
+
 **Spieler:** Alex · **Charakterfelder:** Herkunft: Salzmarsch · Rolle: Siederin · Fortschritt: Anfängerin
 
 ## Hintergrund (Kurzfassung)
