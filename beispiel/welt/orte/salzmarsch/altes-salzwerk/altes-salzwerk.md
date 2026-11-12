@@ -17,7 +17,7 @@ _Quelle: KI-generiert mit ChatGPT_
 > Vorlesetext: Aus dem Nebel schälen sich lange Holzschuppen mit eingesunkenen Dächern. Ein schiefer Schornstein ragt in den Himmel, und durch die Ritzen der Wände fällt rötlicher Feuerschein. Es riecht nach Rauch und heißem Salz.
 
 ## Beschreibung
-Früher wurde hier Sole aus der Marsch in großen Pfannen gesiedet. Die Besitzer gaben das Werk vor zwanzig Jahren auf. Es gibt eine Siedehalle mit sechs Pfannen, ein Kontor mit Schreibstube, Schlafschuppen und einen versteckten Bootssteg an einem tiefen Priel, der auch bei Ebbe Wasser führt.
+Früher wurde hier Sole aus der Marsch in großen Pfannen gesiedet. Die Besitzer gaben das Werk vor zwanzig Jahren auf. Es gibt eine Siedehalle mit sechs Pfannen, ein Kontor mit Schreibstube, Schlafschuppen und einen versteckten Bootssteg an einem tiefen Priel, der auch bei Ebbe Wasser führt. Ein halb verschlammter, gemauerter Solegang führt vom Ufer unter der Wand hindurch und endet hinter der dritten Pfanne in der Siedehalle.
 
 ## Bewohner und wichtige NSCs
 - [Vela Brandt](../../../nscs/vela-brandt/vela-brandt.md) – Herrin des Werks (geflohen)
@@ -43,7 +43,7 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 | Im Kampf | Musik | _treibende Trommeln_ |
 
 ## Geheim (nur SL)
-Den Keller gibt es. Vela hat dort Salzbarren im Wert eines kleinen Vermögens versteckt und will sie in Abenteuer 03 holen.
+Den Keller gibt es, seine Falltür liegt unter der fünften Pfanne. Vela hat dort Salzbarren im Wert eines kleinen Vermögens versteckt und will sie in Abenteuer 03 holen.
 
 ## Verknüpfungen
 - **Fraktionen:** [Bund der Salzkrone](../../../fraktionen/bund-der-salzkrone.md)
