@@ -5,6 +5,9 @@ tags: [gegenstand]
 
 # Silberne Laterne
 
+![Silberne Laterne](bilder/laterne.jpg)
+_Quelle: KI-generiert mit ChatGPT_
+
 _Art: Lichtquelle; Wert: hoch; Wirkung: erlischt nie, verrät ihrer Besitzerin den Weg zum Träger_
 
 ## Beschreibung
