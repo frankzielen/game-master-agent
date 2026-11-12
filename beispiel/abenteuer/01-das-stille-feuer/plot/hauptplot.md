@@ -62,7 +62,7 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 
 | Wann | Art | Quelle |
 |---|---|---|
-| Ganzes Abenteuer | Atmosphäre | _Brandung und Möwen, eigene Datei oder Link_ |
+| Ganzes Abenteuer | Musik | [North Sea Fog](audio/north-sea-fog.mp3) _(KI-generiert mit Suno)_ |
 
 ## Geheim (nur SL)
 Hinter den Schmugglern steht Vela Brandt, die Herrin des alten Salzwerks. Die silberne Laterne ist ihre: Sie hat sie den Schmugglern mitgegeben, damit sie die Lieferung jederzeit findet. Wer die Laterne trägt, den findet Vela. Damit kommt die Gruppe in Abenteuer 02 ins Blickfeld der Salzkrone.
