@@ -8,6 +8,9 @@ typ: gebaeude
 
 Liegt in: [Salzmarsch](../salzmarsch.md)
 
+![Altes Salzwerk](bilder/salzwerk.jpg)
+_Quelle: KI-generiert mit ChatGPT_
+
 **Kurz:** Verfallenes Salzwerk tief in der Marsch, bis vor Kurzem Sitz des Bundes der Salzkrone.
 
 ## Erster Eindruck
