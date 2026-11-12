@@ -6,6 +6,9 @@ alias: [Salzkrone]
 
 # Vela Brandt
 
+![Vela Brandt](bilder/portrait.jpg)
+_Quelle: KI-generiert mit ChatGPT_
+
 **Kurz:** Herrin des alten Salzwerks und Anführerin des [Bundes der Salzkrone](../../fraktionen/bund-der-salzkrone.md), genannt „die Salzkrone“.
 **Charakterfelder:** Rolle: Schmugglerkönigin · Haltung: feindlich · **Fraktion:** [Bund der Salzkrone](../../fraktionen/bund-der-salzkrone.md)
 **Aufenthaltsort:** unbekannt, zuletzt im [alten Salzwerk](../../orte/salzmarsch/altes-salzwerk/altes-salzwerk.md)
