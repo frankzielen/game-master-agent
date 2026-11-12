@@ -7,7 +7,7 @@ import os, sys, re, posixpath, urllib.parse
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from gma_basis import ROOT, IMG, einstellungen, template, schreibe_seite
 
-TOP = ['README.md', 'offene-punkte.md', 'abenteuer', 'welt', 'systeme', '_vorlagen']
+TOP = ['README.md', 'offene-punkte.md', 'abenteuer', 'welt', 'systeme', '_vorlagen', 'bilder']
 MEDIEN = ('.pdf', '.mp3', '.ogg', '.wav', '.m4a', '.flac', '.txt')
 docs, imgs = {}, {}
 for t in TOP:

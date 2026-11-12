@@ -59,6 +59,7 @@ article p, article li { line-height: 1.6; }
 article a { color: var(--link); text-underline-offset: 2px; }
 article a.kaputt { color: var(--muted); text-decoration: line-through; }
 article img { border-radius: 6px; display: block; margin: 12px 0; max-height: 480px; width: auto; }
+article .bildquelle { display: block; margin: -6px 0 14px; font-family: var(--ui); font-size: .8rem; font-style: normal; color: var(--muted); }
 article blockquote { margin: 1em 0; padding: .4em 1em; border-left: 3px solid var(--accent); background: var(--panel); font-style: italic; }
 article code { font-family: ui-monospace, Menlo, monospace; font-size: .85em; background: var(--code); padding: 1px 4px; border-radius: 4px; }
 article pre { background: var(--code); padding: 12px; border-radius: 6px; overflow-x: auto; }
@@ -121,7 +122,14 @@ const NAMEN = { 'README.md': 'Übersicht', 'offene-punkte.md': 'Offene Punkte', 
   'spielercharaktere': 'Spielercharaktere', 'plot': 'Plot', 'geschichte': 'Geschichte', 'sitzungen': 'Sitzungen', 'quests': 'Quests' };
 const docs = DATA.docs, imgs = DATA.imgs, medien = DATA.medien || [];
 
+// Vorlagen tragen Platzhalter als Überschrift, im Menü und in der Suche zeigen wir deshalb, wofür sie sind
+const VORLAGEN = { 'abenteuer-readme.md': 'Abenteuer-Übersicht', 'fraktion.md': 'Fraktion', 'gegenstand.md': 'Gegenstand',
+  'geschichte.md': 'Geschichte', 'hauptplot.md': 'Hauptplot', 'ideen-eingang.md': 'Ideen-Eingang', 'kapitel.md': 'Kapitel',
+  'nsc.md': 'NSC', 'ort.md': 'Ort', 'quest.md': 'Quest', 'sitzung.md': 'Sitzung', 'spielercharakter.md': 'Spielercharakter',
+  'szene.md': 'Szene', 'statblock.md': 'Vorlage Stat-Block (NSC)', 'statblock-sc.md': 'Vorlage Charakterbogen (SC)' };
 function titelVon(p) {
+  const datei = p.split('/').pop();
+  if ((p.startsWith('_vorlagen/') || p.startsWith('systeme/')) && VORLAGEN[datei]) return VORLAGEN[datei];
   const m = (docs[p] || '').match(/^#\s+(.+)$/m);
   return m ? m[1].trim() : p.split('/').pop();
 }
@@ -306,6 +314,9 @@ function verdrahte(art, p) {
     if (!src || /^(data:|https?:)/.test(src)) return;
     const z = norm(basis, src);
     if (imgs[z]) img.src = imgs[z]; else img.remove();
+  });
+  art.querySelectorAll('img + em, img + br + em').forEach(em => {
+    if (/^\s*(Quelle|Bild)\s*:/.test(em.textContent)) em.className = 'bildquelle';
   });
   art.querySelectorAll('a').forEach(a => {
     const href = a.getAttribute('href') || '';

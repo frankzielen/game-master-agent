@@ -79,7 +79,8 @@ def sammle(start, welt):
             full = os.path.join(dp, f); rel = os.path.relpath(full, ROOT).replace(os.sep, '/')
             if f.endswith('.md'):
                 t = lies(full)
-                ok = f not in ('statblock.md', 'ideen-eingang.md')
+                # Statblocks von NSCs bleiben SL-Wissen, die der Spielercharaktere sehen die Spieler
+                ok = f != 'ideen-eingang.md' and (f != 'statblock.md' or rel.startswith('welt/spielercharaktere/'))
                 if welt:
                     au = auftritte(t)
                     ok = ok and (au is None or any(x in frei_nrs for x in au))
@@ -161,7 +162,8 @@ zeilen = '\n'.join(f"| {a['nr']} | [{a['name']}]({einstieg(a)}) | {'läuft' if a
 cover = SP.get('cover', '')
 if cover and os.path.isfile(os.path.join(ROOT, cover)):
     imgs[cover] = urllib.parse.quote(cover)
-    cover_md = f"![{SP.get('titel', 'Spieler-Website')}]({cover})\n\n"
+    quelle = SP.get('cover_quelle', '')
+    cover_md = f"![{SP.get('titel', 'Spieler-Website')}]({cover})\n" + (f"_Quelle: {quelle}_\n" if quelle else '') + "\n"
 else:
     cover_md = ''
 stand = datetime.date.today().strftime('%d.%m.%Y')

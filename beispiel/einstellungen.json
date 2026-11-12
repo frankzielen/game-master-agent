@@ -1,11 +1,12 @@
 {
-  "system": "ohne-regelsystem",
-  "titel": "Beispiel: Die Salzmarsch",
+  "system": "dnd-5e",
+  "titel": "Salzmarsch",
   "untertitel": "Ein kleiner erfundener Beispiel-Almanach",
   "spielerseite": {
     "titel": "Heldentagebuch – Salzmarsch",
     "untertitel": "",
-    "cover": "",
-    "einleitung": "Was die Gruppe in der Salzmarsch erlebt hat: das gespielte Abenteuer, die Helden und die Figuren, Orte und Dinge, denen sie begegnet sind."
+    "cover": "bilder/cover.jpg",
+    "cover_quelle": "KI-generiert mit ChatGPT",
+    "einleitung": "Was die Gruppe in der Salzmarsch erlebt hat: die gespielten Abenteuer, die Helden und die Figuren, Orte und Dinge, denen sie begegnet sind."
   }
 }

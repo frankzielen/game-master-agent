@@ -83,7 +83,8 @@ Welches Regelsystem die Gruppe spielt, steht in `einstellungen.json` unter `"sys
 - Lies `systeme/<system>/profil.md` zu Beginn jeder Sitzung. Es legt Charakterfelder, Gegenstandsfelder und Begriffe fest (Probe, Schwierigkeit, Erfahrung, Fortschritt, Währung, Gefährlichkeit). Verwende genau diese Begriffe.
 - Wo eine Vorlage „laut Systemprofil“ sagt, setzt du beim Anlegen die Felder des Profils ein.
 - Spielwerte eines NSC legst du als `statblock.md` aus `systeme/<system>/statblock.md` an.
-- Gibt es noch kein passendes Profil, legst du mit der Spielleitung eines an: Lass dir einen Beispiel-Statblock zeigen und die wichtigsten Begriffe nennen, und schreibe daraus `profil.md` und `statblock.md`. Übernimm keine Regeltexte aus Büchern, nur Feldnamen und Begriffe.
+- Spielwerte eines Spielercharakters legst du als `statblock.md` im Ordner des Charakters aus `systeme/<system>/statblock-sc.md` an. Nach jedem gespielten Abenteuer aktualisierst du Stufe, Werte und Ausrüstung. Anders als bei NSCs erscheint dieser Statblock auch in der Spieler-Website.
+- Gibt es noch kein passendes Profil, legst du mit der Spielleitung eines an: Lass dir einen Beispiel-Statblock zeigen und die wichtigsten Begriffe nennen, und schreibe daraus `profil.md`, `statblock.md` und `statblock-sc.md`. Übernimm keine Regeltexte aus Büchern, nur Feldnamen und Begriffe.
 
 ## 2. Ablage
 
@@ -95,7 +96,7 @@ welt/                        gemeinsam für alle Abenteuer
   orte/<region>/<stadt>/…    verschachtelt: Region → Stadt → Gebäude, je Ort ein Ordner
   fraktionen/<name>.md
   gegenstaende/<name>.md     Bilder in gegenstaende/bilder/
-  spielercharaktere/<name>/<name>.md
+  spielercharaktere/<name>/<name>.md   dazu statblock.md und bilder/
 abenteuer/
   README.md                  Liste aller Abenteuer mit Spielleitung und Status
   NN-titel/                  chronologisch nummeriert: 01-…, 02-…
@@ -133,7 +134,7 @@ Jede Übersicht (`welt/*/README.md`, `abenteuer/README.md`) enthält eine Tabell
   - Der Hauptplot hat zusätzlich `spielleitung:`.
 - **Musik und Geräusche:** Jedes Objekt (NSC, Ort, Fraktion, Gegenstand, SC) und jeder Abenteuerinhalt (Hauptplot, Kapitel, Szene, Quest) kann einen Abschnitt `## Musik und Geräusche` haben: Hintergrundmusik, Atmosphäre oder Soundeffekte, mit „Wann“ (z. B. beim Betreten, im Kampf, beim Auftritt). Eigene Dateien (MP3, OGG, WAV, M4A, FLAC) liegen in `audio/` neben der Datei, sonst ein Link zu Spotify, Apple Music, YouTube oder einem anderen Anbieter. Die Website spielt Dateien direkt ab und bettet Spotify-, Apple-Music- und YouTube-Links als Player ein. In der Spalte „Art“ steht „Musik“, „Atmosphäre“ oder „Effekt“. Musik und Atmosphäre aus eigenen Dateien laufen in der Musikleiste unten rechts in Dauerschleife und spielen beim Weiterklicken weiter; gestartet wird nur von Hand, weitere Stücke der Seite sind auswählbar. Effekte haben einen eigenen Abspieler. Der Abschnitt ist nur für die SL und erscheint nicht in der Spieler-Website.
 - **Spoiler:** Was die Spieler nicht wissen dürfen, steht unter `## Geheim (nur SL)`.
-- **Hauptplot:** nennt oben die Spielleitung und verlinkt das vorige und das nächste Abenteuer. Zeitliche Abläufe stehen unter „Zeitplan des Abenteuers“.
+- **Hauptplot:** nennt oben die Spielleitung und verlinkt das vorige und das nächste Abenteuer. Unter „Handlung im Überblick“ steht in einigen Absätzen, was im Abenteuer passiert: Ausgangslage, wer was warum tut, Verlauf und Enden. Kapitel und Szenen beschreiben Ort, Stimmung, Ablauf und die Motive der beteiligten NSCs so, dass die Spielleitung daraus leiten kann. Zeitliche Abläufe stehen unter „Zeitplan des Abenteuers“.
 
 ## 4. Welt-Dateien über mehrere Abenteuer
 
@@ -195,6 +196,7 @@ Weitere Regeln:
 - Anderes Originalmaterial (PDF, Mitschriften) ebenfalls unverändert in `_quelle/` ablegen und daraus die Struktur befüllen.
 - **Geschichte:** Jedes Abenteuer kann `geschichte/geschichte.md` haben (Vorlage `_vorlagen/geschichte.md`): das gespielte Abenteuer als zusammenhängender Erzähltext, Hörbuch (MP3 im selben Ordner) oder in anderer Form.
 - Bilder: passend benennen (`portrait.jpg`, `karte.jpg` …), in den `bilder/`-Ordner des Eintrags legen und in der Datei einbinden. Bei Unsicherheit, wen oder was ein Bild zeigt, nachfragen.
+- **Bildquelle:** Direkt unter dem Bild, ohne Leerzeile, steht die Quelle in einer eigenen Zeile: `_Quelle: …_` (z. B. „KI-generiert mit ChatGPT“, „eigene Zeichnung“, Künstlername mit Link oder Lizenz). Die Websites zeigen sie klein unter dem Bild. Beim Titelbild der Spieler-Website (`einstellungen.json`, `spielerseite.cover`) steht die Quelle in `cover_quelle`. Nennt die Person keine Quelle, frag einmal nach; ohne Antwort bleibt die Zeile weg. Bilder aus gekauften Abenteuern oder fremden Werken nur für den eigenen Gebrauch, nicht für eine öffentliche Website.
 
 ## 7. Prüfen nach jeder Änderung
 

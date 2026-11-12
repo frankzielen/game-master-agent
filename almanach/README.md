@@ -11,7 +11,7 @@ welt/                        gemeinsam für alle Abenteuer
   orte/                      Region → Stadt → Gebäude
   fraktionen/
   gegenstaende/
-  spielercharaktere/         ein Ordner pro SC
+  spielercharaktere/         ein Ordner pro SC: name.md, statblock.md, bilder/
 abenteuer/                   chronologisch nummeriert, jeweils plot/ (mit quests/) und sitzungen/
 systeme/                     Systemprofile (Regelsystem): Charakterfelder, Begriffe, Statblock-Vorlage
 _vorlagen/                   Kopiervorlagen für alle Dateitypen (regelneutral)

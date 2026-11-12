@@ -11,6 +11,9 @@ tags: [plot]
 ## Prämisse
 _In zwei, drei Sätzen: Worum geht es in diesem Abenteuer? Was steht auf dem Spiel?_
 
+## Handlung im Überblick
+_Was in diesem Abenteuer passiert, von der Ausgangslage bis zu den möglichen Enden, in einigen Absätzen. Wer liest nur diesen Abschnitt und weiß, worum es geht?_
+
 ## Verbindung zu früheren Abenteuern
 _Welche offenen Fäden, NSCs und Konsequenzen aus früheren Abenteuern werden übernommen?_
 

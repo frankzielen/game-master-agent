@@ -9,6 +9,7 @@ typ: stadt   # region | stadt | dorf | gebaeude
 Liegt in: [Übergeordneter Ort](../uebergeordneter-ort.md)
 
 ![Karte](karten/karte.png)
+_Quelle: z. B. KI-generiert, eigene Zeichnung, Künstlername oder Lizenz_
 
 **Kurz:** _Ein Satz, der den Ort auf den Punkt bringt._
 

@@ -6,6 +6,7 @@ Die Spielleitung kann wechseln: Jeder Hauptplot nennt oben, wer das Abenteuer me
 | # | Abenteuer | Spielleitung | Status |
 |---|---|---|---|
 | 01 | [Das stille Feuer](01-das-stille-feuer/README.md) | Alex | gespielt |
-| 02 | [Die Salzkrone](02-die-salzkrone/README.md) | Alex | idee |
+| 02 | [Die Salzkrone](02-die-salzkrone/README.md) | Sam | gespielt |
+| 03 | [Ebbe und Flut](03-ebbe-und-flut/README.md) | Robin | idee |
 
 Neues Abenteuer: Ordner `NN-titel/` mit `README.md` (Vorlage: [_vorlagen/abenteuer-readme.md](../_vorlagen/abenteuer-readme.md)), `ideen-eingang.md`, `plot/hauptplot.md` (Vorlage: [_vorlagen/hauptplot.md](../_vorlagen/hauptplot.md)), `plot/quests/` und `sitzungen/` anlegen und hier eintragen.
