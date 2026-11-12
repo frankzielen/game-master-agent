@@ -121,8 +121,6 @@ const NAMEN = { 'README.md': 'Übersicht', 'offene-punkte.md': 'Offene Punkte', 
   'welt': 'Welt', '_vorlagen': 'Vorlagen', 'systeme': 'Systemprofile', 'nscs': 'NSCs', 'orte': 'Orte', 'fraktionen': 'Fraktionen', 'gegenstaende': 'Gegenstände',
   'spielercharaktere': 'Spielercharaktere', 'plot': 'Plot', 'geschichte': 'Geschichte', 'sitzungen': 'Sitzungen', 'quests': 'Quests' };
 const docs = DATA.docs, imgs = DATA.imgs, medien = DATA.medien || [];
-// Mit --eine-datei eingebettete Medien (Musik, PDF) stecken in DATA.mdata, sonst liegen sie als Datei neben der Seite
-const mquelle = m => (DATA.mdata && DATA.mdata[m]) || m;
 
 function titelVon(p) {
   const m = (docs[p] || '').match(/^#\s+(.+)$/m);
@@ -212,7 +210,7 @@ async function ladeHerunter(a, m) {
   if (!dl) { hinweis('Herunterladen ist in dieser Ansicht nicht möglich.'); return; }
   try {
     hinweis('Datei wird geladen …');
-    const blob = await (await fetch(mquelle(m))).blob();
+    const blob = await (await fetch(m)).blob();
     hinweis('');
     await dl.save({ filename: m.split('/').pop(), data: blob });
   } catch (e) { hinweis(e && e.code === 'declined' ? '' : 'Herunterladen nicht möglich.'); }
@@ -268,9 +266,9 @@ function mediumSeite(art, m) {
   const name = m.split('/').pop();
   art.innerHTML = `<h1>${name.replace(/</g, '&lt;')}</h1><div id="medium"></div>`;
   const box = art.querySelector('#medium');
-  if (/\.pdf$/i.test(m)) box.innerHTML = `<iframe src="${mquelle(m)}" style="width:100%;height:80vh;border:1px solid var(--muted);border-radius:6px;background:#fff"></iframe>`;
-  else if (/\.(mp3|ogg|wav|m4a|flac)$/i.test(m)) box.innerHTML = `<audio controls src="${mquelle(m)}" style="width:100%"></audio>`;
-  else fetch(mquelle(m)).then(r => r.text()).then(x => { const pre = document.createElement('pre'); pre.style.whiteSpace = 'pre-wrap'; pre.textContent = x; box.append(pre); })
+  if (/\.pdf$/i.test(m)) box.innerHTML = `<iframe src="${m}" style="width:100%;height:80vh;border:1px solid var(--muted);border-radius:6px;background:#fff"></iframe>`;
+  else if (/\.(mp3|ogg|wav|m4a|flac)$/i.test(m)) box.innerHTML = `<audio controls src="${m}" style="width:100%"></audio>`;
+  else fetch(m).then(r => r.text()).then(x => { const pre = document.createElement('pre'); pre.style.whiteSpace = 'pre-wrap'; pre.textContent = x; box.append(pre); })
     .catch(() => { box.textContent = 'Die Datei konnte nicht geladen werden.'; });
 }
 function rendere(p) {
@@ -326,12 +324,12 @@ function verdrahte(art, p) {
         const tr = a.closest('tr'), artZelle = tr && tr.cells[1] ? tr.cells[1].textContent : '';
         if (abschnittVon(a, art) === 'Musik und Geräusche' && /musik|atmosph/i.test(artZelle)) {
           const wann = tr.cells[0] ? tr.cells[0].textContent.trim() : '';
-          const t = { src: mquelle(m), name: a.textContent.trim() + (wann ? ' – ' + wann : ''), von: titelSeite };
+          const t = { src: m, name: a.textContent.trim() + (wann ? ' – ' + wann : ''), von: titelSeite };
           stuecke.push(t);
           const b = document.createElement('button'); b.type = 'button'; b.className = 'hg-play'; b.textContent = '▶ Hintergrund';
           b.onclick = () => hgSpiele(t); a.after(b);
           a.onclick = e => { e.preventDefault(); hgSpiele(t); };
-        } else { const au = document.createElement('audio'); au.controls = true; au.preload = 'none'; au.src = mquelle(m); au.style.cssText = 'display:block;width:100%;max-width:420px;margin-top:6px'; a.after(au); }
+        } else { const au = document.createElement('audio'); au.controls = true; au.preload = 'none'; au.src = m; au.style.cssText = 'display:block;width:100%;max-width:420px;margin-top:6px'; a.after(au); }
       }
       return;
     }
