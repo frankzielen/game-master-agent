@@ -24,7 +24,7 @@ Im zweiten Kapitel erzählt Jorin, wohin er die Kisten gebracht hat: zu einem Bo
 - **Die drei Schmuggler** aus der Höhle unter Führung des grobschlächtigen Harm: wollen ihre Lieferung durch die Sandbänke bringen und dabei nicht gesehen werden. Sie sind keine Mörder, aber sie haben Angst vor ihrer Anführerin.
 - **[Mara Quell](../../../welt/nscs/mara-quell/mara-quell.md)**: will ihren Bruder retten und erträgt dafür die Schuld an den zerschellten Booten. Sie lügt schlecht.
 - **[Jorin Quell](../../../welt/nscs/jorin-quell/jorin-quell.md)**: Gefangener und Auslöser des Ganzen. Er schämt sich und hofft, dass seine Schwester nie erfährt, wie tief er drinsteckt.
-- **Das Dorf Graufurt**: wütend und verängstigt. Die Wirtin Tjarde vom „Trockenen Anker“ hält die Leute zusammen und bittet die Gruppe um Hilfe.
+- **Das Dorf [Graufurt](../../../welt/orte/salzmarsch/graufurt/graufurt.md)**: wütend und verängstigt. Die Wirtin Tjarde vom „Trockenen Anker“ hält die Leute zusammen und bittet die Gruppe um Hilfe.
 
 ## Zeitplan des Abenteuers
 | Wann | Ereignis | Handlungsstrang / beteiligt | Änderbar durch die Gruppe? |
