@@ -4,8 +4,9 @@ import os, sys, json, re, shutil, base64, mimetypes
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HERE = os.path.dirname(os.path.abspath(__file__))
 IMG = ('.jpg', '.jpeg', '.png', '.webp', '.gif', '.svg')
+MEDIEN_GRENZE = 8_000_000  # Bytes, bis zu denen --eine-datei auch Musik und PDFs einbettet
 
-# --eine-datei: Bilder in die HTML-Datei einbetten (zum Anhängen im Chat, wo Dateien daneben fehlen)
+# --eine-datei: Bilder (und kleine Medien) in die HTML-Datei einbetten (zum Anhängen im Chat, wo Dateien daneben fehlen)
 EINE_DATEI = '--eine-datei' in sys.argv
 if EINE_DATEI:
     sys.argv.remove('--eine-datei')
@@ -31,14 +32,24 @@ def esc(t):
 def schreibe_seite(ausgabe, tpl, data, dateien, name):
     """Schreibt <name>.html nach <ausgabe>/ und kopiert Bilder und Medien (Pfade relativ zum Almanach) daneben.
     Dazu eine kleine index.html, die auf <name>.html weiterleitet (für Hoster wie GitHub Pages).
-    Mit --eine-datei stecken die Bilder in der HTML-Datei selbst (zum Anhängen im Chat)."""
+    Mit --eine-datei stecken Bilder und, bis MEDIEN_GRENZE, auch Musik und PDFs in der HTML-Datei selbst (zum Anhängen im Chat)."""
     os.makedirs(ausgabe, exist_ok=True)
     if EINE_DATEI:
         for rel in list(data.get('imgs', {})):
             typ = mimetypes.guess_type(rel)[0] or 'application/octet-stream'
             roh = open(os.path.join(ROOT, rel), 'rb').read()
             data['imgs'][rel] = f'data:{typ};base64,' + base64.b64encode(roh).decode()
-        dateien = [d for d in dateien if d not in data.get('imgs', {})]
+        # Musik und PDFs ebenfalls einbetten, solange die Seite handlich bleibt (Chat-Anhänge und Artefakte haben Größengrenzen)
+        medien = [m for m in data.get('medien', []) if os.path.isfile(os.path.join(ROOT, m))]
+        groesse = sum(os.path.getsize(os.path.join(ROOT, m)) for m in medien)
+        if medien and groesse <= MEDIEN_GRENZE:
+            data['mdata'] = {}
+            for m in medien:
+                typ = mimetypes.guess_type(m)[0] or 'application/octet-stream'
+                data['mdata'][m] = f'data:{typ};base64,' + base64.b64encode(open(os.path.join(ROOT, m), 'rb').read()).decode()
+        elif medien:
+            print(f'Hinweis: Musik und PDFs ({groesse // 1_000_000} MB) sind zu groß zum Einbetten und liegen als Dateien neben der Seite.')
+        dateien = [d for d in dateien if d not in data.get('imgs', {}) and d not in data.get('mdata', {})]
     blob = json.dumps(data, ensure_ascii=False).replace('</', '<\\/')
     datei = name + '.html'
     open(os.path.join(ausgabe, datei), 'w', encoding='utf-8').write(tpl.replace('/*__DATA__*/null', blob))
