@@ -32,9 +32,9 @@ Der Turm ist weiß gekalkt, aber die Farbe blättert. Unten liegen Wohnstube und
 ## Proben, Kampf, Hindernisse
 | Was | Probe / Schwierigkeit | Erfolg | Misserfolg |
 |---|---|---|---|
-| Mara durchschauen | Menschenkenntnis, mittel | Sie verbirgt etwas und hat Angst | Sie wirkt nur müde |
-| Das Lager durchsuchen | Wahrnehmung, leicht | Die vollen Fässer hinter den Netzen | Erst beim zweiten Blick |
-| Maras Vertrauen gewinnen | Überzeugen, mittel (leicht, wenn die Gruppe Hilfe anbietet) | Sie gesteht alles und erklärt den Weg | Sie schweigt und schickt die Gruppe fort |
+| Mara durchschauen | Weisheit (Motiv erkennen), SG 15 (mit Vorteil, Mara lügt schlecht) | Sie verbirgt etwas und hat Angst | Sie wirkt nur müde |
+| Das Lager durchsuchen | Intelligenz (Nachforschungen), SG 10 | Die vollen Fässer hinter den Netzen | Erst beim zweiten Blick |
+| Maras Vertrauen gewinnen | Charisma (Überzeugen), SG 15 (SG 10, wenn die Gruppe Hilfe anbietet) | Sie gesteht alles und erklärt den Weg | Sie schweigt und schickt die Gruppe fort |
 
 ## Abzweigungen
 - **Wenn Mara schweigt**, beobachtet die Gruppe nachts die Klippen (siehe Abzweigungen im Kapitel).

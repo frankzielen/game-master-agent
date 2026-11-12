@@ -8,7 +8,8 @@ tags: [sc]
 ![Ilka](bilder/portrait.jpg)
 _Quelle: KI-generiert mit ChatGPT_
 
-**Spieler:** Sam · **Charakterfelder:** Herkunft: Hafenstadt · Rolle: Kundschafterin · Fortschritt: Anfängerin
+**Spieler:** Sam · **Charakterfelder:** Volk: Mensch · Klasse: Waldläuferin · Stufe: 2 · Hintergrund: Seefahrerin · Herkunft: Hafenstadt
+**Spielwerte:** [statblock.md](statblock.md)
 
 ## Hintergrund (Kurzfassung)
 Ehemalige Lotsin, kennt Wasser und Wetter. Hat ihre Stelle im Hafen verloren, als ein Schiff trotz ihrer Warnung auf Grund lief, und ist seitdem auf der Suche nach einer neuen Aufgabe.

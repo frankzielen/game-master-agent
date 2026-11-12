@@ -9,7 +9,7 @@ tags: [nsc]
 _Quelle: KI-generiert mit ChatGPT_
 
 **Kurz:** Leuchtturmwärterin von Graufurt, verschlossen und zäh.
-**Charakterfelder:** Rolle: Wärterin · Haltung: freundlich
+**Charakterfelder:** Volk: Mensch · Gesinnung: neutral gut · Rolle: Wärterin · Haltung: freundlich
 **Aufenthaltsort:** [Graufurt](../../orte/salzmarsch/graufurt/graufurt.md)
 **Spielwerte:** [statblock.md](statblock.md)
 

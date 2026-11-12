@@ -8,7 +8,8 @@ tags: [sc]
 ![Hedda Lorn](bilder/portrait.jpg)
 _Quelle: KI-generiert mit ChatGPT_
 
-**Spieler:** Alex · **Charakterfelder:** Herkunft: Salzmarsch · Rolle: Siederin · Fortschritt: Anfängerin
+**Spieler:** Alex · **Charakterfelder:** Volk: Mensch · Klasse: Schurkin · Stufe: 2 · Hintergrund: Bäuerin · Herkunft: Salzmarsch
+**Spielwerte:** [statblock.md](statblock.md)
 
 ## Hintergrund (Kurzfassung)
 Hat als Mädchen im alten Salzwerk gearbeitet, bis ihr eine überkochende Pfanne die Hände verbrühte. Seitdem hasst sie das Werk und alle, die daran verdienen. Ihre Familie steht noch heute im Schuldbuch des Salzwerks.

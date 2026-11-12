@@ -31,7 +31,7 @@ Die Schmiede ist der wärmste Ort im Dorf. Die Esse glüht, an den Wänden häng
 ## Proben, Kampf, Hindernisse
 | Was | Probe / Schwierigkeit | Erfolg | Misserfolg |
 |---|---|---|---|
-| Merken, dass Jorin etwas zurückhält | Menschenkenntnis, schwer | Er gibt zu, noch einen Schlüssel zum Bootssteg des Salzwerks zu haben | Er bleibt bei seiner Geschichte |
+| Merken, dass Jorin etwas zurückhält | Weisheit (Motiv erkennen), SG 20 | Er gibt zu, noch einen Schlüssel zum Bootssteg des Salzwerks zu haben | Er bleibt bei seiner Geschichte |
 
 ## Musik und Geräusche
 _Nur für die SL, erscheint nicht in der Spieler-Website._

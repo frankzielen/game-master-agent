@@ -6,6 +6,7 @@ tags: [sc]
 # Charaktername
 
 **Spieler:** · **Charakterfelder:** _laut Systemprofil, z. B. Volk / Klasse / Stufe_
+**Spielwerte:** [statblock.md](statblock.md) _(aus `systeme/<system>/statblock-sc.md`)_
 
 ## Hintergrund (Kurzfassung)
 

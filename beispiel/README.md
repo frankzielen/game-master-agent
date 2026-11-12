@@ -7,6 +7,7 @@ Einstiegspunkt für alle Abenteuer unserer Gruppe. Alle Abenteuer spielen in der
 Die **Welt** (NSCs, Orte, Fraktionen, Gegenstände, Spielercharaktere) gibt es nur einmal und wird von allen Abenteuern genutzt. Jedes **Abenteuer** hat nur seinen eigenen Plot und seine Sitzungen.
 
 **Spieler:** Alex, Sam, Robin
+**Regelsystem:** D&D 5e ([Systemprofil](systeme/dnd-5e/profil.md)). NSCs und Spielercharaktere haben je einen Statblock.
 
 > Dieser Beispiel-Almanach ist frei erfunden. Er zeigt, was ein Almanach kann: zwei gespielte Abenteuer mit wechselnder Spielleitung, Sitzungen mit Diktat als Quelle, eine nacherzählte Geschichte, Quests, eine Fraktion, Figuren und Orte, die sich über mehrere Abenteuer entwickeln, ein geplantes drittes Abenteuer, Geheimnisse und „(nur SL)“-Zeilen. Baue beide Websites und vergleiche: Die Spieler-Website zeigt nur, was die Helden wissen.
 
@@ -16,7 +17,7 @@ welt/                        gemeinsam für alle Abenteuer
   orte/                      Region → Stadt → Gebäude
   fraktionen/
   gegenstaende/
-  spielercharaktere/         ein Ordner pro SC
+  spielercharaktere/         ein Ordner pro SC: name.md, statblock.md, bilder/
 abenteuer/                   chronologisch nummeriert, jeweils plot/ (mit quests/) und sitzungen/
 systeme/                     Systemprofile (Regelsystem): Charakterfelder, Begriffe, Statblock-Vorlage
 _vorlagen/                   Kopiervorlagen für alle Dateitypen (regelneutral)

@@ -8,7 +8,8 @@ tags: [sc]
 ![Bren](bilder/portrait.jpg)
 _Quelle: KI-generiert mit ChatGPT_
 
-**Spieler:** Robin · **Charakterfelder:** Herkunft: Graufurt · Rolle: Schmied · Fortschritt: erfahren
+**Spieler:** Robin · **Charakterfelder:** Volk: Mensch · Klasse: Kämpfer · Stufe: 3 · Hintergrund: Handwerker · Herkunft: Graufurt
+**Spielwerte:** [statblock.md](statblock.md)
 
 ## Hintergrund (Kurzfassung)
 Dorfschmied von Graufurt, ruhig, gründlich und schwer aus der Fassung zu bringen. Hat die Schmiede vom Vater übernommen und repariert alles, was Fischer brauchen, vom Anker bis zum Kesselhaken. Mit [Jorin Quell](../../nscs/jorin-quell/jorin-quell.md) ist er seit Kindertagen befreundet.

@@ -8,12 +8,13 @@ tags: [gegenstand]
 ![Silberne Laterne](bilder/laterne.jpg)
 _Quelle: KI-generiert mit ChatGPT_
 
-_Art: Lichtquelle; Wert: hoch; Wirkung: erlischt nie, verrät ihrer Besitzerin den Weg zum Träger_
+_Art: wundersamer Gegenstand; Seltenheit: selten; Einstimmung: nicht erforderlich; Wirkung: erlischt nie, verrät ihrer Besitzerin den Weg zum Träger_
 
 ## Beschreibung
 Eine fein gearbeitete Laterne, die auch im Sturm nicht erlischt. Das Silber ist mit Wellen und Schilfhalmen verziert, auf dem Glas ist eine winzige Krone eingeätzt, die man nur im Gegenlicht sieht. Die Flamme brennt bläulich weiß und ohne Öl.
 
 ## Eigenschaften
+- Spendet helles Licht im Radius von 9 m und dämmriges Licht für weitere 9 m.
 - Erlischt weder im Wind noch im Regen.
 - Wird heller, wenn Boote des Bundes der Salzkrone in der Nähe sind.
 

@@ -34,8 +34,8 @@ Die Siedehalle ist ein langer Holzbau unter einem rußschwarzen Dach. Sechs eise
 ## Proben, Kampf, Hindernisse
 | Was | Probe / Schwierigkeit | Erfolg | Misserfolg |
 |---|---|---|---|
-| Das Gitter lösen | Stärke, mittel | leise offen | es kreischt, ein Knecht schaut herüber |
-| Ungesehen durch den Dampf | Heimlichkeit, mittel | unbemerkt ins Kontor | ein Siedeknecht schlägt Alarm |
+| Das Gitter lösen | Stärke (Athletik), SG 15 | leise offen | es kreischt, ein Knecht schaut herüber |
+| Ungesehen durch den Dampf | Geschicklichkeit (Heimlichkeit), SG 15 | unbemerkt ins Kontor | ein Siedeknecht schlägt Alarm |
 
 ## Abzweigungen
 - **Schlägt ein Knecht Alarm,** strömen die Knechte zusammen, und Vela tritt sofort aus der Schreibstube. Die nächste Szene beginnt dann in der Halle statt im Kontor.

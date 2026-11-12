@@ -9,8 +9,9 @@ tags: [nsc]
 _Quelle: KI-generiert mit ChatGPT_
 
 **Kurz:** Fischer aus Graufurt, Maras jüngerer Bruder, gutmütig und etwas leichtsinnig.
-**Charakterfelder:** Rolle: Fischer · Haltung: freundlich
+**Charakterfelder:** Volk: Mensch · Gesinnung: chaotisch gut · Rolle: Fischer · Haltung: freundlich
 **Aufenthaltsort:** [Graufurt](../../orte/salzmarsch/graufurt/graufurt.md)
+**Spielwerte:** [statblock.md](statblock.md)
 
 ## Auftreten
 Hager, sonnenverbrannt, mit einer Zahnlücke, die er beim Lachen gern zeigt. Redet viel und schnell, vor allem, wenn er nervös ist. „Ich hab doch nur Kisten gefahren, ehrlich!“

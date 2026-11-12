@@ -34,10 +34,10 @@ Der Eingang ist ein Spalt im Fels, den nur die Ebbe freigibt. Dahinter öffnet s
 ## Proben, Kampf, Hindernisse
 | Was | Probe / Schwierigkeit | Erfolg | Misserfolg |
 |---|---|---|---|
-| Über den glitschigen Pfad | Geschick, leicht | ohne Zwischenfall | jemand rutscht ab und ist durchnässt, die Schmuggler hören es |
-| Ungesehen hineinschleichen | Heimlichkeit, mittel | Überraschung | die Schmuggler greifen zu den Messern |
-| Mit Harm verhandeln | Überzeugen, mittel | Harm gibt Jorin heraus und zieht ab | Kampf |
-| Kampf gegen drei Schmuggler | Kampf, leicht | die Schmuggler fliehen | ein Held wird verletzt, Harm entkommt mit der Laterne |
+| Über den glitschigen Pfad | Geschicklichkeit (Akrobatik), SG 10 | ohne Zwischenfall | jemand rutscht ab und ist durchnässt, die Schmuggler hören es |
+| Ungesehen hineinschleichen | Geschicklichkeit (Heimlichkeit), SG 15 | Überraschung | die Schmuggler greifen zu den Messern |
+| Mit Harm verhandeln | Charisma (Überzeugen oder Einschüchtern), SG 15 | Harm gibt Jorin heraus und zieht ab | Kampf |
+| Kampf gegen drei Schmuggler | Kampf: Harm und zwei Schmuggler (Werte wie Bandit, HG 1/8), leicht | die Schmuggler fliehen | ein Held wird verletzt, Harm entkommt mit der Laterne |
 
 ## Abzweigungen
 - **Wenn die Gruppe die Schmuggler laufen lässt**, berichten sie in der Nacht ihrer Anführerin (so gespielt).

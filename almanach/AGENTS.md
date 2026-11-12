@@ -83,7 +83,8 @@ Welches Regelsystem die Gruppe spielt, steht in `einstellungen.json` unter `"sys
 - Lies `systeme/<system>/profil.md` zu Beginn jeder Sitzung. Es legt Charakterfelder, Gegenstandsfelder und Begriffe fest (Probe, Schwierigkeit, Erfahrung, Fortschritt, Währung, Gefährlichkeit). Verwende genau diese Begriffe.
 - Wo eine Vorlage „laut Systemprofil“ sagt, setzt du beim Anlegen die Felder des Profils ein.
 - Spielwerte eines NSC legst du als `statblock.md` aus `systeme/<system>/statblock.md` an.
-- Gibt es noch kein passendes Profil, legst du mit der Spielleitung eines an: Lass dir einen Beispiel-Statblock zeigen und die wichtigsten Begriffe nennen, und schreibe daraus `profil.md` und `statblock.md`. Übernimm keine Regeltexte aus Büchern, nur Feldnamen und Begriffe.
+- Spielwerte eines Spielercharakters legst du als `statblock.md` im Ordner des Charakters aus `systeme/<system>/statblock-sc.md` an. Nach jedem gespielten Abenteuer aktualisierst du Stufe, Werte und Ausrüstung. Anders als bei NSCs erscheint dieser Statblock auch in der Spieler-Website.
+- Gibt es noch kein passendes Profil, legst du mit der Spielleitung eines an: Lass dir einen Beispiel-Statblock zeigen und die wichtigsten Begriffe nennen, und schreibe daraus `profil.md`, `statblock.md` und `statblock-sc.md`. Übernimm keine Regeltexte aus Büchern, nur Feldnamen und Begriffe.
 
 ## 2. Ablage
 
@@ -95,7 +96,7 @@ welt/                        gemeinsam für alle Abenteuer
   orte/<region>/<stadt>/…    verschachtelt: Region → Stadt → Gebäude, je Ort ein Ordner
   fraktionen/<name>.md
   gegenstaende/<name>.md     Bilder in gegenstaende/bilder/
-  spielercharaktere/<name>/<name>.md
+  spielercharaktere/<name>/<name>.md   dazu statblock.md und bilder/
 abenteuer/
   README.md                  Liste aller Abenteuer mit Spielleitung und Status
   NN-titel/                  chronologisch nummeriert: 01-…, 02-…

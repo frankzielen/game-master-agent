@@ -27,8 +27,8 @@ Schilf, so hoch wie ein Mann, links und rechts. Der Priel windet sich wie eine S
 ## Proben, Kampf, Hindernisse
 | Was | Probe / Schwierigkeit | Erfolg | Misserfolg |
 |---|---|---|---|
-| Den richtigen Priel finden | Navigation, mittel | rechtzeitig am Bootshaus | eine Stunde Umweg, das Bootshaus ist fast geräumt |
-| Pfahl beiseitestemmen | Kraft, mittel | weiter | der Kahn schlägt leck und muss geflickt werden |
+| Den richtigen Priel finden | Weisheit (Überlebenskunst), SG 15 | rechtzeitig am Bootshaus | eine Stunde Umweg, das Bootshaus ist fast geräumt |
+| Pfahl beiseitestemmen | Stärke (Athletik), SG 15 | weiter | der Kahn schlägt leck und muss geflickt werden |
 
 ## Abzweigungen
 - **Wenn der Kahn leck schlägt**, muss die Gruppe auf einer Sandbank ausharren, bis das Wasser sinkt, und erreicht das Bootshaus erst am Morgen.

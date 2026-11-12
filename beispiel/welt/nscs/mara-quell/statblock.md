@@ -1,19 +1,29 @@
-# Mara Quell – Spielwerte
+# Mara Quell – Stat-Block
 
 Zurück zur [Mara Quell](mara-quell.md)
 
-**Gefährlichkeit:** harmlos
-**Stärken:** zäh, kennt Wetter und Gezeiten, lässt sich nicht einschüchtern
-**Schwächen:** ihr Bruder, schlechte Lügnerin
+_Mittelgroße Humanoide (Mensch), neutral gut_
 
-## Fähigkeiten
-- Liest das Wetter am Himmel einen Tag im Voraus.
-- Kennt jeden Winkel des Leuchtturms und der Küste um Graufurt.
+| RK | TP | Bewegung |
+|---|---|---|
+| 11 (dicke Wollkleidung und Ölzeug) | 13 (3W8) | 9 m |
 
-## Spielwerte
-- Ausdauer: hoch
-- Kampf: schwach (Bootshaken)
-- Menschenkenntnis: mittel
+| ST | GE | KO | IN | WE | CH |
+|---|---|---|---|---|---|
+| 12 (+1) | 10 (+0) | 14 (+2) | 11 (+0) | 14 (+2) | 9 (−1) |
+
+**Rettungswürfe:** KO +4
+**Fertigkeiten:** Naturkunde +2, Wahrnehmung +4, Überlebenskunst +4
+**Sinne:** passive Wahrnehmung 14
+**Sprachen:** Gemeinsprache
+**Herausforderungsgrad:** 1/8 (25 EP)
+
+## Merkmale
+- **Wetterkundig:** Mara sagt das Wetter des nächsten Tages sicher voraus und kennt die Gezeiten vor Graufurt auf die Viertelstunde.
+- **Schlechte Lügnerin:** Würfe auf Weisheit (Motiv erkennen) gegen Mara erhalten Vorteil.
+
+## Aktionen
+- **Bootshaken:** Nahkampf-Waffenangriff +3, Reichweite 3 m, ein Ziel. Treffer: 4 (1W6 + 1) Stichschaden.
 
 ## Taktik
 Kämpft nicht. Wird sie bedroht, verriegelt sie die Turmtür und zündet das Signalfeuer, damit das Dorf kommt.

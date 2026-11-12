@@ -5,7 +5,7 @@ tags: [gegenstand]
 
 # Schuldbuch des Salzwerks
 
-_Art: Dokument; Wert: für die Marsch unbezahlbar_
+_Art: Dokument; Seltenheit: gewöhnlich; Einstimmung: nicht erforderlich; Wert: für die Marsch unbezahlbar_
 
 ## Beschreibung
 Ein dickes, salzfleckiges Kontorbuch mit Ledereinband. Darin stehen die Schulden von über vierzig Familien der Marsch, sauber in Velas Handschrift, manche seit drei Generationen.

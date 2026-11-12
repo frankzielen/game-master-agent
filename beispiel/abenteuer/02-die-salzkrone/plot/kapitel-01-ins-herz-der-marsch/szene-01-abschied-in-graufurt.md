@@ -32,8 +32,8 @@ Der „Trockene Anker“ ist die einzige Schenke im Dorf, eine niedrige Stube mi
 ## Proben, Kampf, Hindernisse
 | Was | Probe / Schwierigkeit | Erfolg | Misserfolg |
 |---|---|---|---|
-| Hedda trauen | Menschenkenntnis, leicht | Sie meint es ernst, ihr Hass auf das Werk ist echt | Bren bleibt misstrauisch, Hedda zeigt den Gang erst vor Ort |
-| Mara zum Reden bringen | Überreden, mittel (leicht mit Ilkas Hilfe) | Sie nennt den Namen Vela Brandt | Sie sagt nur „die Salzkrone wohnt im Werk“ |
+| Hedda trauen | Weisheit (Motiv erkennen), SG 10 | Sie meint es ernst, ihr Hass auf das Werk ist echt | Bren bleibt misstrauisch, Hedda zeigt den Gang erst vor Ort |
+| Mara zum Reden bringen | Charisma (Überzeugen), SG 15 (mit Vorteil, wenn Ilka sie an den Gefallen erinnert) | Sie nennt den Namen Vela Brandt | Sie sagt nur „die Salzkrone wohnt im Werk“ |
 
 ## Abzweigungen
 - **Fragt die Gruppe Mara, woher sie Vela kennt,** wird Mara abweisend und schickt alle hinaus. Das Geheimnis bleibt für Abenteuer 03.

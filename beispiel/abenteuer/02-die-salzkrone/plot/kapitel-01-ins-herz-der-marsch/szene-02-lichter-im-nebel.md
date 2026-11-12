@@ -31,9 +31,9 @@ Kurz nach Mitternacht. Der Kahn gleitet durch schmale Wasserläufe zwischen mann
 ## Proben, Kampf, Hindernisse
 | Was | Probe / Schwierigkeit | Erfolg | Misserfolg |
 |---|---|---|---|
-| Die Lichter bemerken, bevor sie nah sind | Wahrnehmung, mittel | Die Gruppe hat Zeit für einen Plan | Die Kähne sind schon auf zwanzig Schritt heran |
-| Den trockenfallenden Priel finden | Wissen über die Marsch, mittel (Hedda leicht) | Der richtige Seitenarm | Die Gruppe sitzt selbst kurz fest und muss schieben |
-| Verfolger abschütteln | Geschick, schwer | Verfolger sitzen im Schlick fest | Kampf auf dem Wasser |
+| Die Lichter bemerken, bevor sie nah sind | Weisheit (Wahrnehmung), SG 15 | Die Gruppe hat Zeit für einen Plan | Die Kähne sind schon auf zwanzig Schritt heran |
+| Den trockenfallenden Priel finden | Weisheit (Überlebenskunst), SG 15 (Hedda mit Vorteil) | Der richtige Seitenarm | Die Gruppe sitzt selbst kurz fest und muss schieben |
+| Verfolger abschütteln | Geschicklichkeit mit Wasserfahrzeugen, SG 20 | Verfolger sitzen im Schlick fest | Kampf auf dem Wasser gegen sechs Bootsleute (Werte wie Bandit, HG 1/8) |
 
 ## Abzweigungen
 - **Stellt die Gruppe die Verfolger zum Kampf,** ergeben sich die Bootsleute nach dem ersten Treffer. Ein gefangener Bootsmann verrät, dass im Morgengrauen Schichtwechsel ist und der Steg dann kaum bewacht wird.

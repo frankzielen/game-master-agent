@@ -79,7 +79,8 @@ def sammle(start, welt):
             full = os.path.join(dp, f); rel = os.path.relpath(full, ROOT).replace(os.sep, '/')
             if f.endswith('.md'):
                 t = lies(full)
-                ok = f not in ('statblock.md', 'ideen-eingang.md')
+                # Statblocks von NSCs bleiben SL-Wissen, die der Spielercharaktere sehen die Spieler
+                ok = f != 'ideen-eingang.md' and (f != 'statblock.md' or rel.startswith('welt/spielercharaktere/'))
                 if welt:
                     au = auftritte(t)
                     ok = ok and (au is None or any(x in frei_nrs for x in au))
