@@ -9,6 +9,9 @@ alias: [Grauford]
 
 Liegt in: [Salzmarsch](../salzmarsch.md)
 
+![Graufurt](bilder/graufurt.jpg)
+_Quelle: KI-generiert mit ChatGPT_
+
 **Kurz:** Fischerdorf mit Leuchtturm am Rand der Sandbänke.
 
 ## Erster Eindruck
