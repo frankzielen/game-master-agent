@@ -5,6 +5,9 @@ tags: [nsc]
 
 # Mara Quell
 
+![Mara Quell](bilder/portrait.jpg)
+_Quelle: KI-generiert mit ChatGPT_
+
 **Kurz:** Leuchtturmwärterin von Graufurt, verschlossen und zäh.
 **Charakterfelder:** Rolle: Wärterin · Haltung: freundlich
 **Aufenthaltsort:** [Graufurt](../../orte/salzmarsch/graufurt/graufurt.md)
