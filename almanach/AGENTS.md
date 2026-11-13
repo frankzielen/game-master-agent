@@ -13,7 +13,7 @@ Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturier
 - **Dauerhaft speichern:** Liegt der Ordner in einem Git-Repository, sichere jede Änderung sofort selbst, ohne Rückfrage und ohne Git-Begriffe in der Antwort: committen und in den Hauptzweig (`main`) bringen. Arbeitest du auf einem eigenen Zweig (z. B. in einer Cloud-Sitzung), übernimm ihn danach in `main` (erst `main` hereinholen, dann `git push origin HEAD:main`). Lässt `main` keinen direkten Push zu, öffne einen Pull Request und führe ihn selbst zusammen. Klappt beides nicht, sag in einem Satz, was fehlt; behaupte nie „gespeichert“, solange die Änderung nicht in `main` ist.
 - **Keine Technik-Probleme weitergeben:** Stößt du auf einen Fehler in den Werkzeugen oder Regeln von GMA, behebe ihn still, wenn du kannst. Erwähne ihn nur, wenn die Person etwas tun muss.
 - **Schaltflächen:** Bietet deine Umgebung ein Werkzeug für Rückfragen mit Antwortmöglichkeiten, nutze es für jede Auswahl. Sonst nenne die Möglichkeiten kurz zum Antippen oder Abschreiben.
-- **Neu bauen nur auf Klick:** Baue die Websites nicht automatisch. Hat sich seit dem letzten Bau etwas an den Inhalten geändert, biete am Ende deiner Antwort eine Schaltfläche „Websites neu bauen“ an (oder, wo deine Umgebung keine Schaltflächen kann, die kurze Frage „Websites neu bauen?“). Gibt es veröffentlichte Websites (siehe „Bereitstellung“), biete stattdessen drei Schaltflächen an: „Nur für mich neu bauen“, „Neu bauen und online aktualisieren (dauert einige Minuten)“ und „Später“.
+- **Neu bauen nur auf Klick:** Baue die Websites nicht automatisch. Hat sich seit dem letzten Bau etwas an den Inhalten geändert, biete am Ende deiner Antwort eine Schaltfläche „Websites neu bauen“ an (oder, wo deine Umgebung keine Schaltflächen kann, die kurze Frage „Websites neu bauen?“). Gibt es veröffentlichte Websites (siehe „Bereitstellung“), biete stattdessen drei Schaltflächen an: „Nur für mich neu bauen“, „Neu bauen und online aktualisieren (dauert einige Minuten)“ und „Später“. Während der Einrichtung bietest du das nie an, dort baust du erst zum Schluss.
 - **Nach dem Bau:** Hänge beide Websites im Chat an, jede als eine einzige Datei mit allen Bildern (`--eine-datei`, siehe Abschnitt 7), nie als ZIP. Kann deine Umgebung sie als Vorschau oder per Schaltfläche öffnen, biete „Spielleiter-Website öffnen“ und „Spieler-Website öffnen“ an. Arbeitest du in einem Ordner auf dem Rechner der Person, liegen sie außerdem unter `_site/` zum Öffnen per Doppelklick. Liefere nie eine Datei namens `index.html` aus, sie ist nur die Weiterleitung für Hoster. Sind Websites veröffentlicht, aktualisiere sie nur, wenn die Person das gewählt hat (siehe „Neu bauen nur auf Klick“).
 - **Beispiel zeigen:** Bittet die Person, das Beispiel zu sehen, oder wählt sie es beim ersten Start, und liegt neben diesem Ordner der Ordner `beispiel/` aus dem GMA-Paket, baue dort beide Websites mit `--eine-datei` (Aufruf aus `beispiel/` heraus). Baue zuerst beide Websites. Schreib erst danach, in deiner abschließenden Antwort, den Aufbau mit diesem Text (nur sprachlich an die Umgebung anpassen, nichts kürzen) und hänge die Websites darunter an wie nach dem Bau. Schreib den Text nicht vor oder während des Baus, sonst verschwindet er in manchen Apps zusammen mit den Zwischenschritten. Am Beispiel änderst du nichts, und es wird nie veröffentlicht.
 
@@ -56,7 +56,7 @@ Reihenfolge:
 5. **Gibt es schon Abenteuer?** Schaltflächen „Ja“, „Noch nicht“, „Später“. Bei „Ja“ je Abenteuer nacheinander: Titel, dann Spielleitung, dann Status mit den Schaltflächen „Geplant“, „Läuft gerade“, „Gespielt“ (eingetragen als `idee`, `läuft`, `gespielt`). Danach „Noch ein Abenteuer?“. Lege jedes wie in Abschnitt 2 beschrieben an.
 6. **Gibt es schon Spielercharaktere?** Gleich wie bei den Abenteuern: je Charakter Name, dann wer ihn spielt. Weitere Charakterfelder des Systemprofils nur anbieten, nicht abfragen („Magst du Volk, Klasse und Stufe gleich nennen, oder später?“).
 
-Zum Schluss:
+Zum Schluss (immer, auch wenn die Person die übrigen Fragen überspringt; Überspringen betrifft nur die Inhalte, nicht diese Einrichtungsschritte):
 - Prüfe still, ob Python 3 da ist (für die Websites; falls nicht, erkläre die Installation in einfachen Schritten) und ob alle Links stimmen.
 - Fasse in wenigen Sätzen zusammen, was angelegt ist und was noch offen ist.
 - Baue beide Websites zum ersten Mal und biete sie zum Öffnen an (siehe „Nach dem Bau“).
@@ -72,7 +72,7 @@ Zum Schluss:
   > **C · Offline:** Ich packe die Spieler-Website als ZIP für Mail oder Download.
   > **D · Später entscheiden**
 
-  Biete A bis D als Schaltflächen an und setze die Wahl um, wie unter „Bereitstellung“ beschrieben.
+  Biete A bis D als Schaltflächen an und setze die Wahl um, wie unter „Bereitstellung“ beschrieben. Diese Frage stellst du immer und entscheidest sie nie selbst. „Später“ gilt nur, wenn die Person D wählt.
 - Schließe mit diesem Text ab (nur sprachlich an die Umgebung anpassen, nichts weglassen):
 
   > **So arbeitest du ab jetzt mit mir:**
