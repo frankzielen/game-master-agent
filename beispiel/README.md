@@ -1,4 +1,4 @@
-# Salzmarsch
+# Almanach – Salzmarsch
 
 ![Ilka, Bren und Hedda über der Salzmarsch](bilder/cover.jpg)
 _Quelle: KI-generiert mit ChatGPT_
