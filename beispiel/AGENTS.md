@@ -40,7 +40,7 @@ Steht in `README.md` noch „[Name des Almanachs]“, ist der Almanach noch nich
 Reihenfolge:
 0. **Begrüßung: erst das Beispiel oder gleich einrichten?** Das ist immer deine erste Nachricht, noch vor dem Namen. Schreib diesen Text vollständig (nur sprachlich an die Umgebung anpassen, nichts kürzen) und biete darunter die Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“ an:
 
-   > **Willkommen bei GMA!** Ich helfe dir, deine Welt und eure Abenteuer in einem Rollenspiel-Almanach zu sammeln.
+   > **Willkommen bei GMA!** Ich helfe dir, eure Welt und Abenteuer in einem Rollenspiel-Almanach zu sammeln.
    >
    > Zu GMA gehört ein fertiger **Beispiel-Almanach**, die „Salzmarsch“. Daran siehst du, wie ein Almanach aufgebaut ist, wie Welten und Abenteuer darin abgebildet werden und wie ich alles als zwei Websites bereitstelle: die **Spielleiter-Website** mit allem, auch den Geheimnissen, und die **Spieler-Website** mit dem, was die Helden wissen dürfen.
    >
