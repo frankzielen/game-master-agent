@@ -15,7 +15,7 @@ Beim lokalen Ordner liegt alles bei dir auf dem Rechner. Beim GitHub-Repository 
 
 ## Einrichten
 
-1. **Lokaler Ordner:** GMA als ZIP herunterladen und entpacken. In der App ein Projekt anlegen und den entpackten Ordner damit verbinden.
+1. **Lokaler Ordner:** GMA als ZIP herunterladen und entpacken. In der App ein Projekt anlegen und den entpackten Ordner damit verbinden. In ChatGPT dafür den Modus „Work“ wählen, „Chat“ unterstützt keine lokalen Ordner.
    **GitHub-Repository:** Auf GitHub mit „Use this template“ eine eigene Kopie anlegen. In der App ein Projekt anlegen und es mit dieser Kopie verbinden.
 2. Im Projekt einen neuen Chat beginnen und schreiben: **„Folge START.md.“**
 3. Der Agent fragt zuerst, ob du dir das Beispiel ansehen oder gleich einrichten möchtest. Das Beispiel zeigt dir, wie ein Almanach aufgebaut ist und wie Welten und Abenteuer darin aussehen. Danach richtet er alles ein und fragt dich Schritt für Schritt nach Titel, Welt, Mitspielern, Regelsystem, Abenteuern und Helden. Was du noch nicht weißt, beantwortest du mit „später“.
