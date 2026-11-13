@@ -25,7 +25,9 @@ Lies `AGENTS.md` im Almanach-Ordner vollständig. Sie ist ab jetzt deine verbind
 
 ## Schritt 4 – Almanach einrichten
 
-Führe die Person durch die Einrichtung, genau wie in `AGENTS.md` unter „Almanach einrichten (beim ersten Start)“ beschrieben: eine Frage pro Nachricht, und „weiß ich noch nicht“ oder „später“ ist jederzeit erlaubt.
+Deine erste Frage an die Person ist immer, ob sie zuerst das Beispiel sehen oder gleich einrichten möchte (Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“). Erst danach folgt die Frage nach dem Namen des Almanachs.
+
+Führe die Person dann durch die Einrichtung, genau wie in `AGENTS.md` unter „Almanach einrichten (beim ersten Start)“ beschrieben: eine Frage pro Nachricht, und „weiß ich noch nicht“ oder „später“ ist jederzeit erlaubt.
 
 ## Kein dauerhafter Ordner?
 

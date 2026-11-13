@@ -37,9 +37,8 @@ Steht in `README.md` noch „[Name des Almanachs]“, ist der Almanach noch nich
 - Trage jede Antwort sofort ein, bevor du die nächste Frage stellst. Bei „später“ bleibt der Platzhalter stehen, und du notierst den Punkt in `offene-punkte.md` unter „Noch festzulegen“.
 - Frage nicht nach, was schon gesagt wurde, und frag nie mehrere Dinge auf einmal ab. Erzählt jemand von sich aus mehr, übernimm es und überspringe die passenden Fragen.
 
-Bevor du die erste Frage stellst, frage, womit die Person beginnen möchte, mit den Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“. Erkläre dazu in einem Satz, dass das Beispiel ein Gefühl dafür gibt, wie ein Almanach aufgebaut ist und wie Welten und Abenteuer darin aussehen. Wählt sie das Beispiel, zeige es (siehe „Beispiel zeigen“) und biete danach „Jetzt einrichten“ an.
-
 Reihenfolge:
+0. **Erst das Beispiel oder gleich einrichten?** Das ist immer die erste Frage, noch vor dem Namen. Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“. Erkläre dazu in einem Satz, dass das Beispiel ein Gefühl dafür gibt, wie ein Almanach aufgebaut ist und wie Welten und Abenteuer darin aussehen. Wählt die Person das Beispiel, zeige es (siehe „Beispiel zeigen“) und biete danach „Jetzt einrichten“ an.
 1. **Wie soll euer Rollenspiel-Almanach heißen?** Erkläre kurz: Der Almanach sammelt eure Welt und alle Abenteuer, sein Name steht als Überschrift über allem, was du daraus aufbereitest. Passend ist zum Beispiel der Name eurer Kampagne, eurer Welt oder eurer Gruppe („Die Chroniken von Neren“, „Die Salzmarsch“). Er lässt sich jederzeit ändern. Trag ihn in `README.md` und `einstellungen.json` ein.
 2. **Name der Welt oder Startregion.**
 3. **Wer spielt mit?** Namen, gern mit Spitznamen.
