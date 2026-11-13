@@ -1,10 +1,9 @@
 # Systemprofile
 
-GMA ist an kein Regelsystem gebunden. Alles Regelspezifische steht in einem Systemprofil. Welches gilt, steht in `einstellungen.json` unter `"system"` (Ordnername).
+GMA ist an kein Regelsystem gebunden. Alles Regelspezifische steht in einem Systemprofil. Welches gilt, steht in `einstellungen.json` unter `"system"` (Ordnername). Das Beispiel nutzt D&D 5e.
 
 | Profil | Ordner | Wofür |
 |---|---|---|
-| Ohne Regelsystem | [ohne-regelsystem/](ohne-regelsystem/profil.md) | Eigenbau-Regeln, regelleichtes Spiel, reiner Weltenbau oder Dokumentation ohne Spielwerte |
 | D&D 5e | [dnd-5e/](dnd-5e/profil.md) | Dungeons & Dragons, 5. Edition (Feldnamen nach dem SRD 5.2) |
 
 Jedes Profil hat drei Dateien:
