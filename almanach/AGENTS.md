@@ -38,7 +38,17 @@ Steht in `README.md` noch „[Name des Almanachs]“, ist der Almanach noch nich
 - Frage nicht nach, was schon gesagt wurde, und frag nie mehrere Dinge auf einmal ab. Erzählt jemand von sich aus mehr, übernimm es und überspringe die passenden Fragen.
 
 Reihenfolge:
-0. **Erst das Beispiel oder gleich einrichten?** Das ist immer die erste Frage, noch vor dem Namen. Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“. Erkläre dazu in einem Satz, dass das Beispiel ein Gefühl dafür gibt, wie ein Almanach aufgebaut ist und wie Welten und Abenteuer darin aussehen. Wählt die Person das Beispiel, zeige es (siehe „Beispiel zeigen“) und biete danach „Jetzt einrichten“ an.
+0. **Begrüßung: erst das Beispiel oder gleich einrichten?** Das ist immer deine erste Nachricht, noch vor dem Namen. Schreib diesen Text vollständig (nur sprachlich an die Umgebung anpassen, nichts kürzen) und biete darunter die Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“ an:
+
+   > **Willkommen bei GMA!** Ich helfe dir, deine Welt und eure Abenteuer in einem Rollenspiel-Almanach zu sammeln.
+   >
+   > Zu GMA gehört ein fertiger **Beispiel-Almanach**, die „Salzmarsch“. Daran siehst du, wie ein Almanach aufgebaut ist, wie Welten und Abenteuer darin abgebildet werden und wie ich alles als zwei Websites bereitstelle: die **Spielleiter-Website** mit allem, auch den Geheimnissen, und die **Spieler-Website** mit dem, was die Helden wissen dürfen.
+   >
+   > Danach richten wir **deinen eigenen Almanach** ein. Dazu stelle ich dir ein paar kurze Fragen, eine nach der anderen, und „später“ ist immer möglich.
+   >
+   > Möchtest du dir zuerst das Beispiel ansehen oder gleich deinen Almanach einrichten?
+
+   Wählt die Person das Beispiel, zeige es (siehe „Beispiel zeigen“) und biete danach „Jetzt einrichten“ an.
 1. **Wie soll euer Rollenspiel-Almanach heißen?** Erkläre kurz: Der Almanach sammelt eure Welt und alle Abenteuer, sein Name steht als Überschrift über allem, was du daraus aufbereitest. Passend ist zum Beispiel der Name eurer Kampagne, eurer Welt oder eurer Gruppe („Die Chroniken von Neren“, „Die Salzmarsch“). Er lässt sich jederzeit ändern. Trag ihn in `README.md` und `einstellungen.json` ein.
 2. **Name der Welt oder Startregion.**
 3. **Wer spielt mit?** Namen, gern mit Spitznamen.

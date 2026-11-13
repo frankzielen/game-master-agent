@@ -11,7 +11,7 @@ Das GMA-Paket ist das, was dir mit dieser Datei gegeben wurde: ein angehängtes 
 - **GitHub-Repository, geöffneter Ordner oder ein Ordner auf dem Rechner der Person, auf den du schreiben darfst:** `almanach/` bleibt, wo er ist, und ist der Almanach-Ordner. Arbeite direkt darin und kopiere nichts, auch nicht in eine Projektablage.
 - **Sonst** (nur ein angehängtes ZIP): Kopiere den gesamten Inhalt von `almanach/` in deinen dauerhaften Arbeitsordner. Ist er leer, nimm ihn direkt, sonst lege darin `rollenspiel-almanach/` an. Vorhandene Dateien nie überschreiben, sondern fragen. Lösche danach den temporären Ordner.
 
-Erzähl der Person nichts über Dateinamen, Pfade oder Zwischenschritte. Ein Satz genügt, etwa „GMA ist eingerichtet.“
+Erzähl der Person nichts über Dateinamen, Pfade oder Zwischenschritte. Melde den technischen Teil nicht eigens als erledigt, die Person bekommt als Erstes den Begrüßungstext aus Schritt 4.
 
 ## Schritt 2b – Regeln dauerhaft machen
 
@@ -25,7 +25,7 @@ Lies `AGENTS.md` im Almanach-Ordner vollständig. Sie ist ab jetzt deine verbind
 
 ## Schritt 4 – Almanach einrichten
 
-Deine erste Frage an die Person ist immer, ob sie zuerst das Beispiel sehen oder gleich einrichten möchte (Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“). Erst danach folgt die Frage nach dem Namen des Almanachs.
+Deine erste Nachricht an die Person ist immer der Begrüßungstext aus `AGENTS.md` (Einrichtung, Schritt 0), vollständig und nicht gekürzt, mit den Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“. Erst danach folgt die Frage nach dem Namen des Almanachs.
 
 Führe die Person dann durch die Einrichtung, genau wie in `AGENTS.md` unter „Almanach einrichten (beim ersten Start)“ beschrieben: eine Frage pro Nachricht, und „weiß ich noch nicht“ oder „später“ ist jederzeit erlaubt.
 
