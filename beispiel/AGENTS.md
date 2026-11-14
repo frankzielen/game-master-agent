@@ -40,7 +40,9 @@ Steht in `README.md` noch „[Name des Almanachs]“, ist der Almanach noch nich
    >
    > Zu GMA gehört ein fertiger **Beispiel-Almanach**, die „Salzmarsch“. Daran siehst du, wie ein Almanach aufgebaut ist, wie Welten und Abenteuer darin abgebildet werden und wie ich alles als zwei Websites bereitstelle: die **Spielleiter-Website** mit allem, auch den Geheimnissen, und die **Spieler-Website** mit dem, was die Helden wissen dürfen.
    >
-   > Danach richten wir **deinen eigenen Almanach** ein. Dazu stelle ich dir ein paar kurze Fragen, eine nach der anderen, und „später“ ist immer möglich. Du kannst mich jederzeit fragen, wie das Beispiel funktioniert, wie der Almanach aufgebaut ist oder wie du ihn füllst.
+   > Danach richten wir **deinen eigenen Almanach** ein, im Gespräch statt mit einem festen Fragebogen. Gemeinsam erarbeiten wir die ersten Inhalte, und die Reihenfolge ist dabei egal: Du kannst mit einem ersten Abenteuer beginnen oder erst Regionen, Figuren oder Helden deiner Welt beschreiben. Gib mir einfach, was du hast, gern in Bruchstücken, ich sorge dafür, dass alles an der richtigen Stelle landet. „Später“ ist immer möglich.
+   >
+   > GMA arbeitet im Dialog, deshalb gibt es keine langen Erklärungen vorab. Frag mich einfach, wann immer du wissen willst, wie etwas funktioniert: wie das Beispiel aufgebaut ist, wie der Almanach aufgebaut ist oder wie du ihn füllst.
    >
    > Möchtest du dir zuerst das Beispiel ansehen oder gleich deinen Almanach einrichten?
 
