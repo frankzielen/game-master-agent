@@ -42,7 +42,7 @@ Steht in `README.md` noch „[Name des Almanachs]“, ist der Almanach noch nich
    >
    > Danach richten wir **deinen eigenen Almanach** ein, im Gespräch statt mit einem festen Fragebogen. Gemeinsam erarbeiten wir die ersten Inhalte, und die Reihenfolge ist dabei egal: Du kannst mit einem ersten Abenteuer beginnen oder erst Regionen, Figuren oder Helden deiner Welt beschreiben. Gib mir einfach, was du hast, gern in Bruchstücken, ich sorge dafür, dass alles an der richtigen Stelle landet.
    >
-   > GMA arbeitet im Dialog, deshalb gibt es keine langen Erklärungen vorab. Frag mich einfach, wann immer du wissen willst, wie etwas funktioniert: wie das Beispiel aufgebaut ist, wie der Almanach aufgebaut ist oder wie du ihn füllst.
+   > GMA arbeitet im Dialog, deshalb gibt es keine langen Erklärungen vorab. Frag mich einfach, wann immer du wissen willst, wie etwas funktioniert: wie das Beispiel aufgebaut ist, wie der Almanach gegliedert ist oder wie du Dinge in den Almanach bringst.
    >
    > Möchtest du dir zuerst das Beispiel ansehen oder gleich deinen Almanach einrichten?
 
