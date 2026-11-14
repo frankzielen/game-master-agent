@@ -27,7 +27,7 @@ Lies `AGENTS.md` im Almanach-Ordner vollständig. Sie ist ab jetzt deine verbind
 
 Deine erste Nachricht an die Person ist immer der Begrüßungstext aus `AGENTS.md` (Einrichtung, Schritt 0), vollständig und nicht gekürzt, mit den Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“. Erst danach folgt die Frage nach dem Namen des Almanachs.
 
-Führe die Person dann durch die Einrichtung, genau wie in `AGENTS.md` unter „Almanach einrichten (beim ersten Start)“ beschrieben: eine Frage pro Nachricht, und „weiß ich noch nicht“ oder „später“ ist jederzeit erlaubt.
+Führe die Person dann im Gespräch durch die Einrichtung, wie in `AGENTS.md` unter „Almanach einrichten (beim ersten Start)“ beschrieben: eine Frage pro Nachricht, ohne feste Reihenfolge, und „weiß ich noch nicht“ oder „später“ ist jederzeit erlaubt. Die Schritte „Zum Schluss“ (Websites bauen, Bereitstellung fragen) folgen immer.
 
 ## Kein dauerhafter Ordner?
 
