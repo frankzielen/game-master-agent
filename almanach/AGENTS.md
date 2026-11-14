@@ -48,7 +48,7 @@ Steht in `README.md` noch „[Name des Almanachs]“, ist der Almanach noch nich
    > - wie du Dinge in den Almanach bringst
    > - wie du die Websites anschaust oder für deine Spieler verfügbar machst
    >
-   > Möchtest du dir zuerst das Beispiel ansehen oder gleich deinen Almanach einrichten?
+   > So, dann los! Möchtest du dir erst das Beispiel anschauen, oder legen wir gleich mit deinem Almanach los?
 
    Wählt die Person das Beispiel, zeige es (siehe „Beispiel zeigen“) und biete danach „Jetzt einrichten“ an.
 
