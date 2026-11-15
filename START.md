@@ -2,6 +2,8 @@
 
 Diese Datei richtet sich an dich, den KI-Agenten. Die Nutzerin oder der Nutzer hat dir das GMA-Paket gegeben (als ZIP, als Ordner oder als GitHub-Repository) und möchte loslegen. Erledige alles selbst. Die Person soll keine Ordner oder Dateien von Hand anlegen und keine Dateipfade kennen müssen. Antworte in ihrer Sprache, kurz und freundlich.
 
+**Wichtig, bevor du anfängst:** Führe die Einrichtung selbst in diesem Chat. Gibst du sie trotzdem an einen eigenen Thread, eine Unteraufgabe oder einen Hilfsagenten ab (manche Apps tun das von selbst), dann schreib der Person in diesem Chat ausdrücklich: „Die Einrichtung läuft im Thread „[Name]“. Öffne ihn bitte, dort steht die Begrüßung und dort geht es weiter.“ Fasse die Begrüßung nicht in eigenen Worten zusammen.
+
 ## Schritt 1 – Paket finden
 
 Das GMA-Paket ist das, was dir mit dieser Datei gegeben wurde: ein angehängtes ZIP (der Name ist egal), ein entpackter Ordner oder ein GitHub-Repository. Ist es ein ZIP, entpacke es in einen temporären Ordner. Im Paket liegt der Ordner `almanach/`, eventuell unter einem Oberordner. Das ist der leere Almanach.
