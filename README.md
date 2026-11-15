@@ -23,7 +23,7 @@ Not only for game masters: players can document sessions too, taking turns or to
 ### How it works
 
 1. **Input:** notes, dictated ideas and session reports, handouts, images, stat blocks, sound and music, in any form.
-2. **Storage:** linked Markdown files in a fixed structure. The world exists once, each adventure only holds its own plot and sessions. Secrets are marked in the data.
+2. **Storage:** linked Markdown files in a fixed structure. The world exists once, each adventure only holds its own plot and sessions, and the game master may change from adventure to adventure. Every world entry shows what is timeless, its current state and what happened in each adventure. Secrets are marked in the data.
 3. **Output:** a website to browse, in two versions: the complete **game master website** and a cleaned **player website** that only shows what the characters know. It runs offline, and the agent can publish it for your players via Claude or ChatGPT, on your own web space (e.g. GitHub Pages) or as a ZIP. Public or private is your choice.
 
 GMA works with any rules system. Everything rule-specific lives in a system profile (`almanach/systeme/`). Included: **No rules system** (free-form values, default) and **D&D 5e** (field names based on the SRD 5.2). The agent helps you create profiles for other systems.
@@ -35,14 +35,27 @@ GMA works with any rules system. Everything rule-specific lives in a system prof
 
 ### Getting started
 
-Choose one of two ways:
+Choose one of two ways, each with Claude or ChatGPT:
+
+| | Claude | ChatGPT |
+|---|---|---|
+| **1 Local folder** on your computer | 1a | 1b |
+| **2 GitHub repository** in the cloud | 2a | 2b |
 
 - **Local folder:** download the ZIP and unpack it. Create a project in the Claude or ChatGPT app and connect the unpacked folder. In ChatGPT, choose the "Work" mode for it; "Chat" does not support local folders.
 - **or GitHub repository:** click "Use this template" to get your own copy. Create a project in the Claude or ChatGPT app and connect your copy.
 
-Then write: "Follow START.md."
+Then start a new chat in the project and write: "Follow START.md."
 
-The agent does the rest: it first offers to show you the example almanac, then sets up your almanac with you in conversation, in any order. Details: [docs/start-prompt.md](docs/start-prompt.md). If you work with Claude Code or Codex, simply open the folder there.
+The agent does the rest: it first offers to show you the example almanac, then sets up your almanac with you in conversation, in any order. Some apps, for example Claude projects, run the setup in a separate thread and show only a short summary in the main chat. In that case open the thread: the welcome message and the choice are there, and the setup continues there. If you work with Claude Code or Codex, simply open the folder there.
+
+### Working with the agent
+
+- **Ideas:** just tell or dictate them, fragments are fine. If something contradicts, the agent asks and suggests solutions.
+- **After a session:** tell it what happened. The agent writes the session log and updates characters and world.
+- **Material:** send images, maps, handouts, stat blocks or music and say what they belong to.
+- **Websites:** after changes the agent offers to rebuild the websites, just for you or online as well.
+- **Questions:** ask the agent any time how something works. If you want something to work differently, tell it, and it adjusts the rules.
 
 The rules for the agent are in [almanach/AGENTS.md](almanach/AGENTS.md) (currently in German; an English version will follow).
 
@@ -52,7 +65,6 @@ The rules for the agent are in [almanach/AGENTS.md](almanach/AGENTS.md) (current
 |---|---|
 | `almanach/` | the empty almanac: rules for the agent (`AGENTS.md`), templates, system profiles, tools |
 | `beispiel/` | a small fictional example almanac. Ask the agent "Show me the example" and you get both websites to compare |
-| `docs/` | start prompt and introduction |
 
 ### Licence
 
@@ -81,7 +93,7 @@ Nicht nur für Spielleitungen: Auch Spielerinnen und Spieler können dokumentier
 ### Wie GMA arbeitet
 
 1. **Eingabe:** Notizen, eingesprochene Ideen und Spielberichte, Handouts, Bilder, Statblöcke, Musik und Geräusche, in beliebiger Form.
-2. **Ablage:** verlinkte Markdown-Dateien in fester Struktur. Die Welt gibt es nur einmal, jedes Abenteuer hat nur seinen Plot und seine Sitzungen. Geheimnisse sind in den Daten gekennzeichnet.
+2. **Ablage:** verlinkte Markdown-Dateien in fester Struktur. Die Welt gibt es nur einmal, jedes Abenteuer hat nur seinen Plot und seine Sitzungen, und die Spielleitung darf von Abenteuer zu Abenteuer wechseln. Jeder Welt-Eintrag zeigt das Zeitlose, den aktuellen Stand und was im jeweiligen Abenteuer geschah. Geheimnisse sind in den Daten gekennzeichnet.
 3. **Ausgabe:** eine Website zum Durchklicken in zwei Fassungen: die vollständige **Spielleiter-Website** und eine bereinigte **Spieler-Website**, die nur zeigt, was die Helden wissen. Sie läuft offline, und der Agent stellt sie deinen Spielern auf Wunsch bereit: über Claude oder ChatGPT, auf eigenem Webspace (z. B. GitHub Pages) oder als ZIP. Öffentlich oder privat entscheidest du.
 
 GMA ist an kein Regelsystem gebunden. Alles Regelspezifische steht in einem Systemprofil (`almanach/systeme/`). Mitgeliefert: **Ohne Regelsystem** (freie Werte, Standard) und **D&D 5e** (Feldnamen nach dem SRD 5.2). Für andere Systeme legt der Agent mit dir ein Profil an.
@@ -93,14 +105,27 @@ GMA ist an kein Regelsystem gebunden. Alles Regelspezifische steht in einem Syst
 
 ### Loslegen
 
-Wähle einen von zwei Wegen:
+Wähle einen von zwei Wegen, jeweils mit Claude oder ChatGPT:
+
+| | Claude | ChatGPT |
+|---|---|---|
+| **1 Lokaler Ordner** auf deinem Rechner | 1a | 1b |
+| **2 GitHub-Repository** in der Cloud | 2a | 2b |
 
 - **Lokaler Ordner:** das ZIP herunterladen und entpacken. In der Claude- oder ChatGPT-App ein Projekt anlegen und den entpackten Ordner verbinden. In ChatGPT dafür den Modus „Work“ wählen, „Chat“ unterstützt keine lokalen Ordner.
 - **oder GitHub-Repository:** „Use this template“ klicken, das legt deine eigene Kopie an. In der Claude- oder ChatGPT-App ein Projekt anlegen und die Kopie verbinden.
 
-Dann schreiben: „Folge START.md.“
+Dann im Projekt einen neuen Chat beginnen und schreiben: „Folge START.md.“
 
-Den Rest erledigt der Agent: Er bietet dir zuerst das Beispiel an und richtet dann im Gespräch mit dir deinen Almanach ein, in beliebiger Reihenfolge. Details: [docs/start-prompt.md](docs/start-prompt.md). Wer mit Claude Code oder Codex arbeitet, öffnet den Ordner einfach dort. Eine Einführung steht in [docs/einfuehrung.md](docs/einfuehrung.md).
+Den Rest erledigt der Agent: Er bietet dir zuerst das Beispiel an und richtet dann im Gespräch mit dir deinen Almanach ein, in beliebiger Reihenfolge. Manche Apps, zum Beispiel Claude-Projekte, führen die Einrichtung in einem eigenen Thread aus und zeigen im Hauptchat nur eine Kurzfassung. Öffne in dem Fall den Thread: Dort stehen die Begrüßung und die Auswahl, und dort geht die Einrichtung weiter. Wer mit Claude Code oder Codex arbeitet, öffnet den Ordner einfach dort.
+
+### So arbeitest du mit dem Agenten
+
+- **Ideen:** einfach erzählen oder einsprechen, gern in Bruchstücken. Bei Widersprüchen fragt der Agent nach und schlägt Lösungen vor.
+- **Nach einem Spielabend:** erzählen, was passiert ist. Der Agent schreibt das Protokoll und bringt Helden und Welt auf den neuesten Stand.
+- **Material:** Bilder, Karten, Handouts, Statblöcke oder Musik schicken und sagen, wozu sie gehören.
+- **Websites:** Nach Änderungen bietet der Agent an, die Websites neu zu bauen, nur für dich oder auch online.
+- **Fragen:** Frag den Agenten jederzeit, wie etwas funktioniert. Soll etwas anders laufen, sag es ihm, er passt die Regeln an.
 
 Die Regeln für den Agenten stehen in [almanach/AGENTS.md](almanach/AGENTS.md).
 
@@ -110,7 +135,6 @@ Die Regeln für den Agenten stehen in [almanach/AGENTS.md](almanach/AGENTS.md).
 |---|---|
 | `almanach/` | der leere Almanach: Regeln für den Agenten (`AGENTS.md`), Vorlagen, Systemprofile, Werkzeuge |
 | `beispiel/` | ein kleiner erfundener Beispiel-Almanach. Sag dem Agenten „Zeig mir das Beispiel“, dann bekommst du beide Websites zum Vergleichen |
-| `docs/` | Start-Prompt und Einführung |
 
 ### Lizenz
 
