@@ -19,7 +19,7 @@ Beim lokalen Ordner liegt alles bei dir auf dem Rechner. Beim GitHub-Repository 
    **GitHub-Repository:** Auf GitHub mit „Use this template“ eine eigene Kopie anlegen. In der App ein Projekt anlegen und es mit dieser Kopie verbinden.
 2. Im Projekt einen neuen Chat beginnen und schreiben: **„Folge START.md.“**
 3. Der Agent fragt zuerst, ob du dir das Beispiel ansehen oder gleich einrichten möchtest. Das Beispiel zeigt dir, wie ein Almanach aufgebaut ist und wie Welten und Abenteuer darin aussehen. Danach richtet ihr deinen Almanach im Gespräch ein, ohne festen Fragebogen und in beliebiger Reihenfolge: Titel, Welt, Mitspieler, Regelsystem, Abenteuer, Helden, was du gerade weißt. Was du noch nicht weißt, beantwortest du mit „später“. Fragen, wie etwas funktioniert, kannst du jederzeit stellen.
-4. Zum Schluss baut der Agent die beiden Websites und klärt mit dir, wie du und deine Spieler sie bekommt: über Claude bzw. ChatGPT veröffentlichen, auf eigenem Webspace (zum Beispiel GitHub Pages) oder offline als Datei.
+4. Zum Schluss baut der Agent die beiden Websites und klärt mit dir, wie du und deine Spieler sie bekommt: über Claude bzw. ChatGPT veröffentlichen, auf eigenem Webspace (zum Beispiel GitHub Pages) oder offline als ZIP.
 
 ## So arbeitest du mit dem Agenten
 
