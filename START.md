@@ -2,8 +2,6 @@
 
 Diese Datei richtet sich an dich, den KI-Agenten. Die Nutzerin oder der Nutzer hat dir das GMA-Paket gegeben (als ZIP, als Ordner oder als GitHub-Repository) und möchte loslegen. Erledige alles selbst. Die Person soll keine Ordner oder Dateien von Hand anlegen und keine Dateipfade kennen müssen. Antworte in ihrer Sprache, kurz und freundlich.
 
-**Unteraufgabe oder eigenes Fenster:** Führst du die Einrichtung in einer Unteraufgabe oder einem eigenen Fenster bzw. Thread aus, beende deine Rückmeldung an den Hauptchat mit dem Hinweis, dass Begrüßung und Auswahl dort stehen und es dort weitergeht. Arbeitest du direkt im Chat der Person, entfällt das.
-
 ## Schritt 1 – Paket finden
 
 Das GMA-Paket ist das, was dir mit dieser Datei gegeben wurde: ein angehängtes ZIP (der Name ist egal), ein entpackter Ordner oder ein GitHub-Repository. Ist es ein ZIP, entpacke es in einen temporären Ordner. Im Paket liegt der Ordner `almanach/`, eventuell unter einem Oberordner. Das ist der leere Almanach.
@@ -27,7 +25,7 @@ Lies `AGENTS.md` im Almanach-Ordner vollständig. Sie ist ab jetzt deine verbind
 
 ## Schritt 4 – Almanach einrichten
 
-Deine erste Nachricht an die Person ist immer diese Begrüßung. Schreib sie Wort für Wort selbst in diesen Chat, ohne sie zu kürzen, zusammenzufassen oder umzuformulieren. Spricht die Person eine andere Sprache, übersetze sie vollständig. Biete darunter die Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“ an.
+Deine erste Nachricht an die Person ist immer diese Begrüßung. Schreib sie Wort für Wort, ohne sie zu kürzen, zusammenzufassen oder umzuformulieren. Spricht die Person eine andere Sprache, übersetze sie vollständig. Biete darunter die Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“ an.
 
 > **Willkommen bei GMA!** Ich helfe dir, eure Welt und Abenteuer in einem Rollenspiel-Almanach zu sammeln.
 >
