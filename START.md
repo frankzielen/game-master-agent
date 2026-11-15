@@ -17,7 +17,7 @@ Erzähl der Person nichts über Dateinamen, Pfade oder Zwischenschritte. Melde d
 
 Die Regeln in `AGENTS.md` müssen in jeder künftigen Unterhaltung gelten.
 - Manche Umgebungen lesen `AGENTS.md` oder `CLAUDE.md` im geöffneten Ordner automatisch (z. B. Claude Code, Codex). Dann ist nichts zu tun.
-- Wenn deine Umgebung dauerhafte Anweisungen hat, die zu Beginn jeder Unterhaltung gelten (z. B. Projektanweisungen, benutzerdefinierte Anweisungen), trag dort ein: „Lies vor jeder Aufgabe AGENTS.md im Almanach-Ordner (Pfad: …) und halte dich daran.“ Wenn du sie nicht selbst ändern kannst, gib der Person genau diesen Satz zum Kopieren und sag in einem Satz, wo sie ihn einträgt.
+- Wenn deine Umgebung dauerhafte Anweisungen hat, die zu Beginn jeder Unterhaltung gelten (z. B. Projektanweisungen, benutzerdefinierte Anweisungen), trag dort ein: „Lies vor jeder Aufgabe AGENTS.md im Almanach-Ordner (Pfad: …) und halte dich daran.“ Wenn du sie nicht selbst ändern kannst, gibst du der Person diesen Satz am Ende der Einrichtung zum Kopieren und sagst in einem Satz, wo sie ihn einträgt (siehe `AGENTS.md`, „Zum Schluss“). Vorher kommt die Begrüßung.
 
 ## Schritt 3 – Regeln lesen
 
@@ -25,10 +25,10 @@ Lies `AGENTS.md` im Almanach-Ordner vollständig. Sie ist ab jetzt deine verbind
 
 ## Schritt 4 – Almanach einrichten
 
-Deine erste Nachricht an die Person ist immer der Begrüßungstext aus `AGENTS.md` (Einrichtung, Schritt 0), vollständig und nicht gekürzt, mit den Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“. Erst danach folgt die Frage nach dem Namen des Almanachs.
+Deine erste Nachricht an die Person ist immer die Begrüßung aus `AGENTS.md` (Abschnitt „Almanach einrichten“). Dort steht auch, wie du sie ausgibst.
 
 Führe die Person dann im Gespräch durch die Einrichtung, wie in `AGENTS.md` unter „Almanach einrichten (beim ersten Start)“ beschrieben: eine Frage pro Nachricht, ohne feste Reihenfolge, und „weiß ich noch nicht“ oder „später“ ist jederzeit erlaubt. Die Schritte „Zum Schluss“ (Websites bauen, Bereitstellung fragen) folgen immer.
 
 ## Kein dauerhafter Ordner?
 
-Hast du keinen dauerhaften Ordner (normaler Chat ohne Dateizugriff), sag das gleich zu Beginn ehrlich: GMA braucht einen Agenten, der dauerhaft in einem Ordner arbeiten darf, zum Beispiel ein Claude-Projekt, Claude Code oder ein ChatGPT-Projekt mit Ordner oder GitHub-Repository. Richte dann nichts halb ein.
+Hast du keinen dauerhaften Ordner (normaler Chat ohne Dateizugriff), sag das statt der Begrüßung gleich zu Beginn ehrlich: GMA braucht einen Agenten, der dauerhaft in einem Ordner arbeiten darf, zum Beispiel ein Claude-Projekt, Claude Code oder ein ChatGPT-Projekt mit Ordner oder GitHub-Repository. Richte dann nichts halb ein.

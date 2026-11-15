@@ -42,7 +42,7 @@ Choose one of two ways:
 
 Then write: "Follow START.md."
 
-The agent does the rest: it first offers to show you the example almanac, then guides you through the setup step by step. Details: [docs/start-prompt.md](docs/start-prompt.md). If you work with Claude Code or Codex, simply open the folder there.
+The agent does the rest: it first offers to show you the example almanac, then sets up your almanac with you in conversation, in any order. Details: [docs/start-prompt.md](docs/start-prompt.md). If you work with Claude Code or Codex, simply open the folder there.
 
 The rules for the agent are in [almanach/AGENTS.md](almanach/AGENTS.md) (currently in German; an English version will follow).
 
@@ -100,7 +100,7 @@ Wähle einen von zwei Wegen:
 
 Dann schreiben: „Folge START.md.“
 
-Den Rest erledigt der Agent: Er bietet dir zuerst das Beispiel an und führt dich dann Schritt für Schritt durch die Einrichtung. Details: [docs/start-prompt.md](docs/start-prompt.md). Wer mit Claude Code oder Codex arbeitet, öffnet den Ordner einfach dort. Eine Einführung steht in [docs/einfuehrung.md](docs/einfuehrung.md).
+Den Rest erledigt der Agent: Er bietet dir zuerst das Beispiel an und richtet dann im Gespräch mit dir deinen Almanach ein, in beliebiger Reihenfolge. Details: [docs/start-prompt.md](docs/start-prompt.md). Wer mit Claude Code oder Codex arbeitet, öffnet den Ordner einfach dort. Eine Einführung steht in [docs/einfuehrung.md](docs/einfuehrung.md).
 
 Die Regeln für den Agenten stehen in [almanach/AGENTS.md](almanach/AGENTS.md).
 
