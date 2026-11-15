@@ -2,7 +2,7 @@
 
 Diese Datei richtet sich an dich, den KI-Agenten. Die Nutzerin oder der Nutzer hat dir das GMA-Paket gegeben (als ZIP, als Ordner oder als GitHub-Repository) und möchte loslegen. Erledige alles selbst. Die Person soll keine Ordner oder Dateien von Hand anlegen und keine Dateipfade kennen müssen. Antworte in ihrer Sprache, kurz und freundlich.
 
-**Wichtig, bevor du anfängst:** Führe die Einrichtung selbst in diesem Chat. Gibst du sie trotzdem an einen eigenen Thread, eine Unteraufgabe oder einen Hilfsagenten ab (manche Apps tun das von selbst), dann schreib der Person in diesem Chat ausdrücklich: „Die Einrichtung läuft im Thread „[Name]“. Öffne ihn bitte, dort steht die Begrüßung und dort geht es weiter.“ Fasse die Begrüßung nicht in eigenen Worten zusammen.
+**Unteraufgabe oder eigenes Fenster:** Führst du die Einrichtung in einer Unteraufgabe oder einem eigenen Fenster bzw. Thread aus, beende deine Rückmeldung an den Hauptchat mit dem Hinweis, dass Begrüßung und Auswahl dort stehen und es dort weitergeht. Arbeitest du direkt im Chat der Person, entfällt das.
 
 ## Schritt 1 – Paket finden
 

@@ -40,7 +40,7 @@ Choose one of two ways:
 - **Local folder:** download the ZIP and unpack it. Create a project in the Claude or ChatGPT app and connect the unpacked folder. In ChatGPT, choose the "Work" mode for it; "Chat" does not support local folders.
 - **or GitHub repository:** click "Use this template" to get your own copy. Create a project in the Claude or ChatGPT app and connect your copy.
 
-Then write: "Follow START.md." If the app starts a separate thread for it, open that thread: the setup continues there.
+Then write: "Follow START.md."
 
 The agent does the rest: it first offers to show you the example almanac, then sets up your almanac with you in conversation, in any order. Details: [docs/start-prompt.md](docs/start-prompt.md). If you work with Claude Code or Codex, simply open the folder there.
 
@@ -98,7 +98,7 @@ Wähle einen von zwei Wegen:
 - **Lokaler Ordner:** das ZIP herunterladen und entpacken. In der Claude- oder ChatGPT-App ein Projekt anlegen und den entpackten Ordner verbinden. In ChatGPT dafür den Modus „Work“ wählen, „Chat“ unterstützt keine lokalen Ordner.
 - **oder GitHub-Repository:** „Use this template“ klicken, das legt deine eigene Kopie an. In der Claude- oder ChatGPT-App ein Projekt anlegen und die Kopie verbinden.
 
-Dann schreiben: „Folge START.md.“ Startet die App dafür einen eigenen Thread, öffne ihn: Dort geht es weiter.
+Dann schreiben: „Folge START.md.“
 
 Den Rest erledigt der Agent: Er bietet dir zuerst das Beispiel an und richtet dann im Gespräch mit dir deinen Almanach ein, in beliebiger Reihenfolge. Details: [docs/start-prompt.md](docs/start-prompt.md). Wer mit Claude Code oder Codex arbeitet, öffnet den Ordner einfach dort. Eine Einführung steht in [docs/einfuehrung.md](docs/einfuehrung.md).
 
