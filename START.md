@@ -27,7 +27,7 @@ Lies `AGENTS.md` im Almanach-Ordner vollständig. Sie ist ab jetzt deine verbind
 
 Deine erste Nachricht an die Person ist immer der Begrüßungstext aus `AGENTS.md` (Einrichtung, Schritt 0), Wort für Wort, mit den Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“. Kürze, fasse oder formuliere ihn nicht um. Erst danach folgt die Frage nach dem Namen des Almanachs.
 
-Die Einrichtung führst du selbst in diesem Chat. Gib sie nicht an eine Unteraufgabe, einen Hilfsagenten oder einen eigenen Thread ab, und fasse den Begrüßungstext nicht in eigenen Worten zusammen („GMA ist gestartet und fragt …“). Die Person soll ihn direkt hier lesen.
+Die Einrichtung führst du selbst in diesem Chat. Gib sie nicht an eine Unteraufgabe, einen Hilfsagenten oder einen eigenen Thread ab, und fasse den Begrüßungstext nicht in eigenen Worten zusammen („GMA ist gestartet und fragt …“). Die Person soll ihn direkt hier lesen. Startet deine Umgebung trotzdem eine eigene Unteraufgabe oder einen Thread, sag der Person ausdrücklich, dass sie dort hineingehen soll, weil dort die Begrüßung steht und es dort weitergeht.
 
 Führe die Person dann im Gespräch durch die Einrichtung, wie in `AGENTS.md` unter „Almanach einrichten (beim ersten Start)“ beschrieben: eine Frage pro Nachricht, ohne feste Reihenfolge, und „weiß ich noch nicht“ oder „später“ ist jederzeit erlaubt. Die Schritte „Zum Schluss“ (Websites bauen, Bereitstellung fragen) folgen immer.
 
