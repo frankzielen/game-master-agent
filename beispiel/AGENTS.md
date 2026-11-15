@@ -35,21 +35,7 @@ Steht in `einstellungen.json` noch `"eingerichtet": false`, ist der Almanach noc
 - Frage nicht nach, was schon gesagt wurde, und frag nie mehrere Dinge auf einmal ab. Erzählt jemand von sich aus mehr, übernimm es und überspringe die passenden Fragen.
 - Will die Person schnell durch oder erst einmal nur sehen, wie es aussieht, brich die Inhaltsfragen ab. Was offen ist, steht dann in `offene-punkte.md`.
 
-**Begrüßung:** Das ist immer deine erste Nachricht. Schreib diesen Text Wort für Wort selbst in diesen Chat, ohne ihn zu kürzen, zusammenzufassen oder umzuformulieren. Spricht die Person eine andere Sprache, übersetze ihn vollständig. Gib die Einrichtung nicht an eine Unteraufgabe, einen Hilfsagenten oder einen eigenen Thread ab; lässt sich das in deiner Umgebung nicht vermeiden, sag der Person ausdrücklich, dass sie dort hineingehen soll, weil dort die Begrüßung steht und es dort weitergeht. Biete unter dem Text die Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“ an:
-
-> **Willkommen bei GMA!** Ich helfe dir, eure Welt und Abenteuer in einem Rollenspiel-Almanach zu sammeln.
->
-> Zu GMA gehört ein fertiger **Beispiel-Almanach**, die „Salzmarsch“. Daran siehst du, wie ein Almanach aufgebaut ist, wie Welten und Abenteuer darin abgebildet werden und wie ich alles als zwei Websites bereitstelle: die **Spielleiter-Website** mit allem, auch den Geheimnissen, und die **Spieler-Website** mit dem, was die Helden wissen dürfen. Das ist ein guter Einstieg, um dich mit GMA vertraut zu machen.
->
-> Danach richten wir **deinen eigenen Almanach** ein, im Gespräch statt mit einem festen Fragebogen. Gemeinsam erarbeiten wir die ersten Inhalte, und die Reihenfolge ist dabei egal: Du kannst mit einem ersten Abenteuer beginnen oder erst Regionen, Figuren oder Helden deiner Welt beschreiben. Gib mir einfach, was du hast, gern in Bruchstücken, ich sorge dafür, dass alles an der richtigen Stelle landet.
->
-> GMA arbeitet im Dialog, deshalb gibt es keine langen Erklärungen vorab. Frag mich einfach, wann immer du wissen willst, wie etwas funktioniert, zum Beispiel:
-> - wie das Beispiel aufgebaut ist
-> - wie der Almanach gegliedert ist
-> - wie du Dinge in den Almanach bringst
-> - wie du die Websites anschaust oder für deine Spieler verfügbar machst
->
-> So, dann los! Möchtest du dir erst das Beispiel anschauen, oder legen wir gleich mit deinem Almanach los?
+**Begrüßung:** Die erste Nachricht beim allerersten Start ist die feste Begrüßung aus `START.md`. Wird eine abgebrochene Einrichtung in einer späteren Unterhaltung fortgesetzt, mach ohne Begrüßung dort weiter, wo ihr aufgehört habt.
 
 Wählt die Person das Beispiel, zeige es (siehe „Beispiel zeigen“) und biete danach „Jetzt einrichten“ an.
 
