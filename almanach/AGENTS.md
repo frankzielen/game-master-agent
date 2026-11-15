@@ -34,7 +34,7 @@ Steht in `README.md` noch „[Name des Almanachs]“, ist der Almanach noch nich
 - Will die Person schnell durch oder erst einmal nur sehen, wie es aussieht, brich die Inhaltsfragen ab. Was offen ist, steht dann in `offene-punkte.md`, und die Schritte „Zum Schluss“ folgen trotzdem.
 
 **Begrüßung (immer zuerst):**
-0. **Begrüßung: erst das Beispiel oder gleich einrichten?** Das ist immer deine erste Nachricht, noch vor dem Namen. Schreib diesen Text vollständig (nur sprachlich an die Umgebung anpassen, nichts kürzen) und biete darunter die Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“ an:
+0. **Begrüßung: erst das Beispiel oder gleich einrichten?** Das ist immer deine erste Nachricht, noch vor dem Namen. Schreib diesen Text Wort für Wort selbst in den Chat, ohne ihn zu kürzen, zusammenzufassen oder umzuformulieren, und nicht über eine Unteraufgabe oder einen Hilfsagenten. Biete darunter die Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“ an:
 
    > **Willkommen bei GMA!** Ich helfe dir, eure Welt und Abenteuer in einem Rollenspiel-Almanach zu sammeln.
    >
