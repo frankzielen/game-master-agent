@@ -5,23 +5,6 @@ Die **Welt** (NSCs, Orte, Fraktionen, Gegenstände, Spielercharaktere) gibt es n
 
 **Spieler:** [Name (Spitzname), …]
 
-```
-welt/                        gemeinsam für alle Abenteuer
-  nscs/                      ein Ordner pro NSC: name.md, statblock.md, bilder/
-  orte/                      Region → Stadt → Gebäude
-  fraktionen/
-  gegenstaende/
-  spielercharaktere/         ein Ordner pro SC: name.md, statblock.md, bilder/
-abenteuer/                   chronologisch nummeriert, jeweils plot/ (mit quests/) und sitzungen/
-systeme/                     Systemprofile (Regelsystem): Charakterfelder, Begriffe, Statblock-Vorlage
-_vorlagen/                   Kopiervorlagen für alle Dateitypen (regelneutral)
-werkzeuge/                   Links prüfen, Spielleiter-Website und Spieler-Website erzeugen
-einstellungen.json           gewähltes Regelsystem, Titel, Startseite der Spieler-Website
-offene-punkte.md             Widersprüche, offene Fragen, getroffene Entscheidungen
-AGENTS.md                    Arbeitsanweisung für den KI-Assistenten
-CLAUDE.md                    Verweis auf AGENTS.md (wird von Claude automatisch gelesen)
-```
-
 | Bereich | Einstieg |
 |---|---|
 | Alle Abenteuer mit Spielleitung | [abenteuer/README.md](abenteuer/README.md) |

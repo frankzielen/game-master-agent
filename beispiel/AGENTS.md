@@ -15,12 +15,12 @@ Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturier
 - **Schaltflächen:** Bietet deine Umgebung ein Werkzeug für Rückfragen mit Antwortmöglichkeiten, nutze es für jede Auswahl. Sonst nenne die Möglichkeiten kurz zum Antippen oder Abschreiben.
 - **Neu bauen nur auf Klick:** Baue die Websites nicht automatisch. Hat sich seit dem letzten Bau etwas an den Inhalten geändert, biete am Ende deiner Antwort eine Schaltfläche „Websites neu bauen“ an (oder, wo deine Umgebung keine Schaltflächen kann, die kurze Frage „Websites neu bauen?“). Gibt es veröffentlichte Websites (siehe „Bereitstellung“), biete stattdessen drei Schaltflächen an: „Nur für mich neu bauen“, „Neu bauen und online aktualisieren (dauert einige Minuten)“ und „Später“. Während der Einrichtung heißt die Schaltfläche „Websites bauen“, und der erste Bau beendet die Einrichtung (siehe „Nach dem ersten Bau“).
 - **Vor dem ersten Bau:** Prüfe still, ob Python 3 da ist. Fehlt es, erkläre die Installation in einfachen Schritten. Das gilt auch, wenn die Person zuerst das Beispiel sehen will.
-- **Nach dem Bau:** Hänge beide Websites im Chat an, jede als eine einzige Datei mit allen Bildern (`--eine-datei`, siehe Abschnitt 7), nicht als ZIP (ein ZIP gibt es nur für die Spieler, siehe „Bereitstellung“, C). Kann deine Umgebung sie als Vorschau oder per Schaltfläche öffnen, biete „Spielleiter-Website öffnen“ und „Spieler-Website öffnen“ an. Arbeitest du in einem Ordner auf dem Rechner der Person, liegen sie außerdem unter `_site/` zum Öffnen per Doppelklick. Liefere nie eine Datei namens `index.html` aus, sie ist nur die Weiterleitung für Hoster. Sind Websites veröffentlicht, aktualisiere sie nur, wenn die Person das gewählt hat (siehe „Neu bauen nur auf Klick“).
-- **Beispiel zeigen:** Bittet die Person, das Beispiel zu sehen, oder wählt sie es beim ersten Start, und liegt neben diesem Ordner der Ordner `beispiel/` aus dem GMA-Paket, baue dort beide Websites mit `--eine-datei` (Aufruf aus `beispiel/` heraus). Baue zuerst beide Websites. Erkläre erst danach, in deiner abschließenden Antwort, in zwei, drei Sätzen den Aufbau, und hänge die Websites darunter an wie nach dem Bau. Rein gehört: Unter **Abenteuer** hat jedes Abenteuer einen **Plot** (Hauptplot, darunter **Kapitel** und **Szenen**; der Hauptplot ist der beste Einstieg), dazu **Sitzungen** und **Geschichte**. Unter **Welt** steht, was es über die Abenteuer hinweg nur einmal gibt (Fraktionen, Gegenstände, NSCs, Orte, Spielercharaktere). Empfiehl, zuerst die **Spieler-Website** anzusehen und danach die **Spielleiter-Website** mit allem, was den Spielern verborgen ist. Biete an, dass die Person dich nach Details fragen kann. Schreib die Erklärung nicht vor oder während des Baus, sonst verschwindet sie in manchen Apps zusammen mit den Zwischenschritten. Am Beispiel änderst du nichts, und es wird nie veröffentlicht.
+- **Nach dem Bau:** Hänge beide Websites im Chat an, jede als eine einzige Datei mit allen Bildern (`--eine-datei`, siehe „Werkzeuge“), nicht als ZIP (ein ZIP gibt es nur für die Spieler, siehe „Bereitstellung“, C). Kann deine Umgebung sie als Vorschau oder per Schaltfläche öffnen, biete „Spielleiter-Website öffnen“ und „Spieler-Website öffnen“ an. Arbeitest du in einem Ordner auf dem Rechner der Person, liegen sie außerdem unter `_site/` zum Öffnen per Doppelklick. Liefere nie eine Datei namens `index.html` aus, sie ist nur die Weiterleitung für Hoster. Sind Websites veröffentlicht, aktualisiere sie nur, wenn die Person das gewählt hat (siehe „Neu bauen nur auf Klick“).
+- **Beispiel zeigen:** Bittet die Person, das Beispiel zu sehen, oder wählt sie es beim ersten Start, und liegt neben diesem Ordner der Ordner `beispiel/` aus dem GMA-Paket, baue dort beide Websites mit `--eine-datei` (Aufruf aus `beispiel/` heraus). Erkläre den Aufbau erst nach dem Bau, in deiner abschließenden Antwort, sonst verschwindet die Erklärung in manchen Apps zusammen mit den Zwischenschritten. Hänge die Websites darunter an wie nach dem Bau. In die Erklärung gehören in zwei, drei Sätzen: Unter **Abenteuer** hat jedes Abenteuer einen **Plot** (Hauptplot, darunter **Kapitel** und **Szenen**; der Hauptplot ist der beste Einstieg), dazu **Sitzungen** und **Geschichte**. Unter **Welt** steht, was es über die Abenteuer hinweg nur einmal gibt (Fraktionen, Gegenstände, NSCs, Orte, Spielercharaktere). Empfiehl, zuerst die **Spieler-Website** anzusehen und danach die **Spielleiter-Website** mit allem, was den Spielern verborgen ist. Biete an, dass die Person dich nach Details fragen kann. Am Beispiel änderst du nichts, und es wird nie veröffentlicht.
 - **Erklären auf Nachfrage:** Die Person kann dich jederzeit fragen, wie etwas funktioniert: wie das Beispiel aufgebaut ist, wie der Almanach aufgebaut ist und gefüllt wird, wie die Websites entstehen oder wie die Spieler an ihre Website kommen. Erinnere an passenden Stellen kurz daran (nach dem Beispiel, nach dem ersten Bau, wenn jemand unsicher wirkt), statt alles ungefragt zu erklären. Erkläre dann aus dieser Anleitung und der `README.md`, in einfachen Worten und ohne Dateipfade.
 
-**Bereitstellung:** Wie die Spieler an ihre Website kommen, fragst du nach dem ersten Bau und immer dann, wenn die Person danach fragt.
-- **A · Veröffentlichen:** Nur wenn deine Umgebung Websites veröffentlichen kann. Veröffentliche Spieler- und Spielleiter-Website immer getrennt, jede mit eigenem Link, nie mit gemeinsamem Einstieg. Die Spielleiter-Website nur auf Wunsch. Freigeben (z. B. „Alle mit dem Link“) erklärt du in einem Satz, falls die Person es selbst tun muss. Notiere die Links in `einstellungen.json` unter `"veroeffentlicht"` und aktualisiere bei jedem Neubau mit Online-Aktualisierung dieselben Veröffentlichungen, damit die Links gleich bleiben.
+**Bereitstellung:** Die Person bekommt beide Websites nach jedem Bau im Chat, die Spieler kommen so aber nicht heran. Wie sie an ihre Website kommen, fragst du nach dem ersten Bau und immer dann, wenn die Person danach fragt: in eigenen Worten, so kurz, wie es zur Person passt, mit den Schaltflächen „A · Über [Umgebung] veröffentlichen“ (am einfachsten; nur wenn deine Umgebung Websites veröffentlichen kann, z. B. als Artefakt oder Site), „B · Eigener Webspace“, „C · Offline als ZIP“ und „D · Später entscheiden“. Diese Frage stellst du immer und entscheidest sie nie selbst; „Später“ gilt nur, wenn die Person D wählt. Fragt die Person, was die Möglichkeiten bedeuten, erkläre sie kurz. Setze die Wahl so um:
+- **A · Veröffentlichen:** Veröffentliche Spieler- und Spielleiter-Website immer getrennt, jede mit eigenem Link, nie mit gemeinsamem Einstieg. Die Spielleiter-Website nur auf Wunsch. Freigeben (z. B. „Alle mit dem Link“) erklärt du in einem Satz, falls die Person es selbst tun muss. Notiere die Links in `einstellungen.json` unter `"veroeffentlicht"` und aktualisiere bei jedem Neubau mit Online-Aktualisierung dieselben Veröffentlichungen, damit die Links gleich bleiben.
 - **B · Eigener Webspace:** Hochgeladen wird der gesamte Inhalt von `_site/spieler/` (bzw. `_site/sl/`) zu einem Hoster für statische Seiten, nach jedem Neubau erneut. Liegt der Almanach in einem GitHub-Repository, geht das auch über GitHub Pages; das richtest du auf Wunsch mit der Person ein.
 - **C · Offline:** Packe `_site/spieler/` als ZIP und sag dazu: erst entpacken, dann `spieler.html` öffnen.
 - **D · Später:** Nichts tun. Notiere die Frage in `offene-punkte.md` unter „Noch festzulegen“.
@@ -37,39 +37,24 @@ Wählt die Person das Beispiel, zeige es (siehe „Beispiel zeigen“) und biete
 **Aufnehmen statt abfragen:** Es gibt keinen Fragebogen. Die Person erzählt, was sie hat, in beliebiger Reihenfolge und gern in Bruchstücken, und du legst es ab wie unter „Aufnehmen und nachfragen“ beschrieben. Kommt noch nichts, frag einmal offen, womit sie anfangen möchte, zum Beispiel mit einem Abenteuer, der Welt oder den Helden. Nennt sie Dinge, die zur Einrichtung gehören, legst du sie so ab:
 - **Name des Almanachs:** in `README.md` und in `einstellungen.json` unter `"titel"`.
 - **Regelsystem:** in `einstellungen.json` unter `"system"` (`dnd-5e` für D&D 5e). Für ein anderes System legst du das Profil später gemeinsam an (siehe „Regelsystem“). Nennt sie keins, bleibt `ohne-regelsystem`.
-- **Abenteuer:** wie in Abschnitt 2, mit Titel, Spielleitung und Status (`idee`, `läuft`, `gespielt`).
+- **Abenteuer:** wie unter „Neues Abenteuer“ (siehe „Ablage“), mit Titel, Spielleitung und Status (`idee`, `läuft`, `gespielt`).
 - **Spielercharaktere:** mit Name und wer ihn spielt.
-- **Mitspieler, Welt, Regionen, Figuren:** wie alle anderen Inhalte.
+- **Welt und Mitspieler:** Name der Welt oder Startregion und die Mitspieler (gern mit Spitznamen) in `README.md`. Regionen, Figuren und alles Weitere legst du ab wie alle anderen Inhalte.
 
 Was die Person nicht nennt, fragst du nicht ab. Es bleibt Platzhalter, und gebrauchte Angaben (z. B. die Spielleitung eines Abenteuers) notierst du in `offene-punkte.md` unter „Noch festzulegen“.
 
-**Der erste Bau beendet die Einrichtung.** Sobald etwas aufgenommen ist, bietest du „Websites bauen“ an (siehe „Neu bauen nur auf Klick“). Will die Person erst einmal nur sehen, wie es aussieht, bietest du den Bau auch ohne Inhalte an. Fehlt vor dem ersten Bau noch der Name des Almanachs, frag einmal danach: Er steht als Überschrift über beiden Websites, passend ist zum Beispiel der Name eurer Kampagne, eurer Welt oder eurer Gruppe („Die Chroniken von Neren“, „Die Salzmarsch“), und er lässt sich jederzeit ändern. Nennt die Person keinen, baust du mit dem Platzhalter und notierst ihn als offen. Prüfe vor dem Bau still, ob alle Links stimmen.
+**Der erste Bau beendet die Einrichtung.** Sobald etwas aufgenommen ist, bietest du „Websites bauen“ an (siehe „Neu bauen nur auf Klick“). Will die Person erst einmal nur sehen, wie es aussieht, bietest du den Bau auch ohne Inhalte an. Fehlt vor dem ersten Bau noch der Name des Almanachs, frag einmal danach: Er steht als Überschrift über beiden Websites, passend ist zum Beispiel der Name eurer Kampagne, eurer Welt oder eurer Gruppe („Die Chroniken von Neren“, „Die Salzmarsch“), und er lässt sich jederzeit ändern. Nennt die Person keinen, baust du mit dem Platzhalter und notierst ihn als offen.
 
 **Nach dem ersten Bau** (immer, egal wie viel schon aufgenommen ist):
 - Biete beide Websites zum Öffnen an (siehe „Nach dem Bau“).
 - Fasse in wenigen Sätzen zusammen, was angelegt ist und was noch offen ist.
-- Frage dann, wie die Spieler an ihre Website kommen sollen, in eigenen Worten und so kurz, wie es zur Person passt. Rein gehört: Es gibt zwei Websites, die **Spielleiter-Website** mit allem und die **Spieler-Website** mit dem, was die Helden wissen dürfen. Die Person selbst bekommt beide nach jedem Neubau im Chat (arbeitest du in einem Ordner auf ihrem Rechner, liegen sie außerdem unter `_site/`, mit dem echten Ordnernamen). Die Spieler kommen so aber nicht heran. Biete dafür die Schaltflächen an:
-  - **A · Über [Umgebung] veröffentlichen** (am einfachsten; nur wenn deine Umgebung Websites veröffentlichen kann, z. B. als Artefakt oder Site)
-  - **B · Eigener Webspace**
-  - **C · Offline als ZIP**
-  - **D · Später entscheiden**
-
-  Setze die Wahl um, wie unter „Bereitstellung“ beschrieben. Diese Frage stellst du immer und entscheidest sie nie selbst. „Später“ gilt nur, wenn die Person D wählt. Fragt die Person, was die Möglichkeiten bedeuten, erkläre sie kurz.
+- Frage, wie die Spieler an ihre Website kommen sollen (siehe „Bereitstellung“).
 - Musste die Person für dauerhafte Regeln einen Satz selbst eintragen (siehe `START.md`, Schritt 2b), gib ihn ihr jetzt.
 - Setze in `einstellungen.json` `"eingerichtet": true`.
 - Schließe in wenigen Sätzen ab. Rein gehört: Ab jetzt erzählt die Person einfach Ideen, Material oder was am Spielabend passiert ist, gern in Bruchstücken; du ordnest alles ein und fragst nur nach, wenn etwas unklar ist. Den aktuellen Stand sieht sie auf den Websites, und „Websites neu bauen“ bringt beide auf den neuesten Stand. Sie kann dich jederzeit fragen, wie etwas funktioniert.
 - Hat die Person das Beispiel zu Beginn nicht angesehen, biete zum Abschluss die Schaltfläche „Beispiel ansehen“ an (siehe „Beispiel zeigen“).
 
-## Aufnehmen und nachfragen
-
-Erzählt die Person etwas, ob Ideen, Material, einen Spielbericht oder etwas Neues wie ein Abenteuer, einen NSC, einen Ort oder eine Fraktion, legst du es ab (siehe Abschnitt 5) und fragst nur nach, wenn etwas unklar ist:
-- Es widerspricht etwas, das schon im Almanach steht (siehe Abschnitt 5, „Konflikte zeigen“).
-- Es lässt sich nicht eindeutig zuordnen, zum Beispiel weil offen ist, welches Abenteuer oder welche Figur gemeint ist.
-- Ohne die Antwort lässt es sich gar nicht sinnvoll ablegen.
-
-Stell dann eine Frage pro Nachricht, mit Schaltflächen, wo es feste Antworten gibt. Lücken fragst du nicht ab: Was eine Vorlage noch braucht, bleibt Platzhalter, und du erfindest nichts (siehe Grundregel). Ist alles klar, sag in ein, zwei Sätzen, was du aufgenommen hast, und biete „Websites neu bauen“ an (siehe „Neu bauen nur auf Klick“). Fragt die Person, was noch fehlt, nenn ihr die wichtigsten Lücken.
-
-## 1. Grundidee
+## Grundidee
 
 - Alle Abenteuer der Gruppe spielen in **einer gemeinsamen Welt**. Die Spielleitung kann von Abenteuer zu Abenteuer wechseln.
 - Die **Welt** (NSCs, Orte, Fraktionen, Gegenstände, Spielercharaktere) gibt es nur **einmal** in `welt/` und wird von allen Abenteuern genutzt. **Nichts doppelt anlegen.**
@@ -81,10 +66,10 @@ Welches Regelsystem die Gruppe spielt, steht in `einstellungen.json` unter `"sys
 - Lies `systeme/<system>/profil.md` zu Beginn jeder Sitzung. Es legt Charakterfelder, Gegenstandsfelder und Begriffe fest (Probe, Schwierigkeit, Erfahrung, Fortschritt, Währung, Gefährlichkeit). Verwende genau diese Begriffe.
 - Wo eine Vorlage „laut Systemprofil“ sagt, setzt du beim Anlegen die Felder des Profils ein.
 - Spielwerte eines NSC legst du als `statblock.md` aus `systeme/<system>/statblock.md` an.
-- Spielwerte eines Spielercharakters legst du als `statblock.md` im Ordner des Charakters aus `systeme/<system>/statblock-sc.md` an. Nach jedem gespielten Abenteuer aktualisierst du Stufe, Werte und Ausrüstung. Anders als bei NSCs erscheint dieser Statblock auch in der Spieler-Website.
+- Spielwerte eines Spielercharakters legst du als `statblock.md` im Ordner des Charakters aus `systeme/<system>/statblock-sc.md` an. Anders als bei NSCs erscheint dieser Statblock auch in der Spieler-Website.
 - Gibt es noch kein passendes Profil, legst du mit der Spielleitung eines an: Lass dir einen Beispiel-Statblock zeigen und die wichtigsten Begriffe nennen, und schreibe daraus `profil.md`, `statblock.md` und `statblock-sc.md`. Übernimm keine Regeltexte aus Büchern, nur Feldnamen und Begriffe.
 
-## 2. Ablage
+## Ablage
 
 ```
 README.md                    Einstieg: Überblick, Spieler, Liste der Abenteuer
@@ -98,8 +83,8 @@ welt/                        gemeinsam für alle Abenteuer
 abenteuer/
   README.md                  Liste aller Abenteuer mit Spielleitung und Status
   NN-titel/                  chronologisch nummeriert: 01-…, 02-…
-    README.md                Kurzüberblick, Spielleitung, Status, Davor/Danach
-    ideen-eingang.md         Puffer für neue Ideen (siehe Abschnitt 5)
+    README.md                Kurzüberblick, Spielleitung, Status
+    ideen-eingang.md         Puffer für neue Ideen (siehe „Aufnehmen und nachfragen“)
     plot/
       hauptplot.md
       kapitel-NN-titel/kapitel-NN-titel.md, szene-NN-titel.md
@@ -116,9 +101,9 @@ _site/                       gebaute Websites (sl/, spieler/), wird bei jedem Ba
 
 Jede Übersicht (`welt/*/README.md`, `abenteuer/README.md`) enthält eine Tabelle aller Einträge. Neue Einträge trägst du dort sofort ein.
 
-**Neues Abenteuer:** Ordner `abenteuer/NN-titel/` mit `README.md` (aus `_vorlagen/abenteuer-readme.md`), `ideen-eingang.md` (aus `_vorlagen/ideen-eingang.md`), `plot/hauptplot.md` (aus `_vorlagen/hauptplot.md`), `plot/quests/` und `sitzungen/` anlegen, in `abenteuer/README.md` eintragen und im Hauptplot des vorigen Abenteuers „Danach“ setzen.
+**Neues Abenteuer:** Ordner `abenteuer/NN-titel/` mit `README.md` (aus `_vorlagen/abenteuer-readme.md`), `ideen-eingang.md` (aus `_vorlagen/ideen-eingang.md`), `plot/hauptplot.md` (aus `_vorlagen/hauptplot.md`), `plot/quests/` und `sitzungen/` anlegen, in `abenteuer/README.md` eintragen und im Hauptplot „Davor“ und im Hauptplot des vorigen Abenteuers „Danach“ setzen.
 
-## 3. Konventionen
+## Konventionen
 
 - **Dateinamen:** klein, mit Bindestrichen, Umlaute ausgeschrieben (`ae`, `oe`, `ue`, `ss`). Beispiel: `welt/nscs/name-des-nsc/name-des-nsc.md`.
 - **Ordner = Ding:** Alles, was Bilder oder Unterseiten haben kann (NSC, Ort, Kapitel), bekommt einen eigenen Ordner. Die Hauptdatei heißt wie der Ordner. Bilder liegen in `bilder/`, Karten in `karten/` direkt daneben.
@@ -130,11 +115,10 @@ Jede Übersicht (`welt/*/README.md`, `abenteuer/README.md`) enthält eine Tabell
   - Plot-Dateien (Hauptplot, Kapitel, Szene, Quest) haben `status:` mit `idee`, `entwurf`, `fertig` oder `gespielt`.
   - Welt-Dateien haben stattdessen `auftritte: [01, 03]`, also die Nummern der Abenteuer, in denen der Eintrag vorkommt.
   - Der Hauptplot hat zusätzlich `spielleitung:`.
-- **Musik und Geräusche:** Jedes Objekt (NSC, Ort, Fraktion, Gegenstand, SC) und jeder Abenteuerinhalt (Hauptplot, Kapitel, Szene, Quest) kann einen Abschnitt `## Musik und Geräusche` haben: Hintergrundmusik, Atmosphäre oder Soundeffekte, mit „Wann“ (z. B. beim Betreten, im Kampf, beim Auftritt). Eigene Dateien (MP3, OGG, WAV, M4A, FLAC) liegen in `audio/` neben der Datei, sonst ein Link zu Spotify, Apple Music, YouTube oder einem anderen Anbieter. Die Website spielt Dateien direkt ab und bettet Spotify-, Apple-Music- und YouTube-Links als Player ein. In der Spalte „Art“ steht „Musik“, „Atmosphäre“ oder „Effekt“. Musik und Atmosphäre aus eigenen Dateien laufen in der Musikleiste unten rechts in Dauerschleife und spielen beim Weiterklicken weiter; gestartet wird nur von Hand, weitere Stücke der Seite sind auswählbar. Effekte haben einen eigenen Abspieler. Der Abschnitt ist nur für die SL und erscheint nicht in der Spieler-Website.
-- **Spoiler:** Was die Spieler nicht wissen dürfen, steht unter `## Geheim (nur SL)`.
+- **Musik und Geräusche:** Jedes Objekt (NSC, Ort, Fraktion, Gegenstand, SC) und jeder Abenteuerinhalt (Hauptplot, Kapitel, Szene, Quest) kann einen Abschnitt `## Musik und Geräusche` haben, eine Tabelle mit „Wann“ (z. B. beim Betreten, im Kampf), „Art“ („Musik“, „Atmosphäre“ oder „Effekt“) und „Quelle“. Eigene Dateien (MP3, OGG, WAV, M4A, FLAC) liegen in `audio/` neben der Datei, sonst ein Link zu Spotify, Apple Music, YouTube oder einem anderen Anbieter. Die Website spielt beides ab. Der Abschnitt ist nur für die SL.
 - **Hauptplot:** nennt oben die Spielleitung und verlinkt das vorige und das nächste Abenteuer. Unter „Handlung im Überblick“ steht in einigen Absätzen, was im Abenteuer passiert: Ausgangslage, wer was warum tut, Verlauf und Enden. Kapitel und Szenen beschreiben Ort, Stimmung, Ablauf und die Motive der beteiligten NSCs so, dass die Spielleitung daraus leiten kann. Zeitliche Abläufe stehen unter „Zeitplan des Abenteuers“.
 
-## 4. Welt-Dateien über mehrere Abenteuer
+## Welt-Dateien über mehrere Abenteuer
 
 Jede Welt-Datei ist gleich aufgebaut:
 
@@ -147,6 +131,7 @@ Jede Welt-Datei ist gleich aufgebaut:
 **Nach jedem gespielten Abenteuer:**
 - Aktuellen Stand in allen betroffenen Welt-Dateien aktualisieren und den Unterabschnitt anhängen.
 - `welt/spielercharaktere/README.md` aktualisieren. Sie beginnt mit „**Stand: nach dem Abenteuer NN · Titel.**“ und hat die Spalten SC, Charakter, Spieler, Fortschritt am Ende, Aktueller Verbleib (Inhalte laut Systemprofil, bei D&D 5e z. B. „Elf / Magier“ und „Stufe 5“).
+- Statblöcke der Spielercharaktere aktualisieren (Stufe, Werte, Ausrüstung).
 - Gegenstände-Übersicht ergänzen (wer besitzt was).
 - Geld der Helden nur grob festhalten (Stand vorher und nachher), keine Einzelbuchungen.
 - Status im Abenteuer-README und in `abenteuer/README.md` auf `gespielt` setzen.
@@ -157,26 +142,26 @@ Jede Welt-Datei ist gleich aufgebaut:
 - **Gespielte Abenteuer:** Im Abschnitt „Entwicklung über die Abenteuer“ führt jedes Objekt je Abenteuer nur eine Zeile „Was geschah: Kap. … · Kap. …“ mit Links, oben den aktuellen Stand. Einzelheiten, die im Kapitelablauf fehlen, stehen im Kapitel unter „Einzelheiten zu Figuren und Dingen“. Gegenstände behalten ihre Fundort-Zeile.
 - **Ausnahme:** Vorlesetexte und Spielwerte, die die Spielleitung am Tisch griffbereit braucht, dürfen Eigenschaften wiederholen. Bei Änderungen am Objekt prüfst du sie gezielt mit.
 
-**Retcon:** Ab `status: gespielt` wird eine Szene oder Sitzung nicht mehr umgeschrieben. Soll sich nachträglich etwas ändern, bekommt sie eine kurze Notiz „Retcon: …“, und der gültige Stand steht beim Objekt. Entwürfe werden direkt korrigiert. Ein Retcon ist nur eine bewusste Änderung der Geschichte. Fehler bei der Erfassung (falsch verstandene Namen, Tippfehler, Hörfehler) korrigierst du überall direkt und ohne Vermerk.
+**Retcon:** Gespielte Plot-Dateien (`status: gespielt`) und Sitzungsprotokolle werden nicht mehr umgeschrieben. Soll sich nachträglich etwas ändern, bekommt sie eine kurze Notiz „Retcon: …“, und der gültige Stand steht beim Objekt. Entwürfe werden direkt korrigiert. Ein Retcon ist nur eine bewusste Änderung der Geschichte. Fehler bei der Erfassung (falsch verstandene Namen, Tippfehler, Hörfehler) korrigierst du überall direkt und ohne Vermerk.
 
 **Kennzeichnung für die Spieler-Website:** Was nicht für die Spieler ist, erkennt der Generator nur an der Kennzeichnung in den Daten. Es gibt keine Ausnahmelisten im Code.
 - **Ganze Abschnitte:** `## Geheim (nur SL)`, Überschriften mit „nur SL“, „Planung“ oder „Parallelhandlung“ sowie die SL-Abschnitte der Vorlagen (z. B. „Ziele und Motivation“, „Abzweigungen“, „Proben, Kampf, Hindernisse“, „Offene Fäden …“, „Musik und Geräusche“).
 - **Einzelne Zeilen:** am Zeilenende „(nur SL)“, z. B. `- Der Hort des Drachen ist ungeklärt. (nur SL)`. SL-Wissen steht nie mitten in einer Zeile, die die Spieler sehen dürfen.
-- **Ganze Dateien:** über `status:` (Plot) bzw. `auftritte:` (Welt), außerdem Stat-Blöcke, `ideen-eingang.md`, `_quelle/`, `_vorlagen/`.
+- **Ganze Dateien:** Ein Abenteuer erscheint erst, wenn es gespielt ist oder mindestens eine Sitzung hat. Plot-Dateien erscheinen nur mit `status: gespielt`, Welt-Einträge nur mit passendem `auftritte:`. Nie hinein kommen NSC-Stat-Blöcke, `ideen-eingang.md`, `_quelle/` und `_vorlagen/`.
 - **Felder wie Kurz, Hintergrund, Beziehungen** enthalten nur, was die Helden wissen dürfen. Die wahre Geschichte steht unter „Geheim (nur SL)“.
 
 **Spoiler-Regel:** Wissen aus einem Abenteuer, das noch nicht gespielt ist, steht in Einträgen, die die Spieler schon kennen, nur unter `## Geheim (nur SL)` oder `### NN · Titel (Planung, nur SL)`, nie oben in Beschreibung oder Hintergrund. Ganz neue Einträge für ein ungespieltes Abenteuer bekommen nur dessen Nummer in `auftritte`.
 
-## 5. Arbeitsweise bei neuen Ideen
+## Aufnehmen und nachfragen
 
-Die Spielleitung brainstormt oft in Bruchstücken. Gehe jedes Mal so vor:
+Die Person erzählt oft in Bruchstücken: Ideen, Material, einen Spielbericht oder etwas Neues wie ein Abenteuer, einen NSC, einen Ort oder eine Fraktion. Gehe jedes Mal so vor:
 
-1. **Puffern:** Das Fragment mit Datum in `abenteuer/NN-titel/ideen-eingang.md` eintragen.
-2. **Prüfen:** Gibt es Widersprüche, Lücken oder Doppelungen? Geprüft wird in zwei Stufen. Bei jeder neuen Idee nur gegen die Dateien der genannten Objekte und die Stellen, die auf sie verlinken. Gründliche Prüfrunden über ein ganzes Kapitel oder Abenteuer laufen nur auf Zuruf, zum Beispiel vor einem Spielabend.
-3. **Konflikte zeigen:** Je Konflikt eine kurze Frage mit zwei bis drei konkreten Lösungsvorschlägen und einer markierten Empfehlung. Den Konflikt zusätzlich in `offene-punkte.md` unter „Offen“ eintragen.
-4. **Einpflegen:** Widerspruchsfreies sofort übernehmen, Geklärtes nach der Antwort. Ziel sind Hauptplot, Kapitel, Szenen und Welt-Dateien. Neue Dateien legst du aus `_vorlagen/` an. Im Puffer markierst du das Fragment als „übernommen → Zieldatei“.
+1. **Puffern:** Gehört das Fragment zu einem Abenteuer, trag es mit Datum in dessen `ideen-eingang.md` ein. Alles andere (Welt, Regionen, Figuren ohne Abenteuer) pflegst du direkt in die Welt-Dateien ein.
+2. **Prüfen:** Gibt es Widersprüche oder Doppelungen, und ist klar, wohin es gehört? Geprüft wird in zwei Stufen. Bei jeder neuen Idee nur gegen die Dateien der genannten Objekte und die Stellen, die auf sie verlinken. Gründliche Prüfrunden über ein ganzes Kapitel oder Abenteuer laufen nur auf Zuruf, zum Beispiel vor einem Spielabend.
+3. **Nur bei Unklarem nachfragen:** wenn etwas Festgelegtem widerspricht, sich nicht eindeutig zuordnen lässt (zum Beispiel, welches Abenteuer oder welche Figur gemeint ist) oder sich ohne Antwort gar nicht sinnvoll ablegen lässt. Eine Frage pro Nachricht, mit Schaltflächen, wo es feste Antworten gibt. Bei einem Widerspruch nennst du zwei bis drei konkrete Lösungsvorschläge mit einer markierten Empfehlung und trägst ihn in `offene-punkte.md` unter „Offen“ ein.
+4. **Einpflegen:** Klares sofort übernehmen, Geklärtes nach der Antwort. Ziel sind Hauptplot, Kapitel, Szenen und Welt-Dateien. Neue Dateien legst du aus `_vorlagen/` an. Im Puffer markierst du das Fragment als „übernommen → Zieldatei“. Lücken fragst du nicht ab: Bei Ablage und Form (Dateiname, Ordner, Reihenfolge) triffst du eine sinnvolle Annahme und nennst sie, fehlende Inhalte bleiben Platzhalter (siehe Grundregel).
 5. **Übersichten nachziehen:** neue Einträge in die passende README-Tabelle, Links in beide Richtungen setzen.
-6. **Melden:** kurz sagen, was wo gelandet ist und was offen ist.
+6. **Melden:** In ein, zwei Sätzen sagen, was du aufgenommen hast und was offen ist, und „Websites neu bauen“ anbieten (siehe „Neu bauen nur auf Klick“). Fragt die Person, was noch fehlt, nenn ihr die wichtigsten Lücken.
 
 Weitere Regeln:
 - **Schreibweisen:** Die Spielleitung spricht oft per Spracherkennung ein, Namen und Begriffe können falsch erkannt sein. Verwende immer die Schreibweise, die schon in den Dateien steht, und übernimm eingesprochene Abweichungen nicht. Nur bei echtem Zweifel fragen. Neue Begriffe, die die Spielleitung tippt, gelten so.
@@ -184,10 +169,9 @@ Weitere Regeln:
 - **Nie stillschweigend überschreiben,** was festgelegt ist, auch nichts aus früheren Abenteuern. Im Zweifel fragen.
 - **Keine Änderungsvermerke** wie „(geändert am …)“ oder „laut Notiz von …“ in Beschreibungen. Die Texte sollen sich wie fertige Spielleiter-Unterlagen lesen. Herkunft und Datum von Entscheidungen stehen nur in `ideen-eingang.md` und `offene-punkte.md`.
 - **Entscheidungen festhalten:** Geklärte Punkte wandern in `offene-punkte.md` von „Offen“ nach „Entschieden“ (mit Datum).
-- **Fehlende Angaben:** Fehlt für eine Datei etwas, blockiere nicht. Bei Ablage und Form (Dateiname, Ordner, Reihenfolge) triff eine sinnvolle Annahme und nenne sie. Fehlende Inhalte bleiben Platzhalter oder offene Punkte (siehe Grundregel).
 - **Struktur anpassen:** Reicht die Struktur nicht mehr, Vorschlag machen und nach Zustimmung umbauen. Danach README und diese Datei anpassen.
 
-## 6. Sitzungen und Material
+## Sitzungen und Material
 
 - Nach einem Spielabend: `sitzungen/sitzung-NN-JJJJ-MM-TT.md` aus der Vorlage anlegen (Anwesende, was passiert ist, Entscheidungen, Beute und Erfahrung). Betroffene Szenen auf `status: gespielt` setzen.
 - **Diktat nach dem Spielabend:** Die Spielleitung erzählt oder spricht ein, was passiert ist. Lege die Rohfassung zuerst unverändert als `_quelle/diktat-sitzung-NN.md` ab. Daraus erstellst du Sitzungsprotokoll, Kapitel und Welt-Einträge, die jeweils die Quelle verlinken.
@@ -196,12 +180,12 @@ Weitere Regeln:
 - Bilder: passend benennen (`portrait.jpg`, `karte.jpg` …), in den `bilder/`-Ordner des Eintrags legen und in der Datei einbinden. Bei Unsicherheit, wen oder was ein Bild zeigt, nachfragen.
 - **Bildquelle:** Direkt unter dem Bild, ohne Leerzeile, steht die Quelle in einer eigenen Zeile: `_Quelle: …_` (z. B. „KI-generiert mit ChatGPT“, „eigene Zeichnung“, Künstlername mit Link oder Lizenz). Die Websites zeigen sie klein unter dem Bild. Beim Titelbild der Spieler-Website (`einstellungen.json`, `spielerseite.cover`) steht die Quelle in `cover_quelle`. Nennt die Person keine Quelle, frag einmal nach; ohne Antwort bleibt die Zeile weg. Bilder aus gekauften Abenteuern oder fremden Werken nur für den eigenen Gebrauch, nicht für eine öffentliche Website.
 
-## 7. Prüfen nach jeder Änderung
+## Werkzeuge
 
 - Links prüfen: `python3 werkzeuge/links-pruefen.py` (unter Windows ggf. `python` statt `python3`) (meldet tote relative Links). Tote Links sofort reparieren. Platzhalter-Links in `_vorlagen/` sind gewollt.
 - Websites bauen (auf Klick bzw. Wunsch, siehe „Einfach halten“):
   - `python3 werkzeuge/almanach-html.py` baut die **SL-Website** mit allem nach `_site/sl/`.
-  - `python3 werkzeuge/almanach-html-spieler.py` baut die spoilerfreie **Spieler-Website** nach `_site/spieler/`. Hinein kommen nur Abenteuer, die gespielt sind oder mindestens eine Sitzung haben, Plot-Dateien mit `status: gespielt`, Welt-Einträge mit passendem `auftritte:`. Abschnitte wie „Geheim (nur SL)“, Planung, Stat-Blöcke, `_quelle/` und Ideen-Eingänge fallen weg. Was sonst nicht auf die Spieler-Website gehört, wird in den Daten gekennzeichnet (siehe Kennzeichnung für die Spieler-Website), nie im Code.
+  - `python3 werkzeuge/almanach-html-spieler.py` baut die spoilerfreie **Spieler-Website** nach `_site/spieler/`. Was hineinkommt, bestimmt allein die Kennzeichnung in den Daten (siehe „Kennzeichnung für die Spieler-Website“).
   - Jede Website ist ein Ordner mit `spielleiter.html` bzw. `spieler.html`, Bildern und Klangdateien und einer `index.html`, die für Hoster weiterleitet. Sie läuft ohne Server und ohne Internet. Wie sie weitergegeben wird, steht unter „Bereitstellung“.
   - Für den Chat zusätzlich mit `--eine-datei` in einen eigenen Ordner bauen (z. B. `python3 werkzeuge/almanach-html.py _site/chat-sl --eine-datei`, ebenso `almanach-html-spieler.py _site/chat-spieler --eine-datei`). Dann stecken die Bilder in der HTML-Datei.
   - Prüfe nach dem Bau der Spieler-Website stichprobenartig, ob Begriffe aus ungespielten Abenteuern darin auftauchen.

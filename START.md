@@ -17,7 +17,7 @@ Erzähl der Person nichts über Dateinamen, Pfade oder Zwischenschritte. Melde d
 
 Die Regeln in `AGENTS.md` müssen in jeder künftigen Unterhaltung gelten.
 - Manche Umgebungen lesen `AGENTS.md` oder `CLAUDE.md` im geöffneten Ordner automatisch (z. B. Claude Code, Codex). Dann ist nichts zu tun.
-- Wenn deine Umgebung dauerhafte Anweisungen hat, die zu Beginn jeder Unterhaltung gelten (z. B. Projektanweisungen, benutzerdefinierte Anweisungen), trag dort ein: „Lies vor jeder Aufgabe AGENTS.md im Almanach-Ordner (Pfad: …) und halte dich daran.“ Wenn du sie nicht selbst ändern kannst, gibst du der Person diesen Satz am Ende der Einrichtung zum Kopieren und sagst in einem Satz, wo sie ihn einträgt (siehe `AGENTS.md`, „Nach dem ersten Bau“). Vorher kommt die Begrüßung.
+- Wenn deine Umgebung dauerhafte Anweisungen hat, die zu Beginn jeder Unterhaltung gelten (z. B. Projektanweisungen, benutzerdefinierte Anweisungen), trag dort ein: „Lies vor jeder Aufgabe AGENTS.md im Almanach-Ordner (Pfad: …) und halte dich daran.“ Wenn du sie nicht selbst ändern kannst, gibst du der Person diesen Satz nach dem ersten Bau der Websites zum Kopieren und sagst in einem Satz, wo sie ihn einträgt (siehe `AGENTS.md`, „Nach dem ersten Bau“).
 
 ## Schritt 3 – Regeln lesen
 
