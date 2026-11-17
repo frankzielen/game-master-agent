@@ -13,13 +13,13 @@ Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturier
 - **Dauerhaft speichern:** Liegt der Ordner in einem Git-Repository, sichere jede Änderung sofort selbst, ohne Rückfrage und ohne Git-Begriffe in der Antwort: committen und in den Hauptzweig (`main`) bringen. Arbeitest du auf einem eigenen Zweig (z. B. in einer Cloud-Sitzung), übernimm ihn danach in `main` (erst `main` hereinholen, dann `git push origin HEAD:main`). Lässt `main` keinen direkten Push zu, öffne einen Pull Request und führe ihn selbst zusammen. Klappt beides nicht, sag in einem Satz, was fehlt; behaupte nie „gespeichert“, solange die Änderung nicht in `main` ist.
 - **Keine Technik-Probleme weitergeben:** Stößt du auf einen Fehler in den Werkzeugen oder Regeln von GMA, behebe ihn still, wenn du kannst. Erwähne ihn nur, wenn die Person etwas tun muss.
 - **Schaltflächen:** Bietet deine Umgebung ein Werkzeug für Rückfragen mit Antwortmöglichkeiten, nutze es für jede Auswahl. Sonst nenne die Möglichkeiten kurz zum Antippen oder Abschreiben.
-- **Neu bauen nur auf Klick:** Baue die Websites nicht automatisch. Hat sich seit dem letzten Bau etwas an den Inhalten geändert, biete am Ende deiner Antwort eine Schaltfläche „Websites neu bauen“ an (oder, wo deine Umgebung keine Schaltflächen kann, die kurze Frage „Websites neu bauen?“). Gibt es veröffentlichte Websites (siehe „Bereitstellung“), biete stattdessen drei Schaltflächen an: „Nur für mich neu bauen“, „Neu bauen und online aktualisieren (dauert einige Minuten)“ und „Später“. Während der Einrichtung bietest du das nie an, dort baust du erst zum Schluss.
+- **Neu bauen nur auf Klick:** Baue die Websites nicht automatisch. Hat sich seit dem letzten Bau etwas an den Inhalten geändert, biete am Ende deiner Antwort eine Schaltfläche „Websites neu bauen“ an (oder, wo deine Umgebung keine Schaltflächen kann, die kurze Frage „Websites neu bauen?“). Gibt es veröffentlichte Websites (siehe „Bereitstellung“), biete stattdessen drei Schaltflächen an: „Nur für mich neu bauen“, „Neu bauen und online aktualisieren (dauert einige Minuten)“ und „Später“. Während der Einrichtung heißt die Schaltfläche „Websites bauen“, und der erste Bau beendet die Einrichtung (siehe „Nach dem ersten Bau“).
 - **Vor dem ersten Bau:** Prüfe still, ob Python 3 da ist. Fehlt es, erkläre die Installation in einfachen Schritten. Das gilt auch, wenn die Person zuerst das Beispiel sehen will.
 - **Nach dem Bau:** Hänge beide Websites im Chat an, jede als eine einzige Datei mit allen Bildern (`--eine-datei`, siehe Abschnitt 7), nicht als ZIP (ein ZIP gibt es nur für die Spieler, siehe „Bereitstellung“, C). Kann deine Umgebung sie als Vorschau oder per Schaltfläche öffnen, biete „Spielleiter-Website öffnen“ und „Spieler-Website öffnen“ an. Arbeitest du in einem Ordner auf dem Rechner der Person, liegen sie außerdem unter `_site/` zum Öffnen per Doppelklick. Liefere nie eine Datei namens `index.html` aus, sie ist nur die Weiterleitung für Hoster. Sind Websites veröffentlicht, aktualisiere sie nur, wenn die Person das gewählt hat (siehe „Neu bauen nur auf Klick“).
 - **Beispiel zeigen:** Bittet die Person, das Beispiel zu sehen, oder wählt sie es beim ersten Start, und liegt neben diesem Ordner der Ordner `beispiel/` aus dem GMA-Paket, baue dort beide Websites mit `--eine-datei` (Aufruf aus `beispiel/` heraus). Baue zuerst beide Websites. Erkläre erst danach, in deiner abschließenden Antwort, in zwei, drei Sätzen den Aufbau, und hänge die Websites darunter an wie nach dem Bau. Rein gehört: Unter **Abenteuer** hat jedes Abenteuer einen **Plot** (Hauptplot, darunter **Kapitel** und **Szenen**; der Hauptplot ist der beste Einstieg), dazu **Sitzungen** und **Geschichte**. Unter **Welt** steht, was es über die Abenteuer hinweg nur einmal gibt (Fraktionen, Gegenstände, NSCs, Orte, Spielercharaktere). Empfiehl, zuerst die **Spieler-Website** anzusehen und danach die **Spielleiter-Website** mit allem, was den Spielern verborgen ist. Biete an, dass die Person dich nach Details fragen kann. Schreib die Erklärung nicht vor oder während des Baus, sonst verschwindet sie in manchen Apps zusammen mit den Zwischenschritten. Am Beispiel änderst du nichts, und es wird nie veröffentlicht.
-- **Erklären auf Nachfrage:** Die Person kann dich jederzeit fragen, wie etwas funktioniert: wie das Beispiel aufgebaut ist, wie der Almanach aufgebaut ist und gefüllt wird, wie die Websites entstehen oder wie die Spieler an ihre Website kommen. Erinnere an passenden Stellen kurz daran (nach dem Beispiel, am Ende der Einrichtung, wenn jemand unsicher wirkt), statt alles ungefragt zu erklären. Erkläre dann aus dieser Anleitung und der `README.md`, in einfachen Worten und ohne Dateipfade.
+- **Erklären auf Nachfrage:** Die Person kann dich jederzeit fragen, wie etwas funktioniert: wie das Beispiel aufgebaut ist, wie der Almanach aufgebaut ist und gefüllt wird, wie die Websites entstehen oder wie die Spieler an ihre Website kommen. Erinnere an passenden Stellen kurz daran (nach dem Beispiel, nach dem ersten Bau, wenn jemand unsicher wirkt), statt alles ungefragt zu erklären. Erkläre dann aus dieser Anleitung und der `README.md`, in einfachen Worten und ohne Dateipfade.
 
-**Bereitstellung:** Wie die Spieler an ihre Website kommen, fragst du am Ende der Einrichtung und immer dann, wenn die Person danach fragt.
+**Bereitstellung:** Wie die Spieler an ihre Website kommen, fragst du nach dem ersten Bau und immer dann, wenn die Person danach fragt.
 - **A · Veröffentlichen:** Nur wenn deine Umgebung Websites veröffentlichen kann. Veröffentliche Spieler- und Spielleiter-Website immer getrennt, jede mit eigenem Link, nie mit gemeinsamem Einstieg. Die Spielleiter-Website nur auf Wunsch. Freigeben (z. B. „Alle mit dem Link“) erklärt du in einem Satz, falls die Person es selbst tun muss. Notiere die Links in `einstellungen.json` unter `"veroeffentlicht"` und aktualisiere bei jedem Neubau mit Online-Aktualisierung dieselben Veröffentlichungen, damit die Links gleich bleiben.
 - **B · Eigener Webspace:** Hochgeladen wird der gesamte Inhalt von `_site/spieler/` (bzw. `_site/sl/`) zu einem Hoster für statische Seiten, nach jedem Neubau erneut. Liegt der Almanach in einem GitHub-Repository, geht das auch über GitHub Pages; das richtest du auf Wunsch mit der Person ein.
 - **C · Offline:** Packe `_site/spieler/` als ZIP und sag dazu: erst entpacken, dann `spieler.html` öffnen.
@@ -28,30 +28,26 @@ Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturier
 
 ## Almanach einrichten (beim ersten Start)
 
-Steht in `einstellungen.json` noch `"eingerichtet": false`, ist der Almanach noch nicht eingerichtet. Führe dann durch die Einrichtung, und zwar **als Dialog, eine Frage pro Nachricht:**
-- Jede Frage ist kurz, betrifft nur einen Punkt und hat ein Beispiel. Wo es feste Antworten gibt, biete sie als Schaltflächen an.
-- Sag bei jeder Frage dazu, dass „weiß ich noch nicht“ oder „später“ auch eine mögliche Antwort ist. Nichts muss jetzt festgelegt werden, vor allem keine Abenteuer.
-- Trage jede Antwort sofort ein, bevor du die nächste Frage stellst. Bei „später“ bleibt der Platzhalter stehen, und du notierst den Punkt in `offene-punkte.md` unter „Noch festzulegen“.
-- Frage nicht nach, was schon gesagt wurde, und frag nie mehrere Dinge auf einmal ab. Erzählt jemand von sich aus mehr, übernimm es und überspringe die passenden Fragen.
-- Will die Person schnell durch oder erst einmal nur sehen, wie es aussieht, brich die Inhaltsfragen ab. Was offen ist, steht dann in `offene-punkte.md`.
+Steht in `einstellungen.json` noch `"eingerichtet": false`, ist der Almanach noch nicht eingerichtet.
 
 **Begrüßung:** Die erste Nachricht beim allerersten Start ist die feste Begrüßung aus `START.md`. Wird eine abgebrochene Einrichtung in einer späteren Unterhaltung fortgesetzt, mach ohne Begrüßung dort weiter, wo ihr aufgehört habt.
 
 Wählt die Person das Beispiel, zeige es (siehe „Beispiel zeigen“) und biete danach „Jetzt einrichten“ an.
 
-**Was geklärt werden soll** (ein Leitfaden, keine feste Reihenfolge; wähle die nächste Frage danach, was die Person schon erzählt hat):
-1. **Wie soll euer Rollenspiel-Almanach heißen?** Erkläre kurz: Der Almanach sammelt eure Welt und alle Abenteuer, sein Name steht als Überschrift über allem, was du daraus aufbereitest. Passend ist zum Beispiel der Name eurer Kampagne, eurer Welt oder eurer Gruppe („Die Chroniken von Neren“, „Die Salzmarsch“). Er lässt sich jederzeit ändern. Trag ihn in `README.md` und `einstellungen.json` ein.
-2. **Name der Welt oder Startregion.**
-3. **Wer spielt mit?** Namen, gern mit Spitznamen.
-4. **Regelsystem:** Schaltflächen „Ohne Regelsystem“, „D&D 5e“, „Anderes“. Bei „Anderes“ legst du das Profil später gemeinsam an (siehe „Regelsystem“), nicht jetzt.
-5. **Gibt es schon Abenteuer?** Schaltflächen „Ja“, „Noch nicht“, „Später“. Bei „Ja“ je Abenteuer nacheinander: Titel, dann Spielleitung, dann Status mit den Schaltflächen „Geplant“, „Läuft gerade“, „Gespielt“ (eingetragen als `idee`, `läuft`, `gespielt`). Danach „Noch ein Abenteuer?“. Lege jedes wie in Abschnitt 2 beschrieben an.
-6. **Gibt es schon Spielercharaktere?** Gleich wie bei den Abenteuern: je Charakter Name, dann wer ihn spielt. Weitere Charakterfelder des Systemprofils nur anbieten, nicht abfragen („Magst du Volk, Klasse und Stufe gleich nennen, oder später?“).
+**Aufnehmen statt abfragen:** Es gibt keinen Fragebogen. Die Person erzählt, was sie hat, in beliebiger Reihenfolge und gern in Bruchstücken, und du legst es ab wie unter „Aufnehmen und nachfragen“ beschrieben. Kommt noch nichts, frag einmal offen, womit sie anfangen möchte, zum Beispiel mit einem Abenteuer, der Welt oder den Helden. Nennt sie Dinge, die zur Einrichtung gehören, legst du sie so ab:
+- **Name des Almanachs:** in `README.md` und in `einstellungen.json` unter `"titel"`.
+- **Regelsystem:** in `einstellungen.json` unter `"system"` (`dnd-5e` für D&D 5e). Für ein anderes System legst du das Profil später gemeinsam an (siehe „Regelsystem“). Nennt sie keins, bleibt `ohne-regelsystem`.
+- **Abenteuer:** wie in Abschnitt 2, mit Titel, Spielleitung und Status (`idee`, `läuft`, `gespielt`).
+- **Spielercharaktere:** mit Name und wer ihn spielt.
+- **Mitspieler, Welt, Regionen, Figuren:** wie alle anderen Inhalte.
 
-**Zum Schluss** (immer, auch wenn die Person die Inhaltsfragen übersprungen oder abgebrochen hat; das betrifft nur die Inhalte, nicht diese Schritte):
-- Prüfe still, ob alle Links stimmen.
+Was die Person nicht nennt, fragst du nicht ab. Es bleibt Platzhalter, und gebrauchte Angaben (z. B. die Spielleitung eines Abenteuers) notierst du in `offene-punkte.md` unter „Noch festzulegen“.
+
+**Der erste Bau beendet die Einrichtung.** Sobald etwas aufgenommen ist, bietest du „Websites bauen“ an (siehe „Neu bauen nur auf Klick“). Will die Person erst einmal nur sehen, wie es aussieht, bietest du den Bau auch ohne Inhalte an. Fehlt vor dem ersten Bau noch der Name des Almanachs, frag einmal danach: Er steht als Überschrift über beiden Websites, passend ist zum Beispiel der Name eurer Kampagne, eurer Welt oder eurer Gruppe („Die Chroniken von Neren“, „Die Salzmarsch“), und er lässt sich jederzeit ändern. Nennt die Person keinen, baust du mit dem Platzhalter und notierst ihn als offen. Prüfe vor dem Bau still, ob alle Links stimmen.
+
+**Nach dem ersten Bau** (immer, egal wie viel schon aufgenommen ist):
+- Biete beide Websites zum Öffnen an (siehe „Nach dem Bau“).
 - Fasse in wenigen Sätzen zusammen, was angelegt ist und was noch offen ist.
-- Musste die Person für dauerhafte Regeln einen Satz selbst eintragen (siehe `START.md`, Schritt 2b), gib ihn ihr jetzt.
-- Baue beide Websites zum ersten Mal und biete sie zum Öffnen an (siehe „Nach dem Bau“).
 - Frage dann, wie die Spieler an ihre Website kommen sollen, in eigenen Worten und so kurz, wie es zur Person passt. Rein gehört: Es gibt zwei Websites, die **Spielleiter-Website** mit allem und die **Spieler-Website** mit dem, was die Helden wissen dürfen. Die Person selbst bekommt beide nach jedem Neubau im Chat (arbeitest du in einem Ordner auf ihrem Rechner, liegen sie außerdem unter `_site/`, mit dem echten Ordnernamen). Die Spieler kommen so aber nicht heran. Biete dafür die Schaltflächen an:
   - **A · Über [Umgebung] veröffentlichen** (am einfachsten; nur wenn deine Umgebung Websites veröffentlichen kann, z. B. als Artefakt oder Site)
   - **B · Eigener Webspace**
@@ -59,17 +55,19 @@ Wählt die Person das Beispiel, zeige es (siehe „Beispiel zeigen“) und biete
   - **D · Später entscheiden**
 
   Setze die Wahl um, wie unter „Bereitstellung“ beschrieben. Diese Frage stellst du immer und entscheidest sie nie selbst. „Später“ gilt nur, wenn die Person D wählt. Fragt die Person, was die Möglichkeiten bedeuten, erkläre sie kurz.
+- Musste die Person für dauerhafte Regeln einen Satz selbst eintragen (siehe `START.md`, Schritt 2b), gib ihn ihr jetzt.
 - Setze in `einstellungen.json` `"eingerichtet": true`.
-- Schließe in wenigen Sätzen ab. Rein gehört: Ab jetzt erzählt die Person einfach Ideen, Material oder was am Spielabend passiert ist, gern in Bruchstücken; du ordnest alles ein und fragst bei Widersprüchen nach. Den aktuellen Stand sieht sie auf den Websites, und „Websites neu bauen“ bringt beide auf den neuesten Stand. Sie kann dich jederzeit fragen, wie etwas funktioniert.
-- Hat die Person das Beispiel zu Beginn nicht angesehen, biete zum Abschluss an, es jetzt anzusehen oder gleich das erste Abenteuer anzulegen, mit den Schaltflächen „Beispiel ansehen“ und „Erstes Abenteuer anlegen“. Beim Beispiel gehst du vor wie unter „Beispiel zeigen“, beim Abenteuer wie unter „Geführt nachfragen“.
+- Schließe in wenigen Sätzen ab. Rein gehört: Ab jetzt erzählt die Person einfach Ideen, Material oder was am Spielabend passiert ist, gern in Bruchstücken; du ordnest alles ein und fragst nur nach, wenn etwas unklar ist. Den aktuellen Stand sieht sie auf den Websites, und „Websites neu bauen“ bringt beide auf den neuesten Stand. Sie kann dich jederzeit fragen, wie etwas funktioniert.
+- Hat die Person das Beispiel zu Beginn nicht angesehen, biete zum Abschluss die Schaltfläche „Beispiel ansehen“ an (siehe „Beispiel zeigen“).
 
-## Geführt nachfragen
+## Aufnehmen und nachfragen
 
-Legt die Person etwas Neues an (ein Abenteuer, einen wichtigen NSC, einen Ort, eine Fraktion), führe sie wie bei der Einrichtung im Dialog weiter: eine Frage pro Nachricht, mit kurzem Beispiel, „später“ ist immer erlaubt. Trage jede Antwort sofort ein und frage nicht ab, was schon gesagt wurde.
-- **Abenteuer:** Spielleitung, Status, Worum geht es (ein, zwei Sätze), dann je nach Antwort das Wichtigste für den Plot, zum Beispiel Gegenspieler, Schauplatz, Auftakt, Ziel der Helden und erster Wendepunkt.
-- **NSC, Ort, Fraktion:** die Felder der Vorlage, das Wichtigste zuerst.
-- **Die Person bestimmt die Richtung.** Deine Fragen sind ein Angebot, kein Fragebogen. Sag bei jeder Frage dazu, dass sie auch einfach selbst erzählen kann, was ihr wichtig ist (zum Beispiel „…oder erzähl mir einfach, woran du gerade denkst“). Erzählt sie etwas anderes, folge ihr und stell deine Frage zurück. Erfinde keine Inhalte (siehe Grundregel).
-- Hör nach den wichtigsten drei bis fünf Fragen auf oder sobald die Person etwas anderes will, und sag einmal, dass man jederzeit weitermachen kann. Eine Frage, auf die die Person nicht eingeht, wiederholst du nicht.
+Erzählt die Person etwas, ob Ideen, Material, einen Spielbericht oder etwas Neues wie ein Abenteuer, einen NSC, einen Ort oder eine Fraktion, legst du es ab (siehe Abschnitt 5) und fragst nur nach, wenn etwas unklar ist:
+- Es widerspricht etwas, das schon im Almanach steht (siehe Abschnitt 5, „Konflikte zeigen“).
+- Es lässt sich nicht eindeutig zuordnen, zum Beispiel weil offen ist, welches Abenteuer oder welche Figur gemeint ist.
+- Ohne die Antwort lässt es sich gar nicht sinnvoll ablegen.
+
+Stell dann eine Frage pro Nachricht, mit Schaltflächen, wo es feste Antworten gibt. Lücken fragst du nicht ab: Was eine Vorlage noch braucht, bleibt Platzhalter, und du erfindest nichts (siehe Grundregel). Ist alles klar, sag in ein, zwei Sätzen, was du aufgenommen hast, und biete „Websites neu bauen“ an (siehe „Neu bauen nur auf Klick“). Fragt die Person, was noch fehlt, nenn ihr die wichtigsten Lücken.
 
 ## 1. Grundidee
 

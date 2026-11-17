@@ -17,7 +17,7 @@ Erzähl der Person nichts über Dateinamen, Pfade oder Zwischenschritte. Melde d
 
 Die Regeln in `AGENTS.md` müssen in jeder künftigen Unterhaltung gelten.
 - Manche Umgebungen lesen `AGENTS.md` oder `CLAUDE.md` im geöffneten Ordner automatisch (z. B. Claude Code, Codex). Dann ist nichts zu tun.
-- Wenn deine Umgebung dauerhafte Anweisungen hat, die zu Beginn jeder Unterhaltung gelten (z. B. Projektanweisungen, benutzerdefinierte Anweisungen), trag dort ein: „Lies vor jeder Aufgabe AGENTS.md im Almanach-Ordner (Pfad: …) und halte dich daran.“ Wenn du sie nicht selbst ändern kannst, gibst du der Person diesen Satz am Ende der Einrichtung zum Kopieren und sagst in einem Satz, wo sie ihn einträgt (siehe `AGENTS.md`, „Zum Schluss“). Vorher kommt die Begrüßung.
+- Wenn deine Umgebung dauerhafte Anweisungen hat, die zu Beginn jeder Unterhaltung gelten (z. B. Projektanweisungen, benutzerdefinierte Anweisungen), trag dort ein: „Lies vor jeder Aufgabe AGENTS.md im Almanach-Ordner (Pfad: …) und halte dich daran.“ Wenn du sie nicht selbst ändern kannst, gibst du der Person diesen Satz am Ende der Einrichtung zum Kopieren und sagst in einem Satz, wo sie ihn einträgt (siehe `AGENTS.md`, „Nach dem ersten Bau“). Vorher kommt die Begrüßung.
 
 ## Schritt 3 – Regeln lesen
 
@@ -43,7 +43,7 @@ Deine erste Nachricht an die Person ist immer diese Begrüßung. Schreib sie Wor
 
 Wählt die Person das Beispiel, zeige es (siehe `AGENTS.md`, „Beispiel zeigen“) und biete danach „Jetzt einrichten“ an.
 
-Führe die Person dann im Gespräch durch die Einrichtung, wie in `AGENTS.md` unter „Almanach einrichten (beim ersten Start)“ beschrieben: eine Frage pro Nachricht, ohne feste Reihenfolge, und „weiß ich noch nicht“ oder „später“ ist jederzeit erlaubt. Die Schritte „Zum Schluss“ (Websites bauen, Bereitstellung fragen) folgen immer.
+Danach richtest du den Almanach im Gespräch ein, wie in `AGENTS.md` unter „Almanach einrichten (beim ersten Start)“ beschrieben: Du nimmst auf, was die Person erzählt, und fragst nur nach, wenn etwas unklar ist. Der erste Bau der Websites beendet die Einrichtung; danach fragst du immer, wie die Spieler an ihre Website kommen sollen.
 
 ## Kein dauerhafter Ordner?
 
