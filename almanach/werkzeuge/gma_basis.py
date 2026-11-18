@@ -1,5 +1,5 @@
 """Gemeinsame Hilfen für die Website-Generatoren (SL-Website und Spieler-Website)."""
-import os, sys, json, re, shutil, base64, mimetypes
+import os, sys, json, re, shutil, base64, mimetypes, pathlib, webbrowser
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -9,6 +9,11 @@ IMG = ('.jpg', '.jpeg', '.png', '.webp', '.gif', '.svg')
 EINE_DATEI = '--eine-datei' in sys.argv
 if EINE_DATEI:
     sys.argv.remove('--eine-datei')
+
+# --oeffnen: die fertige Website im Standardbrowser öffnen (klappt nur, wenn das Werkzeug auf dem Rechner der Person läuft)
+OEFFNEN = '--oeffnen' in sys.argv
+if OEFFNEN:
+    sys.argv.remove('--oeffnen')
 
 
 def einstellungen():
@@ -49,7 +54,14 @@ def schreibe_seite(ausgabe, tpl, data, dateien, name):
         ziel = os.path.join(ausgabe, rel)
         os.makedirs(os.path.dirname(ziel), exist_ok=True)
         shutil.copy2(os.path.join(ROOT, rel), ziel)
-    return os.path.join(ausgabe, datei)
+    pfad = os.path.join(ausgabe, datei)
+    if OEFFNEN:
+        try:
+            ok = webbrowser.open(pathlib.Path(pfad).resolve().as_uri())
+        except Exception:
+            ok = False
+        print('Im Browser geöffnet:' if ok else 'Kein Browser erreichbar, nicht geöffnet:', pfad)
+    return pfad
 
 
 def template(titel, untertitel):
