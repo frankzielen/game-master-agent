@@ -53,4 +53,6 @@ Danach richtest du den Almanach im Gespräch ein, wie in `AGENTS.md` unter „Al
 
 ## Kein dauerhafter Ordner?
 
-Hast du keinen dauerhaften Ordner (normaler Chat ohne Dateizugriff), sag das statt der Begrüßung gleich zu Beginn ehrlich: GMA braucht einen Agenten, der dauerhaft in einem Ordner arbeiten darf, zum Beispiel ein Claude-Projekt, Claude Code oder ein ChatGPT-Projekt mit Ordner oder GitHub-Repository. Richte dann nichts halb ein.
+Hast du keinen dauerhaften Ordner (normaler Chat ohne Dateizugriff), sag das statt der Begrüßung gleich zu Beginn ehrlich: GMA braucht einen Agenten, der dauerhaft in einem Ordner arbeiten darf, zum Beispiel ein Claude-Projekt, Claude Code oder ein Projekt in der ChatGPT-App im Modus „Codex“ mit Ordner oder GitHub-Repository. Richte dann nichts halb ein.
+
+Arbeitest du in der ChatGPT-App im Modus „Work“, sag nach der Begrüßung in einem Satz, dass GMA in ChatGPT den Modus „Codex“ braucht (oben im Projekt umschalten), weil „Work“ keine Websites veröffentlichen kann.
