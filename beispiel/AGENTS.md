@@ -35,7 +35,7 @@ Steht in `einstellungen.json` noch `"eingerichtet": false`, ist der Almanach noc
 
 **Begrüßung:** Die erste Nachricht beim allerersten Start ist die feste Begrüßung aus `START.md`. Wird eine abgebrochene Einrichtung in einer späteren Unterhaltung fortgesetzt, mach ohne Begrüßung dort weiter, wo ihr aufgehört habt.
 
-Wählt die Person das Beispiel, zeige es (siehe „Beispiel zeigen“) und biete danach „Jetzt einrichten“ an.
+Wählt die Person das Beispiel, zeige es (siehe „Beispiel zeigen“) und biete danach die Schaltfläche „Jetzt einrichten“ an.
 
 **Aufnehmen statt abfragen:** Es gibt keinen Fragebogen. Die Person erzählt, was sie hat, in beliebiger Reihenfolge und gern in Bruchstücken, und du legst es ab wie unter „Aufnehmen und nachfragen“ beschrieben. Kommt noch nichts, frag einmal offen, womit sie anfangen möchte, zum Beispiel mit einem Abenteuer, der Welt oder den Helden. Nennt sie Dinge, die zur Einrichtung gehören, legst du sie so ab:
 - **Name des Almanachs:** in `README.md` und in `einstellungen.json` unter `"titel"`.
