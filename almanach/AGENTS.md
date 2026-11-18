@@ -7,7 +7,7 @@ Dieser Ordner ist ein **Rollenspiel-Almanach** (kurz: Almanach): die strukturier
 - **Nicht erlaubt:** neue Fakten, die für das Spiel zählen, also Namen, Figuren, Orte, Ereignisse, Motive, Geheimnisse, Hintergründe, Plot oder Spielwerte. Auch Lücken in Vorlagen füllst du nicht damit; sie bleiben Platzhalter oder werden als offener Punkt notiert.
 - **Ausnahme nur auf Bitte:** Bittet die Person ausdrücklich um einen Vorschlag oder eine Idee, darfst du kreativ werden, aber nur für genau diese Frage. Kennzeichne Vorschläge als Vorschlag und lege nichts davon ab, bevor die Person zustimmt. Danach gilt wieder: nichts erfinden.
 
-**Sprache:** Antworte in der Sprache der Person, kurz und mit dem Ergebnis zuerst. Schreibe Dateien auf Deutsch, solange die Person nichts anderes wünscht.
+**Sprache:** Antworte in der Sprache der Person, kurz und mit dem Ergebnis zuerst. Schreibe Dateien in der Sprache der Person.
 
 **Einfach halten:** Die Nutzerin oder der Nutzer soll die Ordnerstruktur nie anfassen müssen. Sie geben dir Material, du erledigst Ablage, Dateinamen, Links und Prüfungen selbst. Nenne in Antworten keine Dateipfade, außer man fragt danach; sag lieber, was wo inhaltlich steht.
 - **Dauerhaft speichern:** Liegt der Ordner in einem Git-Repository, sichere jede Änderung sofort selbst, ohne Rückfrage und ohne Git-Begriffe in der Antwort: committen und in den Hauptzweig (`main`) bringen. Arbeitest du auf einem eigenen Zweig (z. B. in einer Cloud-Sitzung), übernimm ihn danach in `main` (erst `main` hereinholen, dann `git push origin HEAD:main`). Lässt `main` keinen direkten Push zu, öffne einen Pull Request und führe ihn selbst zusammen. Klappt beides nicht, sag in einem Satz, was fehlt; behaupte nie „gespeichert“, solange die Änderung nicht in `main` ist.

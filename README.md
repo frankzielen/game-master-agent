@@ -75,7 +75,7 @@ If you work with Claude Code, simply open the folder there. The screenshots show
 - **Websites:** after changes the agent offers to rebuild the websites, just for you or online as well, and opens them in your browser.
 - **Questions:** ask the agent any time how something works. If you want something to work differently, tell it, and it adjusts the rules.
 
-The rules for the agent are in [almanach/AGENTS.md](almanach/AGENTS.md) (in German; the agent still talks to you in your language).
+The rules for the agent are in [almanach/AGENTS.md](almanach/AGENTS.md). They are in German, but the agent talks to you in your language and writes your almanac in it. The website interface, the folder structure and the example almanac are in German for now.
 
 ### What's in the repository
 
