@@ -86,7 +86,7 @@ The rules for the agent are in [almanach/AGENTS.md](almanach/AGENTS.md) (current
 
 ### Licence
 
-- GMA (rules, templates, system profiles, tools and the example almanac): [PolyForm Shield 1.0.0](LICENSE). Any use is allowed, including commercial use: you may show GMA in monetised videos, streams and posts. You may not sell GMA itself or offer a competing product or service based on it.
+- GMA (rules, templates, system profiles, tools and the example almanac): [PolyForm Shield 1.0.0](LICENSE). Any use is allowed, including commercial use: you may show GMA in monetised videos, streams and posts, and use it to run paid games. You may not sell GMA itself or offer a competing product or service based on it.
 - Your own almanac is yours: whatever content you create with GMA (adventures, worlds, texts, images) you may publish and sell.
 - D&D profile: includes material from the SRD 5.2 by Wizards of the Coast LLC, licensed under CC BY 4.0; this material stays under CC BY 4.0 (see the profile). "Dungeons & Dragons" and "D&D" are trademarks of Wizards of the Coast; GMA is not affiliated with or endorsed by Wizards of the Coast.
 - Purchased adventures may be prepared for your own group, but do not publish their text.
@@ -173,7 +173,7 @@ Die Regeln für den Agenten stehen in [almanach/AGENTS.md](almanach/AGENTS.md).
 
 ### Lizenz
 
-- GMA (Regelwerk, Vorlagen, Systemprofile, Werkzeuge und Beispiel-Almanach): [PolyForm Shield 1.0.0](LICENSE). Jede Nutzung ist erlaubt, auch kommerziell: GMA darf in monetarisierten Videos, Streams und Posts gezeigt werden. Nicht erlaubt ist, GMA selbst zu verkaufen oder darauf ein Konkurrenzprodukt oder einen Dienst aufzubauen.
+- GMA (Regelwerk, Vorlagen, Systemprofile, Werkzeuge und Beispiel-Almanach): [PolyForm Shield 1.0.0](LICENSE). Jede Nutzung ist erlaubt, auch kommerziell: GMA darf in monetarisierten Videos, Streams und Posts gezeigt und für bezahlte Spielrunden genutzt werden. Nicht erlaubt ist, GMA selbst zu verkaufen oder darauf ein Konkurrenzprodukt oder einen Dienst aufzubauen.
 - Dein eigener Almanach gehört dir: Die Inhalte, die du mit GMA erstellst (Abenteuer, Welten, Texte, Bilder), darfst du veröffentlichen und verkaufen.
 - D&D-Profil: enthält Material aus dem SRD 5.2 von Wizards of the Coast LLC unter CC BY 4.0; dieses Material bleibt unter CC BY 4.0 (siehe Profil). „Dungeons & Dragons“ und „D&D“ sind Marken von Wizards of the Coast; GMA steht in keiner Verbindung zu Wizards of the Coast.
 - Gekaufte Abenteuer dürfen für die eigene Gruppe aufbereitet, ihr Text aber nicht veröffentlicht werden.
