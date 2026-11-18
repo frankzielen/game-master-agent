@@ -49,7 +49,7 @@ The agent does the rest: it first offers to show you the example almanac, then s
 - **Ideas:** just tell or dictate them, fragments are fine. If something contradicts, the agent asks and suggests solutions.
 - **After a session:** tell it what happened. The agent writes the session log and updates characters and world.
 - **Material:** send images, maps, handouts, stat blocks or music and say what they belong to.
-- **Websites:** after changes the agent offers to rebuild the websites, just for you or online as well.
+- **Websites:** after changes the agent offers to rebuild the websites, just for you or online as well, and opens them in your browser.
 - **Questions:** ask the agent any time how something works. If you want something to work differently, tell it, and it adjusts the rules.
 
 The rules for the agent are in [almanach/AGENTS.md](almanach/AGENTS.md) (currently in German; an English version will follow).
@@ -114,7 +114,7 @@ Den Rest erledigt der Agent: Er bietet dir zuerst das Beispiel an und richtet da
 - **Ideen:** einfach erzählen oder einsprechen, gern in Bruchstücken. Bei Widersprüchen fragt der Agent nach und schlägt Lösungen vor.
 - **Nach einem Spielabend:** erzählen, was passiert ist. Der Agent schreibt das Protokoll und bringt Helden und Welt auf den neuesten Stand.
 - **Material:** Bilder, Karten, Handouts, Statblöcke oder Musik schicken und sagen, wozu sie gehören.
-- **Websites:** Nach Änderungen bietet der Agent an, die Websites neu zu bauen, nur für dich oder auch online.
+- **Websites:** Nach Änderungen bietet der Agent an, die Websites neu zu bauen, nur für dich oder auch online, und öffnet sie in deinem Browser.
 - **Fragen:** Frag den Agenten jederzeit, wie etwas funktioniert. Soll etwas anders laufen, sag es ihm, er passt die Regeln an.
 
 Die Regeln für den Agenten stehen in [almanach/AGENTS.md](almanach/AGENTS.md).
