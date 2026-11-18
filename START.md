@@ -47,7 +47,7 @@ Stelle jetzt diese Frage, Wort für Wort (bzw. übersetzt), mit den Schaltfläch
 
 > So, dann los! Möchtest du dir erst das Beispiel anschauen, oder legen wir gleich mit deinem Almanach los?
 
-Wählt die Person das Beispiel, zeige es (siehe `AGENTS.md`, „Beispiel zeigen“) und biete danach „Jetzt einrichten“ an.
+Wählt die Person das Beispiel, zeige es (siehe `AGENTS.md`, „Beispiel zeigen“) und biete danach die Schaltfläche „Jetzt einrichten“ an.
 
 Danach richtest du den Almanach im Gespräch ein, wie in `AGENTS.md` unter „Almanach einrichten (beim ersten Start)“ beschrieben: Du nimmst auf, was die Person erzählt, und fragst nur nach, wenn etwas unklar ist. Der erste Bau der Websites beendet die Einrichtung; danach fragst du immer, wie die Spieler an ihre Website kommen sollen.
 
