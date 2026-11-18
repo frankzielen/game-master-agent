@@ -1,6 +1,6 @@
 # 02 · Die Salzkrone
 
-**Spielleitung:** Sam · **Status:** gespielt · Davor: [01 · Das stille Feuer](../01-das-stille-feuer/README.md) · Danach: [03 · Ebbe und Flut](../03-ebbe-und-flut/README.md)
+**Spielleitung:** Sam · **Status:** gespielt
 
 _Die Spur der Schmuggler führt ins alte Salzwerk, wo die Salzkrone wartet. Gespielt im Februar 2026 an zwei Spielabenden, Sam hat die Spielleitung von Alex übernommen._
 NSCs, Orte, Fraktionen, Gegenstände und SCs liegen gemeinsam in [welt/](../../welt/), hier stehen nur Plot und Sitzungen.

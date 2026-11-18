@@ -1,6 +1,6 @@
 # 01 · Das stille Feuer
 
-**Spielleitung:** Alex · **Status:** gespielt · Davor: – · Danach: [02 · Die Salzkrone](../02-die-salzkrone/README.md)
+**Spielleitung:** Alex · **Status:** gespielt
 
 _Das Leuchtfeuer von Graufurt ist erloschen, und die Gruppe findet heraus, warum. Gespielt im Januar 2026 an zwei Spielabenden._
 NSCs, Orte, Fraktionen, Gegenstände und SCs liegen gemeinsam in [welt/](../../welt/), hier stehen nur Plot und Sitzungen.
