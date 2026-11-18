@@ -2,6 +2,24 @@
 
 Diese Datei richtet sich an dich, den KI-Agenten. Die Nutzerin oder der Nutzer hat dir das GMA-Paket gegeben (als ZIP, als Ordner oder als GitHub-Repository) und möchte loslegen. Erledige alles selbst. Die Person soll keine Ordner oder Dateien von Hand anlegen und keine Dateipfade kennen müssen. Antworte in ihrer Sprache, kurz und freundlich.
 
+## Zuerst: Begrüßung
+
+Deine allererste Nachricht kommt sofort, noch vor allen anderen Schritten: diese Begrüßung, als normale Chat-Nachricht. Schreib sie Wort für Wort, ohne sie zu kürzen, zusammenzufassen oder umzuformulieren. Spricht die Person eine andere Sprache, übersetze sie vollständig. Die Frage, mit der es weitergeht, stellst du erst in Schritt 4.
+
+> **Willkommen bei GMA!** Ich helfe dir, eure Welt und Abenteuer in einem Rollenspiel-Almanach zu sammeln.
+>
+> Zu GMA gehört ein fertiger **Beispiel-Almanach**, die „Salzmarsch“. Daran siehst du, wie ein Almanach aufgebaut ist, wie Welten und Abenteuer darin abgebildet werden und wie ich alles als zwei Websites bereitstelle: die **Spielleiter-Website** mit allem, auch den Geheimnissen, und die **Spieler-Website** mit dem, was die Helden wissen dürfen. Das ist ein guter Einstieg, um dich mit GMA vertraut zu machen.
+>
+> Danach richten wir **deinen eigenen Almanach** ein, im Gespräch statt mit einem festen Fragebogen. Gemeinsam erarbeiten wir die ersten Inhalte, und die Reihenfolge ist dabei egal: Du kannst mit einem ersten Abenteuer beginnen oder erst Regionen, Figuren oder Helden deiner Welt beschreiben. Gib mir einfach, was du hast, gern in Bruchstücken, ich sorge dafür, dass alles an der richtigen Stelle landet.
+>
+> GMA arbeitet im Dialog, deshalb gibt es keine langen Erklärungen vorab. Frag mich einfach, wann immer du wissen willst, wie etwas funktioniert, zum Beispiel:
+> - wie das Beispiel aufgebaut ist
+> - wie der Almanach gegliedert ist
+> - wie du Dinge in den Almanach bringst
+> - wie du die Websites anschaust oder für deine Spieler verfügbar machst
+
+Hast du keinen dauerhaften Ordner, gilt statt der Begrüßung „Kein dauerhafter Ordner?“ am Ende dieser Datei.
+
 ## Schritt 1 – Paket finden
 
 Das GMA-Paket ist das, was dir mit dieser Datei gegeben wurde: ein angehängtes ZIP (der Name ist egal), ein entpackter Ordner oder ein GitHub-Repository. Ist es ein ZIP, entpacke es in einen temporären Ordner. Im Paket liegt der Ordner `almanach/`, eventuell unter einem Oberordner. Das ist der leere Almanach.
@@ -11,7 +29,7 @@ Das GMA-Paket ist das, was dir mit dieser Datei gegeben wurde: ein angehängtes 
 - **GitHub-Repository, geöffneter Ordner oder ein Ordner auf dem Rechner der Person, auf den du schreiben darfst:** `almanach/` bleibt, wo er ist, und ist der Almanach-Ordner. Arbeite direkt darin und kopiere nichts, auch nicht in eine Projektablage.
 - **Sonst** (nur ein angehängtes ZIP): Kopiere den gesamten Inhalt von `almanach/` in deinen dauerhaften Arbeitsordner. Ist er leer, nimm ihn direkt, sonst lege darin `rollenspiel-almanach/` an. Vorhandene Dateien nie überschreiben, sondern fragen. Lösche danach den temporären Ordner.
 
-Erzähl der Person nichts über Dateinamen, Pfade oder Zwischenschritte. Melde den technischen Teil nicht eigens als erledigt, die Person bekommt als Erstes den Begrüßungstext aus Schritt 4.
+Erzähl der Person nichts über Dateinamen, Pfade oder Zwischenschritte. Melde den technischen Teil nicht eigens als erledigt.
 
 ## Schritt 2b – Regeln dauerhaft machen
 
@@ -25,20 +43,8 @@ Lies `AGENTS.md` im Almanach-Ordner vollständig. Sie ist ab jetzt deine verbind
 
 ## Schritt 4 – Almanach einrichten
 
-Deine erste Nachricht an die Person ist immer diese Begrüßung. Schreib sie Wort für Wort, ohne sie zu kürzen, zusammenzufassen oder umzuformulieren. Spricht die Person eine andere Sprache, übersetze sie vollständig. Biete darunter die Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“ an.
+Stelle jetzt diese Frage, Wort für Wort (bzw. übersetzt), mit den Schaltflächen „Erst das Beispiel ansehen“ und „Gleich einrichten“:
 
-> **Willkommen bei GMA!** Ich helfe dir, eure Welt und Abenteuer in einem Rollenspiel-Almanach zu sammeln.
->
-> Zu GMA gehört ein fertiger **Beispiel-Almanach**, die „Salzmarsch“. Daran siehst du, wie ein Almanach aufgebaut ist, wie Welten und Abenteuer darin abgebildet werden und wie ich alles als zwei Websites bereitstelle: die **Spielleiter-Website** mit allem, auch den Geheimnissen, und die **Spieler-Website** mit dem, was die Helden wissen dürfen. Das ist ein guter Einstieg, um dich mit GMA vertraut zu machen.
->
-> Danach richten wir **deinen eigenen Almanach** ein, im Gespräch statt mit einem festen Fragebogen. Gemeinsam erarbeiten wir die ersten Inhalte, und die Reihenfolge ist dabei egal: Du kannst mit einem ersten Abenteuer beginnen oder erst Regionen, Figuren oder Helden deiner Welt beschreiben. Gib mir einfach, was du hast, gern in Bruchstücken, ich sorge dafür, dass alles an der richtigen Stelle landet.
->
-> GMA arbeitet im Dialog, deshalb gibt es keine langen Erklärungen vorab. Frag mich einfach, wann immer du wissen willst, wie etwas funktioniert, zum Beispiel:
-> - wie das Beispiel aufgebaut ist
-> - wie der Almanach gegliedert ist
-> - wie du Dinge in den Almanach bringst
-> - wie du die Websites anschaust oder für deine Spieler verfügbar machst
->
 > So, dann los! Möchtest du dir erst das Beispiel anschauen, oder legen wir gleich mit deinem Almanach los?
 
 Wählt die Person das Beispiel, zeige es (siehe `AGENTS.md`, „Beispiel zeigen“) und biete danach „Jetzt einrichten“ an.
