@@ -37,8 +37,8 @@ GMA works with any rules system. Everything rule-specific lives in a system prof
 
 Choose one of two ways:
 
-- **Local folder:** download the ZIP and unpack it. Create a project in the Claude or ChatGPT app and connect the unpacked folder. In ChatGPT, choose the "Work" mode for it; "Chat" does not support local folders.
-- **or GitHub repository:** click "Use this template" to get your own copy. Create a project in the Claude or ChatGPT app and connect your copy.
+- **Local folder (recommended):** download the ZIP and unpack it. Create a project in the Claude or ChatGPT app and connect the unpacked folder. In ChatGPT, choose the "Work" mode for it; "Chat" does not support local folders.
+- **or GitHub repository:** requires a GitHub account. Click "Use this template" to get your own copy. Create a project in the Claude or ChatGPT app and connect your copy.
 
 Then start a new chat in the project and write: "Follow START.md."
 
@@ -102,8 +102,8 @@ GMA ist an kein Regelsystem gebunden. Alles Regelspezifische steht in einem Syst
 
 Wähle einen von zwei Wegen:
 
-- **Lokaler Ordner:** das ZIP herunterladen und entpacken. In der Claude- oder ChatGPT-App ein Projekt anlegen und den entpackten Ordner verbinden. In ChatGPT dafür den Modus „Work“ wählen, „Chat“ unterstützt keine lokalen Ordner.
-- **oder GitHub-Repository:** „Use this template“ klicken, das legt deine eigene Kopie an. In der Claude- oder ChatGPT-App ein Projekt anlegen und die Kopie verbinden.
+- **Lokaler Ordner (empfohlen):** das ZIP herunterladen und entpacken. In der Claude- oder ChatGPT-App ein Projekt anlegen und den entpackten Ordner verbinden. In ChatGPT dafür den Modus „Work“ wählen, „Chat“ unterstützt keine lokalen Ordner.
+- **oder GitHub-Repository:** Dafür brauchst du ein GitHub-Konto. „Use this template“ klicken, das legt deine eigene Kopie an. In der Claude- oder ChatGPT-App ein Projekt anlegen und die Kopie verbinden.
 
 Dann im Projekt einen neuen Chat beginnen und schreiben: „Folge START.md.“
 
