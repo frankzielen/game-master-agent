@@ -35,14 +35,37 @@ GMA works with any rules system. Everything rule-specific lives in a system prof
 
 ### Getting started
 
-Choose one of two ways:
+**1. Get GMA.** Choose one of two ways:
 
-- **Local folder (recommended):** download the ZIP and unpack it. Create a project in the Claude app, or in the ChatGPT app in **Codex** mode, and connect the unpacked folder. In ChatGPT, always use Codex: in "Work" mode the agent cannot reach the internet and therefore cannot publish the websites, and "Chat" does not support local folders.
-- **or GitHub repository:** requires a GitHub account. Click "Use this template" to get your own copy. Create a project in the Claude app, or in the ChatGPT app in **Codex** mode, and connect your copy.
+- **Local folder (recommended):** on GitHub, click **Code → Download ZIP** and unpack the ZIP.
 
-Then start a new chat in the project and write: "Follow START.md."
+  <img src="docs/bilder/github-download-zip.png" alt="Code → Download ZIP" width="420">
 
-The agent does the rest: it first offers to show you the example almanac, then sets up your almanac with you in conversation, in any order. Some apps, for example Claude projects, run the setup in a separate thread and show only a short summary in the main chat. In that case open the thread: the welcome message and the choice are there, and the setup continues there. If you work with Claude Code, simply open the folder there.
+- **or GitHub repository:** requires a GitHub account. Click **Use this template → Create a new repository**, give your copy a name and keep it private.
+
+  <img src="docs/bilder/github-use-template.png" alt="Use this template → Create a new repository" width="320">
+
+  <img src="docs/bilder/github-create-repository.png" alt="Create a new repository" width="520">
+
+**2. Create a project and connect the folder or your copy.**
+
+- **Claude app:** create a new project and under "Context" click **+ → Add folder** (or "Add repository" for your GitHub copy). If Claude asks whether it may work in your folder, choose "Always allow".
+
+  <img src="docs/bilder/claude-projekt.png" alt="Claude: new project with folder" width="460">
+
+- **ChatGPT app:** first switch to **Codex** at the top. In "Work" mode the agent cannot reach the internet and therefore cannot publish the websites, and "Chat" does not support local folders. Then create a project and add the unpacked folder as source folder. For a GitHub copy, write in the chat instead: "Connect to repository NAME".
+
+  <img src="docs/bilder/chatgpt-codex.png" alt="ChatGPT: switch to Codex" width="320">
+
+  <img src="docs/bilder/chatgpt-codex-projekt.png" alt="Codex: create project with source folder" width="460">
+
+**3. Start.** Start a new chat in the project and write: "Follow START.md."
+
+The agent does the rest: it first offers to show you the example almanac, then sets up your almanac with you in conversation, in any order. Claude projects run the setup in a separate thread and show only a short summary in the main chat. Click **View thread**: the welcome message and the choice are there, and the setup continues there.
+
+<img src="docs/bilder/claude-thread.png" alt="Claude: main chat with View thread, and the thread with the welcome message" width="700">
+
+If you work with Claude Code, simply open the folder there. The screenshots show the Mac apps with a German interface.
 
 ### Working with the agent
 
@@ -100,14 +123,37 @@ GMA ist an kein Regelsystem gebunden. Alles Regelspezifische steht in einem Syst
 
 ### Loslegen
 
-Wähle einen von zwei Wegen:
+**1. GMA holen.** Wähle einen von zwei Wegen:
 
-- **Lokaler Ordner (empfohlen):** das ZIP herunterladen und entpacken. In der Claude-App oder in der ChatGPT-App im Modus **Codex** ein Projekt anlegen und den entpackten Ordner verbinden. In ChatGPT immer Codex verwenden: Im Modus „Work“ erreicht der Agent das Internet nicht und kann die Websites deshalb nicht veröffentlichen, „Chat“ unterstützt keine lokalen Ordner.
-- **oder GitHub-Repository:** Dafür brauchst du ein GitHub-Konto. „Use this template“ klicken, das legt deine eigene Kopie an. In der Claude-App oder in der ChatGPT-App im Modus **Codex** ein Projekt anlegen und die Kopie verbinden.
+- **Lokaler Ordner (empfohlen):** auf GitHub **Code → Download ZIP** klicken und das ZIP entpacken.
 
-Dann im Projekt einen neuen Chat beginnen und schreiben: „Folge START.md.“
+  <img src="docs/bilder/github-download-zip.png" alt="Code → Download ZIP" width="420">
 
-Den Rest erledigt der Agent: Er bietet dir zuerst das Beispiel an und richtet dann im Gespräch mit dir deinen Almanach ein, in beliebiger Reihenfolge. Manche Apps, zum Beispiel Claude-Projekte, führen die Einrichtung in einem eigenen Thread aus und zeigen im Hauptchat nur eine Kurzfassung. Öffne in dem Fall den Thread: Dort stehen die Begrüßung und die Auswahl, und dort geht die Einrichtung weiter. Wer mit Claude Code arbeitet, öffnet den Ordner einfach dort.
+- **oder GitHub-Repository:** Dafür brauchst du ein GitHub-Konto. **Use this template → Create a new repository** klicken, der Kopie einen Namen geben und sie privat lassen.
+
+  <img src="docs/bilder/github-use-template.png" alt="Use this template → Create a new repository" width="320">
+
+  <img src="docs/bilder/github-create-repository.png" alt="Create a new repository" width="520">
+
+**2. Projekt anlegen und Ordner oder Kopie verbinden.**
+
+- **Claude-App:** ein neues Projekt anlegen und unter „Kontext“ **+ → Ordner hinzufügen** wählen (für die GitHub-Kopie „Repository hinzufügen“). Fragt Claude, ob es in deinem Ordner arbeiten darf, „Immer erlauben“ wählen.
+
+  <img src="docs/bilder/claude-projekt.png" alt="Claude: neues Projekt mit Ordner" width="460">
+
+- **ChatGPT-App:** zuerst oben auf **Codex** umschalten. Im Modus „Work“ erreicht der Agent das Internet nicht und kann die Websites deshalb nicht veröffentlichen, „Chat“ unterstützt keine lokalen Ordner. Dann ein Projekt erstellen und den entpackten Ordner als Quellordner hinzufügen. Für die GitHub-Kopie stattdessen im Chat schreiben: „Verbinde mit Repository NAME“.
+
+  <img src="docs/bilder/chatgpt-codex.png" alt="ChatGPT: auf Codex umschalten" width="320">
+
+  <img src="docs/bilder/chatgpt-codex-projekt.png" alt="Codex: Projekt mit Quellordner erstellen" width="460">
+
+**3. Starten.** Im Projekt einen neuen Chat beginnen und schreiben: „Folge START.md.“
+
+Den Rest erledigt der Agent: Er bietet dir zuerst das Beispiel an und richtet dann im Gespräch mit dir deinen Almanach ein, in beliebiger Reihenfolge. Claude-Projekte führen die Einrichtung in einem eigenen Thread aus und zeigen im Hauptchat nur eine Kurzfassung. Klicke auf **Thread ansehen**: Dort stehen die Begrüßung und die Auswahl, und dort geht die Einrichtung weiter.
+
+<img src="docs/bilder/claude-thread.png" alt="Claude: Hauptchat mit „Thread ansehen“ und der Thread mit der Begrüßung" width="700">
+
+Wer mit Claude Code arbeitet, öffnet den Ordner einfach dort. Die Bilder zeigen die Mac-Apps mit deutscher Oberfläche.
 
 ### So arbeitest du mit dem Agenten
 
