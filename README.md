@@ -86,7 +86,7 @@ The rules for the agent are in [almanach/AGENTS.md](almanach/AGENTS.md). They ar
 
 ### Licence
 
-- GMA (rules, templates, system profiles, tools and the example almanac): [MIT](LICENSE). You may use, change, share and sell GMA freely, including commercially, as long as the copyright notice and license text stay included.
+- GMA (rules, templates, system profiles, tools and the example almanac): [MIT](LICENSE). You may use, change, share and sell GMA freely, including commercially, as long as the copyright notice and license text stay included. Exceptions are listed in [NOTICE](NOTICE).
 - Your own almanac is yours: whatever content you create with GMA (adventures, worlds, texts, images) you may publish and sell.
 - D&D profile: includes material from the SRD 5.2 by Wizards of the Coast LLC, licensed under CC BY 4.0; this material stays under CC BY 4.0 (see the profile). "Dungeons & Dragons" and "D&D" are trademarks of Wizards of the Coast; GMA is not affiliated with or endorsed by Wizards of the Coast.
 - Purchased adventures may be prepared for your own group, but do not publish their text.
@@ -173,7 +173,7 @@ Die Regeln für den Agenten stehen in [almanach/AGENTS.md](almanach/AGENTS.md).
 
 ### Lizenz
 
-- GMA (Regelwerk, Vorlagen, Systemprofile, Werkzeuge und Beispiel-Almanach): [MIT](LICENSE). GMA darf frei genutzt, verändert, weitergegeben und auch verkauft werden, auch kommerziell, solange Copyright-Hinweis und Lizenztext erhalten bleiben.
+- GMA (Regelwerk, Vorlagen, Systemprofile, Werkzeuge und Beispiel-Almanach): [MIT](LICENSE). GMA darf frei genutzt, verändert, weitergegeben und auch verkauft werden, auch kommerziell, solange Copyright-Hinweis und Lizenztext erhalten bleiben. Ausnahmen stehen in [NOTICE](NOTICE).
 - Dein eigener Almanach gehört dir: Die Inhalte, die du mit GMA erstellst (Abenteuer, Welten, Texte, Bilder), darfst du veröffentlichen und verkaufen.
 - D&D-Profil: enthält Material aus dem SRD 5.2 von Wizards of the Coast LLC unter CC BY 4.0; dieses Material bleibt unter CC BY 4.0 (siehe Profil). „Dungeons & Dragons“ und „D&D“ sind Marken von Wizards of the Coast; GMA steht in keiner Verbindung zu Wizards of the Coast.
 - Gekaufte Abenteuer dürfen für die eigene Gruppe aufbereitet, ihr Text aber nicht veröffentlicht werden.

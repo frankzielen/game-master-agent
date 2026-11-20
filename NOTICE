@@ -1,0 +1,14 @@
+GMA – Game Master Agent
+Copyright 2026 frankzielen (https://github.com/frankzielen)
+
+All files in this repository (rules, templates, system profiles, documentation,
+tools and the example almanac) are licensed under the MIT License (see LICENSE),
+with these exceptions:
+
+- Material from the System Reference Document 5.2 ("SRD 5.2") by Wizards of the
+  Coast LLC in the D&D 5e system profile (almanach/systeme/dnd-5e/ and
+  beispiel/systeme/dnd-5e/) and in statblocks that refer to it, available at
+  https://www.dndbeyond.com/srd, remains licensed under the Creative Commons
+  Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/).
+- The marked library (almanach/werkzeuge/marked.min.js, beispiel/werkzeuge/marked.min.js)
+  is © Christopher Jeffrey, MIT licensed (see the header of that file).
