@@ -9,7 +9,7 @@ tags: [nsc]
 _Quelle: z. B. KI-generiert, eigene Zeichnung, Künstlername oder Lizenz_
 
 **Kurz:** _Rasse, Beruf, ein Satz zur Rolle in der Geschichte_
-**Charakterfelder:** _laut Systemprofil_ · **Fraktion:** [Fraktion](../../fraktionen/fraktion.md)
+**Charakterfelder:** _laut Systemprofil_ · **Fraktion:** [Fraktion](../../fraktionen/fraktion/fraktion.md)
 **Aufenthaltsort:** [Ort](../../orte/ort/ort.md)
 **Spielwerte:** [statblock.md](statblock.md) _(aus `systeme/<system>/statblock.md`)_
 
@@ -44,7 +44,3 @@ _Was bei diesem NSC gespielt wird: Hintergrundmusik, Atmosphäre oder Soundeffek
 | _z. B. beim Betreten, im Kampf, beim Auftritt_ | Musik / Atmosphäre / Effekt | [titel.mp3](audio/titel.mp3) oder [Titel](https://open.spotify.com/track/…) |
 
 ## Geheim (nur SL)
-
-## Verknüpfungen
-- **Szenen:** 
-- **Quests:** 

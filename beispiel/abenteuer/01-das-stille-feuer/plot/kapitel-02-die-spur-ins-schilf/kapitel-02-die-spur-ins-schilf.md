@@ -27,10 +27,6 @@ Am Morgen nach der Befreiung sitzt Jorin in der Schmiede bei [Bren](../../../../
 ## Abschluss
 Im Bootshaus findet die Gruppe den Beweis, dass die Schmuggler zum alten Salzwerk gehören. Sie kehrt um, um mit mehr Leuten wiederzukommen. Damit endet das Abenteuer, die Spur führt in [02 · Die Salzkrone](../../../02-die-salzkrone/plot/hauptplot.md).
 
-## Einzelheiten zu Figuren und Dingen
-- Bren schließt sich der Gruppe an, weil Jorin sein Jugendfreund ist.
-- Die silberne Laterne leuchtet im Bootshaus plötzlich heller.
-
 ## Musik und Geräusche
 _Nur für die SL, erscheint nicht in der Spieler-Website._
 
@@ -38,10 +34,14 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 |---|---|---|
 | In den Prielen | Atmosphäre | _Wind im Schilf, Wasser_ |
 
+## Einzelheiten zu Figuren und Dingen
+- Bren schließt sich der Gruppe an, weil Jorin sein Jugendfreund ist.
+- Die silberne Laterne leuchtet im Bootshaus plötzlich heller.
+
 ## Geheim (nur SL)
 Die Laterne leuchtet heller, weil Velas Leute in der Nähe sind. Zwei Späher liegen im Schilf und beobachten die Gruppe. Vela weiß ab dieser Nacht, wer ihre Laterne hat.
 
-## Verknüpfungen
+## Beteiligte
 - **Orte:** [Graufurt](../../../../welt/orte/salzmarsch/graufurt/graufurt.md), [Salzmarsch](../../../../welt/orte/salzmarsch/salzmarsch.md), [Altes Salzwerk](../../../../welt/orte/salzmarsch/altes-salzwerk/altes-salzwerk.md)
 - **NSCs:** [Jorin Quell](../../../../welt/nscs/jorin-quell/jorin-quell.md)
-- **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone.md)
+- **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)

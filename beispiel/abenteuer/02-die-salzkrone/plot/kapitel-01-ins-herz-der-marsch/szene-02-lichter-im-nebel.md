@@ -20,13 +20,13 @@ Kurz nach Mitternacht. Der Kahn gleitet durch schmale Wasserläufe zwischen mann
 
 ## Ablauf
 1. **Die Lichter.** Zwei Kähne des Bundes mit je drei Bootsleuten folgen der Gruppe in etwa fünfzig Schritt Abstand. Sie halten Abstand und greifen nicht an.
-2. **Die Laterne verrät sie.** Die [silberne Laterne](../../../../welt/gegenstaende/silberne-laterne.md) wird heller, je näher die Kähne kommen. Wer darauf achtet, kann so ihre Entfernung schätzen.
+2. **Die Laterne verrät sie.** Die [silberne Laterne](../../../../welt/gegenstaende/silberne-laterne/silberne-laterne.md) wird heller, je näher die Kähne kommen. Wer darauf achtet, kann so ihre Entfernung schätzen.
 3. **Die Falle.** Hedda kennt die Priele. Ein Seitenarm fällt bei Ebbe in kurzer Zeit trocken. Bren lässt die Laterne bewusst brennen, damit die Verfolger ihr folgen, und der Kahn der Gruppe zieht über die flache Stelle, solange noch Wasser steht.
 4. **Im Schlick.** Die schwereren Kähne der Verfolger setzen auf und sitzen fest, bis die nächste Flut kommt. Die Bootsleute fluchen, einer watet bis zu den Knien im Schlamm.
 5. **Weiter zum Werk.** Gegen Morgen taucht der Schornstein des Salzwerks aus dem Nebel auf.
 
 ## Beteiligte NSCs
-- Bootsleute des [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone.md) – junge Männer und Frauen aus verschuldeten Familien. Sie haben den Befehl, die Gruppe zu zählen und zu melden, nicht mehr. Für einen Kampf im Nebel sind sie nicht bezahlt und ergeben sich schnell.
+- Bootsleute des [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone/bund-der-salzkrone.md) – junge Männer und Frauen aus verschuldeten Familien. Sie haben den Befehl, die Gruppe zu zählen und zu melden, nicht mehr. Für einen Kampf im Nebel sind sie nicht bezahlt und ergeben sich schnell.
 
 ## Proben, Kampf, Hindernisse
 | Was | Probe / Schwierigkeit | Erfolg | Misserfolg |

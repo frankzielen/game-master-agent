@@ -14,4 +14,4 @@ Was noch fehlt, zum Beispiel die Spielleitung eines Abenteuers oder der Name des
 ## Entschieden
 | Datum | Entscheidung | Betrifft |
 |---|---|---|
-| 2026-02-01 | Der Schmugglerbund heißt „Bund der Salzkrone“, damit er nicht mit dem Abenteuer „Die Salzkrone“ und Velas Beinamen verwechselt wird. | [Bund der Salzkrone](welt/fraktionen/bund-der-salzkrone.md) |
+| 2026-02-01 | Der Schmugglerbund heißt „Bund der Salzkrone“, damit er nicht mit dem Abenteuer „Die Salzkrone“ und Velas Beinamen verwechselt wird. | [Bund der Salzkrone](welt/fraktionen/bund-der-salzkrone/bund-der-salzkrone.md) |

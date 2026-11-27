@@ -1,8 +1,8 @@
 # Sitzung NN – JJJJ-MM-TT
 
 **Anwesend:** 
-**Quelle:** [Diktat oder Aufzeichnung](../_quelle/diktat-sitzung-NN.md)
-**Gespielt:** [Szene](../plot/kapitel-NN-titel/szene-NN-titel.md) bis [Szene](../plot/…)
+**Quelle:** [Diktat oder Aufzeichnung](../../_quelle/diktat-sitzung-NN.md)
+**Gespielt:** [Szene](../../plot/kapitel-NN-titel/szene-NN-titel.md) bis [Szene](../../plot/…)
 
 ## Was passiert ist
 

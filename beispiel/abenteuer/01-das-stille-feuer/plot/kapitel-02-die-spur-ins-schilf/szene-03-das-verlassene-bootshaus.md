@@ -21,7 +21,7 @@ Ein Bootshaus aus schwarz geteertem Holz auf Pfählen über dem Wasser, groß ge
 ## Ablauf
 1. Im Bootshaus liegen zwanzig Säcke Salz mit dem Zeichen der Krone, bereit für die nächste Fahrt an die Küste.
 2. An der Wand hängt eine grob gezeichnete Karte der Priele mit Kreuzen an den Sandbänken vor Graufurt: die Stellen, an denen die Boote bei dunklem Leuchtfeuer durchkommen.
-3. Die [silberne Laterne](../../../../welt/gegenstaende/silberne-laterne.md) in Ilkas Hand leuchtet plötzlich heller, ohne dass jemand sie berührt.
+3. Die [silberne Laterne](../../../../welt/gegenstaende/silberne-laterne/silberne-laterne.md) in Ilkas Hand leuchtet plötzlich heller, ohne dass jemand sie berührt.
 4. Über dem Schilf sieht die Gruppe den schiefen Schornstein des Salzwerks, aus dem Rauch steigt. Dort wird gearbeitet.
 5. Die Gruppe entscheidet, ob sie weitergeht oder umkehrt.
 

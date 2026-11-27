@@ -1,5 +1,5 @@
 ---
-status: idee
+status: entwurf
 tags: [quest]
 ---
 
@@ -33,3 +33,10 @@ _Was bei dieser Quest gespielt wird: Hintergrundmusik, Atmosphäre oder Soundeff
 | _z. B. beim Betreten, im Kampf, beim Auftritt_ | Musik / Atmosphäre / Effekt | [titel.mp3](audio/titel.mp3) oder [Titel](https://open.spotify.com/track/…) |
 
 ## Geheim (nur SL)
+
+## Beteiligte
+_Welche NSCs, Orte, Fraktionen und Gegenstände in dieser Quest vorkommen, als Linkliste._
+- **NSCs:** 
+- **Orte:** 
+- **Fraktionen:** 
+- **Gegenstände:** 

@@ -26,10 +26,6 @@ Am Nachmittag erreicht die Gruppe [Graufurt](../../../../welt/orte/salzmarsch/gr
 ## Abschluss
 Das Kapitel endet, wenn Jorin frei ist und Mara das Feuer wieder entzündet. Das ganze Dorf steht am Deich und sieht zu, wie das Licht über die Sandbänke wandert. Offen bleibt, wer die Schmuggler geschickt hat. Weiter mit [Kapitel 2](../kapitel-02-die-spur-ins-schilf/kapitel-02-die-spur-ins-schilf.md).
 
-## Einzelheiten zu Figuren und Dingen
-- Mara schuldet der Gruppe seit diesem Abend einen Gefallen und sagt das auch.
-- Die Schmuggler haben die silberne Laterne als Signallicht benutzt. Ilka nimmt sie mit.
-
 ## Musik und Geräusche
 _Nur für die SL, erscheint nicht in der Spieler-Website._
 
@@ -37,11 +33,15 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 |---|---|---|
 | Im Dorf | Atmosphäre | _Möwen, Wind, Wellen am Deich_ |
 
+## Einzelheiten zu Figuren und Dingen
+- Mara schuldet der Gruppe seit diesem Abend einen Gefallen und sagt das auch.
+- Die Schmuggler haben die silberne Laterne als Signallicht benutzt. Ilka nimmt sie mit.
+
 ## Geheim (nur SL)
 Die Schmuggler arbeiten für Vela Brandt, die Herrin des alten Salzwerks, die in Abenteuer 02 auftaucht. Lässt die Gruppe sie laufen, berichten sie Vela noch in derselben Nacht, wer ihnen die Lieferung verdorben hat.
 
-## Verknüpfungen
+## Beteiligte
 - **Orte:** [Graufurt](../../../../welt/orte/salzmarsch/graufurt/graufurt.md)
 - **NSCs:** [Mara Quell](../../../../welt/nscs/mara-quell/mara-quell.md), [Jorin Quell](../../../../welt/nscs/jorin-quell/jorin-quell.md)
-- **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone.md)
+- **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)
 - **Quests:** [Quest 01 – Der verschwundene Bruder](../quests/quest-01-der-verschwundene-bruder.md)

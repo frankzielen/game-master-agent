@@ -9,8 +9,8 @@ alias: [Salzkrone]
 ![Vela Brandt](bilder/portrait.jpg)
 _Quelle: KI-generiert mit ChatGPT_
 
-**Kurz:** Herrin des alten Salzwerks und Anführerin des [Bundes der Salzkrone](../../fraktionen/bund-der-salzkrone.md), genannt „die Salzkrone“.
-**Charakterfelder:** Volk: Mensch · Gesinnung: neutral böse · Rolle: Schmugglerkönigin · Haltung: feindlich · **Fraktion:** [Bund der Salzkrone](../../fraktionen/bund-der-salzkrone.md)
+**Kurz:** Herrin des alten Salzwerks und Anführerin des [Bundes der Salzkrone](../../fraktionen/bund-der-salzkrone/bund-der-salzkrone.md), genannt „die Salzkrone“.
+**Charakterfelder:** Volk: Mensch · Gesinnung: neutral böse · Rolle: Schmugglerkönigin · Haltung: feindlich · **Fraktion:** [Bund der Salzkrone](../../fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)
 **Aufenthaltsort:** unbekannt, zuletzt im [alten Salzwerk](../../orte/salzmarsch/altes-salzwerk/altes-salzwerk.md)
 **Spielwerte:** [statblock.md](statblock.md)
 
@@ -50,8 +50,3 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 
 ## Geheim (nur SL)
 Vela hat Mara vor zwanzig Jahren Geld für ihr Schweigen gezahlt und hält das bis heute für eine offene Schuld.
-
-## Verknüpfungen
-- **Fraktionen:** [Bund der Salzkrone](../../fraktionen/bund-der-salzkrone.md)
-- **Orte:** [Altes Salzwerk](../../orte/salzmarsch/altes-salzwerk/altes-salzwerk.md)
-- **Gegenstände:** [Silberne Laterne](../../gegenstaende/silberne-laterne.md)

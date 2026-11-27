@@ -288,8 +288,9 @@ function rendere(p) {
       (tags ? tags[1].split(',').map(t => `<span>${t.trim()}</span>`).join('') : '') + '</div>';
   }
   const rv = (DATA.rueck || {})[p] || [];
-  const erw = rv.length ? '<h2 class="erwaehnt">Erwähnt in</h2><div class="ordnerliste">' +
-    rv.map(q => `<button type="button" data-ziel="${q}">${titelVon(q).replace(/</g, '&lt;')}</button>`).join('') + '</div>' : '';
+  const knopf = q => `<button type="button" data-ziel="${q}">${titelVon(q).replace(/</g, '&lt;')}</button>`;
+  const erw = rv.length ? '<h2 class="erwaehnt">Erwähnt in</h2>' +
+    rv.map(([g, qs]) => `<h3 class="erwaehnt-gruppe">${g}</h3><div class="ordnerliste">` + qs.map(knopf).join('') + '</div>').join('') : '';
   return meta + marked.parse(md) + erw;
 }
 function ordnerSeite(o) {

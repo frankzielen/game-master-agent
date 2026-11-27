@@ -6,11 +6,11 @@ Mit zweitem Argument zusätzlich Markdown-Export: alle Seiten mit Bildern als Or
 
 Was hinein kommt, steuert der Spielstand, nicht ein fester Pfad:
 - Ein Abenteuer abenteuer/NN-*/ ist freigegeben, sobald es gespielt ist oder läuft: README „**Status:** gespielt“
-  mit Kapiteln, oder mindestens eine erfasste Sitzung (sitzungen/sitzung-*.md). Abenteuer ohne Sitzung
+  mit Kapiteln, oder mindestens eine erfasste Sitzung (sitzungen/sitzung-*/). Abenteuer ohne Sitzung
   bleiben ganz draußen, auch jeder Link und jede Erwähnung als „NN · Titel“.
 - Plot-Dateien nur mit Frontmatter „status: gespielt“ oder ohne Status (Übersichten, Sitzungen); Vorlagen bleiben draußen.
 - Welt-Dateien nur, wenn „auftritte:“ ein freigegebenes Abenteuer enthält; die Kopfzeile zeigt nur diese Nummern.
-- In jeder Datei fallen SL-Abschnitte weg (Geheim, Planung, offene Fäden, Aufhänger, Ziele …) und Abschnitte
+- In jeder Datei fallen SL-Abschnitte weg (Geheim, Planung, offene Fäden, Aufhänger …) und Abschnitte
   zu nicht freigegebenen Abenteuern. Stat-Blöcke, Ideen-Eingänge, _quelle/ und _vorlagen/ sind nie dabei.
 - Links auf Ausgelassenes werden zu Text; Links in nicht freigegebene Abenteuer und auf ausgelassene
   Welt-Einträge verschwinden samt Text.
@@ -27,7 +27,7 @@ SP = E['spielerseite']
 
 # Ganze Abschnitte (## Überschrift), die nie auf die Spieler-Website gehören
 DROP_SECTIONS = {
-    'Geheim (nur SL)', 'Aufhänger und Gerüchte', 'Ziele und Motivation', 'Konventionen', 'Hinweise zur Quelle',
+    'Geheim (nur SL)', 'Aufhänger und Gerüchte', 'Konventionen', 'Hinweise zur Quelle',
     'Mögliche Enden', 'Handlungsstränge und Abzweigungen', 'Abzweigungen', 'Offene Ideen', 'Treibende Kräfte',
     'Verbindung zu früheren Abenteuern', 'Proben, Kampf, Hindernisse', 'Für nächstes Mal vorbereiten', 'Musik und Geräusche',
 }
@@ -269,7 +269,8 @@ for rel, t in docs.items():
         if m.group(1) or extern(m.group(3)): continue
         z = ziel_doc(ziel(posixpath.dirname(rel), m.group(3)))
         if z and z != rel: rueck.setdefault(z, set()).add(rel)
-rueck = {k: sorted(v) for k, v in rueck.items()}
+import erwaehnt
+rueck = erwaehnt.ordnen(rueck)
 
 namen = ''.join(f", '{a['ordner']}': '{a['nr']} · {a['name']}'" for a in abenteuer)
 tpl = template(TITEL, SP.get('untertitel') or ' · '.join(frei_namen))

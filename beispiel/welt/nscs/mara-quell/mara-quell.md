@@ -53,8 +53,3 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 
 ## Geheim (nur SL)
 Mara und Vela haben als junge Frauen zusammen im Salzwerk gearbeitet. Mara hat damals Vela beim Zoll gedeckt und dafür Geld genommen. Davon weiß niemand im Dorf, auch Jorin nicht.
-
-## Verknüpfungen
-- **Orte:** [Graufurt](../../orte/salzmarsch/graufurt/graufurt.md)
-- **NSCs:** [Jorin Quell](../jorin-quell/jorin-quell.md), [Vela Brandt](../vela-brandt/vela-brandt.md)
-- **Quests:** [Quest 01 – Der verschwundene Bruder](../../../abenteuer/01-das-stille-feuer/plot/quests/quest-01-der-verschwundene-bruder.md)

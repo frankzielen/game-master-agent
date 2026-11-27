@@ -19,7 +19,7 @@ Vela tritt aus der Schreibstube, ohne Eile und ohne Waffe in der Hand. Hinter ih
 > Vorlesetext: „Ihr habt etwas, das mir gehört.“ Die Frau, die in der Tür steht, spricht leise, fast freundlich. Um ihren Hals glitzert eine kleine Krone aus Salz. „Die Laterne hat mir jeden eurer Schritte gezeigt. Gebt sie mir, und ihr geht, wie ihr gekommen seid.“
 
 ## Ablauf
-1. **Das Angebot.** [Vela Brandt](../../../../welt/nscs/vela-brandt/vela-brandt.md) verlangt die [silberne Laterne](../../../../welt/gegenstaende/silberne-laterne.md). Sie erklärt ruhig, dass die Laterne ihr gehört und ihr den Weg zu Bren gezeigt hat. Sie legt einen Beutel mit 500 SM auf das Pult, genug für ein neues Boot.
+1. **Das Angebot.** [Vela Brandt](../../../../welt/nscs/vela-brandt/vela-brandt.md) verlangt die [silberne Laterne](../../../../welt/gegenstaende/silberne-laterne/silberne-laterne.md). Sie erklärt ruhig, dass die Laterne ihr gehört und ihr den Weg zu Bren gezeigt hat. Sie legt einen Beutel mit 500 SM auf das Pult, genug für ein neues Boot.
 2. **Das Gespräch.** Wenn Hedda das Schuldbuch hält, lächelt Vela: „Glaubst du, die Familien wollen frei sein? Ohne das Werk hungern sie.“ Sie versucht, die beiden gegeneinander auszuspielen, und bietet Bren an, Graufurt für immer in Ruhe zu lassen.
 3. **Die Ablehnung.** Bren und Hedda lehnen ab. Vela seufzt und gibt ihren Knechten ein Zeichen.
 4. **Der Kampf.** Der Kampf zieht sich die Treppe hinunter in die Halle. Vela wirft Salz in die Augen und kämpft mit Siedehaken und Messer, die Knechte versuchen, die Gruppe von der Treppe zu stoßen.
@@ -44,7 +44,7 @@ Vela tritt aus der Schreibstube, ohne Eile und ohne Waffe in der Hand. Hinter ih
 - **Hat die Gruppe vorher den Steg gesperrt** oder Velas Kahn beschädigt, sitzt Vela in der brennenden Halle fest und ergibt sich (Ende B).
 
 ## Belohnungen
-Das [Schuldbuch des Salzwerks](../../../../welt/gegenstaende/schuldbuch-des-salzwerks.md) bleibt bei Hedda. Bren erreicht Stufe 3, Hedda Stufe 2.
+Das [Schuldbuch des Salzwerks](../../../../welt/gegenstaende/schuldbuch-des-salzwerks/schuldbuch-des-salzwerks.md) bleibt bei Hedda. Bren erreicht Stufe 3, Hedda Stufe 2.
 
 ## Musik und Geräusche
 _Nur für die SL, erscheint nicht in der Spieler-Website._

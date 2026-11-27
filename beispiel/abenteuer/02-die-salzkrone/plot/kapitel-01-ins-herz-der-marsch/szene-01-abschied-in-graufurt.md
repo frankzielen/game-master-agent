@@ -21,7 +21,7 @@ Der „Trockene Anker“ ist die einzige Schenke im Dorf, eine niedrige Stube mi
 ## Ablauf
 1. **Hedda spricht Bren an.** [Hedda Lorn](../../../../welt/spielercharaktere/hedda-lorn/hedda-lorn.md) erzählt, dass sie als Mädchen im Salzwerk gearbeitet hat, bis eine Pfanne überkochte. Sie zeigt ihre Hände. Ihre Familie steht im Schuldbuch des Werks. Sie kennt einen alten Gang hinein und sucht jemanden, der mitkommt.
 2. **Der Weg zum Leuchtturm.** Bren und Hedda gehen zu [Mara Quell](../../../../welt/nscs/mara-quell/mara-quell.md), weil sie mehr über die Salzkrone wissen müssen. Mara wird blass, als Hedda das Salzwerk erwähnt. Erst als Ilka sie an den Gefallen erinnert, den sie ihr schuldet, nennt Mara den Namen: [Vela Brandt](../../../../welt/nscs/vela-brandt/vela-brandt.md).
-3. **Ilka bleibt.** [Ilka](../../../../welt/spielercharaktere/ilka/ilka.md) will den Leuchtturm nicht allein lassen, solange die Schmuggler frei sind, und bleibt bei Mara. Sie gibt [Bren](../../../../welt/spielercharaktere/bren/bren.md) die [silberne Laterne](../../../../welt/gegenstaende/silberne-laterne.md): „Die geht nicht aus. Du wirst sie brauchen.“
+3. **Ilka bleibt.** [Ilka](../../../../welt/spielercharaktere/ilka/ilka.md) will den Leuchtturm nicht allein lassen, solange die Schmuggler frei sind, und bleibt bei Mara. Sie gibt [Bren](../../../../welt/spielercharaktere/bren/bren.md) die [silberne Laterne](../../../../welt/gegenstaende/silberne-laterne/silberne-laterne.md): „Die geht nicht aus. Du wirst sie brauchen.“
 4. **Jorins Kahn.** [Jorin Quell](../../../../welt/nscs/jorin-quell/jorin-quell.md) wartet unten am Deich. Er leiht seinen flachen Kahn, mit dem man auch über seichte Priele kommt, und erklärt, wann in dieser Nacht die Ebbe einsetzt.
 
 ## Beteiligte NSCs

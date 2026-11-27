@@ -40,7 +40,7 @@ Wählt die Person das Beispiel, zeige es (siehe „Beispiel zeigen“) und biete
 **Aufnehmen statt abfragen:** Es gibt keinen Fragebogen. Die Person erzählt, was sie hat, in beliebiger Reihenfolge und gern in Bruchstücken, und du legst es ab wie unter „Aufnehmen und nachfragen“ beschrieben. Kommt noch nichts, frag einmal offen, womit sie anfangen möchte, zum Beispiel mit einem Abenteuer, der Welt oder den Helden. Nennt sie Dinge, die zur Einrichtung gehören, legst du sie so ab:
 - **Name des Almanachs:** in `README.md` und in `einstellungen.json` unter `"titel"`.
 - **Regelsystem:** in `einstellungen.json` unter `"system"` (`dnd-5e` für D&D 5e). Für ein anderes System legst du das Profil später gemeinsam an (siehe „Regelsystem“). Nennt sie keins, bleibt `ohne-regelsystem`.
-- **Abenteuer:** wie unter „Neues Abenteuer“ (siehe „Ablage“), mit Titel, Spielleitung und Status (`idee`, `läuft`, `gespielt`).
+- **Abenteuer:** wie unter „Neues Abenteuer“ (siehe „Ablage“), mit Titel, Spielleitung und Status (`entwurf`, `fertig`, `läuft`, `gespielt`).
 - **Spielercharaktere:** mit Name und wer ihn spielt.
 - **Welt und Mitspieler:** Name der Welt oder Startregion und die Mitspieler (gern mit Spitznamen) in `README.md`. Regionen, Figuren und alles Weitere legst du ab wie alle anderen Inhalte.
 
@@ -80,8 +80,8 @@ offene-punkte.md             Widersprüche, offene Fragen, getroffene Entscheidu
 welt/                        gemeinsam für alle Abenteuer
   nscs/<name>/<name>.md      ein Ordner pro NSC, dazu statblock.md und bilder/
   orte/<region>/<stadt>/…    verschachtelt: Region → Stadt → Gebäude, je Ort ein Ordner
-  fraktionen/<name>.md
-  gegenstaende/<name>.md     Bilder in gegenstaende/bilder/
+  fraktionen/<name>/<name>.md   ein Ordner pro Fraktion, dazu bilder/
+  gegenstaende/<name>/<name>.md ein Ordner pro Gegenstand, dazu bilder/
   spielercharaktere/<name>/<name>.md   dazu statblock.md und bilder/
 abenteuer/
   README.md                  Liste aller Abenteuer mit Spielleitung und Status
@@ -93,7 +93,7 @@ abenteuer/
       kapitel-NN-titel/kapitel-NN-titel.md, szene-NN-titel.md
       quests/quest-NN-titel.md
       bilder/
-    sitzungen/sitzung-NN-JJJJ-MM-TT.md
+    sitzungen/sitzung-NN-JJJJ-MM-TT/sitzung-NN-JJJJ-MM-TT.md
     _quelle/                 Originalmaterial (PDF, Notizen), wird nicht verändert
 _vorlagen/                   Kopiervorlagen für alle Dateitypen
 einstellungen.json           Titel, Regelsystem, Startseite der Spieler-Website, veröffentlichte Links
@@ -109,14 +109,14 @@ Jede Übersicht (`welt/*/README.md`, `abenteuer/README.md`) enthält eine Tabell
 ## Konventionen
 
 - **Dateinamen:** klein, mit Bindestrichen, Umlaute ausgeschrieben (`ae`, `oe`, `ue`, `ss`). Beispiel: `welt/nscs/name-des-nsc/name-des-nsc.md`.
-- **Ordner = Ding:** Alles, was Bilder oder Unterseiten haben kann (NSC, Ort, Kapitel), bekommt einen eigenen Ordner. Die Hauptdatei heißt wie der Ordner. Bilder liegen in `bilder/`, Karten in `karten/` direkt daneben.
+- **Ordner = Ding:** Alles, was Bilder oder Unterseiten haben kann (NSC, SC, Ort, Gegenstand, Fraktion, Kapitel, Sitzung), bekommt einen eigenen Ordner. Die Hauptdatei heißt wie der Ordner. Bilder liegen in `bilder/`, Karten in `karten/` direkt daneben.
 - **Nummerierung:** Kapitel, Szenen und Quests zweistellig (`kapitel-01-…`, `szene-03-…`, `quest-02-…`), damit die Reihenfolge alphabetisch stimmt. Alternative Szenen bekommen einen Buchstaben (`szene-03a-…`, `szene-03b-…`). Prolog und Epilog werden ebenfalls nummeriert (z. B. `kapitel-00-prolog`, `kapitel-NN-epilog` mit der letzten Nummer), damit sie an der richtigen Stelle stehen.
 - **Links:** immer relative Markdown-Links, z. B. aus einer Szene: `[Stadtname](../../../../welt/orte/region/stadt/stadt.md)`. Wenn du eine Datei verschiebst oder umbenennst, passt du alle Links darauf an.
-- **Verknüpfungen:** Wird ein NSC, Ort, Gegenstand usw. erwähnt, der eine eigene Datei hat, verlinke ihn. Jede Datei hat unten einen Abschnitt `## Verknüpfungen` mit ihren Links nach außen. Die Gegenrichtung („Erwähnt in …“) erzeugt die Website automatisch aus den Links, sie wird nicht von Hand gepflegt.
+- **Links:** Wird ein NSC, Ort, Gegenstand usw. erwähnt, der eine eigene Datei hat, verlinke ihn. Jeder Link steht dort, wo er inhaltlich hingehört: bei Welt-Einträgen in Beziehungen (Personen), in der Beschreibung oder im Text, und in der Entwicklung über die Abenteuer (Kapitel und Sitzungen). Eine eigene Linkliste gibt es bei Welt-Einträgen nicht. Kapitel und Quests haben unten den Abschnitt `## Beteiligte`: welche NSCs, Orte, Fraktionen und Gegenstände vorkommen. Die Gegenrichtung („Erwähnt in“) erzeugen die Websites automatisch, gruppiert nach Art und ohne Übersichtsseiten und Seiten, auf die der Eintrag selbst schon verlinkt. Sie wird nicht von Hand gepflegt.
 - **Alternativnamen:** Welt-Dateien können im Kopf `alias: [...]` führen: andere Namen und Kurzformen, keine Fehlkennungen der Spracherkennung. Maßgeblich bleibt die Schreibweise des Titels.
 - **Kopfzeile (Frontmatter):**
-  - Plot-Dateien (Hauptplot, Kapitel, Szene, Quest) haben `status:` mit `idee`, `entwurf`, `fertig` oder `gespielt`.
-  - Welt-Dateien haben stattdessen `auftritte: [01, 03]`, also die Nummern der Abenteuer, in denen der Eintrag vorkommt.
+  - Plot-Dateien (Hauptplot, Kapitel, Szene, Quest) haben `status:` mit `entwurf`, `fertig`, `läuft` oder `gespielt` (`läuft` nur für ein ganzes Abenteuer, das gerade gespielt wird).
+  - Welt-Dateien haben stattdessen `auftritte: [01, 03]`, also die Nummern der Abenteuer, in denen der Eintrag vorkommt. Orte haben zusätzlich `typ:` (`region`, `stadt`, `dorf` oder `gebaeude`).
   - Der Hauptplot hat zusätzlich `spielleitung:`.
 - **Musik und Geräusche:** Jedes Objekt (NSC, Ort, Fraktion, Gegenstand, SC) und jeder Abenteuerinhalt (Hauptplot, Kapitel, Szene, Quest) kann einen Abschnitt `## Musik und Geräusche` haben, eine Tabelle mit „Wann“ (z. B. beim Betreten, im Kampf), „Art“ („Musik“, „Atmosphäre“ oder „Effekt“) und „Quelle“. Eigene Dateien (MP3, OGG, WAV, M4A, FLAC) liegen in `audio/` neben der Datei, sonst ein Link zu Spotify, Apple Music, YouTube oder einem anderen Anbieter. Die Website spielt beides ab. Der Abschnitt ist nur für die SL.
 - **Hauptplot:** nennt oben die Spielleitung und verlinkt das vorige und das nächste Abenteuer. Unter „Handlung im Überblick“ steht in einigen Absätzen, was im Abenteuer passiert: Ausgangslage, wer was warum tut, Verlauf und Enden. Kapitel und Szenen beschreiben Ort, Stimmung, Ablauf und die Motive der beteiligten NSCs so, dass die Spielleitung daraus leiten kann. Zeitliche Abläufe stehen unter „Zeitplan des Abenteuers“.
@@ -148,7 +148,7 @@ Jede Welt-Datei ist gleich aufgebaut:
 **Retcon:** Gespielte Plot-Dateien (`status: gespielt`) und Sitzungsprotokolle werden nicht mehr umgeschrieben. Soll sich nachträglich etwas ändern, bekommt sie eine kurze Notiz „Retcon: …“, und der gültige Stand steht beim Objekt. Entwürfe werden direkt korrigiert. Ein Retcon ist nur eine bewusste Änderung der Geschichte. Fehler bei der Erfassung (falsch verstandene Namen, Tippfehler, Hörfehler) korrigierst du überall direkt und ohne Vermerk.
 
 **Kennzeichnung für die Spieler-Website:** Was nicht für die Spieler ist, erkennt der Generator nur an der Kennzeichnung in den Daten. Es gibt keine Ausnahmelisten im Code.
-- **Ganze Abschnitte:** `## Geheim (nur SL)`, Überschriften mit „nur SL“, „Planung“ oder „Parallelhandlung“ sowie die SL-Abschnitte der Vorlagen (z. B. „Ziele und Motivation“, „Abzweigungen“, „Proben, Kampf, Hindernisse“, „Offene Fäden …“, „Musik und Geräusche“).
+- **Ganze Abschnitte:** `## Geheim (nur SL)`, alle Überschriften mit „nur SL“, „Planung“ oder „Parallelhandlung“ und diese SL-Abschnitte: „Aufhänger und Gerüchte“, „Abzweigungen“, „Handlungsstränge und Abzweigungen“, „Mögliche Enden“, „Treibende Kräfte“, „Offene Ideen“, „Verbindung zu früheren Abenteuern“, „Proben, Kampf, Hindernisse“, „Für nächstes Mal vorbereiten“, „Musik und Geräusche“, „Konventionen“, „Hinweise zur Quelle“ sowie Überschriften, die mit „Offene Fäden“, „Persönliche Aufhänger“, „Stand zu Beginn“ oder „Bereits angelegte Welt-Einträge“ beginnen. Diese Liste und `DROP_SECTIONS` in `werkzeuge/almanach-html-spieler.py` stimmen immer überein.
 - **Einzelne Zeilen:** am Zeilenende „(nur SL)“, z. B. `- Der Hort des Drachen ist ungeklärt. (nur SL)`. SL-Wissen steht nie mitten in einer Zeile, die die Spieler sehen dürfen.
 - **Ganze Dateien:** Ein Abenteuer erscheint erst, wenn es gespielt ist oder mindestens eine Sitzung hat. Plot-Dateien erscheinen nur mit `status: gespielt`, Welt-Einträge nur mit passendem `auftritte:`. Nie hinein kommen NSC-Stat-Blöcke, `ideen-eingang.md`, `_quelle/` und `_vorlagen/`.
 - **Felder wie Kurz, Hintergrund, Beziehungen** enthalten nur, was die Helden wissen dürfen. Die wahre Geschichte steht unter „Geheim (nur SL)“.
@@ -176,7 +176,7 @@ Weitere Regeln:
 
 ## Sitzungen und Material
 
-- Nach einem Spielabend: `sitzungen/sitzung-NN-JJJJ-MM-TT.md` aus der Vorlage anlegen (Anwesende, was passiert ist, Entscheidungen, Beute und Erfahrung). Betroffene Szenen auf `status: gespielt` setzen.
+- Nach einem Spielabend: `sitzungen/sitzung-NN-JJJJ-MM-TT/sitzung-NN-JJJJ-MM-TT.md` aus der Vorlage anlegen (Anwesende, was passiert ist, Entscheidungen, Beute und Erfahrung). Betroffene Szenen auf `status: gespielt` setzen.
 - **Diktat nach dem Spielabend:** Die Spielleitung erzählt oder spricht ein, was passiert ist. Lege die Rohfassung zuerst unverändert als `_quelle/diktat-sitzung-NN.md` ab. Daraus erstellst du Sitzungsprotokoll, Kapitel und Welt-Einträge, die jeweils die Quelle verlinken.
 - Anderes Originalmaterial (PDF, Mitschriften) ebenfalls unverändert in `_quelle/` ablegen und daraus die Struktur befüllen.
 - **Geschichte:** Jedes Abenteuer kann `geschichte/geschichte.md` haben (Vorlage `_vorlagen/geschichte.md`): das gespielte Abenteuer als zusammenhängender Erzähltext, Hörbuch (MP3 im selben Ordner) oder in anderer Form.

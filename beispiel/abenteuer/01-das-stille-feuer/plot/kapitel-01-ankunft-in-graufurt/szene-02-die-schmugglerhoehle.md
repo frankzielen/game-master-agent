@@ -20,7 +20,7 @@ Der Eingang ist ein Spalt im Fels, den nur die Ebbe freigibt. Dahinter öffnet s
 
 ## Ablauf
 1. Bei Ebbe ist der Höhleneingang zu Fuß erreichbar. Die Gruppe hat etwa zwei Stunden, bevor die Flut den Pfad wieder schließt.
-2. Drei Schmuggler sitzen beim Würfelspiel im Licht einer [silbernen Laterne](../../../../welt/gegenstaende/silberne-laterne.md). Ihr Anführer Harm ist groß und laut, die beiden anderen sind junge Burschen aus der Marsch, die lieber woanders wären.
+2. Drei Schmuggler sitzen beim Würfelspiel im Licht einer [silbernen Laterne](../../../../welt/gegenstaende/silberne-laterne/silberne-laterne.md). Ihr Anführer Harm ist groß und laut, die beiden anderen sind junge Burschen aus der Marsch, die lieber woanders wären.
 3. [Jorin](../../../../welt/nscs/jorin-quell/jorin-quell.md) sitzt gefesselt auf dem Felsabsatz hinter den Kisten.
 4. Die Gruppe kann sich anschleichen, angreifen oder verhandeln. Harm ist bereit, Jorin herauszugeben, wenn er mit seinen Leuten und der Ladung abziehen darf.
 5. In den Kisten liegt Salz in Säcken. Auf dem Holz der Kiste, auf der die Laterne steht, ist eine Krone aus Salz eingebrannt.
