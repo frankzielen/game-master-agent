@@ -45,5 +45,5 @@ Vela weiß seit der Nacht im Bootshaus, wer ihre Laterne hat. Wechselt die Later
 ## Verknüpfungen
 - **Orte:** [Graufurt](../../../../welt/orte/salzmarsch/graufurt/graufurt.md), [Salzmarsch](../../../../welt/orte/salzmarsch/salzmarsch.md)
 - **NSCs:** [Mara Quell](../../../../welt/nscs/mara-quell/mara-quell.md), [Jorin Quell](../../../../welt/nscs/jorin-quell/jorin-quell.md), [Vela Brandt](../../../../welt/nscs/vela-brandt/vela-brandt.md)
-- **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone.md)
+- **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)
 - **Quests:** [Quest 01 – Heddas Schuldbuch](../quests/quest-01-heddas-schuldbuch.md)

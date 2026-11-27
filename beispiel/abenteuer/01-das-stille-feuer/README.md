@@ -19,4 +19,4 @@ NSCs, Orte, Fraktionen, Gegenstände und SCs liegen gemeinsam in [welt/](../../w
 - **SCs:** [Ilka](../../welt/spielercharaktere/ilka/ilka.md), [Bren](../../welt/spielercharaktere/bren/bren.md)
 - **NSCs:** [Mara Quell](../../welt/nscs/mara-quell/mara-quell.md), [Jorin Quell](../../welt/nscs/jorin-quell/jorin-quell.md)
 - **Orte:** [Salzmarsch](../../welt/orte/salzmarsch/salzmarsch.md), [Graufurt](../../welt/orte/salzmarsch/graufurt/graufurt.md)
-- **Gegenstände:** [Silberne Laterne](../../welt/gegenstaende/silberne-laterne.md)
+- **Gegenstände:** [Silberne Laterne](../../welt/gegenstaende/silberne-laterne/silberne-laterne.md)

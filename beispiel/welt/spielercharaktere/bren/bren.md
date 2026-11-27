@@ -15,7 +15,7 @@ _Quelle: KI-generiert mit ChatGPT_
 Dorfschmied von Graufurt, ruhig, gründlich und schwer aus der Fassung zu bringen. Hat die Schmiede vom Vater übernommen und repariert alles, was Fischer brauchen, vom Anker bis zum Kesselhaken. Mit [Jorin Quell](../../nscs/jorin-quell/jorin-quell.md) ist er seit Kindertagen befreundet.
 
 ## Entwicklung über die Abenteuer
-**Aktueller Stand (nach 02 · Die Salzkrone):** trägt die [silberne Laterne](../../gegenstaende/silberne-laterne.md) und gilt in Graufurt als der Mann, der die Salzkrone vertrieben hat.
+**Aktueller Stand (nach 02 · Die Salzkrone):** trägt die [silberne Laterne](../../gegenstaende/silberne-laterne/silberne-laterne.md) und gilt in Graufurt als der Mann, der die Salzkrone vertrieben hat.
 
 ### 01 · Das stille Feuer
 - Was geschah: [Sitzung 02](../../../abenteuer/01-das-stille-feuer/sitzungen/sitzung-02-2026-01-24.md)

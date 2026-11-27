@@ -46,4 +46,4 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 Den Keller gibt es, seine Falltür liegt unter der fünften Pfanne. Vela hat dort Salzbarren im Wert eines kleinen Vermögens versteckt und will sie in Abenteuer 03 holen.
 
 ## Verknüpfungen
-- **Fraktionen:** [Bund der Salzkrone](../../../fraktionen/bund-der-salzkrone.md)
+- **Fraktionen:** [Bund der Salzkrone](../../../fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)

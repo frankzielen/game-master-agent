@@ -45,4 +45,4 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 | Unterwegs in der Marsch | Atmosphäre | _Wind im Schilf, Vogelrufe, leises Plätschern_ |
 
 ## Verknüpfungen
-- **Fraktionen:** [Bund der Salzkrone](../../fraktionen/bund-der-salzkrone.md)
+- **Fraktionen:** [Bund der Salzkrone](../../fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)

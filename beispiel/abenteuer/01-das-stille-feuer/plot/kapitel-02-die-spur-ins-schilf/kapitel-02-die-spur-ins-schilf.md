@@ -44,4 +44,4 @@ Die Laterne leuchtet heller, weil Velas Leute in der Nähe sind. Zwei Späher li
 ## Verknüpfungen
 - **Orte:** [Graufurt](../../../../welt/orte/salzmarsch/graufurt/graufurt.md), [Salzmarsch](../../../../welt/orte/salzmarsch/salzmarsch.md), [Altes Salzwerk](../../../../welt/orte/salzmarsch/altes-salzwerk/altes-salzwerk.md)
 - **NSCs:** [Jorin Quell](../../../../welt/nscs/jorin-quell/jorin-quell.md)
-- **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone.md)
+- **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)

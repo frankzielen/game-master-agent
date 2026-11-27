@@ -45,5 +45,5 @@ Der Keller unter der Siedehalle bleibt unentdeckt. Seine Falltür liegt unter de
 ## Verknüpfungen
 - **Orte:** [Altes Salzwerk](../../../../welt/orte/salzmarsch/altes-salzwerk/altes-salzwerk.md)
 - **NSCs:** [Vela Brandt](../../../../welt/nscs/vela-brandt/vela-brandt.md)
-- **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone.md)
+- **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)
 - **Quests:** [Quest 01 – Heddas Schuldbuch](../quests/quest-01-heddas-schuldbuch.md)

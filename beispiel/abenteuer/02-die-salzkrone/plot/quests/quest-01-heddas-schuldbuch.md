@@ -15,7 +15,7 @@ Hedda erzählt im „Trockenen Anker“, dass ihre Familie und viele andere seit
 
 ## Ablauf
 1. Den Weg ins Kontor finden. Hedda kennt den Solegang, das Kontor liegt am Ende der Siedehalle.
-2. Das [Schuldbuch](../../../../welt/gegenstaende/schuldbuch-des-salzwerks.md) an sich nehmen, bevor das Werk brennt.
+2. Das [Schuldbuch](../../../../welt/gegenstaende/schuldbuch-des-salzwerks/schuldbuch-des-salzwerks.md) an sich nehmen, bevor das Werk brennt.
 3. Das Buch heil aus dem Werk bringen.
 
 ## Beteiligte NSCs

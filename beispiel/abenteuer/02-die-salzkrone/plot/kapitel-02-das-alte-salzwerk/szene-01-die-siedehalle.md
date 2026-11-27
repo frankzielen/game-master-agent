@@ -24,7 +24,7 @@ Die Siedehalle ist ein langer Holzbau unter einem rußschwarzen Dach. Sechs eise
 1. **Der Gang.** [Hedda Lorn](../../../../welt/spielercharaktere/hedda-lorn/hedda-lorn.md) kennt den Solegang aus ihrer Kindheit, die Kinder haben dort Verstecken gespielt. Das Gitter am Ende ist verrostet und lässt sich mit Brens Kraft aus der Mauer drücken.
 2. **Durch den Dampf.** Hinter der dritten Pfanne steigen die beiden in die Halle. Wer ruhig geht und ein Tuch vor das Gesicht bindet, sieht aus wie ein Siedeknecht.
 3. **Hedda erkennt jemanden.** An der vierten Pfanne arbeitet ein alter Mann, Heddas Onkel. Er erkennt sie, sagt nichts und schaut wieder in seine Pfanne.
-4. **Das Kontor.** Oben liegt ein enger Raum mit Regalen voller Kontorbücher, Waagen und Siegeln. Auf dem Pult liegt aufgeschlagen das [Schuldbuch des Salzwerks](../../../../welt/gegenstaende/schuldbuch-des-salzwerks.md). Hedda findet ihren Familiennamen auf der dritten Seite.
+4. **Das Kontor.** Oben liegt ein enger Raum mit Regalen voller Kontorbücher, Waagen und Siegeln. Auf dem Pult liegt aufgeschlagen das [Schuldbuch des Salzwerks](../../../../welt/gegenstaende/schuldbuch-des-salzwerks/schuldbuch-des-salzwerks.md). Hedda findet ihren Familiennamen auf der dritten Seite.
 5. **Die Tür zur Schreibstube** steht einen Spalt offen. Dahinter brennt Licht.
 
 ## Beteiligte NSCs
@@ -41,7 +41,7 @@ Die Siedehalle ist ein langer Holzbau unter einem rußschwarzen Dach. Sechs eise
 - **Schlägt ein Knecht Alarm,** strömen die Knechte zusammen, und Vela tritt sofort aus der Schreibstube. Die nächste Szene beginnt dann in der Halle statt im Kontor.
 
 ## Belohnungen
-Das [Schuldbuch des Salzwerks](../../../../welt/gegenstaende/schuldbuch-des-salzwerks.md).
+Das [Schuldbuch des Salzwerks](../../../../welt/gegenstaende/schuldbuch-des-salzwerks/schuldbuch-des-salzwerks.md).
 
 ## Musik und Geräusche
 _Nur für die SL, erscheint nicht in der Spieler-Website._

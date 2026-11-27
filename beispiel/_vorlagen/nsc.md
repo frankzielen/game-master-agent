@@ -9,7 +9,7 @@ tags: [nsc]
 _Quelle: z. B. KI-generiert, eigene Zeichnung, Künstlername oder Lizenz_
 
 **Kurz:** _Rasse, Beruf, ein Satz zur Rolle in der Geschichte_
-**Charakterfelder:** _laut Systemprofil_ · **Fraktion:** [Fraktion](../../fraktionen/fraktion.md)
+**Charakterfelder:** _laut Systemprofil_ · **Fraktion:** [Fraktion](../../fraktionen/fraktion/fraktion.md)
 **Aufenthaltsort:** [Ort](../../orte/ort/ort.md)
 **Spielwerte:** [statblock.md](statblock.md) _(aus `systeme/<system>/statblock.md`)_
 

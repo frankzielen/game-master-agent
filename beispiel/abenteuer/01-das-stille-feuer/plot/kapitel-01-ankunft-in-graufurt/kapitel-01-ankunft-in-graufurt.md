@@ -43,5 +43,5 @@ Die Schmuggler arbeiten für Vela Brandt, die Herrin des alten Salzwerks, die in
 ## Verknüpfungen
 - **Orte:** [Graufurt](../../../../welt/orte/salzmarsch/graufurt/graufurt.md)
 - **NSCs:** [Mara Quell](../../../../welt/nscs/mara-quell/mara-quell.md), [Jorin Quell](../../../../welt/nscs/jorin-quell/jorin-quell.md)
-- **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone.md)
+- **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)
 - **Quests:** [Quest 01 – Der verschwundene Bruder](../quests/quest-01-der-verschwundene-bruder.md)

@@ -29,4 +29,4 @@ _Was bei diesem Gegenstand gespielt wird: Hintergrundmusik, Atmosphäre oder Sou
 | _z. B. beim Betreten, im Kampf, beim Auftritt_ | Musik / Atmosphäre / Effekt | [titel.mp3](audio/titel.mp3) oder [Titel](https://open.spotify.com/track/…) |
 
 ## Wo zu finden
-[Szene oder Ort](../../abenteuer/NN-titel/plot/…)
+[Szene oder Ort](../../../abenteuer/NN-titel/plot/…)

@@ -15,7 +15,7 @@ _Quelle: KI-generiert mit ChatGPT_
 Ehemalige Lotsin, kennt Wasser und Wetter. Hat ihre Stelle im Hafen verloren, als ein Schiff trotz ihrer Warnung auf Grund lief, und ist seitdem auf der Suche nach einer neuen Aufgabe.
 
 ## Entwicklung über die Abenteuer
-**Aktueller Stand (nach 02 · Die Salzkrone):** bleibt in Graufurt und hilft Mara am Leuchtturm. Die [silberne Laterne](../../gegenstaende/silberne-laterne.md) hat sie [Bren](../bren/bren.md) gegeben.
+**Aktueller Stand (nach 02 · Die Salzkrone):** bleibt in Graufurt und hilft Mara am Leuchtturm. Die [silberne Laterne](../../gegenstaende/silberne-laterne/silberne-laterne.md) hat sie [Bren](../bren/bren.md) gegeben.
 
 ### 01 · Das stille Feuer
 - Was geschah: [Sitzung 01](../../../abenteuer/01-das-stille-feuer/sitzungen/sitzung-01-2026-01-10.md) · [Sitzung 02](../../../abenteuer/01-das-stille-feuer/sitzungen/sitzung-02-2026-01-24.md)

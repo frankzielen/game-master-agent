@@ -17,7 +17,7 @@ Drei Nächte lang war das Feuer über [Graufurt](../../../welt/orte/salzmarsch/g
 
 ## II. Die Höhle unter den Klippen
 
-Bei Ebbe lag der Eingang zur Höhle frei. Drei Schmuggler saßen dort im Licht einer einzigen Lampe, neben ihnen [Jorin](../../../welt/nscs/jorin-quell/jorin-quell.md), gefesselt und blass. Ilka befreite ihn und ließ die Schmuggler laufen. Auf einer Kiste fand sie eine [silberne Laterne](../../../welt/gegenstaende/silberne-laterne.md), die nicht erlosch, und auf dem Holz das eingebrannte Zeichen einer Krone aus Salz. In derselben Nacht brannte das Feuer von Graufurt wieder.
+Bei Ebbe lag der Eingang zur Höhle frei. Drei Schmuggler saßen dort im Licht einer einzigen Lampe, neben ihnen [Jorin](../../../welt/nscs/jorin-quell/jorin-quell.md), gefesselt und blass. Ilka befreite ihn und ließ die Schmuggler laufen. Auf einer Kiste fand sie eine [silberne Laterne](../../../welt/gegenstaende/silberne-laterne/silberne-laterne.md), die nicht erlosch, und auf dem Holz das eingebrannte Zeichen einer Krone aus Salz. In derselben Nacht brannte das Feuer von Graufurt wieder.
 
 ## III. Die Spur ins Schilf
 

@@ -18,5 +18,5 @@ NSCs, Orte, Fraktionen, Gegenstände und SCs liegen gemeinsam in [welt/](../../w
 - **SCs:** [Hedda Lorn](../../welt/spielercharaktere/hedda-lorn/hedda-lorn.md)
 - **NSCs:** [Vela Brandt](../../welt/nscs/vela-brandt/vela-brandt.md)
 - **Orte:** [Altes Salzwerk](../../welt/orte/salzmarsch/altes-salzwerk/altes-salzwerk.md)
-- **Fraktionen:** [Bund der Salzkrone](../../welt/fraktionen/bund-der-salzkrone.md)
-- **Gegenstände:** [Schuldbuch des Salzwerks](../../welt/gegenstaende/schuldbuch-des-salzwerks.md)
+- **Fraktionen:** [Bund der Salzkrone](../../welt/fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)
+- **Gegenstände:** [Schuldbuch des Salzwerks](../../welt/gegenstaende/schuldbuch-des-salzwerks/schuldbuch-des-salzwerks.md)

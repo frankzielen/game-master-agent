@@ -32,4 +32,4 @@ _Mensch, Schurkin 2, Bäuerin · chaotisch gut_
 - Raffinierte Aktion
 
 ## Ausrüstung und Geld
-Lederrüstung, Kurzschwert, zwei Dolche, Diebeswerkzeug, Kapuzenmantel, das [Schuldbuch des Salzwerks](../../gegenstaende/schuldbuch-des-salzwerks.md). 6 GM.
+Lederrüstung, Kurzschwert, zwei Dolche, Diebeswerkzeug, Kapuzenmantel, das [Schuldbuch des Salzwerks](../../gegenstaende/schuldbuch-des-salzwerks/schuldbuch-des-salzwerks.md). 6 GM.

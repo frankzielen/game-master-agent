@@ -80,8 +80,8 @@ offene-punkte.md             Widersprüche, offene Fragen, getroffene Entscheidu
 welt/                        gemeinsam für alle Abenteuer
   nscs/<name>/<name>.md      ein Ordner pro NSC, dazu statblock.md und bilder/
   orte/<region>/<stadt>/…    verschachtelt: Region → Stadt → Gebäude, je Ort ein Ordner
-  fraktionen/<name>.md
-  gegenstaende/<name>.md     Bilder in gegenstaende/bilder/
+  fraktionen/<name>/<name>.md   ein Ordner pro Fraktion, dazu bilder/
+  gegenstaende/<name>/<name>.md ein Ordner pro Gegenstand, dazu bilder/
   spielercharaktere/<name>/<name>.md   dazu statblock.md und bilder/
 abenteuer/
   README.md                  Liste aller Abenteuer mit Spielleitung und Status
@@ -109,7 +109,7 @@ Jede Übersicht (`welt/*/README.md`, `abenteuer/README.md`) enthält eine Tabell
 ## Konventionen
 
 - **Dateinamen:** klein, mit Bindestrichen, Umlaute ausgeschrieben (`ae`, `oe`, `ue`, `ss`). Beispiel: `welt/nscs/name-des-nsc/name-des-nsc.md`.
-- **Ordner = Ding:** Alles, was Bilder oder Unterseiten haben kann (NSC, Ort, Kapitel), bekommt einen eigenen Ordner. Die Hauptdatei heißt wie der Ordner. Bilder liegen in `bilder/`, Karten in `karten/` direkt daneben.
+- **Ordner = Ding:** Alles, was Bilder oder Unterseiten haben kann (NSC, SC, Ort, Gegenstand, Fraktion, Kapitel), bekommt einen eigenen Ordner. Die Hauptdatei heißt wie der Ordner. Bilder liegen in `bilder/`, Karten in `karten/` direkt daneben.
 - **Nummerierung:** Kapitel, Szenen und Quests zweistellig (`kapitel-01-…`, `szene-03-…`, `quest-02-…`), damit die Reihenfolge alphabetisch stimmt. Alternative Szenen bekommen einen Buchstaben (`szene-03a-…`, `szene-03b-…`). Prolog und Epilog werden ebenfalls nummeriert (z. B. `kapitel-00-prolog`, `kapitel-NN-epilog` mit der letzten Nummer), damit sie an der richtigen Stelle stehen.
 - **Links:** immer relative Markdown-Links, z. B. aus einer Szene: `[Stadtname](../../../../welt/orte/region/stadt/stadt.md)`. Wenn du eine Datei verschiebst oder umbenennst, passt du alle Links darauf an.
 - **Verknüpfungen:** Wird ein NSC, Ort, Gegenstand usw. erwähnt, der eine eigene Datei hat, verlinke ihn. Jede Datei hat unten einen Abschnitt `## Verknüpfungen` mit ihren Links nach außen. Die Gegenrichtung („Erwähnt in …“) erzeugt die Website automatisch aus den Links, sie wird nicht von Hand gepflegt.

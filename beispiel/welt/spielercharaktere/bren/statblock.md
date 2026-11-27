@@ -33,4 +33,4 @@ _Mensch, Kämpfer 3 (Champion), Handwerker · rechtschaffen gut_
 - Champion: Verbesserter kritischer Treffer
 
 ## Ausrüstung und Geld
-Kettenhemd, Kriegshammer, zwei leichte Hämmer, Schmiedewerkzeug, Lederschürze, die [silberne Laterne](../../gegenstaende/silberne-laterne.md). 22 GM.
+Kettenhemd, Kriegshammer, zwei leichte Hämmer, Schmiedewerkzeug, Lederschürze, die [silberne Laterne](../../gegenstaende/silberne-laterne/silberne-laterne.md). 22 GM.
