@@ -36,7 +36,10 @@ _Nach dem Spielen: was einzelne Figuren, Orte oder Gegenstände in diesem Kapite
 
 ## Geheim (nur SL)
 
-## Verknüpfungen
-- **Orte:** 
+## Beteiligte
+_Welche NSCs, Orte, Fraktionen und Gegenstände in diesem Kapitel vorkommen, als Linkliste._
 - **NSCs:** 
+- **Orte:** 
+- **Fraktionen:** 
+- **Gegenstände:** 
 - **Quests:** 

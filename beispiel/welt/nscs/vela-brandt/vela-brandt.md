@@ -50,8 +50,3 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 
 ## Geheim (nur SL)
 Vela hat Mara vor zwanzig Jahren Geld für ihr Schweigen gezahlt und hält das bis heute für eine offene Schuld.
-
-## Verknüpfungen
-- **Fraktionen:** [Bund der Salzkrone](../../fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)
-- **Orte:** [Altes Salzwerk](../../orte/salzmarsch/altes-salzwerk/altes-salzwerk.md)
-- **Gegenstände:** [Silberne Laterne](../../gegenstaende/silberne-laterne/silberne-laterne.md)

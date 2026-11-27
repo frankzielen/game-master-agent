@@ -44,7 +44,3 @@ _Was bei diesem NSC gespielt wird: Hintergrundmusik, Atmosphäre oder Soundeffek
 | _z. B. beim Betreten, im Kampf, beim Auftritt_ | Musik / Atmosphäre / Effekt | [titel.mp3](audio/titel.mp3) oder [Titel](https://open.spotify.com/track/…) |
 
 ## Geheim (nur SL)
-
-## Verknüpfungen
-- **Szenen:** 
-- **Quests:** 

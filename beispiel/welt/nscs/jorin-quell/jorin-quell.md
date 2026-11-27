@@ -41,8 +41,4 @@ Jorin kennt die Priele der Marsch fast so gut wie seine Schwester das Meer. Um s
 - Was geschah: [Kap. 1](../../../abenteuer/02-die-salzkrone/plot/kapitel-01-ins-herz-der-marsch/kapitel-01-ins-herz-der-marsch.md)
 
 ## Geheim (nur SL)
-Jorin hat einen Schlüssel zum Bootssteg des Salzwerks behalten und niemandem davon erzählt.
-
-## Verknüpfungen
-- **Orte:** [Graufurt](../../orte/salzmarsch/graufurt/graufurt.md), [Altes Salzwerk](../../orte/salzmarsch/altes-salzwerk/altes-salzwerk.md)
-- **Quests:** [Quest 01 – Der verschwundene Bruder](../../../abenteuer/01-das-stille-feuer/plot/quests/quest-01-der-verschwundene-bruder.md)
+Jorin hat einen Schlüssel zum Bootssteg des [Salzwerks](../../orte/salzmarsch/altes-salzwerk/altes-salzwerk.md) behalten und niemandem davon erzählt.

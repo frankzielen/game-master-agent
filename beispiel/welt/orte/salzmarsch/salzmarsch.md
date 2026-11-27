@@ -26,7 +26,7 @@ Wer die Marsch nicht kennt, verirrt sich bei Flut. Die Menschen leben von Salz u
 - Seit das Salzwerk verloren ist, ist das Salz in den Küstenstädten doppelt so teuer.
 
 ## Entwicklung über die Abenteuer
-**Aktueller Stand (nach 02 · Die Salzkrone):** Der Bund der Salzkrone ist zerschlagen, die Priele sind wieder frei.
+**Aktueller Stand (nach 02 · Die Salzkrone):** Der [Bund der Salzkrone](../../fraktionen/bund-der-salzkrone/bund-der-salzkrone.md) ist zerschlagen, die Priele sind wieder frei.
 
 ### 01 · Das stille Feuer
 - Was geschah: [Kap. 1](../../../abenteuer/01-das-stille-feuer/plot/kapitel-01-ankunft-in-graufurt/kapitel-01-ankunft-in-graufurt.md) · [Kap. 2](../../../abenteuer/01-das-stille-feuer/plot/kapitel-02-die-spur-ins-schilf/kapitel-02-die-spur-ins-schilf.md)
@@ -43,6 +43,3 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 | Wann | Art | Quelle |
 |---|---|---|
 | Unterwegs in der Marsch | Atmosphäre | _Wind im Schilf, Vogelrufe, leises Plätschern_ |
-
-## Verknüpfungen
-- **Fraktionen:** [Bund der Salzkrone](../../fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)

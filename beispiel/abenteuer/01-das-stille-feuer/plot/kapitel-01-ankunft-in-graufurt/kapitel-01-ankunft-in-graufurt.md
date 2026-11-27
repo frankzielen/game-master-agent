@@ -40,7 +40,7 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 ## Geheim (nur SL)
 Die Schmuggler arbeiten für Vela Brandt, die Herrin des alten Salzwerks, die in Abenteuer 02 auftaucht. Lässt die Gruppe sie laufen, berichten sie Vela noch in derselben Nacht, wer ihnen die Lieferung verdorben hat.
 
-## Verknüpfungen
+## Beteiligte
 - **Orte:** [Graufurt](../../../../welt/orte/salzmarsch/graufurt/graufurt.md)
 - **NSCs:** [Mara Quell](../../../../welt/nscs/mara-quell/mara-quell.md), [Jorin Quell](../../../../welt/nscs/jorin-quell/jorin-quell.md)
 - **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)

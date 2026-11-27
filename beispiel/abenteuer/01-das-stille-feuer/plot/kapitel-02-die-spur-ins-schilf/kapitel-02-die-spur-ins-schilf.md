@@ -41,7 +41,7 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 ## Geheim (nur SL)
 Die Laterne leuchtet heller, weil Velas Leute in der Nähe sind. Zwei Späher liegen im Schilf und beobachten die Gruppe. Vela weiß ab dieser Nacht, wer ihre Laterne hat.
 
-## Verknüpfungen
+## Beteiligte
 - **Orte:** [Graufurt](../../../../welt/orte/salzmarsch/graufurt/graufurt.md), [Salzmarsch](../../../../welt/orte/salzmarsch/salzmarsch.md), [Altes Salzwerk](../../../../welt/orte/salzmarsch/altes-salzwerk/altes-salzwerk.md)
 - **NSCs:** [Jorin Quell](../../../../welt/nscs/jorin-quell/jorin-quell.md)
 - **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)

@@ -42,7 +42,7 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 ## Geheim (nur SL)
 Der Keller unter der Siedehalle bleibt unentdeckt. Seine Falltür liegt unter der fünften Pfanne, und nach dem Brand liegt sie unter Asche und eingestürzten Balken.
 
-## Verknüpfungen
+## Beteiligte
 - **Orte:** [Altes Salzwerk](../../../../welt/orte/salzmarsch/altes-salzwerk/altes-salzwerk.md)
 - **NSCs:** [Vela Brandt](../../../../welt/nscs/vela-brandt/vela-brandt.md)
 - **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)

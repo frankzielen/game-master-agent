@@ -45,7 +45,8 @@ for rel, txt in docs.items():
         if href.startswith(('http', '#', 'mailto:')): continue
         z = ziel(posixpath.normpath(posixpath.join(posixpath.dirname(rel), urllib.parse.unquote(href.split('#')[0]))))
         if z and z != rel: rueck.setdefault(z, set()).add(rel)
-rueck = {k: sorted(v) for k, v in rueck.items()}
+import erwaehnt
+rueck = erwaehnt.ordnen(rueck)
 
 e = einstellungen()
 ausgabe = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, '_site', 'sl')

@@ -42,7 +42,7 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 ## Geheim (nur SL)
 Vela weiß seit der Nacht im Bootshaus, wer ihre Laterne hat. Wechselt die Laterne den Träger, spürt sie das. Sie lässt die Gruppe bewusst bis ins Werk kommen.
 
-## Verknüpfungen
+## Beteiligte
 - **Orte:** [Graufurt](../../../../welt/orte/salzmarsch/graufurt/graufurt.md), [Salzmarsch](../../../../welt/orte/salzmarsch/salzmarsch.md)
 - **NSCs:** [Mara Quell](../../../../welt/nscs/mara-quell/mara-quell.md), [Jorin Quell](../../../../welt/nscs/jorin-quell/jorin-quell.md), [Vela Brandt](../../../../welt/nscs/vela-brandt/vela-brandt.md)
 - **Fraktionen:** [Bund der Salzkrone](../../../../welt/fraktionen/bund-der-salzkrone/bund-der-salzkrone.md)

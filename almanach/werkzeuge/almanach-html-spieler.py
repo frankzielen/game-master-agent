@@ -269,7 +269,8 @@ for rel, t in docs.items():
         if m.group(1) or extern(m.group(3)): continue
         z = ziel_doc(ziel(posixpath.dirname(rel), m.group(3)))
         if z and z != rel: rueck.setdefault(z, set()).add(rel)
-rueck = {k: sorted(v) for k, v in rueck.items()}
+import erwaehnt
+rueck = erwaehnt.ordnen(rueck)
 
 namen = ''.join(f", '{a['ordner']}': '{a['nr']} · {a['name']}'" for a in abenteuer)
 tpl = template(TITEL, SP.get('untertitel') or ' · '.join(frei_namen))
