@@ -9,7 +9,7 @@ tags: [fraktion]
 **Sitz:** [Altes Salzwerk](../../orte/salzmarsch/altes-salzwerk/altes-salzwerk.md)
 **Anführer:** [Vela Brandt](../../nscs/vela-brandt/vela-brandt.md)
 
-## Ziele
+## Ziele und Motivation
 Salz aus dem alten Werk sieden und ohne Zoll an die Küstenstädte verkaufen. Dafür braucht der Bund freie Fahrt durch die Priele und ein dunkles Leuchtfeuer in Graufurt, wenn seine Boote unterwegs sind.
 
 ## Mitglieder

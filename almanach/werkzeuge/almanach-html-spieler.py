@@ -10,7 +10,7 @@ Was hinein kommt, steuert der Spielstand, nicht ein fester Pfad:
   bleiben ganz draußen, auch jeder Link und jede Erwähnung als „NN · Titel“.
 - Plot-Dateien nur mit Frontmatter „status: gespielt“ oder ohne Status (Übersichten, Sitzungen); Vorlagen bleiben draußen.
 - Welt-Dateien nur, wenn „auftritte:“ ein freigegebenes Abenteuer enthält; die Kopfzeile zeigt nur diese Nummern.
-- In jeder Datei fallen SL-Abschnitte weg (Geheim, Planung, offene Fäden, Aufhänger, Ziele …) und Abschnitte
+- In jeder Datei fallen SL-Abschnitte weg (Geheim, Planung, offene Fäden, Aufhänger …) und Abschnitte
   zu nicht freigegebenen Abenteuern. Stat-Blöcke, Ideen-Eingänge, _quelle/ und _vorlagen/ sind nie dabei.
 - Links auf Ausgelassenes werden zu Text; Links in nicht freigegebene Abenteuer und auf ausgelassene
   Welt-Einträge verschwinden samt Text.
@@ -27,7 +27,7 @@ SP = E['spielerseite']
 
 # Ganze Abschnitte (## Überschrift), die nie auf die Spieler-Website gehören
 DROP_SECTIONS = {
-    'Geheim (nur SL)', 'Aufhänger und Gerüchte', 'Ziele und Motivation', 'Konventionen', 'Hinweise zur Quelle',
+    'Geheim (nur SL)', 'Aufhänger und Gerüchte', 'Konventionen', 'Hinweise zur Quelle',
     'Mögliche Enden', 'Handlungsstränge und Abzweigungen', 'Abzweigungen', 'Offene Ideen', 'Treibende Kräfte',
     'Verbindung zu früheren Abenteuern', 'Proben, Kampf, Hindernisse', 'Für nächstes Mal vorbereiten', 'Musik und Geräusche',
 }

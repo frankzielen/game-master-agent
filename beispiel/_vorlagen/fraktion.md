@@ -9,7 +9,7 @@ tags: [fraktion]
 **Sitz:** [Ort](../../orte/ort/ort.md)
 **Anführer:** [NSC](../../nscs/name/name.md)
 
-## Ziele
+## Ziele und Motivation
 
 ## Mitglieder
 - 
