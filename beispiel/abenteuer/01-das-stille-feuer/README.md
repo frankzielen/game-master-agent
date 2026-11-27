@@ -11,7 +11,7 @@ NSCs, Orte, Fraktionen, Gegenstände und SCs liegen gemeinsam in [welt/](../../w
 |---|---|---|
 | Plot | Prämisse, Kapitel, Szenen | [plot/hauptplot.md](plot/hauptplot.md) |
 | Quests | Nebenaufträge | [Quest 01 – Der verschwundene Bruder](plot/quests/quest-01-der-verschwundene-bruder.md) |
-| Sitzungen | Spielabende | [Sitzung 01](sitzungen/sitzung-01-2026-01-10.md) · [Sitzung 02](sitzungen/sitzung-02-2026-01-24.md) |
+| Sitzungen | Spielabende | [Sitzung 01](sitzungen/sitzung-01-2026-01-10/sitzung-01-2026-01-10.md) · [Sitzung 02](sitzungen/sitzung-02-2026-01-24/sitzung-02-2026-01-24.md) |
 | Geschichte | das Abenteuer als Erzählung | [geschichte/geschichte.md](geschichte/geschichte.md) |
 | Ideen | Puffer für neue Ideen | [ideen-eingang.md](ideen-eingang.md) |
 

@@ -18,10 +18,10 @@ Dorfschmied von Graufurt, ruhig, gründlich und schwer aus der Fassung zu bringe
 **Aktueller Stand (nach 02 · Die Salzkrone):** trägt die [silberne Laterne](../../gegenstaende/silberne-laterne/silberne-laterne.md) und gilt in Graufurt als der Mann, der die Salzkrone vertrieben hat.
 
 ### 01 · Das stille Feuer
-- Was geschah: [Sitzung 02](../../../abenteuer/01-das-stille-feuer/sitzungen/sitzung-02-2026-01-24.md)
+- Was geschah: [Sitzung 02](../../../abenteuer/01-das-stille-feuer/sitzungen/sitzung-02-2026-01-24/sitzung-02-2026-01-24.md)
 
 ### 02 · Die Salzkrone
-- Was geschah: [Sitzung 01](../../../abenteuer/02-die-salzkrone/sitzungen/sitzung-01-2026-02-14.md) · [Sitzung 02](../../../abenteuer/02-die-salzkrone/sitzungen/sitzung-02-2026-02-28.md)
+- Was geschah: [Sitzung 01](../../../abenteuer/02-die-salzkrone/sitzungen/sitzung-01-2026-02-14/sitzung-01-2026-02-14.md) · [Sitzung 02](../../../abenteuer/02-die-salzkrone/sitzungen/sitzung-02-2026-02-28/sitzung-02-2026-02-28.md)
 
 ## Offene Fäden
 - Vela will ihre Laterne zurück und weiß, wo Bren ist.

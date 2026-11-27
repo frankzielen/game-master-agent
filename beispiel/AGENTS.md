@@ -93,7 +93,7 @@ abenteuer/
       kapitel-NN-titel/kapitel-NN-titel.md, szene-NN-titel.md
       quests/quest-NN-titel.md
       bilder/
-    sitzungen/sitzung-NN-JJJJ-MM-TT.md
+    sitzungen/sitzung-NN-JJJJ-MM-TT/sitzung-NN-JJJJ-MM-TT.md
     _quelle/                 Originalmaterial (PDF, Notizen), wird nicht verändert
 _vorlagen/                   Kopiervorlagen für alle Dateitypen
 einstellungen.json           Titel, Regelsystem, Startseite der Spieler-Website, veröffentlichte Links
@@ -109,7 +109,7 @@ Jede Übersicht (`welt/*/README.md`, `abenteuer/README.md`) enthält eine Tabell
 ## Konventionen
 
 - **Dateinamen:** klein, mit Bindestrichen, Umlaute ausgeschrieben (`ae`, `oe`, `ue`, `ss`). Beispiel: `welt/nscs/name-des-nsc/name-des-nsc.md`.
-- **Ordner = Ding:** Alles, was Bilder oder Unterseiten haben kann (NSC, SC, Ort, Gegenstand, Fraktion, Kapitel), bekommt einen eigenen Ordner. Die Hauptdatei heißt wie der Ordner. Bilder liegen in `bilder/`, Karten in `karten/` direkt daneben.
+- **Ordner = Ding:** Alles, was Bilder oder Unterseiten haben kann (NSC, SC, Ort, Gegenstand, Fraktion, Kapitel, Sitzung), bekommt einen eigenen Ordner. Die Hauptdatei heißt wie der Ordner. Bilder liegen in `bilder/`, Karten in `karten/` direkt daneben.
 - **Nummerierung:** Kapitel, Szenen und Quests zweistellig (`kapitel-01-…`, `szene-03-…`, `quest-02-…`), damit die Reihenfolge alphabetisch stimmt. Alternative Szenen bekommen einen Buchstaben (`szene-03a-…`, `szene-03b-…`). Prolog und Epilog werden ebenfalls nummeriert (z. B. `kapitel-00-prolog`, `kapitel-NN-epilog` mit der letzten Nummer), damit sie an der richtigen Stelle stehen.
 - **Links:** immer relative Markdown-Links, z. B. aus einer Szene: `[Stadtname](../../../../welt/orte/region/stadt/stadt.md)`. Wenn du eine Datei verschiebst oder umbenennst, passt du alle Links darauf an.
 - **Verknüpfungen:** Wird ein NSC, Ort, Gegenstand usw. erwähnt, der eine eigene Datei hat, verlinke ihn. Jede Datei hat unten einen Abschnitt `## Verknüpfungen` mit ihren Links nach außen. Die Gegenrichtung („Erwähnt in …“) erzeugt die Website automatisch aus den Links, sie wird nicht von Hand gepflegt.
@@ -176,7 +176,7 @@ Weitere Regeln:
 
 ## Sitzungen und Material
 
-- Nach einem Spielabend: `sitzungen/sitzung-NN-JJJJ-MM-TT.md` aus der Vorlage anlegen (Anwesende, was passiert ist, Entscheidungen, Beute und Erfahrung). Betroffene Szenen auf `status: gespielt` setzen.
+- Nach einem Spielabend: `sitzungen/sitzung-NN-JJJJ-MM-TT/sitzung-NN-JJJJ-MM-TT.md` aus der Vorlage anlegen (Anwesende, was passiert ist, Entscheidungen, Beute und Erfahrung). Betroffene Szenen auf `status: gespielt` setzen.
 - **Diktat nach dem Spielabend:** Die Spielleitung erzählt oder spricht ein, was passiert ist. Lege die Rohfassung zuerst unverändert als `_quelle/diktat-sitzung-NN.md` ab. Daraus erstellst du Sitzungsprotokoll, Kapitel und Welt-Einträge, die jeweils die Quelle verlinken.
 - Anderes Originalmaterial (PDF, Mitschriften) ebenfalls unverändert in `_quelle/` ablegen und daraus die Struktur befüllen.
 - **Geschichte:** Jedes Abenteuer kann `geschichte/geschichte.md` haben (Vorlage `_vorlagen/geschichte.md`): das gespielte Abenteuer als zusammenhängender Erzähltext, Hörbuch (MP3 im selben Ordner) oder in anderer Form.

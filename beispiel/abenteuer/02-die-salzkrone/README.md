@@ -11,7 +11,7 @@ NSCs, Orte, Fraktionen, Gegenstände und SCs liegen gemeinsam in [welt/](../../w
 |---|---|---|
 | Plot | Prämisse, Kapitel, Szenen, Zeitplan | [plot/hauptplot.md](plot/hauptplot.md) |
 | Quests | Nebenaufträge | [Quest 01 – Heddas Schuldbuch](plot/quests/quest-01-heddas-schuldbuch.md) |
-| Sitzungen | Spielabende | [Sitzung 01](sitzungen/sitzung-01-2026-02-14.md) · [Sitzung 02](sitzungen/sitzung-02-2026-02-28.md) |
+| Sitzungen | Spielabende | [Sitzung 01](sitzungen/sitzung-01-2026-02-14/sitzung-01-2026-02-14.md) · [Sitzung 02](sitzungen/sitzung-02-2026-02-28/sitzung-02-2026-02-28.md) |
 | Ideen | Puffer für neue Ideen | [ideen-eingang.md](ideen-eingang.md) |
 
 ## Neu in der Welt

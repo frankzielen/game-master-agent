@@ -6,7 +6,7 @@ Mit zweitem Argument zusätzlich Markdown-Export: alle Seiten mit Bildern als Or
 
 Was hinein kommt, steuert der Spielstand, nicht ein fester Pfad:
 - Ein Abenteuer abenteuer/NN-*/ ist freigegeben, sobald es gespielt ist oder läuft: README „**Status:** gespielt“
-  mit Kapiteln, oder mindestens eine erfasste Sitzung (sitzungen/sitzung-*.md). Abenteuer ohne Sitzung
+  mit Kapiteln, oder mindestens eine erfasste Sitzung (sitzungen/sitzung-*/). Abenteuer ohne Sitzung
   bleiben ganz draußen, auch jeder Link und jede Erwähnung als „NN · Titel“.
 - Plot-Dateien nur mit Frontmatter „status: gespielt“ oder ohne Status (Übersichten, Sitzungen); Vorlagen bleiben draußen.
 - Welt-Dateien nur, wenn „auftritte:“ ein freigegebenes Abenteuer enthält; die Kopfzeile zeigt nur diese Nummern.
