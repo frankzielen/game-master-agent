@@ -40,7 +40,7 @@ Wählt die Person das Beispiel, zeige es (siehe „Beispiel zeigen“) und biete
 **Aufnehmen statt abfragen:** Es gibt keinen Fragebogen. Die Person erzählt, was sie hat, in beliebiger Reihenfolge und gern in Bruchstücken, und du legst es ab wie unter „Aufnehmen und nachfragen“ beschrieben. Kommt noch nichts, frag einmal offen, womit sie anfangen möchte, zum Beispiel mit einem Abenteuer, der Welt oder den Helden. Nennt sie Dinge, die zur Einrichtung gehören, legst du sie so ab:
 - **Name des Almanachs:** in `README.md` und in `einstellungen.json` unter `"titel"`.
 - **Regelsystem:** in `einstellungen.json` unter `"system"` (`dnd-5e` für D&D 5e). Für ein anderes System legst du das Profil später gemeinsam an (siehe „Regelsystem“). Nennt sie keins, bleibt `ohne-regelsystem`.
-- **Abenteuer:** wie unter „Neues Abenteuer“ (siehe „Ablage“), mit Titel, Spielleitung und Status (`idee`, `läuft`, `gespielt`).
+- **Abenteuer:** wie unter „Neues Abenteuer“ (siehe „Ablage“), mit Titel, Spielleitung und Status (`entwurf`, `fertig`, `läuft`, `gespielt`).
 - **Spielercharaktere:** mit Name und wer ihn spielt.
 - **Welt und Mitspieler:** Name der Welt oder Startregion und die Mitspieler (gern mit Spitznamen) in `README.md`. Regionen, Figuren und alles Weitere legst du ab wie alle anderen Inhalte.
 
@@ -115,7 +115,7 @@ Jede Übersicht (`welt/*/README.md`, `abenteuer/README.md`) enthält eine Tabell
 - **Verknüpfungen:** Wird ein NSC, Ort, Gegenstand usw. erwähnt, der eine eigene Datei hat, verlinke ihn. Jede Datei hat unten einen Abschnitt `## Verknüpfungen` mit ihren Links nach außen. Die Gegenrichtung („Erwähnt in …“) erzeugt die Website automatisch aus den Links, sie wird nicht von Hand gepflegt.
 - **Alternativnamen:** Welt-Dateien können im Kopf `alias: [...]` führen: andere Namen und Kurzformen, keine Fehlkennungen der Spracherkennung. Maßgeblich bleibt die Schreibweise des Titels.
 - **Kopfzeile (Frontmatter):**
-  - Plot-Dateien (Hauptplot, Kapitel, Szene, Quest) haben `status:` mit `idee`, `entwurf`, `fertig` oder `gespielt`.
+  - Plot-Dateien (Hauptplot, Kapitel, Szene, Quest) haben `status:` mit `entwurf`, `fertig`, `läuft` oder `gespielt` (`läuft` nur für ein ganzes Abenteuer, das gerade gespielt wird).
   - Welt-Dateien haben stattdessen `auftritte: [01, 03]`, also die Nummern der Abenteuer, in denen der Eintrag vorkommt.
   - Der Hauptplot hat zusätzlich `spielleitung:`.
 - **Musik und Geräusche:** Jedes Objekt (NSC, Ort, Fraktion, Gegenstand, SC) und jeder Abenteuerinhalt (Hauptplot, Kapitel, Szene, Quest) kann einen Abschnitt `## Musik und Geräusche` haben, eine Tabelle mit „Wann“ (z. B. beim Betreten, im Kampf), „Art“ („Musik“, „Atmosphäre“ oder „Effekt“) und „Quelle“. Eigene Dateien (MP3, OGG, WAV, M4A, FLAC) liegen in `audio/` neben der Datei, sonst ein Link zu Spotify, Apple Music, YouTube oder einem anderen Anbieter. Die Website spielt beides ab. Der Abschnitt ist nur für die SL.

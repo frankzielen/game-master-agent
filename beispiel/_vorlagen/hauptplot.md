@@ -1,6 +1,6 @@
 ---
 spielleitung: Name (Spitzname)
-status: idee
+status: entwurf
 tags: [plot]
 ---
 
@@ -31,12 +31,12 @@ _Was in der Welt passiert, unabhängig davon, ob die Gruppe eingreift. Hält die
 ## Kapitel (Szenarien)
 | # | Kapitel | Kurzbeschreibung | Status |
 |---|---|---|---|
-| 1 | [Kapitel 1 – Titel](kapitel-01-titel/kapitel-01-titel.md) | | idee |
+| 1 | [Kapitel 1 – Titel](kapitel-01-titel/kapitel-01-titel.md) | | entwurf |
 
 ## Quests
 | # | Quest | Verfügbar ab | Bezug zum Hauptplot | Status |
 |---|---|---|---|---|
-| 01 | | _z. B. nach Kapitel 2, Szene 04_ | | idee |
+| 01 | | _z. B. nach Kapitel 2, Szene 04_ | | entwurf |
 
 Einzelne Quests liegen in [quests/](quests/).
 

@@ -1,6 +1,6 @@
 ---
 spielleitung: Robin
-status: idee
+status: entwurf
 tags: [plot]
 ---
 
@@ -43,7 +43,7 @@ Die Gruppe merkt, dass etwas nicht stimmt, weil die [silberne Laterne](../../../
 ## Kapitel (Szenarien)
 | # | Kapitel | Kurzbeschreibung | Status |
 |---|---|---|---|
-| 1 | _noch offen_ | | idee |
+| 1 | _noch offen_ | | entwurf |
 
 ## Geheim (nur SL)
 Vela erpresst Mara mit der alten Schuld, damit sie in der Sturmnacht das Feuer erneut löscht.

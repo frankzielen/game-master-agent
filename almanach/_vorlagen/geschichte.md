@@ -1,5 +1,5 @@
 ---
-status: idee
+status: entwurf
 tags: [geschichte]
 ---
 
