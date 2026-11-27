@@ -31,6 +31,9 @@ _Was bei diesem Kapitel gespielt wird: Hintergrundmusik, Atmosphäre oder Sounde
 |---|---|---|
 | _z. B. beim Betreten, im Kampf, beim Auftritt_ | Musik / Atmosphäre / Effekt | [titel.mp3](audio/titel.mp3) oder [Titel](https://open.spotify.com/track/…) |
 
+## Einzelheiten zu Figuren und Dingen
+_Nach dem Spielen: was einzelne Figuren, Orte oder Gegenstände in diesem Kapitel getan oder erlebt haben, soweit es nicht schon im Ablauf steht. Je Eintrag eine Zeile mit Link._
+
 ## Geheim (nur SL)
 
 ## Verknüpfungen
