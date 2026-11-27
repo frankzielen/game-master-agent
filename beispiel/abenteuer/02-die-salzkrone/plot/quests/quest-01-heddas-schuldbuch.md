@@ -18,10 +18,6 @@ Hedda erzählt im „Trockenen Anker“, dass ihre Familie und viele andere seit
 2. Das [Schuldbuch](../../../../welt/gegenstaende/schuldbuch-des-salzwerks/schuldbuch-des-salzwerks.md) an sich nehmen, bevor das Werk brennt.
 3. Das Buch heil aus dem Werk bringen.
 
-## Beteiligte NSCs
-- [Hedda Lorn](../../../../welt/spielercharaktere/hedda-lorn/hedda-lorn.md) – für sie ist das Buch wichtiger als Vela. Sie würde die Salzkrone laufen lassen, wenn sie dafür das Buch bekommt.
-- [Vela Brandt](../../../../welt/nscs/vela-brandt/vela-brandt.md) – das Buch ist ihre Macht über die Marsch. Sie lässt es offen liegen, um zu prüfen, was die Gruppe wirklich will.
-
 ## Komplikation
 Das Kontor liegt direkt neben Velas Schreibstube. Später brennt die Halle, und das Buch ist aus trockenem Papier.
 
@@ -29,3 +25,12 @@ Das Kontor liegt direkt neben Velas Schreibstube. Später brennt die Halle, und 
 - **Erfolg:** Hedda hat das Buch und kann die Schulden tilgen (so gespielt).
 - **Scheitern:** Das Buch verbrennt, die Familien bleiben im Ungewissen, und Vela behauptet später, die Schulden stünden noch.
 - **Ignoriert:** Vela nimmt das Buch mit auf die Flucht.
+
+## Einzelheiten zu Figuren und Dingen
+- **[Hedda Lorn](../../../../welt/spielercharaktere/hedda-lorn/hedda-lorn.md):** Für sie ist das Buch wichtiger als Vela. Sie würde die Salzkrone laufen lassen, wenn sie dafür das Buch bekommt.
+- **[Vela Brandt](../../../../welt/nscs/vela-brandt/vela-brandt.md):** Das Buch ist ihre Macht über die Marsch. Sie lässt es offen liegen, um zu prüfen, was die Gruppe wirklich will.
+
+## Beteiligte
+- **NSCs:** [Vela Brandt](../../../../welt/nscs/vela-brandt/vela-brandt.md)
+- **Orte:** [Altes Salzwerk](../../../../welt/orte/salzmarsch/altes-salzwerk/altes-salzwerk.md)
+- **Gegenstände:** [Schuldbuch des Salzwerks](../../../../welt/gegenstaende/schuldbuch-des-salzwerks/schuldbuch-des-salzwerks.md)

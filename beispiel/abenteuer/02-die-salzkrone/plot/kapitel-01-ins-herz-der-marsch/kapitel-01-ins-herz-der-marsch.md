@@ -26,11 +26,6 @@ Eine Woche nach dem Bootshaus. Das Leuchtfeuer brennt wieder jede Nacht, im Dorf
 ## Abschluss
 Die Verfolger sitzen im Schlick fest. Im ersten grauen Licht taucht der schiefe Schornstein des Salzwerks aus dem Nebel auf. Weiter mit [Kapitel 2](../kapitel-02-das-alte-salzwerk/kapitel-02-das-alte-salzwerk.md).
 
-## Einzelheiten zu Figuren und Dingen
-- Mara nennt zum ersten Mal den Namen Vela Brandt, sagt aber nicht, woher sie ihn kennt.
-- Ilka gibt Bren die silberne Laterne, weil sie selbst in Graufurt bleibt.
-- Jorin leiht seinen Kahn, kommt aber nicht mit.
-
 ## Musik und Geräusche
 _Nur für die SL, erscheint nicht in der Spieler-Website._
 
@@ -38,6 +33,11 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 |---|---|---|
 | Im „Trockenen Anker“ | Atmosphäre | _Stimmengewirr, Regen an den Fenstern_ |
 | Auf dem Wasser | Atmosphäre | _Ruderschläge, Wind im Schilf_ |
+
+## Einzelheiten zu Figuren und Dingen
+- Mara nennt zum ersten Mal den Namen Vela Brandt, sagt aber nicht, woher sie ihn kennt.
+- Ilka gibt Bren die silberne Laterne, weil sie selbst in Graufurt bleibt.
+- Jorin leiht seinen Kahn, kommt aber nicht mit.
 
 ## Geheim (nur SL)
 Vela weiß seit der Nacht im Bootshaus, wer ihre Laterne hat. Wechselt die Laterne den Träger, spürt sie das. Sie lässt die Gruppe bewusst bis ins Werk kommen.

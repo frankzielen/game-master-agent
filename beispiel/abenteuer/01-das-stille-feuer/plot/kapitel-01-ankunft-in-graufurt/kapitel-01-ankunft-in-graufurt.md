@@ -26,16 +26,16 @@ Am Nachmittag erreicht die Gruppe [Graufurt](../../../../welt/orte/salzmarsch/gr
 ## Abschluss
 Das Kapitel endet, wenn Jorin frei ist und Mara das Feuer wieder entzündet. Das ganze Dorf steht am Deich und sieht zu, wie das Licht über die Sandbänke wandert. Offen bleibt, wer die Schmuggler geschickt hat. Weiter mit [Kapitel 2](../kapitel-02-die-spur-ins-schilf/kapitel-02-die-spur-ins-schilf.md).
 
-## Einzelheiten zu Figuren und Dingen
-- Mara schuldet der Gruppe seit diesem Abend einen Gefallen und sagt das auch.
-- Die Schmuggler haben die silberne Laterne als Signallicht benutzt. Ilka nimmt sie mit.
-
 ## Musik und Geräusche
 _Nur für die SL, erscheint nicht in der Spieler-Website._
 
 | Wann | Art | Quelle |
 |---|---|---|
 | Im Dorf | Atmosphäre | _Möwen, Wind, Wellen am Deich_ |
+
+## Einzelheiten zu Figuren und Dingen
+- Mara schuldet der Gruppe seit diesem Abend einen Gefallen und sagt das auch.
+- Die Schmuggler haben die silberne Laterne als Signallicht benutzt. Ilka nimmt sie mit.
 
 ## Geheim (nur SL)
 Die Schmuggler arbeiten für Vela Brandt, die Herrin des alten Salzwerks, die in Abenteuer 02 auftaucht. Lässt die Gruppe sie laufen, berichten sie Vela noch in derselben Nacht, wer ihnen die Lieferung verdorben hat.

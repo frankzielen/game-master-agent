@@ -33,3 +33,7 @@ _Nur für die SL, erscheint nicht in der Spieler-Website._
 | Wann | Art | Quelle |
 |---|---|---|
 | Bei Ebbe am Pfad | Atmosphäre | _Wind und ferne Brandung_ |
+
+## Beteiligte
+- **NSCs:** [Mara Quell](../../../../welt/nscs/mara-quell/mara-quell.md), [Jorin Quell](../../../../welt/nscs/jorin-quell/jorin-quell.md)
+- **Orte:** [Graufurt](../../../../welt/orte/salzmarsch/graufurt/graufurt.md)
